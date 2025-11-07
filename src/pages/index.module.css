@@ -1,0 +1,76 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Structure the hero box */
+.flexTitle {
+  gap: 50px;
+}
+
+@media screen and (min-width: 800px) {
+  .flexTitle {
+    padding: 0 4rem;
+  }
+}
+
+/* Configure scaling for the logo and subtitle so that it shrinks well */
+.logo {
+  max-width: 600px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .subtitle {
+    font-size: 24px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Align left on larger screens */
+@media screen and (min-width: 800px) {
+  .buttons {
+    justify-content: start;
+  }
+}
+
+/* Setup the background */
+.combinedContainer {
+  position: relative;
+  flex-grow: 1;
+
+  padding: 2rem 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.floatingBehind {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 10;
+
+  max-width: 1000px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.floatingBehind > svg {
+  transform: rotate3d(2, -1, -1, -0.2turn);
+}
+
+.floatingInFront {
+  margin: auto 0;
+  z-index: 20;
+}

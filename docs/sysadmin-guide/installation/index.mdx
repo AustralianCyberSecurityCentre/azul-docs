@@ -1,0 +1,34 @@
+---
+pagination_next: null
+pagination_prev: null
+---
+
+import DocCard from "@theme/DocCard";
+
+# Installation
+
+Welcome to Azul!
+
+Azul is scoped to be able to hold a variety of content at a variety of scales, and
+subsequently we provide two main ways that you can deploy Azul into your environment.
+
+These are based on use-cases that the Australian Signal Directorate's Australian Cyber
+Security Centre encounter, but your mileage may vary - let us know if there are
+alternative deployments that meet your needs better!
+
+To begin, choose a path:
+
+<div style={{display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px"}}>
+    <DocCard item={{
+        type: "link",
+        href: "./kubernetes/prerequisites",
+        label: "Kubernetes (Recommended)",
+        description: "Deploy Azul for a team of analysts or for incident response purposes"
+    }} />
+    <DocCard item={{
+        type: "link",
+        href: "./compose/",
+        label: "Docker Compose",
+        description: "Deploy Azul for testing or development purposes"
+    }} />
+</div>

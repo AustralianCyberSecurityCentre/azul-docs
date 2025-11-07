@@ -1,0 +1,60 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Azul color palette */
+  --ifm-color-primary: #222b45;
+  --ifm-color-primary-dark: #1f273e;
+  --ifm-color-primary-darker: #1d253b;
+  --ifm-color-primary-darkest: #181e30;
+  --ifm-color-primary-light: #252f4c;
+  --ifm-color-primary-lighter: #27314f;
+  --ifm-color-primary-lightest: #2c385a;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* Azul color palette */
+  --ifm-color-primary: #91a2b5;
+  --ifm-color-primary-dark: #7e92a8;
+  --ifm-color-primary-darker: #7489a1;
+  --ifm-color-primary-darkest: #5c7188;
+  --ifm-color-primary-light: #a4b2c2;
+  --ifm-color-primary-lighter: #aebbc9;
+  --ifm-color-primary-lightest: #cbd3dc;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Configure the landing page Azul logo to behave correctly in light mode - needs
+   to be done globally in order to actually hit the svg as css elsewhere is scoped */
+[data-theme='light'] {
+  svg .cls-1 {
+    fill: oklch(86.9% 0.022 252.894);
+  }
+
+  svg .cls-2 {
+    fill: oklch(20.8% 0.042 265.755);
+  }
+
+  svg .cls-3 {
+    fill: oklch(55.4% 0.046 257.417);
+  }
+}
+
+@media (min-width: 800px) {
+  /* Clean up the layout of the footer to be less tall in widescreen configurations */
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+}

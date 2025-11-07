@@ -1,0 +1,18 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/**
+ * Displays quiz options in a grid fashion to reduce height.
+ */
+.quizOptions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.allowWrapping {
+  white-space: normal;
+}
