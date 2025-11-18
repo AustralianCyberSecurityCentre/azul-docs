@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-18 | backup               | feat: add mirroring pipeline. ..4.                 |
 | 2025-11-18 | metastore            | feat: add mirroring pipeline. ..3.                 |
 | 2025-11-18 | dispatcher           | feat: add mirroring pipeline. ..3.                 |
 | 2025-11-18 | bedrock              | feat: add mirroring pipeline. ..4.                 |
