@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-18 | restapi-server       | feat: add mirroring pipeline. ..3.                 |
 | 2025-11-18 | audit-forwarder      | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | security             | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | runner               | feat: add mirroring pipeline. ..3.                 |
