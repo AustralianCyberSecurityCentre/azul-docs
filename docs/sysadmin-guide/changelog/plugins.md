@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | assemblyline         | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | dotnet-deob          | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | malcarve             | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | lief                 | feat: add mirroring pipeline. ..2.                 |
