@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-18 | scaler               | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | stats                | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | smart-string-filter  | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | demo                 | feat: add mirroring pipeline. ..2.                 |
