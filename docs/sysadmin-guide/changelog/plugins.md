@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | maco                 | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | script-decoder       | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | goinfo               | feat: add mirroring pipeline. ..4.                 |
 | 2025-11-18 | qrcode               | feat: add mirroring pipeline. ..2.                 |
