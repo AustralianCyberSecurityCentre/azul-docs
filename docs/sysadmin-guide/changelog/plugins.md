@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | build-time-strings   | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | netinfo              | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | repeated-bytes       | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | truncated            | feat: add mirroring pipeline. ..2.                 |
