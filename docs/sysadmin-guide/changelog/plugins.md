@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | dotnet-decompiler    | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | retrohunt            | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | python-decompiler    | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | android-parser       | feat: add mirroring pipeline. ..2.                 |
