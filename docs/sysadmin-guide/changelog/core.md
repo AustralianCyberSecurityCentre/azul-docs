@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-18 | security             | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | runner               | feat: add mirroring pipeline. ..3.                 |
 | 2025-11-18 | webui                | feat: add mirroring pipeline. ..6.                 |
 | 2025-11-18 | backup               | feat: add mirroring pipeline. ..4.                 |
