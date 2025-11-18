@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | index-coincidence    | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | certificates         | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | dotnet-decompiler    | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | retrohunt            | feat: add mirroring pipeline. ..2.                 |
