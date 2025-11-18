@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | goinfo               | feat: add mirroring pipeline. ..4.                 |
 | 2025-11-18 | qrcode               | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | yara                 | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | virustotal           | feat: add mirroring pipeline. ..3.                 |
