@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | entropy              | feat: add mirroring pipeline. ..3.                 |
 | 2025-11-18 | pdftools             | feat: add mirroring pipeline. ..3.                 |
 | 2025-11-18 | build-time-strings   | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | netinfo              | feat: add mirroring pipeline. ..2.                 |
