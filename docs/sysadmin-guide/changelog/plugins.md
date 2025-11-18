@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | debloat              | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | email                | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | floss                | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | tika                 | feat: add mirroring pipeline. ..2.                 |
