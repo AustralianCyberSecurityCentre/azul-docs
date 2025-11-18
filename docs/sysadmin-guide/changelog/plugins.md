@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-18 | unbox                | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | suricata             | feat: add mirroring pipeline. ..2.                 |
 | 2025-11-18 | nsrl                 | feat: add mirroring pipeline. ..3.                 |
 | 2025-11-18 | maco                 | feat: add mirroring pipeline. ..2.                 |
