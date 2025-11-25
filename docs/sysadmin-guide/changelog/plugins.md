@@ -4,6 +4,7 @@
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
 | 2025-11-25 | alphabets            | fix: mirroring ..5.                                |
 | 2025-11-25 | alphabets            | fix: mirroring ..5.                                |
+| 2025-11-25 | alphabets            | fix: mirroring ..5.                                |
 | 2025-11-24 | dotnet-deob          | feat: upgrade debian to 13. ..3.                   |
 | 2025-11-24 | dotnet-decompiler    | feat: upgrade to dotnet 10. ..3.                   |
 | 2025-11-24 | python               | feat: merge and rename plugins. ..3.               |
