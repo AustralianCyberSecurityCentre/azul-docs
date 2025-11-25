@@ -1,0 +1,969 @@
+NAME                                                            VERSION                                                          TYPE                      
+DotNetWatchTasks                                                10.1.25.52411                                                    dotnet                    
+DumpMinitool                                                    18.0.125.52411                                                   dotnet                    
+DumpMinitool.arm64                                              18.0.125.52411                                                   dotnet                    
+DumpMinitool.x86                                                18.0.125.52411                                                   dotnet                    
+Humanizer.Core                                                  2.14.1                                                           dotnet  (+1 duplicate)    
+ICSharpCode.Decompiler                                          8.0.0-noversion                                                  dotnet                    
+ICSharpCode.ILSpyX                                              8.0.0-noversion                                                  dotnet                    
+Json.NET                                                        13.0.3.27908                                                     dotnet  (+3 duplicates)   
+K4os.Compression.LZ4                                            1.3.8                                                            dotnet                    
+MSBuild                                                         15.1.0.0                                                         dotnet  (+5 duplicates)   
+MSBuild.deps.json                                               10.0.100                                                         dotnet                    
+McMaster.Extensions.CommandLineUtils                            4.1.1                                                            dotnet                    
+McMaster.Extensions.Hosting.CommandLine                         4.1.1                                                            dotnet                    
+Microsoft Web Deployment Tracing                                7.1.3903.0003                                                    dotnet                    
+Microsoft.ApplicationInsights                                   2.23.0                                                           dotnet  (+5 duplicates)   
+Microsoft.AspNetCore                                            10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Analyzers                                  10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Antiforgery                                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.App.Analyzers                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.App.CodeFixes                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.App.Runtime.linux-x64                      10.0.0                                                           dotnet                    
+Microsoft.AspNetCore.App.Runtime.linux-x64                      8.0.22                                                           dotnet                    
+Microsoft.AspNetCore.App.Runtime.linux-x64                      9.0.11                                                           dotnet                    
+Microsoft.AspNetCore.App.SourceGenerators                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authentication                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authentication.Abstractions                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authentication.BearerToken                 10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authentication.Cookies                     10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authentication.Core                        10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authentication.OAuth                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authorization                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Authorization.Policy                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components                                 10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components.Analyzers                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components.Authorization                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components.Endpoints                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components.Forms                           10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components.SdkAnalyzers                    10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components.Server                          10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Components.Web                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Connections.Abstractions                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.CookiePolicy                               10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Cors                                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Cryptography.Internal                      10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Cryptography.KeyDerivation                 10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.DataProtection                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.DataProtection.Abstractions                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.DataProtection.Extensions                  10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.DeveloperCertificates.XPlat                10.0.0-rtm.25523.111                                             dotnet  (+5 duplicates)   
+Microsoft.AspNetCore.Diagnostics                                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Diagnostics.Abstractions                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Diagnostics.HealthChecks                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.HostFiltering                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Hosting                                    10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Hosting.Abstractions                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Hosting.Server.Abstractions                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Html.Abstractions                          10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http                                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http.Abstractions                          10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http.Connections                           10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http.Connections.Common                    10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http.Extensions                            10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http.Features                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http.RequestDelegateGenerator              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Http.Results                               10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.HttpLogging                                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.HttpOverrides                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.HttpsPolicy                                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Identity                                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Localization                               10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Localization.Routing                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Metadata                                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc                                        10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Abstractions                           10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Analyzers                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Api.Analyzers                          10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.ApiExplorer                            10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Core                                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Cors                                   10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.DataAnnotations                        10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Formatters.Json                        10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Formatters.Xml                         10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Localization                           10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Razor                                  10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal      10.0.0-preview.25523.111                                         dotnet                    
+Microsoft.AspNetCore.Mvc.RazorPages                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.TagHelpers                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Mvc.ViewFeatures                           10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.OutputCaching                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.RateLimiting                               10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Razor                                      10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Razor.Runtime                              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Razor.Utilities.Shared                     10.0.0-preview.25523.111                                         dotnet                    
+Microsoft.AspNetCore.RequestDecompression                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.ResponseCaching                            10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.ResponseCaching.Abstractions               10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.ResponseCompression                        10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Rewrite                                    10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Routing                                    10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Routing.Abstractions                       10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.HttpSys                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.IIS                                 10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.IISIntegration                      10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.Kestrel                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.Kestrel.Core                        10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes        10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.Kestrel.Transport.Quic              10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets           10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Session                                    10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.SignalR                                    10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.SignalR.Common                             10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.SignalR.Core                               10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.SignalR.Protocols.Json                     10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.StaticAssets                               10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.StaticFiles                                10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.Watch.BrowserRefresh                       10.1.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.WebSockets                                 10.0.25.52411                                                    dotnet                    
+Microsoft.AspNetCore.WebUtilities                               10.0.25.52411                                                    dotnet                    
+Microsoft.Bcl.AsyncInterfaces                                   10.0.0                                                           dotnet                    
+Microsoft.Bcl.AsyncInterfaces                                   10.0.25.52411                                                    dotnet  (+3 duplicates)   
+Microsoft.Build                                                 18.0.2                                                           dotnet  (+5 duplicates)   
+Microsoft.Build.Framework                                       18.0.2                                                           dotnet  (+7 duplicates)   
+Microsoft.Build.Framework.dll                                   18.0.2.52411                                                     dotnet                    
+Microsoft.Build.Localization                                    18.0.2-servicing-25523-111                                       dotnet  (+2 duplicates)   
+Microsoft.Build.Locator                                         1.10.2                                                           dotnet  (+2 duplicates)   
+Microsoft.Build.Locator                                         1.10.2.26959                                                     dotnet  (+1 duplicate)    
+Microsoft.Build.NuGetSdkResolver                                7.0.0-rc.2411                                                    dotnet  (+3 duplicates)   
+Microsoft.Build.Runtime                                         18.0.2                                                           dotnet                    
+Microsoft.Build.Tasks.CodeAnalysis                              5.0.0-2.25523.111                                                dotnet                    
+Microsoft.Build.Tasks.Core                                      18.0.2                                                           dotnet  (+5 duplicates)   
+Microsoft.Build.Tasks.Git                                       10.0.0-beta.25523.111                                            dotnet                    
+Microsoft.Build.Tasks.Git                                       10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.Build.Utilities.Core                                  18.0.2                                                           dotnet  (+5 duplicates)   
+Microsoft.Build.Utilities.Core.dll                              18.0.2.52411                                                     dotnet                    
+Microsoft.CSharp                                                10.0.25.52411                                                    dotnet                    
+Microsoft.CodeAnalysis                                          5.0.0-2.25523.111                                                dotnet                    
+Microsoft.CodeAnalysis                                          5.0.0.0                                                          dotnet  (+2 duplicates)   
+Microsoft.CodeAnalysis.CSharp                                   5.0.0-2.25461.22                                                 dotnet                    
+Microsoft.CodeAnalysis.CSharp                                   5.0.0-2.25523.111                                                dotnet  (+9 duplicates)   
+Microsoft.CodeAnalysis.CSharp.CodeStyle                         5.0.13.2411                                                      dotnet  (+13 duplicates)  
+Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes                   5.0.13.2411                                                      dotnet  (+13 duplicates)  
+Microsoft.CodeAnalysis.CSharp.Features                          5.0.0-2.25523.111                                                dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.CSharp.NetAnalyzers                      10.1.25.52411                                                    dotnet                    
+Microsoft.CodeAnalysis.CSharp.Workspaces                        5.0.0-2.25523.111                                                dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.CodeStyle                                5.0.13.2411                                                      dotnet  (+27 duplicates)  
+Microsoft.CodeAnalysis.CodeStyle.Fixes                          5.0.13.2411                                                      dotnet  (+27 duplicates)  
+Microsoft.CodeAnalysis.Common                                   5.0.0-2.25461.22                                                 dotnet                    
+Microsoft.CodeAnalysis.Common                                   5.0.0-2.25523.111                                                dotnet  (+10 duplicates)  
+Microsoft.CodeAnalysis.Elfie                                    1.0.0                                                            dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.Features                                 5.0.0-2.25523.111                                                dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.NetAnalyzers                             10.1.25.52411                                                    dotnet  (+13 duplicates)  
+Microsoft.CodeAnalysis.Razor.Compiler                           10.0.0-preview.25523.111                                         dotnet                    
+Microsoft.CodeAnalysis.Razor.Tooling.Internal                   10.0.0-preview.25523.111                                         dotnet                    
+Microsoft.CodeAnalysis.Scripting.Common                         5.0.0-2.25523.111                                                dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.VisualBasic                              5.0.0-2.25523.111                                                dotnet  (+2 duplicates)   
+Microsoft.CodeAnalysis.VisualBasic.CodeStyle                    5.0.13.2411                                                      dotnet  (+13 duplicates)  
+Microsoft.CodeAnalysis.VisualBasic.CodeStyle.Fixes              5.0.13.2411                                                      dotnet  (+13 duplicates)  
+Microsoft.CodeAnalysis.VisualBasic.Features                     5.0.0-2.25523.111                                                dotnet                    
+Microsoft.CodeAnalysis.VisualBasic.NetAnalyzers                 10.1.25.52411                                                    dotnet                    
+Microsoft.CodeAnalysis.VisualBasic.Workspaces                   5.0.0-2.25523.111                                                dotnet                    
+Microsoft.CodeAnalysis.Workspaces.Common                        5.0.0-2.25523.111                                                dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.Workspaces.MSBuild                       5.0.0-2.25523.111                                                dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost             5.0.0-2.25523.111                                                dotnet  (+1 duplicate)    
+Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost             5.0.25.52411                                                     dotnet  (+1 duplicate)    
+Microsoft.CodeCoverage.IO                                       17.700.23.20404                                                  dotnet  (+13 duplicates)  
+Microsoft.Css.Parser                                            1.0.0-20230414.1                                                 dotnet  (+2 duplicates)   
+Microsoft.Deployment.DotNet.Releases                            2.0.0-preview.1.25523.111                                        dotnet  (+5 duplicates)   
+Microsoft.Deployment.DotNet.Releases                            2.0.25.52411                                                     dotnet  (+27 duplicates)  
+Microsoft.DiaSymReader                                          2.2.0-beta.25523.111                                             dotnet  (+1 duplicate)    
+Microsoft.Diagnostics.NETCore.Client                            0.2.13.2411                                                      dotnet                    
+Microsoft.DotNet.ApiCompat.Task                                 10.1.25.52411                                                    dotnet  (+27 duplicates)  
+Microsoft.DotNet.ApiCompatibility                               10.1.25.52411                                                    dotnet  (+27 duplicates)  
+Microsoft.DotNet.ApiSymbolExtensions                            10.1.25.52411                                                    dotnet  (+27 duplicates)  
+Microsoft.DotNet.Cli                                            10.0.100-rtm.25523.111                                           dotnet  (+4 duplicates)   
+Microsoft.DotNet.Cli.Utils                                      10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+Microsoft.DotNet.Configurer                                     10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+Microsoft.DotNet.InternalAbstractions                           10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+Microsoft.DotNet.NativeWrapper                                  10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+Microsoft.DotNet.PackageValidation                              10.1.25.52411                                                    dotnet  (+27 duplicates)  
+Microsoft.DotNet.SdkResolver                                    10.0.100.0                                                       dotnet  (+5 duplicates)   
+Microsoft.DotNet.TemplateLocator                                10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+Microsoft.Extensions.Caching.Abstractions                       10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Caching.Memory                             10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration                              10.0.0                                                           dotnet  (+6 duplicates)   
+Microsoft.Extensions.Configuration                              10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration                              8.0.0                                                            dotnet                    
+Microsoft.Extensions.Configuration.Abstractions                 10.0.0                                                           dotnet  (+6 duplicates)   
+Microsoft.Extensions.Configuration.Abstractions                 10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.Abstractions                 8.0.0                                                            dotnet                    
+Microsoft.Extensions.Configuration.Binder                       10.0.0                                                           dotnet  (+5 duplicates)   
+Microsoft.Extensions.Configuration.Binder                       10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.Binder                       8.0.2                                                            dotnet                    
+Microsoft.Extensions.Configuration.Binder.SourceGeneration      10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.Extensions.Configuration.CommandLine                  10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.CommandLine                  8.0.0                                                            dotnet                    
+Microsoft.Extensions.Configuration.EnvironmentVariables         10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.EnvironmentVariables         8.0.0                                                            dotnet                    
+Microsoft.Extensions.Configuration.FileExtensions               10.0.0                                                           dotnet  (+1 duplicate)    
+Microsoft.Extensions.Configuration.FileExtensions               10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.FileExtensions               8.0.1                                                            dotnet                    
+Microsoft.Extensions.Configuration.Ini                          10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.Json                         10.0.0                                                           dotnet  (+1 duplicate)    
+Microsoft.Extensions.Configuration.Json                         10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.Json                         8.0.1                                                            dotnet                    
+Microsoft.Extensions.Configuration.KeyPerFile                   10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.UserSecrets                  10.0.0                                                           dotnet  (+1 duplicate)    
+Microsoft.Extensions.Configuration.UserSecrets                  10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Configuration.UserSecrets                  8.0.1                                                            dotnet                    
+Microsoft.Extensions.Configuration.Xml                          10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.DependencyInjection                        10.0.0                                                           dotnet  (+5 duplicates)   
+Microsoft.Extensions.DependencyInjection                        10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.DependencyInjection                        8.0.1                                                            dotnet                    
+Microsoft.Extensions.DependencyInjection.Abstractions           10.0.0                                                           dotnet  (+6 duplicates)   
+Microsoft.Extensions.DependencyInjection.Abstractions           10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.DependencyInjection.Abstractions           8.0.2                                                            dotnet                    
+Microsoft.Extensions.DependencyModel                            10.0.0                                                           dotnet  (+5 duplicates)   
+Microsoft.Extensions.DependencyModel                            10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Diagnostics                                10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Diagnostics                                8.0.1                                                            dotnet                    
+Microsoft.Extensions.Diagnostics.Abstractions                   10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Diagnostics.Abstractions                   8.0.1                                                            dotnet                    
+Microsoft.Extensions.Diagnostics.HealthChecks                   10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions      10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.DotNetDeltaApplier                         10.1.25.52411                                                    dotnet  (+1 duplicate)    
+Microsoft.Extensions.Features                                   10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.FileProviders.Abstractions                 10.0.0                                                           dotnet  (+6 duplicates)   
+Microsoft.Extensions.FileProviders.Abstractions                 10.0.25.52411                                                    dotnet  (+1 duplicate)    
+Microsoft.Extensions.FileProviders.Abstractions                 8.0.0                                                            dotnet                    
+Microsoft.Extensions.FileProviders.Composite                    10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.FileProviders.Embedded                     10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.FileProviders.Physical                     10.0.0                                                           dotnet  (+1 duplicate)    
+Microsoft.Extensions.FileProviders.Physical                     10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.FileProviders.Physical                     8.0.0                                                            dotnet                    
+Microsoft.Extensions.FileSystemGlobbing                         10.0.0                                                           dotnet  (+7 duplicates)   
+Microsoft.Extensions.FileSystemGlobbing                         10.0.25.52411                                                    dotnet  (+5 duplicates)   
+Microsoft.Extensions.FileSystemGlobbing                         2.0.0                                                            dotnet                    
+Microsoft.Extensions.FileSystemGlobbing                         8.0.0                                                            dotnet                    
+Microsoft.Extensions.Hosting                                    10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Hosting                                    8.0.1                                                            dotnet                    
+Microsoft.Extensions.Hosting.Abstractions                       10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Hosting.Abstractions                       8.0.1                                                            dotnet                    
+Microsoft.Extensions.Http                                       10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Identity.Core                              10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Identity.Stores                            10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Localization                               10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Localization.Abstractions                  10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging                                    10.0.0                                                           dotnet  (+6 duplicates)   
+Microsoft.Extensions.Logging                                    10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging                                    8.0.1                                                            dotnet                    
+Microsoft.Extensions.Logging.Abstractions                       10.0.0                                                           dotnet  (+5 duplicates)   
+Microsoft.Extensions.Logging.Abstractions                       10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging.Abstractions                       8.0.2                                                            dotnet                    
+Microsoft.Extensions.Logging.Configuration                      10.0.0                                                           dotnet  (+4 duplicates)   
+Microsoft.Extensions.Logging.Configuration                      10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging.Configuration                      8.0.1                                                            dotnet                    
+Microsoft.Extensions.Logging.Console                            10.0.0                                                           dotnet  (+4 duplicates)   
+Microsoft.Extensions.Logging.Console                            10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging.Console                            8.0.1                                                            dotnet                    
+Microsoft.Extensions.Logging.Debug                              10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging.Debug                              8.0.1                                                            dotnet                    
+Microsoft.Extensions.Logging.EventLog                           10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging.EventLog                           8.0.1                                                            dotnet                    
+Microsoft.Extensions.Logging.EventSource                        10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Logging.EventSource                        8.0.1                                                            dotnet                    
+Microsoft.Extensions.Logging.Generators                         10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.Extensions.Logging.MSBuild                            10.0.100-rtm.25523.111                                           dotnet                    
+Microsoft.Extensions.Logging.TraceSource                        10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.ObjectPool                                 10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.ObjectPool                                 8.0.0                                                            dotnet                    
+Microsoft.Extensions.Options                                    10.0.0                                                           dotnet  (+6 duplicates)   
+Microsoft.Extensions.Options                                    10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Options                                    8.0.2                                                            dotnet                    
+Microsoft.Extensions.Options.ConfigurationExtensions            10.0.0                                                           dotnet  (+4 duplicates)   
+Microsoft.Extensions.Options.ConfigurationExtensions            10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Options.ConfigurationExtensions            8.0.0                                                            dotnet                    
+Microsoft.Extensions.Options.DataAnnotations                    10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Options.SourceGeneration                   10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.Extensions.Primitives                                 10.0.0                                                           dotnet  (+7 duplicates)   
+Microsoft.Extensions.Primitives                                 10.0.25.52411                                                    dotnet  (+1 duplicate)    
+Microsoft.Extensions.Primitives                                 8.0.0                                                            dotnet                    
+Microsoft.Extensions.Validation                                 10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.Validation.ValidationsGenerator            10.0.25.52411                                                    dotnet                    
+Microsoft.Extensions.WebEncoders                                10.0.25.52411                                                    dotnet                    
+Microsoft.FSharp.Compiler                                       14.0.100-rc2.25523.111                                           dotnet  (+1 duplicate)    
+Microsoft.IO.Redist                                             6.100.24.56208                                                   dotnet  (+1 duplicate)    
+Microsoft.IdentityModel.Abstractions                            8.0.1                                                            dotnet                    
+Microsoft.IdentityModel.JsonWebTokens                           8.0.1                                                            dotnet                    
+Microsoft.IdentityModel.Logging                                 8.0.1                                                            dotnet                    
+Microsoft.IdentityModel.Tokens                                  8.0.1                                                            dotnet                    
+Microsoft.Interop.ComInterfaceGenerator                         10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.Interop.JavaScript.JSImportGenerator                  10.0.13.2411                                                     dotnet                    
+Microsoft.Interop.LibraryImportGenerator                        10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.Interop.SourceGeneration                              10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.JSInterop                                             10.0.25.52411                                                    dotnet                    
+Microsoft.NET.Build.Containers                                  10.0.100-rtm.25523.111                                           dotnet                    
+Microsoft.NET.Build.Extensions.Tasks                            10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+13 duplicates)  
+Microsoft.NET.Build.Tasks                                       10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+27 duplicates)  
+Microsoft.NET.HostModel                                         10.0.0-rtm.25523.111                                             dotnet  (+5 duplicates)   
+Microsoft.NET.HostModel                                         10.0.25.52411                                                    dotnet                    
+Microsoft.NET.Sdk.BlazorWebAssembly.Tasks                       10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+1 duplicate)    
+Microsoft.NET.Sdk.BlazorWebAssembly.Tool                        10.0.100-rtm.25523.111                                           dotnet                    
+Microsoft.NET.Sdk.Publish.Tasks                                 10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+27 duplicates)  
+Microsoft.NET.Sdk.Razor.Tasks                                   10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+1 duplicate)    
+Microsoft.NET.Sdk.StaticWebAssets.Tasks                         10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+1 duplicate)    
+Microsoft.NET.Sdk.StaticWebAssets.Tool                          10.0.100-rtm.25523.111                                           dotnet                    
+Microsoft.NET.Sdk.Web.ProjectSystem.Tasks                       10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+1 duplicate)    
+Microsoft.NET.Sdk.Web.Tasks                                     10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+1 duplicate)    
+Microsoft.NET.Sdk.WebAssembly.Tasks                             10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+1 duplicate)    
+Microsoft.NET.Sdk.Worker.Tasks                                  10.0.100-rtm.25523.111+b0f34d51fccc69fd334253924abd8d6853fad7aa  dotnet  (+1 duplicate)    
+Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver                    10.0.100-rtm.25523.111                                           dotnet  (+3 duplicates)   
+Microsoft.NET.Sdk.WorkloadManifestReader                        10.0.100-rtm.25523.111                                           dotnet  (+3 duplicates)   
+Microsoft.NET.StringTools                                       18.0.2                                                           dotnet  (+7 duplicates)   
+Microsoft.NETCore.App.Runtime.linux-x64                         10.0.0                                                           dotnet                    
+Microsoft.NETCore.App.Runtime.linux-x64                         8.0.22                                                           dotnet                    
+Microsoft.NETCore.App.Runtime.linux-x64                         9.0.11                                                           dotnet                    
+Microsoft.Net.Http.Headers                                      10.0.25.52411                                                    dotnet                    
+Microsoft.SourceLink.AzureRepos.Git                             10.0.0-beta.25523.111                                            dotnet                    
+Microsoft.SourceLink.AzureRepos.Git                             10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.SourceLink.Bitbucket.Git                              10.0.0-beta.25523.111                                            dotnet                    
+Microsoft.SourceLink.Bitbucket.Git                              10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.SourceLink.Common                                     10.0.0-beta.25523.111                                            dotnet                    
+Microsoft.SourceLink.Common                                     10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.SourceLink.GitHub                                     10.0.0-beta.25523.111                                            dotnet                    
+Microsoft.SourceLink.GitHub                                     10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.SourceLink.GitLab                                     10.0.0-beta.25523.111                                            dotnet                    
+Microsoft.SourceLink.GitLab                                     10.0.13.2411                                                     dotnet  (+13 duplicates)  
+Microsoft.TemplateEngine.Abstractions                           10.0.100                                                         dotnet  (+5 duplicates)   
+Microsoft.TemplateEngine.Cli                                    10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+Microsoft.TemplateEngine.Core                                   10.0.100                                                         dotnet  (+5 duplicates)   
+Microsoft.TemplateEngine.Core.Contracts                         10.0.100                                                         dotnet  (+5 duplicates)   
+Microsoft.TemplateEngine.Edge                                   10.0.100                                                         dotnet  (+5 duplicates)   
+Microsoft.TemplateEngine.Orchestrator.RunnableProjects          10.0.100                                                         dotnet  (+5 duplicates)   
+Microsoft.TemplateEngine.Utils                                  10.0.100                                                         dotnet  (+5 duplicates)   
+Microsoft.TemplateSearch.Common                                 10.0.100                                                         dotnet  (+5 duplicates)   
+Microsoft.TestPlatform.Build                                    18.0.1-release-25523-111                                         dotnet  (+3 duplicates)   
+Microsoft.TestPlatform.CommunicationUtilities                   18.0.1-release-25523-111                                         dotnet  (+2 duplicates)   
+Microsoft.TestPlatform.CommunicationUtilities                   18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.TestPlatform.CoreUtilities                            18.0.1-release-25523-111                                         dotnet  (+2 duplicates)   
+Microsoft.TestPlatform.CoreUtilities                            18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.TestPlatform.CrossPlatEngine                          18.0.1-release-25523-111                                         dotnet  (+2 duplicates)   
+Microsoft.TestPlatform.CrossPlatEngine                          18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.TestPlatform.Extensions.BlameDataCollector            18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.TestPlatform.Extensions.EventLogCollector             18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.TestPlatform.ObjectModel                              18.0.1-release-25523-111                                         dotnet  (+2 duplicates)   
+Microsoft.TestPlatform.PlatformAbstractions                     18.0.1-release-25523-111                                         dotnet  (+2 duplicates)   
+Microsoft.TestPlatform.PlatformAbstractions                     18.0.125.52411                                                   dotnet                    
+Microsoft.TestPlatform.TestHostRuntimeProvider                  18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.TestPlatform.TranslationLayer                         18.0.1-release-25523-111                                         dotnet                    
+Microsoft.TestPlatform.Utilities                                18.0.1-release-25523-111                                         dotnet  (+2 duplicates)   
+Microsoft.TestPlatform.Utilities                                18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.TestPlatform.VsTestConsole.TranslationLayer           15.0.0.0                                                         dotnet                    
+Microsoft.VisualBasic                                           10.0.25.52411                                                    dotnet                    
+Microsoft.VisualBasic.Core                                      15.0.25.52411                                                    dotnet                    
+Microsoft.VisualStudio.SolutionPersistence                      1.0.52                                                           dotnet  (+6 duplicates)   
+Microsoft.VisualStudio.TestPlatform.Client                      18.0.1-release-25523-111                                         dotnet                    
+Microsoft.VisualStudio.TestPlatform.Client.Reference            15.0.0.0                                                         dotnet                    
+Microsoft.VisualStudio.TestPlatform.Common                      18.0.1-release-25523-111                                         dotnet  (+2 duplicates)   
+Microsoft.VisualStudio.TestPlatform.Common                      18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.VisualStudio.TestPlatform.Common.Reference            15.0.0.0                                                         dotnet  (+2 duplicates)   
+Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger  18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger   18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.VisualStudio.TestPlatform.ObjectModel                 18.0.125.52411                                                   dotnet  (+13 duplicates)  
+Microsoft.Web.Delegation                                        7.1.3903.0005                                                    dotnet                    
+Microsoft.Web.XmlTransform                                      3.200.25.52411                                                   dotnet  (+27 duplicates)  
+Microsoft.Win32.Msi                                             10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+Microsoft.Win32.Primitives                                      10.0.25.52411                                                    dotnet                    
+Microsoft.Win32.Primitives                                      4.6.25714.01                                                     dotnet  (+1 duplicate)    
+Microsoft.Win32.Registry                                        10.0.25.52411                                                    dotnet                    
+Mono.Cecil                                                      0.11.6                                                           dotnet                    
+Newtonsoft.Json                                                 13.0.3                                                           dotnet  (+14 duplicates)  
+NuGet.Build.Tasks                                               7.0.0-rc.2411                                                    dotnet  (+3 duplicates)   
+NuGet.Build.Tasks.Console                                       7.0.0-rc.2411                                                    dotnet  (+3 duplicates)   
+NuGet.Build.Tasks.Console                                       7.0.0.2411                                                       dotnet                    
+NuGet.Build.Tasks.Pack                                          7.0.0-rc.2411                                                    dotnet  (+3 duplicates)   
+NuGet.Build.Tasks.Pack                                          7.0.0.2411                                                       dotnet  (+13 duplicates)  
+NuGet.CommandLine.XPlat                                         7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.CommandLine.XPlat.deps.json                               10.0.100                                                         dotnet                    
+NuGet.Commands                                                  7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Commands                                                  7.0.0.2411                                                       dotnet                    
+NuGet.Common                                                    6.13.2                                                           dotnet                    
+NuGet.Common                                                    7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Common                                                    7.0.0.2411                                                       dotnet                    
+NuGet.Configuration                                             6.13.2                                                           dotnet                    
+NuGet.Configuration                                             7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Configuration                                             7.0.0.2411                                                       dotnet                    
+NuGet.Credentials                                               7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Credentials                                               7.0.0.2411                                                       dotnet                    
+NuGet.DependencyResolver.Core                                   7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.DependencyResolver.Core                                   7.0.0.2411                                                       dotnet                    
+NuGet.Frameworks                                                6.13.2                                                           dotnet                    
+NuGet.Frameworks                                                7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Frameworks                                                7.0.0.2411                                                       dotnet                    
+NuGet.LibraryModel                                              7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.LibraryModel                                              7.0.0.2411                                                       dotnet                    
+NuGet.Localization                                              7.0.0-rc.2411                                                    dotnet  (+2 duplicates)   
+NuGet.Packaging                                                 6.13.2                                                           dotnet                    
+NuGet.Packaging                                                 7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Packaging                                                 7.0.0.2411                                                       dotnet                    
+NuGet.ProjectModel                                              7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.ProjectModel                                              7.0.0.2411                                                       dotnet                    
+NuGet.Protocol                                                  6.13.2                                                           dotnet                    
+NuGet.Protocol                                                  7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Protocol                                                  7.0.0.2411                                                       dotnet                    
+NuGet.Versioning                                                6.13.2                                                           dotnet                    
+NuGet.Versioning                                                7.0.0-rc.2411                                                    dotnet  (+5 duplicates)   
+NuGet.Versioning                                                7.0.0.2411                                                       dotnet                    
+PresentationBuildTasks                                          10.0.25.52411                                                    dotnet  (+27 duplicates)  
+Simple Launcher                                                 1.1.0.14                                                         binary  (+5 duplicates)   
+System                                                          10.0.25.52411                                                    dotnet                    
+System.AppContext                                               10.0.25.52411                                                    dotnet                    
+System.AppContext                                               4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Buffers                                                  10.0.25.52411                                                    dotnet                    
+System.Buffers                                                  4.6.0                                                            dotnet                    
+System.Buffers                                                  4.6.28619.01                                                     dotnet                    
+System.Buffers                                                  4.600.125.16908                                                  dotnet  (+3 duplicates)   
+System.Buffers                                                  4.600.24.56208                                                   dotnet  (+2 duplicates)   
+System.CodeDom                                                  10.0.0                                                           dotnet  (+5 duplicates)   
+System.Collections                                              10.0.25.52411                                                    dotnet                    
+System.Collections                                              4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Collections.Concurrent                                   10.0.25.52411                                                    dotnet                    
+System.Collections.Concurrent                                   4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Collections.Immutable                                    10.0.25.52411                                                    dotnet                    
+System.Collections.Immutable                                    8.0.23.53103                                                     dotnet                    
+System.Collections.Immutable                                    9.0.0                                                            dotnet  (+2 duplicates)   
+System.Collections.Immutable                                    9.0.24.52809                                                     dotnet  (+4 duplicates)   
+System.Collections.Immutable                                    9.0.4                                                            dotnet                    
+System.Collections.NonGeneric                                   10.0.25.52411                                                    dotnet                    
+System.Collections.NonGeneric                                   4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Collections.Specialized                                  10.0.25.52411                                                    dotnet                    
+System.Collections.Specialized                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.CommandLine                                              2.0.0                                                            dotnet  (+10 duplicates)  
+System.CommandLine                                              2.0.25.52411                                                     dotnet  (+27 duplicates)  
+System.CommandLine.StaticCompletions                            10.0.100-rtm.25523.111                                           dotnet  (+5 duplicates)   
+System.ComponentModel                                           10.0.25.52411                                                    dotnet                    
+System.ComponentModel                                           4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.ComponentModel.Annotations                               10.0.25.52411                                                    dotnet                    
+System.ComponentModel.Composition                               4.6.26515.06                                                     dotnet                    
+System.ComponentModel.DataAnnotations                           10.0.25.52411                                                    dotnet                    
+System.ComponentModel.EventBasedAsync                           10.0.25.52411                                                    dotnet                    
+System.ComponentModel.EventBasedAsync                           4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.ComponentModel.Primitives                                10.0.25.52411                                                    dotnet                    
+System.ComponentModel.Primitives                                4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.ComponentModel.TypeConverter                             10.0.25.52411                                                    dotnet                    
+System.ComponentModel.TypeConverter                             4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Composition                                              9.0.0                                                            dotnet  (+1 duplicate)    
+System.Composition.AttributedModel                              10.0.0                                                           dotnet  (+1 duplicate)    
+System.Composition.AttributedModel                              9.0.4                                                            dotnet                    
+System.Composition.Convention                                   10.0.0                                                           dotnet  (+1 duplicate)    
+System.Composition.Hosting                                      10.0.0                                                           dotnet  (+1 duplicate)    
+System.Composition.Runtime                                      10.0.0                                                           dotnet  (+1 duplicate)    
+System.Composition.TypedParts                                   10.0.0                                                           dotnet  (+1 duplicate)    
+System.Configuration                                            10.0.25.52411                                                    dotnet                    
+System.Configuration.ConfigurationManager                       10.0.0                                                           dotnet  (+8 duplicates)   
+System.Console                                                  10.0.25.52411                                                    dotnet                    
+System.Console                                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Core                                                     10.0.25.52411                                                    dotnet                    
+System.Data                                                     10.0.25.52411                                                    dotnet                    
+System.Data.Common                                              10.0.25.52411                                                    dotnet                    
+System.Data.Common                                              4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Data.DataSetExtensions                                   10.0.25.52411                                                    dotnet                    
+System.Diagnostics.Contracts                                    10.0.25.52411                                                    dotnet                    
+System.Diagnostics.Contracts                                    4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Diagnostics.Debug                                        10.0.25.52411                                                    dotnet                    
+System.Diagnostics.Debug                                        4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Diagnostics.DiagnosticSource                             10.0.25.52411                                                    dotnet                    
+System.Diagnostics.DiagnosticSource                             9.0.24.52809                                                     dotnet                    
+System.Diagnostics.EventLog                                     10.0.0                                                           dotnet  (+7 duplicates)   
+System.Diagnostics.EventLog                                     10.0.25.52411                                                    dotnet  (+3 duplicates)   
+System.Diagnostics.EventLog                                     8.0.1                                                            dotnet                    
+System.Diagnostics.EventLog                                     8.0.1024.46610                                                   dotnet                    
+System.Diagnostics.EventLog.Messages                            UNKNOWN                                                          dotnet  (+4 duplicates)   
+System.Diagnostics.FileVersionInfo                              10.0.25.52411                                                    dotnet                    
+System.Diagnostics.FileVersionInfo                              4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Diagnostics.Process                                      10.0.25.52411                                                    dotnet                    
+System.Diagnostics.Process                                      4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Diagnostics.StackTrace                                   10.0.25.52411                                                    dotnet                    
+System.Diagnostics.StackTrace                                   4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Diagnostics.TextWriterTraceListener                      10.0.25.52411                                                    dotnet                    
+System.Diagnostics.TextWriterTraceListener                      4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Diagnostics.Tools                                        10.0.25.52411                                                    dotnet                    
+System.Diagnostics.Tools                                        4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Diagnostics.TraceSource                                  10.0.25.52411                                                    dotnet                    
+System.Diagnostics.TraceSource                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Diagnostics.Tracing                                      10.0.25.52411                                                    dotnet                    
+System.Diagnostics.Tracing                                      4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Drawing                                                  10.0.25.52411                                                    dotnet                    
+System.Drawing.Primitives                                       10.0.25.52411                                                    dotnet                    
+System.Drawing.Primitives                                       4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Dynamic.Runtime                                          10.0.25.52411                                                    dotnet                    
+System.Dynamic.Runtime                                          4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Formats.Asn1                                             10.0.25.52411                                                    dotnet                    
+System.Formats.Cbor                                             10.0.25.52411                                                    dotnet                    
+System.Formats.Nrbf                                             10.0.0                                                           dotnet  (+5 duplicates)   
+System.Formats.Tar                                              10.0.25.52411                                                    dotnet                    
+System.Globalization                                            10.0.25.52411                                                    dotnet                    
+System.Globalization                                            4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Globalization.Calendars                                  10.0.25.52411                                                    dotnet                    
+System.Globalization.Calendars                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Globalization.Extensions                                 10.0.25.52411                                                    dotnet                    
+System.Globalization.Extensions                                 4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.IO                                                       10.0.25.52411                                                    dotnet                    
+System.IO                                                       4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.Compression                                           10.0.25.52411                                                    dotnet                    
+System.IO.Compression                                           4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.IO.Compression.Brotli                                    10.0.25.52411                                                    dotnet                    
+System.IO.Compression.FileSystem                                10.0.25.52411                                                    dotnet                    
+System.IO.Compression.ZipFile                                   10.0.25.52411                                                    dotnet                    
+System.IO.Compression.ZipFile                                   4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.FileSystem                                            10.0.25.52411                                                    dotnet                    
+System.IO.FileSystem                                            4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.FileSystem.AccessControl                              10.0.25.52411                                                    dotnet                    
+System.IO.FileSystem.DriveInfo                                  10.0.25.52411                                                    dotnet                    
+System.IO.FileSystem.DriveInfo                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.FileSystem.Primitives                                 10.0.25.52411                                                    dotnet                    
+System.IO.FileSystem.Primitives                                 4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.FileSystem.Watcher                                    10.0.25.52411                                                    dotnet                    
+System.IO.FileSystem.Watcher                                    4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.Hashing                                               10.0.0                                                           dotnet  (+5 duplicates)   
+System.IO.Hashing                                               10.0.25.52411                                                    dotnet  (+3 duplicates)   
+System.IO.IsolatedStorage                                       10.0.25.52411                                                    dotnet                    
+System.IO.IsolatedStorage                                       4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.MemoryMappedFiles                                     10.0.25.52411                                                    dotnet                    
+System.IO.MemoryMappedFiles                                     4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.Pipelines                                             10.0.25.52411                                                    dotnet  (+2 duplicates)   
+System.IO.Pipelines                                             9.0.24.52809                                                     dotnet  (+1 duplicate)    
+System.IO.Pipes                                                 10.0.25.52411                                                    dotnet                    
+System.IO.Pipes                                                 4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IO.Pipes.AccessControl                                   10.0.25.52411                                                    dotnet                    
+System.IO.UnmanagedMemoryStream                                 10.0.25.52411                                                    dotnet                    
+System.IO.UnmanagedMemoryStream                                 4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.IdentityModel.Tokens.Jwt                                 8.0.1                                                            dotnet                    
+System.Linq                                                     10.0.25.52411                                                    dotnet                    
+System.Linq                                                     4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Linq.AsyncEnumerable                                     10.0.25.52411                                                    dotnet                    
+System.Linq.Expressions                                         10.0.25.52411                                                    dotnet                    
+System.Linq.Expressions                                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Linq.Parallel                                            10.0.25.52411                                                    dotnet                    
+System.Linq.Parallel                                            4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Linq.Queryable                                           10.0.25.52411                                                    dotnet                    
+System.Linq.Queryable                                           4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Memory                                                   10.0.25.52411                                                    dotnet                    
+System.Memory                                                   4.6.0                                                            dotnet                    
+System.Memory                                                   4.6.31308.01                                                     dotnet                    
+System.Memory                                                   4.600.24.56208                                                   dotnet  (+2 duplicates)   
+System.Memory                                                   4.600.325.20307                                                  dotnet  (+3 duplicates)   
+System.Net                                                      10.0.25.52411                                                    dotnet                    
+System.Net.Http                                                 10.0.25.52411                                                    dotnet                    
+System.Net.Http                                                 4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Net.Http.Json                                            10.0.25.52411                                                    dotnet                    
+System.Net.HttpListener                                         10.0.25.52411                                                    dotnet                    
+System.Net.Mail                                                 10.0.25.52411                                                    dotnet                    
+System.Net.NameResolution                                       10.0.25.52411                                                    dotnet                    
+System.Net.NameResolution                                       4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.NetworkInformation                                   10.0.25.52411                                                    dotnet                    
+System.Net.NetworkInformation                                   4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.Ping                                                 10.0.25.52411                                                    dotnet                    
+System.Net.Ping                                                 4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.Primitives                                           10.0.25.52411                                                    dotnet                    
+System.Net.Primitives                                           4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.Quic                                                 10.0.25.52411                                                    dotnet                    
+System.Net.Requests                                             10.0.25.52411                                                    dotnet                    
+System.Net.Requests                                             4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.Security                                             10.0.25.52411                                                    dotnet                    
+System.Net.Security                                             4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.ServerSentEvents                                     10.0.25.52411                                                    dotnet                    
+System.Net.ServicePoint                                         10.0.25.52411                                                    dotnet                    
+System.Net.Sockets                                              10.0.25.52411                                                    dotnet                    
+System.Net.Sockets                                              4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Net.WebClient                                            10.0.25.52411                                                    dotnet                    
+System.Net.WebHeaderCollection                                  10.0.25.52411                                                    dotnet                    
+System.Net.WebHeaderCollection                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.WebProxy                                             10.0.25.52411                                                    dotnet                    
+System.Net.WebSockets                                           10.0.25.52411                                                    dotnet                    
+System.Net.WebSockets                                           4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Net.WebSockets.Client                                    10.0.25.52411                                                    dotnet                    
+System.Net.WebSockets.Client                                    4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Numerics                                                 10.0.25.52411                                                    dotnet                    
+System.Numerics.Vectors                                         10.0.25.52411                                                    dotnet                    
+System.Numerics.Vectors                                         4.6.0                                                            dotnet                    
+System.Numerics.Vectors                                         4.6.26515.06                                                     dotnet                    
+System.Numerics.Vectors                                         4.600.125.16908                                                  dotnet  (+3 duplicates)   
+System.Numerics.Vectors                                         4.600.24.56208                                                   dotnet  (+2 duplicates)   
+System.ObjectModel                                              10.0.25.52411                                                    dotnet                    
+System.ObjectModel                                              4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Reflection                                               10.0.25.52411                                                    dotnet                    
+System.Reflection                                               4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Reflection.DispatchProxy                                 10.0.25.52411                                                    dotnet                    
+System.Reflection.Emit                                          10.0.25.52411                                                    dotnet                    
+System.Reflection.Emit.ILGeneration                             10.0.25.52411                                                    dotnet                    
+System.Reflection.Emit.Lightweight                              10.0.25.52411                                                    dotnet                    
+System.Reflection.Extensions                                    10.0.25.52411                                                    dotnet                    
+System.Reflection.Extensions                                    4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Reflection.Metadata                                      10.0.25.52411                                                    dotnet                    
+System.Reflection.Metadata                                      8.0.23.53103                                                     dotnet                    
+System.Reflection.Metadata                                      9.0.0                                                            dotnet                    
+System.Reflection.Metadata                                      9.0.24.52809                                                     dotnet  (+2 duplicates)   
+System.Reflection.Metadata                                      9.0.4                                                            dotnet                    
+System.Reflection.MetadataLoadContext                           10.0.0                                                           dotnet  (+6 duplicates)   
+System.Reflection.MetadataLoadContext                           9.0.24.52809                                                     dotnet                    
+System.Reflection.Primitives                                    10.0.25.52411                                                    dotnet                    
+System.Reflection.Primitives                                    4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Reflection.TypeExtensions                                10.0.25.52411                                                    dotnet                    
+System.Resources.Extensions                                     10.0.0                                                           dotnet  (+5 duplicates)   
+System.Resources.Reader                                         10.0.25.52411                                                    dotnet                    
+System.Resources.Reader                                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Resources.ResourceManager                                10.0.25.52411                                                    dotnet                    
+System.Resources.ResourceManager                                4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Resources.Writer                                         10.0.25.52411                                                    dotnet                    
+System.Resources.Writer                                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime                                                  10.0.25.52411                                                    dotnet                    
+System.Runtime                                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.CompilerServices.Unsafe                          10.0.25.52411                                                    dotnet                    
+System.Runtime.CompilerServices.Unsafe                          6.0.21.52210                                                     dotnet                    
+System.Runtime.CompilerServices.Unsafe                          6.1.0                                                            dotnet                    
+System.Runtime.CompilerServices.Unsafe                          6.100.225.20307                                                  dotnet  (+4 duplicates)   
+System.Runtime.CompilerServices.Unsafe                          6.100.24.56208                                                   dotnet  (+1 duplicate)    
+System.Runtime.CompilerServices.VisualC                         10.0.25.52411                                                    dotnet                    
+System.Runtime.CompilerServices.VisualC                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.Extensions                                       10.0.25.52411                                                    dotnet                    
+System.Runtime.Extensions                                       4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.Handles                                          10.0.25.52411                                                    dotnet                    
+System.Runtime.Handles                                          4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.InteropServices                                  10.0.25.52411                                                    dotnet                    
+System.Runtime.InteropServices                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.InteropServices.JavaScript                       10.0.25.52411                                                    dotnet                    
+System.Runtime.InteropServices.RuntimeInformation               10.0.25.52411                                                    dotnet                    
+System.Runtime.InteropServices.RuntimeInformation               4.6.26011.01                                                     dotnet  (+3 duplicates)   
+System.Runtime.Intrinsics                                       10.0.25.52411                                                    dotnet                    
+System.Runtime.Loader                                           10.0.25.52411                                                    dotnet                    
+System.Runtime.Numerics                                         10.0.25.52411                                                    dotnet                    
+System.Runtime.Numerics                                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.Serialization                                    10.0.25.52411                                                    dotnet                    
+System.Runtime.Serialization.Formatters                         10.0.25.52411                                                    dotnet                    
+System.Runtime.Serialization.Formatters                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.Serialization.Json                               10.0.25.52411                                                    dotnet                    
+System.Runtime.Serialization.Json                               4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Runtime.Serialization.Primitives                         10.0.25.52411                                                    dotnet                    
+System.Runtime.Serialization.Primitives                         4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Runtime.Serialization.Xml                                10.0.25.52411                                                    dotnet                    
+System.Runtime.Serialization.Xml                                4.6.26011.01                                                     dotnet  (+1 duplicate)    
+System.Security                                                 10.0.25.52411                                                    dotnet                    
+System.Security.AccessControl                                   10.0.25.52411                                                    dotnet                    
+System.Security.Claims                                          10.0.25.52411                                                    dotnet                    
+System.Security.Claims                                          4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Security.Cryptography                                    10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.Algorithms                         10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.Algorithms                         4.6.26011.01                                                     dotnet  (+3 duplicates)   
+System.Security.Cryptography.Cng                                10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.Csp                                10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.Csp                                4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Security.Cryptography.Encoding                           10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.Encoding                           4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Security.Cryptography.OpenSsl                            10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.Pkcs                               10.0.0                                                           dotnet  (+6 duplicates)   
+System.Security.Cryptography.Pkcs                               10.0.25.52411                                                    dotnet  (+1 duplicate)    
+System.Security.Cryptography.Pkcs                               6.0.1923.31806                                                   dotnet                    
+System.Security.Cryptography.Pkcs                               6.0.4                                                            dotnet                    
+System.Security.Cryptography.Primitives                         10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.Primitives                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Security.Cryptography.ProtectedData                      10.0.0                                                           dotnet  (+8 duplicates)   
+System.Security.Cryptography.ProtectedData                      10.0.25.52411                                                    dotnet  (+1 duplicate)    
+System.Security.Cryptography.ProtectedData                      4.4.0                                                            dotnet                    
+System.Security.Cryptography.ProtectedData                      4.6.25519.03                                                     dotnet                    
+System.Security.Cryptography.X509Certificates                   10.0.25.52411                                                    dotnet                    
+System.Security.Cryptography.X509Certificates                   4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Security.Cryptography.Xml                                10.0.0                                                           dotnet  (+5 duplicates)   
+System.Security.Cryptography.Xml                                10.0.25.52411                                                    dotnet                    
+System.Security.Principal                                       10.0.25.52411                                                    dotnet                    
+System.Security.Principal                                       4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Security.Principal.Windows                               10.0.25.52411                                                    dotnet                    
+System.Security.SecureString                                    10.0.25.52411                                                    dotnet                    
+System.Security.SecureString                                    4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.ServiceModel.Web                                         10.0.25.52411                                                    dotnet                    
+System.ServiceProcess                                           10.0.25.52411                                                    dotnet                    
+System.ServiceProcess.ServiceController                         10.0.0                                                           dotnet  (+5 duplicates)   
+System.ServiceProcess.ServiceController                         10.0.25.52411                                                    dotnet  (+1 duplicate)    
+System.Text.Encoding                                            10.0.25.52411                                                    dotnet                    
+System.Text.Encoding                                            4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Text.Encoding.CodePages                                  10.0.25.52411                                                    dotnet                    
+System.Text.Encoding.CodePages                                  8.0.0                                                            dotnet                    
+System.Text.Encoding.Extensions                                 10.0.25.52411                                                    dotnet                    
+System.Text.Encoding.Extensions                                 4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Text.Encodings.Web                                       10.0.25.52411                                                    dotnet  (+2 duplicates)   
+System.Text.Encodings.Web                                       9.0.24.52809                                                     dotnet  (+1 duplicate)    
+System.Text.Json                                                10.0.25.52411                                                    dotnet  (+2 duplicates)   
+System.Text.Json                                                9.0.24.52809                                                     dotnet  (+1 duplicate)    
+System.Text.Json.SourceGeneration                               10.0.13.2411                                                     dotnet  (+13 duplicates)  
+System.Text.RegularExpressions                                  10.0.25.52411                                                    dotnet                    
+System.Text.RegularExpressions                                  4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Text.RegularExpressions.Generator                        10.0.13.2411                                                     dotnet  (+13 duplicates)  
+System.Threading                                                10.0.25.52411                                                    dotnet                    
+System.Threading                                                4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Threading.AccessControl                                  10.0.25.52411                                                    dotnet                    
+System.Threading.Channels                                       10.0.25.52411                                                    dotnet                    
+System.Threading.Overlapped                                     10.0.25.52411                                                    dotnet                    
+System.Threading.Overlapped                                     4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Threading.RateLimiting                                   10.0.25.52411                                                    dotnet                    
+System.Threading.Tasks                                          10.0.25.52411                                                    dotnet                    
+System.Threading.Tasks                                          4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Threading.Tasks.Dataflow                                 10.0.25.52411                                                    dotnet                    
+System.Threading.Tasks.Extensions                               10.0.25.52411                                                    dotnet                    
+System.Threading.Tasks.Extensions                               4.6.0                                                            dotnet                    
+System.Threading.Tasks.Extensions                               4.600.24.56208                                                   dotnet  (+1 duplicate)    
+System.Threading.Tasks.Extensions                               4.600.325.20307                                                  dotnet  (+3 duplicates)   
+System.Threading.Tasks.Parallel                                 10.0.25.52411                                                    dotnet                    
+System.Threading.Tasks.Parallel                                 4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Threading.Thread                                         10.0.25.52411                                                    dotnet                    
+System.Threading.Thread                                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Threading.ThreadPool                                     10.0.25.52411                                                    dotnet                    
+System.Threading.ThreadPool                                     4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Threading.Timer                                          10.0.25.52411                                                    dotnet                    
+System.Threading.Timer                                          4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Transactions                                             10.0.25.52411                                                    dotnet                    
+System.Transactions.Local                                       10.0.25.52411                                                    dotnet                    
+System.ValueTuple                                               10.0.25.52411                                                    dotnet                    
+System.ValueTuple                                               4.6.26011.01                                                     dotnet  (+1 duplicate)    
+System.ValueTuple                                               4.6.26515.06                                                     dotnet  (+2 duplicates)   
+System.Web                                                      10.0.25.52411                                                    dotnet                    
+System.Web.HttpUtility                                          10.0.25.52411                                                    dotnet                    
+System.Windows                                                  10.0.25.52411                                                    dotnet                    
+System.Xml                                                      10.0.25.52411                                                    dotnet                    
+System.Xml.Linq                                                 10.0.25.52411                                                    dotnet                    
+System.Xml.ReaderWriter                                         10.0.25.52411                                                    dotnet                    
+System.Xml.ReaderWriter                                         4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Xml.Serialization                                        10.0.25.52411                                                    dotnet                    
+System.Xml.XDocument                                            10.0.25.52411                                                    dotnet                    
+System.Xml.XDocument                                            4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Xml.XPath                                                10.0.25.52411                                                    dotnet                    
+System.Xml.XPath                                                4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Xml.XPath.XDocument                                      10.0.25.52411                                                    dotnet                    
+System.Xml.XPath.XDocument                                      4.6.26011.01                                                     dotnet  (+2 duplicates)   
+System.Xml.XmlDocument                                          10.0.25.52411                                                    dotnet                    
+System.Xml.XmlDocument                                          4.6.25714.01                                                     dotnet  (+1 duplicate)    
+System.Xml.XmlSerializer                                        10.0.25.52411                                                    dotnet                    
+System.Xml.XmlSerializer                                        4.6.25714.01                                                     dotnet  (+1 duplicate)    
+VBCSCompiler                                                    5.0.0-2.25523.111                                                dotnet                    
+Valleysoft.DockerCredsProvider                                  2.2.4                                                            dotnet                    
+Web Deployment Framework                                        7.1.3903.0007                                                    dotnet                    
+WindowsBase                                                     10.0.25.52411                                                    dotnet                    
+adduser                                                         3.152                                                            deb                       
+annotated-doc                                                   0.0.4                                                            python                    
+annotated-types                                                 0.7.0                                                            python                    
+anyio                                                           4.11.0                                                           python                    
+apt                                                             3.0.3                                                            deb                       
+aspnetcore-runtime-10.0                                         10.0.0                                                           deb                       
+aspnetcore-runtime-8.0                                          8.0.22-1                                                         deb                       
+aspnetcore-runtime-9.0                                          9.0.11-1                                                         deb                       
+aspnetcore-targeting-pack-10.0                                  10.0.0                                                           deb                       
+autocommand                                                     2.2.2                                                            python                    
+azul-bedrock                                                    9.0.15                                                           python                    
+azul-plugin-dotnet-decompiler                                   9.0.15+gcf7f1f107.d20251124                                      python                    
+azul-runner                                                     9.0.14                                                           python                    
+backports-tarfile                                               1.2.0                                                            python                    
+base-files                                                      13.8+deb13u2                                                     deb                       
+base-passwd                                                     3.6.7                                                            deb                       
+bash                                                            5.2.37-2+b5                                                      deb                       
+bitarray                                                        3.8.0                                                            python                    
+bsdutils                                                        1:2.41-5                                                         deb                       
+build                                                           1.3.0                                                            python                    
+ca-certificates                                                 20250419                                                         deb                       
+cachetools                                                      6.2.2                                                            python                    
+cart                                                            1.2.3                                                            python                    
+certifi                                                         2025.11.12                                                       python                    
+cli                                                             UNKNOWN                                                          binary                    
+cli-32                                                          UNKNOWN                                                          binary                    
+cli-64                                                          UNKNOWN                                                          binary                    
+cli-arm64                                                       UNKNOWN                                                          binary                    
+coreutils                                                       9.7-3                                                            deb                       
+csc                                                             5.0.0-2.25523.111                                                dotnet                    
+curl                                                            8.14.1-2+deb13u2                                                 deb                       
+dash                                                            0.5.12-12                                                        deb                       
+datacollector                                                   18.0.1-release-25523-111                                         dotnet                    
+datacollector                                                   18.0.125.52411                                                   dotnet                    
+datacollector.arm64                                             18.0.125.52411                                                   dotnet                    
+debconf                                                         1.5.91                                                           deb                       
+debian-archive-keyring                                          2025.1                                                           deb                       
+debianutils                                                     5.23.2                                                           deb                       
+diffutils                                                       1:3.10-4                                                         deb                       
+dotnet                                                          10.0.100-rtm.25523.111                                           dotnet                    
+dotnet                                                          10.0.100.0                                                       dotnet  (+4 duplicates)   
+dotnet-apphost-pack-10.0                                        10.0.0                                                           deb                       
+dotnet-dev-certs                                                10.0.0-rtm.25523.111                                             dotnet                    
+dotnet-format                                                   10.0.100-rtm.25523.111                                           dotnet                    
+dotnet-host                                                     10.0.0                                                           deb                       
+dotnet-hostfxr-10.0                                             10.0.0                                                           deb                       
+dotnet-hostfxr-8.0                                              8.0.22-1                                                         deb                       
+dotnet-hostfxr-9.0                                              9.0.11-1                                                         deb                       
+dotnet-runtime-10.0                                             10.0.0                                                           deb                       
+dotnet-runtime-8.0                                              8.0.22-1                                                         deb                       
+dotnet-runtime-9.0                                              9.0.11-1                                                         deb                       
+dotnet-runtime-deps-10.0                                        10.0.0                                                           deb                       
+dotnet-runtime-deps-8.0                                         8.0.22-1                                                         deb                       
+dotnet-runtime-deps-9.0                                         9.0.11-1                                                         deb                       
+dotnet-sdk-10.0                                                 10.0.100                                                         deb                       
+dotnet-targeting-pack-10.0                                      10.0.0                                                           deb                       
+dotnet-user-jwts                                                10.0.0-rtm.25523.111                                             dotnet                    
+dotnet-user-secrets                                             10.0.0-rtm.25523.111                                             dotnet                    
+dotnet-watch                                                    10.0.100-rtm.25523.111                                           dotnet                    
+dotnet.deps.json                                                10.0.100                                                         dotnet                    
+dpkg                                                            1.22.21                                                          deb                       
+fastapi                                                         0.122.0                                                          python                    
+findutils                                                       4.10.0-3                                                         deb                       
+gcc-14-base                                                     14.2.0-19                                                        deb                       
+grep                                                            3.11-4                                                           deb                       
+gui                                                             UNKNOWN                                                          binary                    
+gui-32                                                          UNKNOWN                                                          binary                    
+gui-64                                                          UNKNOWN                                                          binary                    
+gui-arm64                                                       UNKNOWN                                                          binary                    
+gzip                                                            1.13-1                                                           deb                       
+h11                                                             0.16.0                                                           python                    
+hostname                                                        3.25                                                             deb                       
+httpcore                                                        1.0.9                                                            python                    
+httpx                                                           0.28.1                                                           python                    
+idna                                                            3.11                                                             python                    
+ilspycmd                                                        1.0.0                                                            dotnet                    
+importlib-metadata                                              8.0.0                                                            python                    
+inflect                                                         7.3.1                                                            python                    
+init-system-helpers                                             1.69~deb13u1                                                     deb                       
+jaraco-collections                                              5.1.0                                                            python                    
+jaraco-context                                                  5.3.0                                                            python                    
+jaraco-functools                                                4.0.1                                                            python                    
+jaraco-text                                                     3.12.1                                                           python                    
+libacl1                                                         2.3.2-2+b1                                                       deb                       
+libapt-pkg7.0                                                   3.0.3                                                            deb                       
+libattr1                                                        1:2.5.2-3                                                        deb                       
+libaudit-common                                                 1:4.0.2-2                                                        deb                       
+libaudit1                                                       1:4.0.2-2+b2                                                     deb                       
+libblkid1                                                       2.41-5                                                           deb                       
+libbrotli1                                                      1.1.0-2+b7                                                       deb                       
+libbsd0                                                         0.12.2-2                                                         deb                       
+libbz2-1.0                                                      1.0.8-6                                                          deb                       
+libc-bin                                                        2.41-12                                                          deb                       
+libc6                                                           2.41-12                                                          deb                       
+libcap-ng0                                                      0.8.5-4+b1                                                       deb                       
+libcap2                                                         1:2.75-10+b1                                                     deb                       
+libcom-err2                                                     1.47.2-3+b3                                                      deb                       
+libcrypt1                                                       1:4.4.38-1                                                       deb                       
+libcurl4t64                                                     8.14.1-2+deb13u2                                                 deb                       
+libdb5.3t64                                                     5.3.28+dfsg2-9                                                   deb                       
+libdebconfclient0                                               0.280                                                            deb                       
+libffi8                                                         3.4.8-2                                                          deb                       
+libgcc-s1                                                       14.2.0-19                                                        deb                       
+libgdbm6t64                                                     1.24-2                                                           deb                       
+libgmp10                                                        2:6.3.0+dfsg-3                                                   deb                       
+libgnutls30t64                                                  3.8.9-3                                                          deb                       
+libgssapi-krb5-2                                                1.21.3-5                                                         deb                       
+libhogweed6t64                                                  3.10.1-1                                                         deb                       
+libicu76                                                        76.1-4                                                           deb                       
+libidn2-0                                                       2.3.8-2                                                          deb                       
+libk5crypto3                                                    1.21.3-5                                                         deb                       
+libkeyutils1                                                    1.6.3-6                                                          deb                       
+libkrb5-3                                                       1.21.3-5                                                         deb                       
+libkrb5support0                                                 1.21.3-5                                                         deb                       
+liblastlog2-2                                                   2.41-5                                                           deb                       
+libldap2                                                        2.6.10+dfsg-1                                                    deb                       
+liblz4-1                                                        1.10.0-4                                                         deb                       
+liblzma5                                                        5.8.1-1                                                          deb                       
+libmagic-dev                                                    1:5.46-5                                                         deb                       
+libmagic-mgc                                                    1:5.46-5                                                         deb                       
+libmagic1t64                                                    1:5.46-5                                                         deb                       
+libmd0                                                          1.1.0-2+b1                                                       deb                       
+libmount1                                                       2.41-5                                                           deb                       
+libncursesw6                                                    6.5+20250216-2                                                   deb                       
+libnettle8t64                                                   3.10.1-1                                                         deb                       
+libnghttp2-14                                                   1.64.0-1.1                                                       deb                       
+libnghttp3-9                                                    1.8.0-1                                                          deb                       
+libp11-kit0                                                     0.25.5-3                                                         deb                       
+libpam-modules                                                  1.7.0-5                                                          deb                       
+libpam-modules-bin                                              1.7.0-5                                                          deb                       
+libpam-runtime                                                  1.7.0-5                                                          deb                       
+libpam0g                                                        1.7.0-5                                                          deb                       
+libpcre2-8-0                                                    10.46-1~deb13u1                                                  deb                       
+libpsl5t64                                                      0.21.2-1.1+b1                                                    deb                       
+libreadline8t64                                                 8.2-6                                                            deb                       
+librtmp1                                                        2.4+20151223.gitfa8646d.1-2+b5                                   deb                       
+libsasl2-2                                                      2.1.28+dfsg1-9                                                   deb                       
+libsasl2-modules-db                                             2.1.28+dfsg1-9                                                   deb                       
+libseccomp2                                                     2.6.0-2                                                          deb                       
+libselinux1                                                     3.8.1-1                                                          deb                       
+libsemanage-common                                              3.8.1-1                                                          deb                       
+libsemanage2                                                    3.8.1-1                                                          deb                       
+libsepol2                                                       3.8.1-1                                                          deb                       
+libsmartcols1                                                   2.41-5                                                           deb                       
+libsqlite3-0                                                    3.46.1-7                                                         deb                       
+libssh2-1t64                                                    1.11.1-1                                                         deb                       
+libssl3t64                                                      3.5.4-1~deb13u1                                                  deb                       
+libstdc++6                                                      14.2.0-19                                                        deb                       
+libsystemd0                                                     257.9-1~deb13u1                                                  deb                       
+libtasn1-6                                                      4.20.0-2                                                         deb                       
+libtinfo6                                                       6.5+20250216-2                                                   deb                       
+libudev1                                                        257.9-1~deb13u1                                                  deb                       
+libunistring5                                                   1.3-2                                                            deb                       
+libuuid1                                                        2.41-5                                                           deb                       
+libxxhash0                                                      0.8.3-2                                                          deb                       
+libzstd1                                                        1.5.7+dfsg-1                                                     deb                       
+login                                                           1:4.16.0-2+really2.41-5                                          deb                       
+login.defs                                                      1:4.17.4-2                                                       deb                       
+mawk                                                            1.3.4.20250131-1                                                 deb                       
+more-itertools                                                  10.3.0                                                           python                    
+mount                                                           2.41-5                                                           deb                       
+mscorlib                                                        10.0.25.52411                                                    dotnet                    
+mscorlib                                                        4.6.26419.02                                                     dotnet                    
+multipart                                                       1.3.0                                                            python                    
+my-test-package                                                 1.0                                                              python                    
+ncurses-base                                                    6.5+20250216-2                                                   deb                       
+ncurses-bin                                                     6.5+20250216-2                                                   deb                       
+netbase                                                         6.5                                                              deb                       
+netfx.force.conflicts                                           4.6.26011.01                                                     dotnet  (+1 duplicate)    
+netstandard                                                     1.0.26419.02                                                     dotnet                    
+netstandard                                                     10.0.25.52411                                                    dotnet                    
+netstandard                                                     4.6.26011.1                                                      dotnet  (+1 duplicate)    
+openssl                                                         3.5.4-1~deb13u1                                                  deb                       
+openssl-provider-legacy                                         3.5.4-1~deb13u1                                                  deb                       
+packages-microsoft-prod                                         1.1-debian13                                                     deb                       
+packaging                                                       24.2                                                             python                    
+packaging                                                       25.0                                                             python                    
+passwd                                                          1:4.17.4-2                                                       deb                       
+pefile                                                          2024.8.26                                                        python                    
+pendulum                                                        3.1.0                                                            python                    
+perl-base                                                       5.40.1-6                                                         deb                       
+pip                                                             25.0.1                                                           python                    
+platformdirs                                                    4.2.2                                                            python                    
+psutil                                                          7.1.3                                                            python                    
+pycryptodome                                                    3.23.0                                                           python                    
+pydantic                                                        2.12.4                                                           python                    
+pydantic-core                                                   2.41.5                                                           python                    
+pydantic-settings                                               2.12.0                                                           python                    
+pyproject-hooks                                                 1.2.0                                                            python                    
+python                                                          3.12.12                                                          binary                    
+python-dateutil                                                 2.9.0.post0                                                      python                    
+python-dotenv                                                   1.2.1                                                            python                    
+python-magic                                                    0.4.27                                                           python                    
+pyyaml                                                          6.0.3                                                            python                    
+readline-common                                                 8.2-6                                                            deb                       
+redist                                                          10.0.100                                                         dotnet                    
+rzc                                                             10.0.100-rtm.25523.111                                           dotnet                    
+sdk-tasks                                                       10.0.100-rtm.25523.111                                           dotnet  (+3 duplicates)   
+sed                                                             4.9-2                                                            deb                       
+setuptools                                                      80.9.0                                                           python                    
+setuptools-scm                                                  9.2.2                                                            python                    
+six                                                             1.17.0                                                           python                    
+sniffio                                                         1.3.1                                                            python                    
+sqv                                                             1.3.0-3                                                          deb                       
+starlette                                                       0.50.0                                                           python                    
+sysvinit-utils                                                  3.14-4                                                           deb                       
+tar                                                             1.35+dfsg-3.1                                                    deb                       
+testhost                                                        18.0.1-release-25523-111                                         dotnet                    
+testhost                                                        18.0.125.52411                                                   dotnet  (+5 duplicates)   
+testhost.arm64                                                  18.0.125.52411                                                   dotnet  (+5 duplicates)   
+testhost.x86                                                    18.0.125.52411                                                   dotnet  (+5 duplicates)   
+tomli                                                           2.0.1                                                            python                    
+tool_fsc                                                        10.0.100-rtm.25523.111                                           dotnet  (+1 duplicate)    
+tool_msbuild                                                    10.0.100-rtm.25523.111                                           dotnet  (+3 duplicates)   
+tool_nuget                                                      10.0.100-rtm.25523.111                                           dotnet  (+3 duplicates)   
+typeguard                                                       4.3.0                                                            python                    
+typing-extensions                                               4.12.2                                                           python                    
+typing-extensions                                               4.15.0                                                           python                    
+typing-inspection                                               0.4.2                                                            python                    
+tzdata                                                          2025.2                                                           python                    
+tzdata                                                          2025b-4+deb13u1                                                  deb                       
+util-linux                                                      2.41-5                                                           deb                       
+vbc                                                             5.0.0-2.25523.111                                                dotnet                    
+vstest.console                                                  18.0.1-release-25523-111                                         dotnet                    
+watchdog                                                        6.0.0                                                            python                    
+wheel                                                           0.45.1                                                           python                    
+yara-python                                                     4.5.4                                                            python                    
+zipp                                                            3.19.2                                                           python                    
+zlib1g                                                          1:1.3.dfsg+really1.3.1-1+b1                                      deb                       

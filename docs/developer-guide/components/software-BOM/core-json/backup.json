@@ -1,0 +1,3626 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:8003efa0-2755-4cd2-bce3-1d5841ad1c56",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-25T05:02:18Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.38.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "ed1546aeaacff30a",
+      "type": "container",
+      "name": "backup",
+      "version": "9.0.0-rc1"
+    },
+    "properties": [
+      {
+        "name": "syft:image:labels:io.buildah.version",
+        "value": "1.39.3"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-backup.git?package-id=9de4be0920c63d6d",
+      "type": "library",
+      "name": "github.com/AustralianCyberSecurityCentre/azul-backup.git",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:AustralianCyberSecurityCentre:azul-backup.git:*:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/AustralianCyberSecurityCentre/azul-backup.git",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:AustralianCyberSecurityCentre:azul_backup.git:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock@v9.0.10?package-id=ddbd6c09462a3ab2#v9",
+      "type": "library",
+      "name": "github.com/AustralianCyberSecurityCentre/azul-bedrock/v9",
+      "version": "v9.0.10",
+      "cpe": "cpe:2.3:a:AustralianCyberSecurityCentre:azul-bedrock\\/v9:v9.0.10:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/AustralianCyberSecurityCentre/azul-bedrock@v9.0.10#v9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:AustralianCyberSecurityCentre:azul_bedrock\\/v9:v9.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:oJjzG/uskC/Fqm5Zq3uQ/qY4A80CjbleOrUZ4a5OnTs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.19.0?package-id=f33565d2dd93d08c#sdk/azcore",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+      "version": "v1.19.0",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/azcore:v1.19.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v1.19.0#sdk/azcore",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/azcore:v1.19.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ci6Yd6nysBRLEodoziB6ah1+YOzZbZk+NYneoA6q+6E="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.10.1?package-id=1dbce0600208bc48#sdk/azidentity",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+      "version": "v1.10.1",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/azidentity:v1.10.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v1.10.1#sdk/azidentity",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/azidentity:v1.10.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:B+blDbyVIG3WaikNxPnhPiJ1MThR03b3vKGtER95TP4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.11.2?package-id=a05608467854bd84#sdk/internal",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+      "version": "v1.11.2",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/internal:v1.11.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v1.11.2#sdk/internal",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/internal:v1.11.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:9iefClla7iYpfYWdzPCRDozdmndjTm8DXdpCzPajMgA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.6.2?package-id=121b47de5e7a0b40#sdk/storage/azblob",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+      "version": "v1.6.2",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/storage\\/azblob:v1.6.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v1.6.2#sdk/storage/azblob",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/storage\\/azblob:v1.6.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:FwladfywkNirM+FZYLBR2kBz5C8Tg0fw5w5Y7meRXWI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.4.2?package-id=d3626308c8e2315c",
+      "type": "library",
+      "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
+      "version": "v1.4.2",
+      "cpe": "cpe:2.3:a:AzureAD:microsoft-authentication-library-for-go:v1.4.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/AzureAD/microsoft-authentication-library-for-go@v1.4.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:AzureAD:microsoft_authentication_library_for_go:v1.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:oygO0locgZJe7PpYPXT5A29ZkwJaPqcva7BVeemZOZs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/allegro/bigcache@v3.1.0?package-id=f1f23541b62fbee0#v3",
+      "type": "library",
+      "name": "github.com/allegro/bigcache/v3",
+      "version": "v3.1.0",
+      "cpe": "cpe:2.3:a:allegro:bigcache\\/v3:v3.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/allegro/bigcache@v3.1.0#v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:H2Vp8VOvxcrB91o86fUSVJFqeuz8kpyyB02eH3bSzwk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=1e996b814e8f4d8f",
+      "type": "library",
+      "name": "github.com/beorn7/perks",
+      "version": "v1.0.1",
+      "cpe": "cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/cespare/xxhash@v2.3.0?package-id=2f7b539918f709ac#v2",
+      "type": "library",
+      "name": "github.com/cespare/xxhash/v2",
+      "version": "v2.3.0",
+      "cpe": "cpe:2.3:a:cespare:xxhash\\/v2:v2.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/cespare/xxhash@v2.3.0#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=9deeba50dac75232",
+      "type": "library",
+      "name": "github.com/davecgh/go-spew",
+      "version": "v1.1.1",
+      "cpe": "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.1?package-id=4959b2d98f2d4eb1",
+      "type": "library",
+      "name": "github.com/dustin/go-humanize",
+      "version": "v1.0.1",
+      "cpe": "cpe:2.3:a:dustin:go-humanize:v1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/dustin/go-humanize@v1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dustin:go_humanize:v1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=3ccb485e41eed66c",
+      "type": "library",
+      "name": "github.com/fatih/structs",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:fatih:structs:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/fatih/structs@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-ini/ini@v1.67.0?package-id=8119abd617dc3e20",
+      "type": "library",
+      "name": "github.com/go-ini/ini",
+      "version": "v1.67.0",
+      "cpe": "cpe:2.3:a:go-ini:ini:v1.67.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-ini/ini@v1.67.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_ini:ini:v1.67.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:ini:v1.67.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:z6ZrTEZqSWOTyH2FlglNbNgARyHG8oLW9gMELqKr06A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-viper/mapstructure@v2.4.0?package-id=f1e92d04fb28a840#v2",
+      "type": "library",
+      "name": "github.com/go-viper/mapstructure/v2",
+      "version": "v2.4.0",
+      "cpe": "cpe:2.3:a:go-viper:mapstructure\\/v2:v2.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-viper/mapstructure@v2.4.0#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_viper:mapstructure\\/v2:v2.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:mapstructure\\/v2:v2.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:EBsztssimR/CONLSZZ04E8qAkxNYq4Qp9LvH92wZUgs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/goccy/go-json@v0.10.5?package-id=6d34d6d9513400fa",
+      "type": "library",
+      "name": "github.com/goccy/go-json",
+      "version": "v0.10.5",
+      "cpe": "cpe:2.3:a:goccy:go-json:v0.10.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/goccy/go-json@v0.10.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:goccy:go_json:v0.10.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Fq85nIqj+gXn/S5ahsiTlK3TmC85qgirsdTP/+DeaC4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt@v5.2.3?package-id=f8d7038f8fcaa585#v5",
+      "type": "library",
+      "name": "github.com/golang-jwt/jwt/v5",
+      "version": "v5.2.3",
+      "cpe": "cpe:2.3:a:golang-jwt:jwt\\/v5:v5.2.3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/golang-jwt/jwt@v5.2.3#v5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golang_jwt:jwt\\/v5:v5.2.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:golang:jwt\\/v5:v5.2.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:kkGXqQOBSDDWRhWNXTFpqGSCMyh/PLnqUvMGJPDJDs0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/google/uuid@v1.6.0?package-id=caf1c928cdbdf4ff",
+      "type": "library",
+      "name": "github.com/google/uuid",
+      "version": "v1.6.0",
+      "cpe": "cpe:2.3:a:google:uuid:v1.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/google/uuid@v1.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/hamba/avro@v2.30.0?package-id=c122b261089e3814#v2",
+      "type": "library",
+      "name": "github.com/hamba/avro/v2",
+      "version": "v2.30.0",
+      "cpe": "cpe:2.3:a:avro_project:avro:v2.30.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/github.com/hamba/avro@v2.30.0#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:OaIdh0+dZIJ331FO/+YYBwZZRdGVyyHuRSyHsjZLJoA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/hashicorp/golang-lru@v2.0.7?package-id=0f20103f4832bb5d#v2",
+      "type": "library",
+      "name": "github.com/hashicorp/golang-lru/v2",
+      "version": "v2.0.7",
+      "cpe": "cpe:2.3:a:hashicorp:golang-lru\\/v2:v2.0.7:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/hashicorp/golang-lru@v2.0.7#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hashicorp:golang_lru\\/v2:v2.0.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:a+bsQ5rvGLjzHuww6tVxozPZFVghXaHOwFs4luLUK2k="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=2381b27537af1971",
+      "type": "library",
+      "name": "github.com/json-iterator/go",
+      "version": "v1.1.12",
+      "cpe": "cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.18.0?package-id=e44be1cb730ec129",
+      "type": "library",
+      "name": "github.com/klauspost/compress",
+      "version": "v1.18.0",
+      "cpe": "cpe:2.3:a:klauspost:compress:v1.18.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/klauspost/compress@v1.18.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:c/Cqfb0r+Yi+JtIEq73FWXVkRonBlf0CRNYc8Zttxdo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/klauspost/cpuid@v2.3.0?package-id=d46d852c9a5d4929#v2",
+      "type": "library",
+      "name": "github.com/klauspost/cpuid/v2",
+      "version": "v2.3.0",
+      "cpe": "cpe:2.3:a:klauspost:cpuid\\/v2:v2.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/klauspost/cpuid@v2.3.0#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:S4CRMLnYUhGeDFDqkGriYKdfoFlDnMtqTiI/sFzhA9Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/klauspost/crc32@v1.3.0?package-id=87c5a657deb26468",
+      "type": "library",
+      "name": "github.com/klauspost/crc32",
+      "version": "v1.3.0",
+      "cpe": "cpe:2.3:a:klauspost:crc32:v1.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/klauspost/crc32@v1.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:sSmTt3gUt81RP655XGZPElI0PelVTZ6YwCRnPSupoFM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v0.1.2?package-id=965123663427d2f3#maps",
+      "type": "library",
+      "name": "github.com/knadh/koanf/maps",
+      "version": "v0.1.2",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/maps:v0.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v0.1.2#maps",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:RBfmAW5CnZT+PJ1CVc1QSJKf4Xu9kxfQgYVQSu8hpbo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v1.1.0?package-id=1fbe494f866a8ebd#providers/env",
+      "type": "library",
+      "name": "github.com/knadh/koanf/providers/env",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/env:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v1.1.0#providers/env",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:U2VXPY0f+CsNDkvdsG8GcsnK4ah85WwWyJgef9oQMSc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v1.0.0?package-id=921a7309efc625b1#providers/structs",
+      "type": "library",
+      "name": "github.com/knadh/koanf/providers/structs",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/structs:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v1.0.0#providers/structs",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:DznjB7NQykhqCar2LvNug3MuxEQsZ5KvfgMbio+23u4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v2.2.2?package-id=a0e70082305a2a83#v2",
+      "type": "library",
+      "name": "github.com/knadh/koanf/v2",
+      "version": "v2.2.2",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/v2:v2.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v2.2.2#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ghbduIkpFui3L587wavneC9e3WIliCgiCgdxYO/wd7A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/kylelemons/godebug@v1.1.0?package-id=4d17d5f396dcaf62",
+      "type": "library",
+      "name": "github.com/kylelemons/godebug",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:kylelemons:godebug:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/kylelemons/godebug@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.14?package-id=79422373fa99d2d0",
+      "type": "library",
+      "name": "github.com/mattn/go-colorable",
+      "version": "v0.1.14",
+      "cpe": "cpe:2.3:a:mattn:go-colorable:v0.1.14:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.14",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mattn:go_colorable:v0.1.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:9A9LHSqF/7dyVVX6g0U9cwm9pG3kP9gSzcuIPHPsaIE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.20?package-id=36eb382aa27e5f5f",
+      "type": "library",
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.20",
+      "cpe": "cpe:2.3:a:mattn:go-isatty:v0.0.20:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mattn:go_isatty:v0.0.20:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/minio/crc64nvme@v1.1.1?package-id=f0aefc79ec7dacfc",
+      "type": "library",
+      "name": "github.com/minio/crc64nvme",
+      "version": "v1.1.1",
+      "cpe": "cpe:2.3:a:minio:crc64nvme:v1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/minio/crc64nvme@v1.1.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:8dwx/Pz49suywbO+auHCBpCtlW1OfpcLN7wYgVR6wAI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/minio/md5-simd@v1.1.2?package-id=9499bdf6dccd5b1c",
+      "type": "library",
+      "name": "github.com/minio/md5-simd",
+      "version": "v1.1.2",
+      "cpe": "cpe:2.3:a:minio:md5-simd:v1.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/minio/md5-simd@v1.1.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:minio:md5_simd:v1.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Gdi1DZK69+ZVMoNHRXJyNcxrMA4dSxoYHZSQbirFg34="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/minio/minio-go@v7.0.97?package-id=c6b7bbd57b0360eb#v7",
+      "type": "library",
+      "name": "github.com/minio/minio-go/v7",
+      "version": "v7.0.97",
+      "cpe": "cpe:2.3:a:minio:minio-go\\/v7:v7.0.97:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/minio/minio-go@v7.0.97#v7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:minio:minio_go\\/v7:v7.0.97:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:lqhREPyfgHTB/ciX8k2r8k0D93WaFqxbJX36UZq5occ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=ee2ecb221bef7bb7",
+      "type": "library",
+      "name": "github.com/mitchellh/copystructure",
+      "version": "v1.2.0",
+      "cpe": "cpe:2.3:a:mitchellh:copystructure:v1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:vpKXTN4ewci03Vljg/q9QvCGUDttBOGBIa15WveJJGw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=1021dd11b8e48a8c",
+      "type": "library",
+      "name": "github.com/mitchellh/reflectwalk",
+      "version": "v1.0.2",
+      "cpe": "cpe:2.3:a:mitchellh:reflectwalk:v1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zxSIeXaQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=5410a3e9a141065e",
+      "type": "library",
+      "name": "github.com/modern-go/concurrent",
+      "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+      "cpe": "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=c27fc01c09d2ae31",
+      "type": "library",
+      "name": "github.com/modern-go/reflect2",
+      "version": "v1.0.2",
+      "cpe": "cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=940110b488215276",
+      "type": "library",
+      "name": "github.com/munnerz/goautoneg",
+      "version": "v0.0.0-20191010083416-a7dc8b61c822",
+      "cpe": "cpe:2.3:a:munnerz:goautoneg:v0.0.0-20191010083416-a7dc8b61c822:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:C3w9PqII01/Oq1c1nUAm88MOHcQC9l5mIlSMApZMrHA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/philhofer/fwd@v1.2.0?package-id=db89624b154711ad",
+      "type": "library",
+      "name": "github.com/philhofer/fwd",
+      "version": "v1.2.0",
+      "cpe": "cpe:2.3:a:philhofer:fwd:v1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/philhofer/fwd@v1.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:e6DnBTl7vGY+Gz322/ASL4Gyp1FspeMvx1RNDoToZuM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c?package-id=d565a052d03b53e0",
+      "type": "library",
+      "name": "github.com/pkg/browser",
+      "version": "v0.0.0-20240102092130-5ac0b6a4141c",
+      "cpe": "cpe:2.3:a:pkg:browser:v0.0.0-20240102092130-5ac0b6a4141c:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:+mdjkGKdHQG3305AYmdv1U2eRNDiU2ErMBj1gwrq8eQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=8863f72160ab0e0b",
+      "type": "library",
+      "name": "github.com/pkg/errors",
+      "version": "v0.9.1",
+      "cpe": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=12a2a57ebf069a88",
+      "type": "library",
+      "name": "github.com/pmezard/go-difflib",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/client_golang@v1.23.2?package-id=ce6c0d60a08e9fd9",
+      "type": "library",
+      "name": "github.com/prometheus/client_golang",
+      "version": "v1.23.2",
+      "cpe": "cpe:2.3:a:prometheus:client-golang:v1.23.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/client_golang@v1.23.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:prometheus:client_golang:v1.23.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Je96obch5RDVy3FDMndoUsjAhG5Edi49h0RJWRi/o0o="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.6.2?package-id=ccaf5f45197dcc5d",
+      "type": "library",
+      "name": "github.com/prometheus/client_model",
+      "version": "v0.6.2",
+      "cpe": "cpe:2.3:a:prometheus:client-model:v0.6.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/client_model@v0.6.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:prometheus:client_model:v0.6.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:oBsgwpGs7iVziMvrGhE53c/GrLUsZdHnqNwqPLxwZyk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.66.1?package-id=ee1c988e7fdfcd60",
+      "type": "library",
+      "name": "github.com/prometheus/common",
+      "version": "v0.66.1",
+      "cpe": "cpe:2.3:a:prometheus:common:v0.66.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/common@v0.66.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:h5E0h5/Y8niHc5DlaLlWLArTQI7tMrsfQjHV+d9ZoGs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.17.0?package-id=a658b390d2a9ac40",
+      "type": "library",
+      "name": "github.com/prometheus/procfs",
+      "version": "v0.17.0",
+      "cpe": "cpe:2.3:a:prometheus:procfs:v0.17.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/procfs@v0.17.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:FuLQ+05u4ZI+SS/w9+BWEM2TXiHKsUQ9TADiRH7DuK0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/rs/xid@v1.6.0?package-id=bea71eb06d8632ea",
+      "type": "library",
+      "name": "github.com/rs/xid",
+      "version": "v1.6.0",
+      "cpe": "cpe:2.3:a:rs:xid:v1.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/rs/xid@v1.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:fV591PaemRlL6JfRxGDEPl69wICngIQ3shQtzfy2gxU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/rs/zerolog@v1.34.0?package-id=a008d647afe3ce27",
+      "type": "library",
+      "name": "github.com/rs/zerolog",
+      "version": "v1.34.0",
+      "cpe": "cpe:2.3:a:rs:zerolog:v1.34.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/rs/zerolog@v1.34.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:k43nTLIwcTVQAncfCw4KZ2VY6ukYoZaBPNOE8txlOeY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/cobra@v1.10.1?package-id=6b3feed3ea71ccd1",
+      "type": "library",
+      "name": "github.com/spf13/cobra",
+      "version": "v1.10.1",
+      "cpe": "cpe:2.3:a:spf13:cobra:v1.10.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/cobra@v1.10.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:lJeBwCfmrnXthfAupyUTzJ/J4Nc1RsHC/mSRU2dll/s="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.10?package-id=488556babc4045ba",
+      "type": "library",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.10",
+      "cpe": "cpe:2.3:a:spf13:pflag:v1.0.10:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.10",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/stretchr/objx@v0.5.2?package-id=a7142936fd63701d",
+      "type": "library",
+      "name": "github.com/stretchr/objx",
+      "version": "v0.5.2",
+      "cpe": "cpe:2.3:a:stretchr:objx:v0.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/stretchr/objx@v0.5.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xuMeJ0Sdp5ZMRXx/aWO6RZxdr3beISkG5/G/aIRr3pY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/stretchr/testify@v1.11.1?package-id=742379b014fca3b7",
+      "type": "library",
+      "name": "github.com/stretchr/testify",
+      "version": "v1.11.1",
+      "cpe": "cpe:2.3:a:stretchr:testify:v1.11.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.11.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/tinylib/msgp@v1.4.0?package-id=b11bb5afb00648ee",
+      "type": "library",
+      "name": "github.com/tinylib/msgp",
+      "version": "v1.4.0",
+      "cpe": "cpe:2.3:a:tinylib:msgp:v1.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/tinylib/msgp@v1.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:SYOeDRiydzOw9kSiwdYp9UcBgPFtLU2WDHaJXyHruf8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/go.uber.org/automaxprocs@v1.6.0?package-id=a8ee356ba2b1359e",
+      "type": "library",
+      "name": "go.uber.org/automaxprocs",
+      "version": "v1.6.0",
+      "purl": "pkg:golang/go.uber.org/automaxprocs@v1.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:O3y2/QNTOdbF+e/dpXNNW7Rx2hZ4sTIPyybbxyNqTUs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/go.yaml.in/yaml/v2@v2.4.2?package-id=887801971424cd9b",
+      "type": "library",
+      "name": "go.yaml.in/yaml/v2",
+      "version": "v2.4.2",
+      "cpe": "cpe:2.3:a:yaml:v2:v2.4.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/go.yaml.in/yaml/v2@v2.4.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:DzmwEr2rDGHl7lsFgAHxmNz/1NlQ7xLIrlN2h5d1eGI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.42.0?package-id=e9c39c9c15040a6f",
+      "type": "library",
+      "name": "golang.org/x/crypto",
+      "version": "v0.42.0",
+      "cpe": "cpe:2.3:a:go:ssh:v0.42.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.42.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:chiH31gIWm57EkTXpwnqf8qeuMUi0yekh6mT2AvFlqI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.44.0?package-id=65af09efe21d3b66",
+      "type": "library",
+      "name": "golang.org/x/net",
+      "version": "v0.44.0",
+      "cpe": "cpe:2.3:a:golang:networking:v0.44.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/golang.org/x/net@v0.44.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:evd8IRDyfNBMBTTY5XRF1vaZlD+EmWx6x8PkhR04H/I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.36.0?package-id=c77a64e6b77720cf",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.36.0",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.36.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.36.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:KVRy2GtZBrk1cBYA7MKu5bEZFxQk4NIDV6RLVcC8o0k="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.29.0?package-id=65e648b054363837",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.29.0",
+      "cpe": "cpe:2.3:a:golang:text:v0.29.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/text@v0.29.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:1neNs90w9YzJ9BocxfsQNHKuAT4pkghyXc4nhZ6sJvk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.36.9?package-id=b0cb9a3504ee3d9c",
+      "type": "library",
+      "name": "google.golang.org/protobuf",
+      "version": "v1.36.9",
+      "cpe": "cpe:2.3:a:google:protobuf:v1.36.9:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.36.9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:w2gp2mA27hUeUzj9Ex9FBjsBm40zfaDtEWow293U7Iw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=b2729667dd2e97f1",
+      "type": "library",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "cpe": "cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@1.25.4?package-id=5408b77ab6bd4b69",
+      "type": "library",
+      "name": "stdlib",
+      "version": "go1.25.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:golang:go:1.25.4:-:*:*:*:*:*:*",
+      "purl": "pkg:golang/stdlib@1.25.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a513a2571bc262529cfe9be3e39498ffc7e8625d839b554631414d30529066a5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/backup"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "41abc2da7bb42d2c",
+      "type": "file",
+      "name": "/bin/backup",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e44de21c82803ebd043a4bc33a7bf8daf5455b0b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1cca79aa0eff4b6080f2149c15a8cf802435c51ad5df64c7ea812e8b83197e74"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-backup.git?package-id=9de4be0920c63d6d",
+      "dependsOn": [
+        "pkg:golang/github.com/allegro/bigcache@v3.1.0?package-id=f1f23541b62fbee0#v3",
+        "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock@v9.0.10?package-id=ddbd6c09462a3ab2#v9",
+        "pkg:golang/github.com/azure/azure-sdk-for-go@v1.10.1?package-id=1dbce0600208bc48#sdk/azidentity",
+        "pkg:golang/github.com/azure/azure-sdk-for-go@v1.11.2?package-id=a05608467854bd84#sdk/internal",
+        "pkg:golang/github.com/azure/azure-sdk-for-go@v1.19.0?package-id=f33565d2dd93d08c#sdk/azcore",
+        "pkg:golang/github.com/azure/azure-sdk-for-go@v1.6.2?package-id=121b47de5e7a0b40#sdk/storage/azblob",
+        "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.4.2?package-id=d3626308c8e2315c",
+        "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=1e996b814e8f4d8f",
+        "pkg:golang/github.com/cespare/xxhash@v2.3.0?package-id=2f7b539918f709ac#v2",
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=9deeba50dac75232",
+        "pkg:golang/github.com/dustin/go-humanize@v1.0.1?package-id=4959b2d98f2d4eb1",
+        "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=3ccb485e41eed66c",
+        "pkg:golang/github.com/go-ini/ini@v1.67.0?package-id=8119abd617dc3e20",
+        "pkg:golang/github.com/go-viper/mapstructure@v2.4.0?package-id=f1e92d04fb28a840#v2",
+        "pkg:golang/github.com/goccy/go-json@v0.10.5?package-id=6d34d6d9513400fa",
+        "pkg:golang/github.com/golang-jwt/jwt@v5.2.3?package-id=f8d7038f8fcaa585#v5",
+        "pkg:golang/github.com/google/uuid@v1.6.0?package-id=caf1c928cdbdf4ff",
+        "pkg:golang/github.com/hamba/avro@v2.30.0?package-id=c122b261089e3814#v2",
+        "pkg:golang/github.com/hashicorp/golang-lru@v2.0.7?package-id=0f20103f4832bb5d#v2",
+        "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=2381b27537af1971",
+        "pkg:golang/github.com/klauspost/compress@v1.18.0?package-id=e44be1cb730ec129",
+        "pkg:golang/github.com/klauspost/cpuid@v2.3.0?package-id=d46d852c9a5d4929#v2",
+        "pkg:golang/github.com/klauspost/crc32@v1.3.0?package-id=87c5a657deb26468",
+        "pkg:golang/github.com/knadh/koanf@v0.1.2?package-id=965123663427d2f3#maps",
+        "pkg:golang/github.com/knadh/koanf@v1.0.0?package-id=921a7309efc625b1#providers/structs",
+        "pkg:golang/github.com/knadh/koanf@v1.1.0?package-id=1fbe494f866a8ebd#providers/env",
+        "pkg:golang/github.com/knadh/koanf@v2.2.2?package-id=a0e70082305a2a83#v2",
+        "pkg:golang/github.com/kylelemons/godebug@v1.1.0?package-id=4d17d5f396dcaf62",
+        "pkg:golang/github.com/mattn/go-colorable@v0.1.14?package-id=79422373fa99d2d0",
+        "pkg:golang/github.com/mattn/go-isatty@v0.0.20?package-id=36eb382aa27e5f5f",
+        "pkg:golang/github.com/minio/crc64nvme@v1.1.1?package-id=f0aefc79ec7dacfc",
+        "pkg:golang/github.com/minio/md5-simd@v1.1.2?package-id=9499bdf6dccd5b1c",
+        "pkg:golang/github.com/minio/minio-go@v7.0.97?package-id=c6b7bbd57b0360eb#v7",
+        "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=ee2ecb221bef7bb7",
+        "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=1021dd11b8e48a8c",
+        "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=5410a3e9a141065e",
+        "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=c27fc01c09d2ae31",
+        "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=940110b488215276",
+        "pkg:golang/github.com/philhofer/fwd@v1.2.0?package-id=db89624b154711ad",
+        "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c?package-id=d565a052d03b53e0",
+        "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=8863f72160ab0e0b",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=12a2a57ebf069a88",
+        "pkg:golang/github.com/prometheus/client_golang@v1.23.2?package-id=ce6c0d60a08e9fd9",
+        "pkg:golang/github.com/prometheus/client_model@v0.6.2?package-id=ccaf5f45197dcc5d",
+        "pkg:golang/github.com/prometheus/common@v0.66.1?package-id=ee1c988e7fdfcd60",
+        "pkg:golang/github.com/prometheus/procfs@v0.17.0?package-id=a658b390d2a9ac40",
+        "pkg:golang/github.com/rs/xid@v1.6.0?package-id=bea71eb06d8632ea",
+        "pkg:golang/github.com/rs/zerolog@v1.34.0?package-id=a008d647afe3ce27",
+        "pkg:golang/github.com/spf13/cobra@v1.10.1?package-id=6b3feed3ea71ccd1",
+        "pkg:golang/github.com/spf13/pflag@v1.0.10?package-id=488556babc4045ba",
+        "pkg:golang/github.com/stretchr/objx@v0.5.2?package-id=a7142936fd63701d",
+        "pkg:golang/github.com/stretchr/testify@v1.11.1?package-id=742379b014fca3b7",
+        "pkg:golang/github.com/tinylib/msgp@v1.4.0?package-id=b11bb5afb00648ee",
+        "pkg:golang/go.uber.org/automaxprocs@v1.6.0?package-id=a8ee356ba2b1359e",
+        "pkg:golang/go.yaml.in/yaml/v2@v2.4.2?package-id=887801971424cd9b",
+        "pkg:golang/golang.org/x/crypto@v0.42.0?package-id=e9c39c9c15040a6f",
+        "pkg:golang/golang.org/x/net@v0.44.0?package-id=65af09efe21d3b66",
+        "pkg:golang/golang.org/x/sys@v0.36.0?package-id=c77a64e6b77720cf",
+        "pkg:golang/golang.org/x/text@v0.29.0?package-id=65e648b054363837",
+        "pkg:golang/google.golang.org/protobuf@v1.36.9?package-id=b0cb9a3504ee3d9c",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=b2729667dd2e97f1",
+        "pkg:golang/stdlib@1.25.4?package-id=5408b77ab6bd4b69"
+      ]
+    }
+  ]
+}

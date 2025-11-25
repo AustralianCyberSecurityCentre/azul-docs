@@ -1,0 +1,4945 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:b523c931-aa99-42a2-b84b-df046e950164",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-11-25T05:06:01Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.38.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "ffb74ae0812fb050",
+      "type": "container",
+      "name": "plugin-goinfo",
+      "version": "9.0.0-rc1"
+    },
+    "properties": [
+      {
+        "name": "syft:image:labels:io.buildah.version",
+        "value": "1.39.3"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-baselayout@3.7.0-r0?arch=x86_64&distro=alpine-3.22.2&package-id=67451b98a3876cd6",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "alpine-baselayout",
+      "version": "3.7.0-r0",
+      "description": "Alpine base dir structure and init scripts",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.7.0-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/alpine-baselayout@3.7.0-r0?arch=x86_64&distro=alpine-3.22.2",
+      "externalReferences": [
+        {
+          "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-baselayout:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_baselayout:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "540d8477019887cc6534152e92c3b12676e35d7b"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "6441"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-baselayout"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1KfmXSO6h/+AfcLNAJNxFxG0hH40="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "alpine-baselayout-data=3.7.0-r0"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:1",
+          "value": "/bin/sh"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "8237"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-baselayout-data@3.7.0-r0?arch=x86_64&distro=alpine-3.22.2&package-id=314a2c9763b46dff&upstream=alpine-baselayout",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "alpine-baselayout-data",
+      "version": "3.7.0-r0",
+      "description": "Alpine base dir structure and init scripts",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-baselayout-data:alpine-baselayout-data:3.7.0-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/alpine-baselayout-data@3.7.0-r0?arch=x86_64&distro=alpine-3.22.2&upstream=alpine-baselayout",
+      "externalReferences": [
+        {
+          "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout-data:alpine_baselayout_data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout_data:alpine-baselayout-data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout_data:alpine_baselayout_data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout:alpine-baselayout-data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout:alpine_baselayout_data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine-baselayout-data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine_baselayout_data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-baselayout-data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_baselayout_data:3.7.0-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "540d8477019887cc6534152e92c3b12676e35d7b"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "19034"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-baselayout"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1c/XvZfgzOheEEC35c8B21afVtf4="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "10788"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-keys@2.5-r0?arch=x86_64&distro=alpine-3.22.2&package-id=e6c0f0c8b82e215a",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "alpine-keys",
+      "version": "2.5-r0",
+      "description": "Public keys for Alpine Linux packages",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-keys:alpine-keys:2.5-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/alpine-keys@2.5-r0?arch=x86_64&distro=alpine-3.22.2",
+      "externalReferences": [
+        {
+          "url": "https://alpinelinux.org",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-keys:alpine_keys:2.5-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_keys:alpine-keys:2.5-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_keys:alpine_keys:2.5-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-keys:2.5-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_keys:2.5-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "6d473fb38effb2389f567b29fb7eb27039b3a279"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "14212"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-keys"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1sXXkgUTrrQPWuhHUWyWq/C3jEME="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "13390"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/alpine-release@3.22.2-r0?arch=x86_64&distro=alpine-3.22.2&package-id=2135bf12eb4f73a9&upstream=alpine-base",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "alpine-release",
+      "version": "3.22.2-r0",
+      "description": "Alpine release data",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-release:alpine-release:3.22.2-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/alpine-release@3.22.2-r0?arch=x86_64&distro=alpine-3.22.2&upstream=alpine-base",
+      "externalReferences": [
+        {
+          "url": "https://alpinelinux.org",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-release:alpine_release:3.22.2-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_release:alpine-release:3.22.2-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_release:alpine_release:3.22.2-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-release:3.22.2-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_release:3.22.2-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "7397bb5014e6c0ad0d68a40fff4bf6aae20aef7c"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "343"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-base"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1GiFLjs5X/Az6ZaFXayTPMAFdOs0="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "alpine-keys"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2092"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/apk-tools@2.14.9-r3?arch=x86_64&distro=alpine-3.22.2&package-id=844d16c37f0dbc7e",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "apk-tools",
+      "version": "2.14.9-r3",
+      "description": "Alpine Package Keeper - package manager for alpine",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apk-tools:apk-tools:2.14.9-r3:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/apk-tools@2.14.9-r3?arch=x86_64&distro=alpine-3.22.2",
+      "externalReferences": [
+        {
+          "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk-tools:apk_tools:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk_tools:apk-tools:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk_tools:apk_tools:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk:apk-tools:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk:apk_tools:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "a75f93ccd6e481eaf60f204061ac34bf04e3a598"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "69648"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "apk-tools"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "cmd:apk=2.14.9-r3"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1mS9eObDUXzJsntLpsf5zeAnCPtk="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "musl>=1.2.3_git20230424"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:1",
+          "value": "libcrypto3>=3.5"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:2",
+          "value": "ca-certificates-bundle"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:3",
+          "value": "so:libapk.so.2.14.9"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:4",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:5",
+          "value": "so:libcrypto.so.3"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:6",
+          "value": "so:libz.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "34575"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=d62ad83b542a9e44",
+      "type": "library",
+      "publisher": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "name": "busybox",
+      "version": "1.37.0-r19",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:busybox:busybox:1.37.0-r19:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2",
+      "externalReferences": [
+        {
+          "url": "https://busybox.net/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "bd8ab811155a6087ba7480103d89e2500e3cb0eb"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "817380"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "busybox"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "cmd:busybox=1.37.0-r19"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1sQIqTBTpAlcB+60Qtm+Ls7mNuuo="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "505973"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=73301e3aea81a8df&upstream=busybox",
+      "type": "library",
+      "publisher": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "name": "busybox-binsh",
+      "version": "1.37.0-r19",
+      "description": "busybox ash /bin/sh",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:busybox-binsh:busybox-binsh:1.37.0-r19:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&upstream=busybox",
+      "externalReferences": [
+        {
+          "url": "https://busybox.net/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:busybox-binsh:busybox_binsh:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:busybox_binsh:busybox-binsh:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:busybox_binsh:busybox_binsh:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:busybox:busybox-binsh:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:busybox:busybox_binsh:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "bd8ab811155a6087ba7480103d89e2500e3cb0eb"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "1"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "busybox"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "/bin/sh"
+        },
+        {
+          "name": "syft:metadata:provides:1",
+          "value": "cmd:sh=1.37.0-r19"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q11YDM9xCuCDMy3164gTc1+qB22H4="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "busybox=1.37.0-r19"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1567"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/ca-certificates-bundle@20250911-r0?arch=x86_64&distro=alpine-3.22.2&package-id=3b472b2b46e8c22f&upstream=ca-certificates",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "ca-certificates-bundle",
+      "version": "20250911-r0",
+      "description": "Pre generated bundle of Mozilla certificates",
+      "licenses": [
+        {
+          "expression": "MPL-2.0 AND MIT"
+        }
+      ],
+      "cpe": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20250911-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/ca-certificates-bundle@20250911-r0?arch=x86_64&distro=alpine-3.22.2&upstream=ca-certificates",
+      "externalReferences": [
+        {
+          "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca-certificates-bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca_certificates_bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca-certificates-bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca_certificates_bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mozilla:ca-certificates-bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mozilla:ca_certificates_bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca-certificates-bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca_certificates_bundle:20250911-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "f626b79f972258e59cbb84ba261ae34cec8637be"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "219404"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "ca-certificates"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "ca-certificates-cacert=20250911-r0"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1jH7paEGfzZLVNCzeDFVAppWkrC0="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "129568"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/command-line-arguments?package-id=c6ba17a74feba0e1",
+      "type": "library",
+      "name": "command-line-arguments",
+      "version": "UNKNOWN",
+      "purl": "pkg:golang/command-line-arguments",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock@v9.0.2?package-id=6890ba5d42bd0a75#v9",
+      "type": "library",
+      "name": "github.com/AustralianCyberSecurityCentre/azul-bedrock/v9",
+      "version": "v9.0.2",
+      "cpe": "cpe:2.3:a:AustralianCyberSecurityCentre:azul-bedrock\\/v9:v9.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/AustralianCyberSecurityCentre/azul-bedrock@v9.0.2#v9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:AustralianCyberSecurityCentre:azul_bedrock\\/v9:v9.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:apgVY/BrS8k1DIlzgqnsCJXaw8319M3WSs+p+qrdAIk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.19.0?package-id=152f28a062e03689#sdk/azcore",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+      "version": "v1.19.0",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/azcore:v1.19.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v1.19.0#sdk/azcore",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/azcore:v1.19.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ci6Yd6nysBRLEodoziB6ah1+YOzZbZk+NYneoA6q+6E="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.11.2?package-id=0716f0cad32772b0#sdk/internal",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+      "version": "v1.11.2",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/internal:v1.11.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v1.11.2#sdk/internal",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/internal:v1.11.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:9iefClla7iYpfYWdzPCRDozdmndjTm8DXdpCzPajMgA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v1.6.2?package-id=f706344e9454f6a2#sdk/storage/azblob",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+      "version": "v1.6.2",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/storage\\/azblob:v1.6.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v1.6.2#sdk/storage/azblob",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/storage\\/azblob:v1.6.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:FwladfywkNirM+FZYLBR2kBz5C8Tg0fw5w5Y7meRXWI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/blacktop/go-dwarf@v1.0.14?package-id=d490a07230bef983",
+      "type": "library",
+      "name": "github.com/blacktop/go-dwarf",
+      "version": "v1.0.14",
+      "cpe": "cpe:2.3:a:blacktop:go-dwarf:v1.0.14:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/blacktop/go-dwarf@v1.0.14",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:blacktop:go_dwarf:v1.0.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:OjmzfSgg/qAKckn2tWFebcgKgJ7HOqCj7bS+CiE1lrY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/blacktop/go-macho@v1.1.249?package-id=132151c0c6281ce9",
+      "type": "library",
+      "name": "github.com/blacktop/go-macho",
+      "version": "v1.1.249",
+      "cpe": "cpe:2.3:a:blacktop:go-macho:v1.1.249:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/blacktop/go-macho@v1.1.249",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:blacktop:go_macho:v1.1.249:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:HJlYj9xsdbCHc6PYrrjLIdqhEtR3imrshzcC4p8OdSE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=6c073fcd478ec6ff",
+      "type": "library",
+      "name": "github.com/davecgh/go-spew",
+      "version": "v1.1.1",
+      "cpe": "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=5bd5ae75ed449140",
+      "type": "library",
+      "name": "github.com/fatih/structs",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:fatih:structs:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/fatih/structs@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-viper/mapstructure@v2.4.0?package-id=eefa3295db2f1c5c#v2",
+      "type": "library",
+      "name": "github.com/go-viper/mapstructure/v2",
+      "version": "v2.4.0",
+      "cpe": "cpe:2.3:a:go-viper:mapstructure\\/v2:v2.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-viper/mapstructure@v2.4.0#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_viper:mapstructure\\/v2:v2.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:mapstructure\\/v2:v2.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:EBsztssimR/CONLSZZ04E8qAkxNYq4Qp9LvH92wZUgs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/goccy/go-json@v0.10.5?package-id=3c60d2125f893ac8",
+      "type": "library",
+      "name": "github.com/goccy/go-json",
+      "version": "v0.10.5",
+      "cpe": "cpe:2.3:a:goccy:go-json:v0.10.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/goccy/go-json@v0.10.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:goccy:go_json:v0.10.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Fq85nIqj+gXn/S5ahsiTlK3TmC85qgirsdTP/+DeaC4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/goretk/gore@v0.13.16?package-id=029b9d1385a7e932",
+      "type": "library",
+      "name": "github.com/goretk/gore",
+      "version": "v0.13.16",
+      "cpe": "cpe:2.3:a:goretk:gore:v0.13.16:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/goretk/gore@v0.13.16",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:PYsYibyJaui8ZkUnqExPku9w7UYffjvP8ClS/0owy5Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/hamba/avro@v2.30.0?package-id=716a6242cf88a1be#v2",
+      "type": "library",
+      "name": "github.com/hamba/avro/v2",
+      "version": "v2.30.0",
+      "cpe": "cpe:2.3:a:avro_project:avro:v2.30.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/github.com/hamba/avro@v2.30.0#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:OaIdh0+dZIJ331FO/+YYBwZZRdGVyyHuRSyHsjZLJoA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=f58ab6becabc02b4",
+      "type": "library",
+      "name": "github.com/json-iterator/go",
+      "version": "v1.1.12",
+      "cpe": "cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v0.1.2?package-id=defb672a76a80ce5#maps",
+      "type": "library",
+      "name": "github.com/knadh/koanf/maps",
+      "version": "v0.1.2",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/maps:v0.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v0.1.2#maps",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:RBfmAW5CnZT+PJ1CVc1QSJKf4Xu9kxfQgYVQSu8hpbo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v1.1.0?package-id=aecacec5399a56b0#providers/env",
+      "type": "library",
+      "name": "github.com/knadh/koanf/providers/env",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/env:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v1.1.0#providers/env",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:U2VXPY0f+CsNDkvdsG8GcsnK4ah85WwWyJgef9oQMSc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v1.0.0?package-id=3c6a9af0bd685004#providers/structs",
+      "type": "library",
+      "name": "github.com/knadh/koanf/providers/structs",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/structs:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v1.0.0#providers/structs",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:DznjB7NQykhqCar2LvNug3MuxEQsZ5KvfgMbio+23u4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/knadh/koanf@v2.2.2?package-id=aefd1189ffcb4821#v2",
+      "type": "library",
+      "name": "github.com/knadh/koanf/v2",
+      "version": "v2.2.2",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/v2:v2.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf@v2.2.2#v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ghbduIkpFui3L587wavneC9e3WIliCgiCgdxYO/wd7A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.14?package-id=31f01add69c33185",
+      "type": "library",
+      "name": "github.com/mattn/go-colorable",
+      "version": "v0.1.14",
+      "cpe": "cpe:2.3:a:mattn:go-colorable:v0.1.14:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.14",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mattn:go_colorable:v0.1.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:9A9LHSqF/7dyVVX6g0U9cwm9pG3kP9gSzcuIPHPsaIE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.20?package-id=5eaf220fdc6ca573",
+      "type": "library",
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.20",
+      "cpe": "cpe:2.3:a:mattn:go-isatty:v0.0.20:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mattn:go_isatty:v0.0.20:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=3bc94e1deacc2297",
+      "type": "library",
+      "name": "github.com/mitchellh/copystructure",
+      "version": "v1.2.0",
+      "cpe": "cpe:2.3:a:mitchellh:copystructure:v1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:vpKXTN4ewci03Vljg/q9QvCGUDttBOGBIa15WveJJGw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=60219ccbc0dfaea2",
+      "type": "library",
+      "name": "github.com/mitchellh/reflectwalk",
+      "version": "v1.0.2",
+      "cpe": "cpe:2.3:a:mitchellh:reflectwalk:v1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zxSIeXaQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=6dd85c51b80fe4e0",
+      "type": "library",
+      "name": "github.com/modern-go/concurrent",
+      "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+      "cpe": "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=3d35f4bba00920fa",
+      "type": "library",
+      "name": "github.com/modern-go/reflect2",
+      "version": "v1.0.2",
+      "cpe": "cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=8b1e86639a4e5ace",
+      "type": "library",
+      "name": "github.com/pkg/errors",
+      "version": "v0.9.1",
+      "cpe": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=4da50acce6c2c31c",
+      "type": "library",
+      "name": "github.com/pmezard/go-difflib",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/rs/zerolog@v1.34.0?package-id=01ccd10dc48e52ae",
+      "type": "library",
+      "name": "github.com/rs/zerolog",
+      "version": "v1.34.0",
+      "cpe": "cpe:2.3:a:rs:zerolog:v1.34.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/rs/zerolog@v1.34.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:k43nTLIwcTVQAncfCw4KZ2VY6ukYoZaBPNOE8txlOeY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sanity-io/litter@v1.5.8?package-id=ec6582c267ad59db",
+      "type": "library",
+      "name": "github.com/sanity-io/litter",
+      "version": "v1.5.8",
+      "cpe": "cpe:2.3:a:sanity-io:litter:v1.5.8:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sanity-io/litter@v1.5.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sanity_io:litter:v1.5.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sanity:litter:v1.5.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:uM/2lKrWdGbRXDrIq08Lh9XtVYoeGtcQxk9rtQ7+rYg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/stretchr/objx@v0.5.2?package-id=69655693b2e9de13",
+      "type": "library",
+      "name": "github.com/stretchr/objx",
+      "version": "v0.5.2",
+      "cpe": "cpe:2.3:a:stretchr:objx:v0.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/stretchr/objx@v0.5.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:xuMeJ0Sdp5ZMRXx/aWO6RZxdr3beISkG5/G/aIRr3pY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/stretchr/testify@v1.11.1?package-id=fe0ce10eb695a09f",
+      "type": "library",
+      "name": "github.com/stretchr/testify",
+      "version": "v1.11.1",
+      "cpe": "cpe:2.3:a:stretchr:testify:v1.11.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.11.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/arch@v0.21.0?package-id=e47d07add69cd363",
+      "type": "library",
+      "name": "golang.org/x/arch",
+      "version": "v0.21.0",
+      "cpe": "cpe:2.3:a:golang:x\\/arch:v0.21.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/arch@v0.21.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:iTC9o7+wP6cPWpDWkivCvQFGAHDQ59SrSxsLPcnkArw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.44.0?package-id=980b30d93efc23d9",
+      "type": "library",
+      "name": "golang.org/x/net",
+      "version": "v0.44.0",
+      "cpe": "cpe:2.3:a:golang:networking:v0.44.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/golang.org/x/net@v0.44.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:evd8IRDyfNBMBTTY5XRF1vaZlD+EmWx6x8PkhR04H/I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.36.0?package-id=6621219baad2abc3",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.36.0",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.36.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.36.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:KVRy2GtZBrk1cBYA7MKu5bEZFxQk4NIDV6RLVcC8o0k="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.29.0?package-id=51637df53a8ecb29",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.29.0",
+      "cpe": "cpe:2.3:a:golang:text:v0.29.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/text@v0.29.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:1neNs90w9YzJ9BocxfsQNHKuAT4pkghyXc4nhZ6sJvk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=7cb7c857756a6433",
+      "type": "library",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "cpe": "cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "command-line-arguments"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libapk2@2.14.9-r3?arch=x86_64&distro=alpine-3.22.2&package-id=7d8bbb1a55a55293&upstream=apk-tools",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "libapk2",
+      "version": "2.14.9-r3",
+      "description": "Alpine Package Keeper - package manager for alpine",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libapk2:libapk2:2.14.9-r3:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/libapk2@2.14.9-r3?arch=x86_64&distro=alpine-3.22.2&upstream=apk-tools",
+      "externalReferences": [
+        {
+          "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libapk2:libapk:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libapk:libapk2:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libapk:libapk:2.14.9-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "a75f93ccd6e481eaf60f204061ac34bf04e3a598"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "183992"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "apk-tools"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "so:libapk.so.2.14.9=2.14.9"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1kC/XFkbW4IfkcsZ7D2NMBDohlbw="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "musl>=1.2.3_git20230424"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:1",
+          "value": "libcrypto3>=3.5"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:2",
+          "value": "ca-certificates-bundle"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:3",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:4",
+          "value": "so:libcrypto.so.3"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:5",
+          "value": "so:libssl.so.3"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:6",
+          "value": "so:libz.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "89030"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=bf7144a0fb7fd1d8&upstream=openssl",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "libcrypto3",
+      "version": "3.5.4-r0",
+      "description": "Crypto library from openssl",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libcrypto3:libcrypto3:3.5.4-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&upstream=openssl",
+      "externalReferences": [
+        {
+          "url": "https://www.openssl.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcrypto3:libcrypto:3.5.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcrypto:libcrypto3:3.5.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcrypto:libcrypto:3.5.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "8f330e62bd41c2ac23dbd866fea36fb8e22f8422"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "5213782"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "openssl"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "so:libcrypto.so.3=3"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1gUoTK2MekZ70GEdYeee87CFqCmI="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1979875"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=84be5059103dde2f&upstream=openssl",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "libssl3",
+      "version": "3.5.4-r0",
+      "description": "SSL shared libraries",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libssl3:libssl3:3.5.4-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&upstream=openssl",
+      "externalReferences": [
+        {
+          "url": "https://www.openssl.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libssl3:libssl:3.5.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libssl:libssl3:3.5.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libssl:libssl:3.5.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "8f330e62bd41c2ac23dbd866fea36fb8e22f8422"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "843640"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "openssl"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "so:libssl.so.3=3"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1+MGGRUg3I6lBYhilLro9NMhoWM8="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "libcrypto3=3.5.4-r0"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:1",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:2",
+          "value": "so:libcrypto.so.3"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "380153"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "musl",
+      "version": "1.2.5-r10",
+      "description": "the musl c library (libc) implementation",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:musl-libc:musl:1.2.5-r10:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2",
+      "externalReferences": [
+        {
+          "url": "https://musl.libc.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl_libc:musl:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl:musl:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "1a5f5e699b2eae883e73c93a789f87bd89a2a190"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "662120"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "musl"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "so:libc.musl-x86_64.so.1=1"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1WSg7YduDCgoDCcmPTbkGotj6NCs="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "411378"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/musl-utils@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=9a0e8e6d80fb5c12&upstream=musl",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "musl-utils",
+      "version": "1.2.5-r10",
+      "description": "the musl c library (libc) implementation",
+      "licenses": [
+        {
+          "expression": "MIT AND BSD-2-Clause AND GPL-2.0-or-later"
+        }
+      ],
+      "cpe": "cpe:2.3:a:musl-utils:musl-utils:1.2.5-r10:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/musl-utils@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&upstream=musl",
+      "externalReferences": [
+        {
+          "url": "https://musl.libc.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl-utils:musl_utils:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl_utils:musl-utils:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl_utils:musl_utils:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl-libc:musl-utils:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl-libc:musl_utils:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl:musl-utils:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl:musl_utils:1.2.5-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "1a5f5e699b2eae883e73c93a789f87bd89a2a190"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "55421"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "musl"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "libc-utils=1.2.5-r10"
+        },
+        {
+          "name": "syft:metadata:provides:1",
+          "value": "cmd:getconf=1.2.5-r10"
+        },
+        {
+          "name": "syft:metadata:provides:2",
+          "value": "cmd:getent=1.2.5-r10"
+        },
+        {
+          "name": "syft:metadata:provides:3",
+          "value": "cmd:iconv=1.2.5-r10"
+        },
+        {
+          "name": "syft:metadata:provides:4",
+          "value": "cmd:ldconfig=1.2.5-r10"
+        },
+        {
+          "name": "syft:metadata:provides:5",
+          "value": "cmd:ldd=1.2.5-r10"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1fmDQgggTuqisJmvuFYOUwKafEEo="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "scanelf"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:1",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "13647"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/scanelf@1.3.8-r1?arch=x86_64&distro=alpine-3.22.2&package-id=65b930a26ee8f44e&upstream=pax-utils",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "scanelf",
+      "version": "1.3.8-r1",
+      "description": "Scan ELF binaries for stuff",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:scanelf:scanelf:1.3.8-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/scanelf@1.3.8-r1?arch=x86_64&distro=alpine-3.22.2&upstream=pax-utils",
+      "externalReferences": [
+        {
+          "url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "9818c555f344e3085d0dd1f3d917d8e23e244cb1"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "67504"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "pax-utils"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "cmd:scanelf=1.3.8-r1"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1vW3RyCDUdrzfjuOPADvPKnMyOxM="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "32500"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=ba73ff15639bf9a7&upstream=busybox",
+      "type": "library",
+      "publisher": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "name": "ssl_client",
+      "version": "1.37.0-r19",
+      "description": "External ssl_client for busybox wget",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:ssl-client:ssl-client:1.37.0-r19:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&upstream=busybox",
+      "externalReferences": [
+        {
+          "url": "https://busybox.net/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl-client:ssl_client:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl_client:ssl-client:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl_client:ssl_client:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl:ssl-client:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl:ssl_client:1.37.0-r19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "bd8ab811155a6087ba7480103d89e2500e3cb0eb"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "14384"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "busybox"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "cmd:ssl_client=1.37.0-r19"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1INz69tEIGwfNE4yrsy2Rr+ca0Jw="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:1",
+          "value": "so:libcrypto.so.3"
+        },
+        {
+          "name": "syft:metadata:pullDependencies:2",
+          "value": "so:libssl.so.3"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "4688"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@1.25.4?package-id=b280ed4471d8594e",
+      "type": "library",
+      "name": "stdlib",
+      "version": "go1.25.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:golang:go:1.25.4:-:*:*:*:*:*:*",
+      "purl": "pkg:golang/stdlib@1.25.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:391ec0f980c842d1af3572ab679c7fc3db775f4bc2f816bd19eead86bddaa09c"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-goinfo"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.25.4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=alpine-3.22.2&package-id=d03841ef6ae18e18",
+      "type": "library",
+      "publisher": "Natanael Copa <ncopa@alpinelinux.org>",
+      "name": "zlib",
+      "version": "1.3.1-r2",
+      "description": "A compression/decompression Library",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:zlib:zlib:1.3.1-r2:*:*:*:*:*:*:*",
+      "purl": "pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=alpine-3.22.2",
+      "externalReferences": [
+        {
+          "url": "https://zlib.net/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apk-db-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "apk-db-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "4c2722e7ecc1c5e3ba882429044a101497121223"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "104280"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "zlib"
+        },
+        {
+          "name": "syft:metadata:provides:0",
+          "value": "so:libz.so.1=1.3.1"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1v32Q2J5UKcGBZ7kauNfmJWz8f98="
+        },
+        {
+          "name": "syft:metadata:pullDependencies:0",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "54039"
+        }
+      ]
+    },
+    {
+      "bom-ref": "os:alpine@3.22.2",
+      "type": "operating-system",
+      "name": "alpine",
+      "version": "3.22.2",
+      "description": "Alpine Linux v3.22",
+      "swid": {
+        "tagId": "alpine",
+        "name": "alpine",
+        "version": "3.22.2"
+      },
+      "externalReferences": [
+        {
+          "url": "https://gitlab.alpinelinux.org/alpine/aports/-/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://alpinelinux.org/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:distro:extendedSupport",
+          "value": "false"
+        },
+        {
+          "name": "syft:distro:id",
+          "value": "alpine"
+        },
+        {
+          "name": "syft:distro:prettyName",
+          "value": "Alpine Linux v3.22"
+        },
+        {
+          "name": "syft:distro:versionID",
+          "value": "3.22.2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "379f9ab42733744f",
+      "type": "file",
+      "name": "/bin/busybox",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4aedf56d1ed00ff1d49b0e0686d5e486b8d2f1f6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f8da75b34117606e12778a8573b13a146735c4cfdfb4efe7203a524c3ec461f0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "70cd6cff397ff920",
+      "type": "file",
+      "name": "/etc/alpine-release",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "20ee8f583feeb2ba0fda3713b0e15ced38b60bff"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "88273e458ab7d4f9835d59b21bc8896cc6ce4ea3d5f3abd3dd550463d5c9243b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "eb6494e0a1225828",
+      "type": "file",
+      "name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3af08548ef78cfdedcf349880c2c6a1a48763a0e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9c102bcc376af1498d549b77bdbfa815ae86faa1d2d82f040e616b18ef2df2d4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "60c43bf1b61a4c38",
+      "type": "file",
+      "name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bfb616658cc05a872568b0c8e398c482e23b60dd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebf31683b56410ecc4c00acd9f6e2839e237a3b62b5ae7ef686705c7ba0396a9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6610e39dc974e412",
+      "type": "file",
+      "name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3671ae0ec7503b1e193587c1dcdf7b78bc863e42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "12f899e55a7691225603d6fb3324940fc51cd7f133e7ead788663c2b7eecb00c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8603857a7531e28a",
+      "type": "file",
+      "name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "95995311236b7a55933642ffa10ce6014f1af7d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "207e4696d3c05f7cb05966aee557307151f1f00217af4143c1bcaf33b8df733f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e977a7023cb6f8d6",
+      "type": "file",
+      "name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "58d5ba4b2f3b1e927721d7a6432f298eedf72a6b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "128d34d4aec39b0daedea8163cd8dc24dff36fd3d848630ab97eeb1d3084bbb3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "927f30c3a6817b77",
+      "type": "file",
+      "name": "/etc/busybox-paths.d/busybox",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "af9972dab927fb4bfcbf574de8cf870492a66657"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e12e0822f5c6426b62f07799a0fc20394241535c5bc2cc8f10c8a25088b8defa"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1d69fe98326f05e0",
+      "type": "file",
+      "name": "/etc/crontabs/root",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bdf9356a9516238c8b2468613517749098b17ef6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "575d810a9fae5f2f0671c9b2c0ce973e46c7207fbe5cb8d1b0d1836a6a0470e3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8d69d33d810e7e0e",
+      "type": "file",
+      "name": "/etc/fstab",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d50ee135ef10a434b9df582ea8276b5c1ce803fa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a3efca2e8d62785c87517283092b4c800d88612b6f3f06b80a4c2f39d8e68841"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5deb7bc1b557d373",
+      "type": "file",
+      "name": "/etc/group",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d8eb64e0cdfd7cfd998e4a1bbb49c2f45be5448d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6fb6ab5a5526e6f4896b70c7e3c350fd475158a1f0d7b5fc0f3f9bd57f1c3be8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c4d0017b52a1feea",
+      "type": "file",
+      "name": "/etc/hostname",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ea75706155cffed0a1bd43ddba4543da27d73a67"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d906aecb61d076a967d9ffe8821c7b04b063f72df9d9e35b33ef36b1c0d98f16"
+        }
+      ]
+    },
+    {
+      "bom-ref": "221291d4d967dfc2",
+      "type": "file",
+      "name": "/etc/hosts",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "043eb324a653456caa1a73e2e2d49f77792bb0c5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e3998dbe02b51dada33de87ae43d18a93ab6915b9e34f5a751bf2b9b25a55492"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a50b3949480406c2",
+      "type": "file",
+      "name": "/etc/inittab",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ce9586d2acf1d9462765259a21ccc4f96a402151"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7326d8ad56bf5fea63b1ca516a747ff6e6723e25ae84a93c31620b03de6c001d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6cd28852a90fc85f",
+      "type": "file",
+      "name": "/etc/issue",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "899b1b34c0b62345726735f736a841e959f99414"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9b89537422a64a9a9407d3cafdf58c802375849629b8f43e64f1cfd7f07c782a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9caf0d60bb8bb153",
+      "type": "file",
+      "name": "/etc/logrotate.d/acpid",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4f29720883559a74be03f4de69de2f66113b064b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d608a3b7715886b5735def0cc50a6359fd364fac2e0e0a459c588c04be471031"
+        }
+      ]
+    },
+    {
+      "bom-ref": "df55aae656204f1c",
+      "type": "file",
+      "name": "/etc/modprobe.d/aliases.conf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5946e1e930583552bb7b863eb94bcbb3feef8aa9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3ebaba946f213670170c7d69949f690a3854553bd0b1560f1d980cba4c83a942"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7ff192b33a50e1ab",
+      "type": "file",
+      "name": "/etc/modprobe.d/blacklist.conf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e1376014791376ddee402f8d06dae7b4e9e6f67e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5cd46031fc7dc7186e67c97fd34780597de4ebff51dbe41eba27220fe5e0d866"
+        }
+      ]
+    },
+    {
+      "bom-ref": "704b5ca7e86c04d8",
+      "type": "file",
+      "name": "/etc/modprobe.d/i386.conf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a676b2fe78e7ea897d702b2c2fb2a2659f1eb657"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6c46c4cbfb8b7594f19eb94801a350fa2221ae9ac5239a8819d15555caa76ae8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "013b5408e9de2036",
+      "type": "file",
+      "name": "/etc/modules",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b68a208d48a91c670c8040a03c95fae12c144f53"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2c881de75a5409c35d2433a24f180b8b02ba478ef2c1c60ea3434a35bcbc335d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f14a85352936059c",
+      "type": "file",
+      "name": "/etc/motd",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "48b912f610627546cfc30af0f974745a1bf7c30f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ff044e9be5daa2eee2d3d10a4da72e5477e4c24c16f1792de2c91dae844c0e30"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e24d3cf7d4076766",
+      "type": "file",
+      "name": "/etc/network/if-up.d/dad",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ddd99bc197c36e8a9aab9463aaeebda44a7a8029"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2fd20d1bc67d9ee711990002b24f156635a73f56b8935b2f76592938817fa4e7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "896c3cff0a2a7234",
+      "type": "file",
+      "name": "/etc/nsswitch.conf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f4306c327bf44767da8da4e3a13bf40bdd4d3aaa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0afd94c183d30a348b45057f6bf468e121aa448a7641109addb5bb8e282f514d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "56bf8db299a16362",
+      "type": "file",
+      "name": "/etc/passwd",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "afe6cba27664032062c7f1cb812783b1ecf6d99b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "31a94f06f17bc3b9085fccab1d0fa6ee9e79c4a1e4d91f617fa5de95863be015"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1bda1aaa091f2674",
+      "type": "file",
+      "name": "/etc/profile",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "54dd1d99ac0383798113f96307ee9b52b0bb0f37"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "87e8643d3ce156de0c09370d4d39446f30bd00d264bea248abc191c4d7b9df3e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f585d907021651bd",
+      "type": "file",
+      "name": "/etc/profile.d/20locale.sh",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "96adbd950ccf992085295990f9bbe667f0cf4c4e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "284a6ef56ab97a13a777c6b01ae14f2cc3d2b7a29c19e750e622e70cc3c73186"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a2597573153c4360",
+      "type": "file",
+      "name": "/etc/profile.d/README",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "df9396b02cf3be70767e6171eb691baa6d40c759"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b73284f27fe2da9ae1902b1fe9596c3ffc61a154e2805a034184f0468f8b09b0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "666f610d4513f557",
+      "type": "file",
+      "name": "/etc/profile.d/color_prompt.sh.disabled",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d5733d99d7b5676f6d58c19a3a47a8bc3fe6e2e5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ba24425c6864a5d17fa0fdaf914c4d21419e47c4d62080c33830af059fe46617"
+        }
+      ]
+    },
+    {
+      "bom-ref": "526ccacfa7119369",
+      "type": "file",
+      "name": "/etc/protocols",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d5f9654539089b96f1b1956848d783527da6fb47"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4959498abbadaa1e50894a266f8d0d94500101cfe5b5f09dcad82e9d5bdfab46"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a6ba1a693d2851ee",
+      "type": "file",
+      "name": "/etc/secfixes.d/alpine",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "eb84e8a11ac9f18fd71f0d34e8155c3d287a3c43"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "808a19d200c575a9bd9898b113ca4538bb142878dd6a8e5f14804ba9ae3f5c38"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dc985829cde085ac",
+      "type": "file",
+      "name": "/etc/securetty",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0e29ce7fa251a4246033abcdaa339ec5dde84a75"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "713fcea5109728883b9147e822429133fcc8b5e253afd3c2a197b10cd0bc3b4d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3272dcf872ed1fd6",
+      "type": "file",
+      "name": "/etc/services",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a0d7a229bf049f7fe17e8445226236e4024535d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f6183055fd949f9c53d49ee620f85d0150123ea691d25ed1bba0c641b4ee2f48"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c9c92e1db22f8789",
+      "type": "file",
+      "name": "/etc/shadow",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fdcce813d9a3aa27fffcf07126d2deabf17cb057"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d5992a27f05f380fc5faeb82a3359e2f230fd1d6ea6517b45892b771a2194ddb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5b41981bb6bf6706",
+      "type": "file",
+      "name": "/etc/shells",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a239b661da4227a07f6a9183699fd275bdb12640"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "24be6ceb236610df45684c83b06c918ae45635be55f69975e43676b7595bbc5f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1e47822317c1f4f5",
+      "type": "file",
+      "name": "/etc/ssl/certs/ca-certificates.crt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dd70c9014a8f7562ed897f1e829b6a47cc3a80ac"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "657ca6ba4bc43138f89de75fb63794cbfaa897e0e110b069fd1367bd66a5bb6c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "47176101146e365b",
+      "type": "file",
+      "name": "/etc/ssl/ct_log_list.cnf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a2587c4e97408b64274e5e052b74e3754892c13a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dd5d14cccf3fe7d1",
+      "type": "file",
+      "name": "/etc/ssl/ct_log_list.cnf.dist",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a2587c4e97408b64274e5e052b74e3754892c13a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dac9ba510ce8c0df",
+      "type": "file",
+      "name": "/etc/ssl/openssl.cnf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5ff8070dceaa742043d8171f98abe95e5abd02e5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a65a2cb9f4ee8ffdc7ef4f0ac600c0bdafb95b7b1ab457188ac610a62f5ad6b3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b9a1c410794742f5",
+      "type": "file",
+      "name": "/etc/ssl/openssl.cnf.dist",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5ff8070dceaa742043d8171f98abe95e5abd02e5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a65a2cb9f4ee8ffdc7ef4f0ac600c0bdafb95b7b1ab457188ac610a62f5ad6b3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1845a1ac1d8af1e5",
+      "type": "file",
+      "name": "/etc/sysctl.conf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e2ea73ded7e7371664204b148569fb5e88b0f7a8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8bba47da45bc8715c69ac904a60410eabffaa7bbbef640f9c1368ab9c48493d0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "aafeba7b930c821b",
+      "type": "file",
+      "name": "/etc/udhcpc/udhcpc.conf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9bc069e434228e6ca441848bfb7a6bac23fa148a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5b372209e01cda07c87b8afa6d1ab3d7e8daf18a1f2332d744203a6dc289eb1a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dde377bb82c6a774",
+      "type": "file",
+      "name": "/lib/apk/db/installed",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f525040f7c12d0f4a8f0662b47325301294330ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "44c084c8bb18b2afbec27a4a12aed0e21f6195ff5306daa6adc625d82ea92bcb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fb7feebe37adfa7f",
+      "type": "file",
+      "name": "/lib/ld-musl-x86_64.so.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8cd6ae4cc97899e68e9c22264f9235e3f90e0d95"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7d221f4e17e8f7ebfc208d6e621bb7fc71bc99081bed47409d77048d9a69dbd5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c4253d051be020aa",
+      "type": "file",
+      "name": "/sbin/apk",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "50e2e24fea3ef8181a9821c766597dee94788538"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a3b505523048114b137e197953418d82700d5c080e3831de1f936dd3507ca43a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d9239e6144bac74d",
+      "type": "file",
+      "name": "/sbin/ldconfig",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2a36b6f8f3992b112450e66ac128c2ea499a103e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b4a2c06db38742e8c42c3c9838b285a7d8cdac6c091ff3df5ff9a15f1e41b9c7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "52c157c35f12851d",
+      "type": "file",
+      "name": "/usr/bin/getconf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bc161d0ecb081bf233d15ddffff3560fc7d60ca0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4dbaf95eab0e2e2e727c5e903b97100215cd16f463aa29e5f72af74951fe425a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "89bc920292dbad96",
+      "type": "file",
+      "name": "/usr/bin/getent",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e5124ed2546028c4b79387857bbad2b4d454c7bf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "682137a98bd8062d4be1f4be7a68410dfbb4e6f9359a3b3c163890a2fcde4518"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5cee61e5e65f4f2d",
+      "type": "file",
+      "name": "/usr/bin/iconv",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "76ab4d99a7dd98e37a2a4cb96ae0033c6ade033e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3cf6eb89e6481a54d8a9df0f302bb633c4f01673bb3a143ac3d4e084997f3167"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d7c7cfa0861162ad",
+      "type": "file",
+      "name": "/usr/bin/ldd",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c850211a08262fb11181b200eca431c93cdfde4b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a49c2541a439be89f1ef1496604ef3b607f460d589877c60775acf74cdb5dfb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ff5b5bab6b551ed9",
+      "type": "file",
+      "name": "/usr/bin/scanelf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9a08aa433b3c1e76b0ae31f82e0f0fac0a01cbfe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cdd7676d80e2b452b3dc177686afd34f2efe9e21a28cdeba7e74ce79410c3d97"
+        }
+      ]
+    },
+    {
+      "bom-ref": "43a98fd737f84c44",
+      "type": "file",
+      "name": "/usr/bin/ssl_client",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4f4cca14455170836de5dec52ab32afd62ac19a3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "51bc20da3df12520921587b8ab7746a876cc008d09799c61b1191fbab8306156"
+        }
+      ]
+    },
+    {
+      "bom-ref": "43f3ffa84b633e81",
+      "type": "file",
+      "name": "/usr/lib/engines-3/afalg.so",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5297478fac9c750a99155148d78fb060e8ca1a3d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "af05d7bce5d3ede5893d673afdb5b37e5b4cd18343fe9d715ece6788c91ce019"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f8001e4a57e2b4dd",
+      "type": "file",
+      "name": "/usr/lib/engines-3/capi.so",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b73b62b7607f6d6bc4ff78494f188ff93c2f2c67"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "17eecc23f04d8b096cbb3e746ba24c685de206b70c2ece8ade222e69a45fd6d5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b6661310849157a7",
+      "type": "file",
+      "name": "/usr/lib/engines-3/loader_attic.so",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "efcb65d884db56b9bf7e20c602a35665cce7ca13"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90c43f4602eee3366e59ec24226c85b0f9d148d6fc9784b75a35f59c4fb7ade5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0ec2fefa674f8ed3",
+      "type": "file",
+      "name": "/usr/lib/engines-3/padlock.so",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "351f674d1827e139441bb49f9664048a295aeafa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b7b46abe19d66d675e475d7c852439b8ed6fd7c0d8fbc5595ccc9885f9ce8222"
+        }
+      ]
+    },
+    {
+      "bom-ref": "933b506d91ea1cfd",
+      "type": "file",
+      "name": "/usr/lib/libapk.so.2.14.9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9d6049b62c44150ed18b533da7c01d542f5cfe14"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d067dadeb5a994781150d2728ec486249d1ac5bd9244e9bec0c947a14d09c60d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f3440db7f1d1a2a0",
+      "type": "file",
+      "name": "/usr/lib/libcrypto.so.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "80688f0361101713b2d088eff04bf534836b0861"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "524aa6522db24a99b59a730102a5242a28a65cba66c6003051f712790530acbd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "cfb6036e868d6817",
+      "type": "file",
+      "name": "/usr/lib/libssl.so.3",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8b4cf207cdf2c092818091153cb049c3154f498a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c8b6d196b5aba866960438eb4c3d74612e8925ba90fbf15a6ce89013a1ce519a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "26e880586ec20625",
+      "type": "file",
+      "name": "/usr/lib/libz.so.1.3.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0568e6cdda084e370817a815056392f4bbcfa9c2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "09b1bbd6ffe274039cefaca595f55cec0af65fe90d9e285e5d57ff7ed96948d2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "07385ee2a6f7df41",
+      "type": "file",
+      "name": "/usr/lib/os-release",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "353c64fd2e674e92ebea9893aaac3b9f23bcf4a1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b836523e60eaa2eb7e4799ca77e9d34c910f100207455ab2cf32f09a5fc8271a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6ef82f9c84433e22",
+      "type": "file",
+      "name": "/usr/lib/ossl-modules/legacy.so",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "214a7d6b89c900593e5120fa05bed5eec74b8c01"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7e2d390d13cc144edb013243d34f9f48ffc83b42c921aff1bf74ac8cc8205563"
+        }
+      ]
+    },
+    {
+      "bom-ref": "50bc96437a55b724",
+      "type": "file",
+      "name": "/usr/lib/sysctl.d/00-alpine.conf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1e9125cd6d7112098a7c446d4f2ee8a269a7aba7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ee169bea2cb6859420b55ca7a9c23fb68b50adc1d26c951f904dec9e8f767380"
+        }
+      ]
+    },
+    {
+      "bom-ref": "26404c7b657b313f",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3af08548ef78cfdedcf349880c2c6a1a48763a0e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9c102bcc376af1498d549b77bdbfa815ae86faa1d2d82f040e616b18ef2df2d4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a805b9f46a34dbcf",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bfb616658cc05a872568b0c8e398c482e23b60dd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebf31683b56410ecc4c00acd9f6e2839e237a3b62b5ae7ef686705c7ba0396a9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9cb489fd56affe00",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "053a92f87fd4532850bb31f0881978efe0532ae5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1bb2a846c0ea4ca9d0e7862f970863857fc33c32f5506098c636a62a726a847b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "cc83fe1485449e75",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3671ae0ec7503b1e193587c1dcdf7b78bc863e42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "12f899e55a7691225603d6fb3324940fc51cd7f133e7ead788663c2b7eecb00c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "95cf8dc85e2cb8f0",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "39ac5d72c6ba018a0f74b8b453894edc9db07b5f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "73867d92083f2f8ab899a26ccda7ef63dfaa0032a938620eda605558958a8041"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f24013271948668c",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c8fabeb2eeb992c368c77b9707e0d1ecfd7cf905"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a4cd858d9710963848e6d5f555325dc199d1c952b01cf6e64da2c15deedbd97"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fa69c69a629a34bb",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "329643357d0b78b1ef48ec155325e25f1d7534dd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "780b3ed41786772cbc7b68136546fa3f897f28a23b30c72dde6225319c44cfff"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2e67c40a830d3262",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "825090fde25bbc0e71a9cb3076316b5afe459e4d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "59c01c57b446633249f67c04b115dd6787f4378f183dff2bbf65406df93f176d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "085da59792f5ee15",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5d4743128353b6396fad2fa2ba793ace21602295"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "db0b49163f07ffba64a5ca198bcf1688610b0bd1f0d8d5afeaf78559d73f2278"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9a49bc62472e8893",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "95995311236b7a55933642ffa10ce6014f1af7d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "207e4696d3c05f7cb05966aee557307151f1f00217af4143c1bcaf33b8df733f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2c2368dc7f5bda0e",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "58d5ba4b2f3b1e927721d7a6432f298eedf72a6b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "128d34d4aec39b0daedea8163cd8dc24dff36fd3d848630ab97eeb1d3084bbb3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "32b9ad08777d0a17",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "23d0f2ea1af269c2f66165e0f8a944e96bf011de"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "10877cce0a935e46ad88cb79e174a2491680508eccda08e92bf04fb9bf37fbc1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "81502d8c056f85dc",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3529ec82670c6d4e20ee3e4968db34b551e91d50"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4a095a9daca86da496a3cd9adcd95ee2197fdbeb84638656d469f05a4d740751"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a42bfe9ad3269ccc",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "55a301064e11c6fe9ba0f2ca17e234f3943ccb61"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0caf5662fde45616d88cfd7021b7bda269a2fcaf311e51c48945a967a609ec0b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "861d33dbdb73680a",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "de1241307014aae3dba798e900f163408d98d6f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ebe717d228555aa58133c202314a451f81e71f174781fd7ff8d8970d6cfa60da"
+        }
+      ]
+    },
+    {
+      "bom-ref": "282c80e94c149788",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "57f6b93fda4a4496fab62844ddef0eeb168f80b5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d11f6b21c61b4274e182eb888883a8ba8acdbf820dcc7a6d82a7d9fc2fd2836d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b15c4eaaf1c4ccab",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "df02c9adc2906a3aa5e5ad69f50e3953e65710d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "40a216cbd163f22e5f16a9e0929de7cde221b9cbae8e36aa368b1e128afe0a31"
+        }
+      ]
+    },
+    {
+      "bom-ref": "1f0318579f702e5d",
+      "type": "file",
+      "name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-66ba20fe.rsa.pub",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7bd0eee2d55893735686932aa47a7c8a66e9153b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7cf4cb8314e6ccc985b0d7f1aa0c6e0a81e3588f69a41f383af7a63d1ba61793"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9dbb6ce73a9152e0",
+      "type": "file",
+      "name": "/usr/share/udhcpc/default.script",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "569e3f354139f964b3364c59276ffe0016ee33d9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1cf94e3918ce389c722f4408490ae7334321a5ca2aec2c945b0c47662aa274a6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "0a56a86513477c21",
+      "type": "file",
+      "name": "/bin/azul-goinfo",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e510beb4e7e939d7dcff7652088165f0a0aecdb1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9482f800ef0a16dcdff1e315b3b2691ba9160e7065748e86380eec1549524771"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:apk/alpine/alpine-baselayout@3.7.0-r0?arch=x86_64&distro=alpine-3.22.2&package-id=67451b98a3876cd6",
+      "dependsOn": [
+        "pkg:apk/alpine/alpine-baselayout-data@3.7.0-r0?arch=x86_64&distro=alpine-3.22.2&package-id=314a2c9763b46dff&upstream=alpine-baselayout",
+        "pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=73301e3aea81a8df&upstream=busybox"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/alpine-release@3.22.2-r0?arch=x86_64&distro=alpine-3.22.2&package-id=2135bf12eb4f73a9&upstream=alpine-base",
+      "dependsOn": [
+        "pkg:apk/alpine/alpine-keys@2.5-r0?arch=x86_64&distro=alpine-3.22.2&package-id=e6c0f0c8b82e215a"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/apk-tools@2.14.9-r3?arch=x86_64&distro=alpine-3.22.2&package-id=844d16c37f0dbc7e",
+      "dependsOn": [
+        "pkg:apk/alpine/ca-certificates-bundle@20250911-r0?arch=x86_64&distro=alpine-3.22.2&package-id=3b472b2b46e8c22f&upstream=ca-certificates",
+        "pkg:apk/alpine/libapk2@2.14.9-r3?arch=x86_64&distro=alpine-3.22.2&package-id=7d8bbb1a55a55293&upstream=apk-tools",
+        "pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=bf7144a0fb7fd1d8&upstream=openssl",
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0",
+        "pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=alpine-3.22.2&package-id=d03841ef6ae18e18"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=73301e3aea81a8df&upstream=busybox",
+      "dependsOn": [
+        "pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=d62ad83b542a9e44"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=d62ad83b542a9e44",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libapk2@2.14.9-r3?arch=x86_64&distro=alpine-3.22.2&package-id=7d8bbb1a55a55293&upstream=apk-tools",
+      "dependsOn": [
+        "pkg:apk/alpine/ca-certificates-bundle@20250911-r0?arch=x86_64&distro=alpine-3.22.2&package-id=3b472b2b46e8c22f&upstream=ca-certificates",
+        "pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=bf7144a0fb7fd1d8&upstream=openssl",
+        "pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=84be5059103dde2f&upstream=openssl",
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0",
+        "pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=alpine-3.22.2&package-id=d03841ef6ae18e18"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=bf7144a0fb7fd1d8&upstream=openssl",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=84be5059103dde2f&upstream=openssl",
+      "dependsOn": [
+        "pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=bf7144a0fb7fd1d8&upstream=openssl",
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/musl-utils@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=9a0e8e6d80fb5c12&upstream=musl",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0",
+        "pkg:apk/alpine/scanelf@1.3.8-r1?arch=x86_64&distro=alpine-3.22.2&package-id=65b930a26ee8f44e&upstream=pax-utils"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/scanelf@1.3.8-r1?arch=x86_64&distro=alpine-3.22.2&package-id=65b930a26ee8f44e&upstream=pax-utils",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distro=alpine-3.22.2&package-id=ba73ff15639bf9a7&upstream=busybox",
+      "dependsOn": [
+        "pkg:apk/alpine/libcrypto3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=bf7144a0fb7fd1d8&upstream=openssl",
+        "pkg:apk/alpine/libssl3@3.5.4-r0?arch=x86_64&distro=alpine-3.22.2&package-id=84be5059103dde2f&upstream=openssl",
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=alpine-3.22.2&package-id=d03841ef6ae18e18",
+      "dependsOn": [
+        "pkg:apk/alpine/musl@1.2.5-r10?arch=x86_64&distro=alpine-3.22.2&package-id=f2452ca0a998f0c0"
+      ]
+    },
+    {
+      "ref": "pkg:golang/command-line-arguments?package-id=c6ba17a74feba0e1",
+      "dependsOn": [
+        "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock@v9.0.2?package-id=6890ba5d42bd0a75#v9",
+        "pkg:golang/github.com/azure/azure-sdk-for-go@v1.11.2?package-id=0716f0cad32772b0#sdk/internal",
+        "pkg:golang/github.com/azure/azure-sdk-for-go@v1.19.0?package-id=152f28a062e03689#sdk/azcore",
+        "pkg:golang/github.com/azure/azure-sdk-for-go@v1.6.2?package-id=f706344e9454f6a2#sdk/storage/azblob",
+        "pkg:golang/github.com/blacktop/go-dwarf@v1.0.14?package-id=d490a07230bef983",
+        "pkg:golang/github.com/blacktop/go-macho@v1.1.249?package-id=132151c0c6281ce9",
+        "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=6c073fcd478ec6ff",
+        "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=5bd5ae75ed449140",
+        "pkg:golang/github.com/go-viper/mapstructure@v2.4.0?package-id=eefa3295db2f1c5c#v2",
+        "pkg:golang/github.com/goccy/go-json@v0.10.5?package-id=3c60d2125f893ac8",
+        "pkg:golang/github.com/goretk/gore@v0.13.16?package-id=029b9d1385a7e932",
+        "pkg:golang/github.com/hamba/avro@v2.30.0?package-id=716a6242cf88a1be#v2",
+        "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=f58ab6becabc02b4",
+        "pkg:golang/github.com/knadh/koanf@v0.1.2?package-id=defb672a76a80ce5#maps",
+        "pkg:golang/github.com/knadh/koanf@v1.0.0?package-id=3c6a9af0bd685004#providers/structs",
+        "pkg:golang/github.com/knadh/koanf@v1.1.0?package-id=aecacec5399a56b0#providers/env",
+        "pkg:golang/github.com/knadh/koanf@v2.2.2?package-id=aefd1189ffcb4821#v2",
+        "pkg:golang/github.com/mattn/go-colorable@v0.1.14?package-id=31f01add69c33185",
+        "pkg:golang/github.com/mattn/go-isatty@v0.0.20?package-id=5eaf220fdc6ca573",
+        "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=3bc94e1deacc2297",
+        "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=60219ccbc0dfaea2",
+        "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=6dd85c51b80fe4e0",
+        "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=3d35f4bba00920fa",
+        "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=8b1e86639a4e5ace",
+        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=4da50acce6c2c31c",
+        "pkg:golang/github.com/rs/zerolog@v1.34.0?package-id=01ccd10dc48e52ae",
+        "pkg:golang/github.com/sanity-io/litter@v1.5.8?package-id=ec6582c267ad59db",
+        "pkg:golang/github.com/stretchr/objx@v0.5.2?package-id=69655693b2e9de13",
+        "pkg:golang/github.com/stretchr/testify@v1.11.1?package-id=fe0ce10eb695a09f",
+        "pkg:golang/golang.org/x/arch@v0.21.0?package-id=e47d07add69cd363",
+        "pkg:golang/golang.org/x/net@v0.44.0?package-id=980b30d93efc23d9",
+        "pkg:golang/golang.org/x/sys@v0.36.0?package-id=6621219baad2abc3",
+        "pkg:golang/golang.org/x/text@v0.29.0?package-id=51637df53a8ecb29",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=7cb7c857756a6433",
+        "pkg:golang/stdlib@1.25.4?package-id=b280ed4471d8594e"
+      ]
+    }
+  ]
+}

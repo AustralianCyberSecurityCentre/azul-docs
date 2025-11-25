@@ -1,0 +1,1629 @@
+NAME                                              VERSION                              TYPE                     
+@ampproject/remapping                             2.2.0                                npm                      
+@babel/runtime                                    7.20.13                              npm                      
+@fastify/busboy                                   3.1.1                                npm                      
+@isaacs/balanced-match                            4.0.1                                npm     (+1 duplicate)   
+@isaacs/brace-expansion                           5.0.0                                npm     (+1 duplicate)   
+@isaacs/cliui                                     8.0.2                                npm     (+1 duplicate)   
+@isaacs/fs-minipass                               4.0.1                                npm     (+1 duplicate)   
+@isaacs/string-locale-compare                     1.1.0                                npm     (+1 duplicate)   
+@javascript-obfuscator/escodegen                  2.3.0                                npm     (+1 duplicate)   
+@javascript-obfuscator/estraverse                 5.4.0                                npm                      
+@jridgewell/gen-mapping                           0.3.2                                npm                      
+@jridgewell/resolve-uri                           3.1.0                                npm                      
+@jridgewell/set-array                             1.1.2                                npm                      
+@jridgewell/source-map                            0.3.2                                npm                      
+@jridgewell/sourcemap-codec                       1.4.14                               npm                      
+@jridgewell/trace-mapping                         0.3.17                               npm                      
+@npmcli/agent                                     4.0.0                                npm     (+1 duplicate)   
+@npmcli/arborist                                  9.1.7                                npm     (+1 duplicate)   
+@npmcli/config                                    10.4.3                               npm     (+1 duplicate)   
+@npmcli/fs                                        4.0.0                                npm     (+1 duplicate)   
+@npmcli/git                                       7.0.1                                npm     (+1 duplicate)   
+@npmcli/installed-package-contents                3.0.0                                npm     (+1 duplicate)   
+@npmcli/installed-package-contents                4.0.0                                npm     (+1 duplicate)   
+@npmcli/map-workspaces                            5.0.1                                npm     (+1 duplicate)   
+@npmcli/metavuln-calculator                       9.0.3                                npm     (+1 duplicate)   
+@npmcli/name-from-folder                          4.0.0                                npm     (+1 duplicate)   
+@npmcli/node-gyp                                  5.0.0                                npm     (+1 duplicate)   
+@npmcli/package-json                              7.0.2                                npm     (+1 duplicate)   
+@npmcli/promise-spawn                             9.0.1                                npm     (+1 duplicate)   
+@npmcli/query                                     4.0.1                                npm     (+1 duplicate)   
+@npmcli/redact                                    4.0.0                                npm     (+1 duplicate)   
+@npmcli/run-script                                10.0.3                               npm     (+1 duplicate)   
+@sigstore/bundle                                  4.0.0                                npm     (+1 duplicate)   
+@sigstore/core                                    3.0.0                                npm     (+1 duplicate)   
+@sigstore/protobuf-specs                          0.5.0                                npm     (+1 duplicate)   
+@sigstore/sign                                    4.0.1                                npm     (+1 duplicate)   
+@sigstore/tuf                                     4.0.0                                npm     (+1 duplicate)   
+@sigstore/verify                                  3.0.0                                npm     (+1 duplicate)   
+@sindresorhus/is                                  4.6.0                                npm                      
+@szmarczak/http-timer                             4.0.6                                npm                      
+@tufjs/canonical-json                             2.0.0                                npm     (+1 duplicate)   
+@tufjs/models                                     4.0.0                                npm     (+1 duplicate)   
+@types/abbrev                                     1.1.2                                npm                      
+@types/are-we-there-yet                           1.1.0                                npm                      
+@types/async-retry                                1.4.8                                npm                      
+@types/base64-js                                  1.3.0                                npm                      
+@types/brace-expansion                            1.1.0                                npm                      
+@types/cacheable-request                          6.0.2                                npm                      
+@types/caniuse-lite                               1.0.5                                npm                      
+@types/clone                                      2.1.2                                npm                      
+@types/clone-deep                                 4.0.1                                npm                      
+@types/color-convert                              2.0.0                                npm                      
+@types/color-name                                 1.1.1                                npm                      
+@types/commondir                                  1.0.0                                npm                      
+@types/concat-stream                              2.0.0                                npm                      
+@types/convert-source-map                         1.5.2                                npm                      
+@types/defaults                                   1.0.3                                npm                      
+@types/diff                                       5.0.1                                npm                      
+@types/estraverse                                 5.1.1                                npm                      
+@types/estree                                     1.0.0                                npm                      
+@types/esutils                                    2.0.0                                npm                      
+@types/events                                     3.0.0                                npm                      
+@types/fancy-log                                  1.3.1                                npm                      
+@types/fs-readdir-recursive                       1.1.0                                npm                      
+@types/function-bind                              1.1.10                               npm                      
+@types/glob                                       8.1.0                                npm                      
+@types/graceful-fs                                4.1.5                                npm                      
+@types/handlebars                                 4.1.0                                npm                      
+@types/http-cache-semantics                       4.0.1                                npm                      
+@types/iferr                                      1.0.2                                npm                      
+@types/imurmurhash                                0.1.1                                npm                      
+@types/ip                                         1.1.3                                npm                      
+@types/ip-regex                                   4.1.1                                npm                      
+@types/is-windows                                 1.0.0                                npm                      
+@types/isexe                                      2.0.1                                npm                      
+@types/jsesc                                      3.0.1                                npm                      
+@types/json-buffer                                3.0.0                                npm                      
+@types/json-parse-better-errors                   1.0.0                                npm                      
+@types/json-schema                                7.0.11                               npm                      
+@types/json-stable-stringify                      1.0.34                               npm                      
+@types/keyv                                       3.1.4                                npm                      
+@types/lodash.add                                 3.7.6                                npm                      
+@types/lodash.after                               4.0.6                                npm                      
+@types/lodash.ary                                 4.1.6                                npm                      
+@types/lodash.assign                              4.2.6                                npm                      
+@types/lodash.assignin                            4.2.6                                npm                      
+@types/lodash.assigninwith                        4.2.6                                npm                      
+@types/lodash.assignwith                          4.2.6                                npm                      
+@types/lodash.at                                  4.6.6                                npm                      
+@types/lodash.attempt                             4.2.6                                npm                      
+@types/lodash.before                              4.0.6                                npm                      
+@types/lodash.bind                                4.2.6                                npm                      
+@types/lodash.bindall                             4.4.6                                npm                      
+@types/lodash.bindkey                             4.2.6                                npm                      
+@types/lodash.camelcase                           4.3.6                                npm                      
+@types/lodash.capitalize                          4.2.6                                npm                      
+@types/lodash.castarray                           4.4.6                                npm                      
+@types/lodash.ceil                                4.0.6                                npm                      
+@types/lodash.chunk                               4.2.6                                npm                      
+@types/lodash.clamp                               4.0.6                                npm                      
+@types/lodash.clone                               4.5.6                                npm                      
+@types/lodash.clonedeep                           4.5.6                                npm                      
+@types/lodash.clonedeepwith                       4.5.6                                npm                      
+@types/lodash.clonewith                           4.5.6                                npm                      
+@types/lodash.compact                             3.0.6                                npm                      
+@types/lodash.concat                              4.5.6                                npm                      
+@types/lodash.cond                                4.5.3                                npm                      
+@types/lodash.constant                            3.0.6                                npm                      
+@types/lodash.countby                             4.6.6                                npm                      
+@types/lodash.create                              4.2.6                                npm                      
+@types/lodash.curry                               4.1.6                                npm                      
+@types/lodash.curryright                          4.1.6                                npm                      
+@types/lodash.debounce                            4.0.6                                npm                      
+@types/lodash.deburr                              4.1.6                                npm                      
+@types/lodash.defaults                            4.2.6                                npm                      
+@types/lodash.defaultsdeep                        4.6.6                                npm                      
+@types/lodash.defer                               4.1.6                                npm                      
+@types/lodash.delay                               4.1.6                                npm                      
+@types/lodash.difference                          4.5.6                                npm                      
+@types/lodash.differenceby                        4.8.6                                npm                      
+@types/lodash.differencewith                      4.5.6                                npm                      
+@types/lodash.divide                              4.9.3                                npm                      
+@types/lodash.drop                                4.1.6                                npm                      
+@types/lodash.dropright                           4.1.6                                npm                      
+@types/lodash.droprightwhile                      4.6.6                                npm                      
+@types/lodash.dropwhile                           4.6.6                                npm                      
+@types/lodash.endswith                            4.2.6                                npm                      
+@types/lodash.eq                                  4.0.6                                npm                      
+@types/lodash.escape                              4.0.6                                npm                      
+@types/lodash.escaperegexp                        4.1.6                                npm                      
+@types/lodash.every                               4.6.6                                npm                      
+@types/lodash.fill                                3.4.6                                npm                      
+@types/lodash.filter                              4.6.6                                npm                      
+@types/lodash.find                                4.6.6                                npm                      
+@types/lodash.findindex                           4.6.6                                npm                      
+@types/lodash.findkey                             4.6.6                                npm                      
+@types/lodash.findlast                            4.6.6                                npm                      
+@types/lodash.findlastindex                       4.6.6                                npm                      
+@types/lodash.findlastkey                         4.7.6                                npm                      
+@types/lodash.flatmap                             4.5.6                                npm                      
+@types/lodash.flatmapdeep                         4.10.3                               npm                      
+@types/lodash.flatmapdepth                        4.10.3                               npm                      
+@types/lodash.flatten                             4.4.6                                npm                      
+@types/lodash.flattendeep                         4.4.6                                npm                      
+@types/lodash.flattendepth                        4.7.6                                npm                      
+@types/lodash.flip                                4.2.6                                npm                      
+@types/lodash.floor                               4.0.6                                npm                      
+@types/lodash.flow                                3.5.6                                npm                      
+@types/lodash.flowright                           3.5.6                                npm                      
+@types/lodash.foreach                             4.5.6                                npm                      
+@types/lodash.foreachright                        4.4.6                                npm                      
+@types/lodash.forin                               4.4.6                                npm                      
+@types/lodash.forinright                          4.5.6                                npm                      
+@types/lodash.forown                              4.4.6                                npm                      
+@types/lodash.forownright                         4.5.6                                npm                      
+@types/lodash.frompairs                           4.0.6                                npm                      
+@types/lodash.functions                           4.3.6                                npm                      
+@types/lodash.functionsin                         4.3.6                                npm                      
+@types/lodash.get                                 4.4.6                                npm                      
+@types/lodash.groupby                             4.6.6                                npm                      
+@types/lodash.gt                                  3.9.6                                npm                      
+@types/lodash.gte                                 3.9.6                                npm                      
+@types/lodash.has                                 4.5.6                                npm                      
+@types/lodash.hasin                               4.5.6                                npm                      
+@types/lodash.head                                4.0.6                                npm                      
+@types/lodash.identity                            3.0.6                                npm                      
+@types/lodash.includes                            4.3.6                                npm                      
+@types/lodash.indexof                             4.0.6                                npm                      
+@types/lodash.initial                             4.1.6                                npm                      
+@types/lodash.inrange                             3.3.6                                npm                      
+@types/lodash.intersection                        4.4.6                                npm                      
+@types/lodash.intersectionby                      4.7.6                                npm                      
+@types/lodash.intersectionwith                    4.4.6                                npm                      
+@types/lodash.invert                              4.3.6                                npm                      
+@types/lodash.invertby                            4.7.6                                npm                      
+@types/lodash.invoke                              4.5.6                                npm                      
+@types/lodash.invokemap                           4.6.6                                npm                      
+@types/lodash.isarguments                         3.1.6                                npm                      
+@types/lodash.isarray                             4.0.6                                npm                      
+@types/lodash.isarraybuffer                       4.4.6                                npm                      
+@types/lodash.isarraylike                         4.2.6                                npm                      
+@types/lodash.isarraylikeobject                   4.2.6                                npm                      
+@types/lodash.isboolean                           3.0.6                                npm                      
+@types/lodash.isbuffer                            4.3.6                                npm                      
+@types/lodash.isdate                              4.0.6                                npm                      
+@types/lodash.iselement                           4.1.6                                npm                      
+@types/lodash.isempty                             4.4.6                                npm                      
+@types/lodash.isequal                             4.5.5                                npm                      
+@types/lodash.isequalwith                         4.4.6                                npm                      
+@types/lodash.iserror                             3.1.6                                npm                      
+@types/lodash.isfinite                            3.3.6                                npm                      
+@types/lodash.isfunction                          3.0.6                                npm                      
+@types/lodash.isinteger                           4.0.6                                npm                      
+@types/lodash.islength                            4.0.6                                npm                      
+@types/lodash.ismap                               4.4.6                                npm                      
+@types/lodash.ismatch                             4.4.6                                npm                      
+@types/lodash.ismatchwith                         4.4.6                                npm                      
+@types/lodash.isnan                               3.0.6                                npm                      
+@types/lodash.isnative                            4.0.6                                npm                      
+@types/lodash.isnil                               4.0.6                                npm                      
+@types/lodash.isnull                              3.0.6                                npm                      
+@types/lodash.isnumber                            3.0.6                                npm                      
+@types/lodash.isobject                            3.0.6                                npm                      
+@types/lodash.isobjectlike                        4.0.6                                npm                      
+@types/lodash.isplainobject                       4.0.6                                npm                      
+@types/lodash.isregexp                            4.0.6                                npm                      
+@types/lodash.issafeinteger                       4.0.6                                npm                      
+@types/lodash.isset                               4.4.6                                npm                      
+@types/lodash.isstring                            4.0.6                                npm                      
+@types/lodash.issymbol                            4.0.6                                npm                      
+@types/lodash.istypedarray                        4.0.6                                npm                      
+@types/lodash.isundefined                         3.0.6                                npm                      
+@types/lodash.isweakmap                           4.4.6                                npm                      
+@types/lodash.isweakset                           4.3.6                                npm                      
+@types/lodash.iteratee                            4.7.6                                npm                      
+@types/lodash.join                                4.0.6                                npm                      
+@types/lodash.kebabcase                           4.1.6                                npm                      
+@types/lodash.keyby                               4.6.6                                npm                      
+@types/lodash.keys                                4.2.6                                npm                      
+@types/lodash.keysin                              4.2.6                                npm                      
+@types/lodash.last                                3.0.6                                npm                      
+@types/lodash.lastindexof                         4.0.6                                npm                      
+@types/lodash.lowercase                           4.3.6                                npm                      
+@types/lodash.lowerfirst                          4.3.6                                npm                      
+@types/lodash.lt                                  3.9.6                                npm                      
+@types/lodash.lte                                 3.9.6                                npm                      
+@types/lodash.map                                 4.6.13                               npm                      
+@types/lodash.mapkeys                             4.6.6                                npm                      
+@types/lodash.mapvalues                           4.6.6                                npm                      
+@types/lodash.matches                             4.6.6                                npm                      
+@types/lodash.matchesproperty                     4.7.6                                npm                      
+@types/lodash.max                                 4.0.6                                npm                      
+@types/lodash.maxby                               4.6.6                                npm                      
+@types/lodash.mean                                4.1.6                                npm                      
+@types/lodash.meanby                              4.10.5                               npm                      
+@types/lodash.memoize                             4.1.6                                npm                      
+@types/lodash.merge                               4.6.6                                npm                      
+@types/lodash.mergewith                           4.6.6                                npm                      
+@types/lodash.method                              4.5.6                                npm                      
+@types/lodash.methodof                            4.5.6                                npm                      
+@types/lodash.min                                 4.0.6                                npm                      
+@types/lodash.minby                               4.6.6                                npm                      
+@types/lodash.mixin                               4.3.6                                npm                      
+@types/lodash.multiply                            4.9.1                                npm                      
+@types/lodash.negate                              3.0.6                                npm                      
+@types/lodash.noop                                3.0.6                                npm                      
+@types/lodash.now                                 4.0.6                                npm                      
+@types/lodash.nth                                 4.11.3                               npm                      
+@types/lodash.ntharg                              4.2.6                                npm                      
+@types/lodash.omit                                4.5.6                                npm                      
+@types/lodash.omitby                              4.6.6                                npm                      
+@types/lodash.once                                4.1.6                                npm                      
+@types/lodash.orderby                             4.6.6                                npm                      
+@types/lodash.over                                4.7.6                                npm                      
+@types/lodash.overargs                            4.7.6                                npm                      
+@types/lodash.overevery                           4.7.6                                npm                      
+@types/lodash.oversome                            4.7.6                                npm                      
+@types/lodash.pad                                 4.5.6                                npm                      
+@types/lodash.padend                              4.6.6                                npm                      
+@types/lodash.padstart                            4.6.6                                npm                      
+@types/lodash.parseint                            4.0.6                                npm                      
+@types/lodash.partial                             4.2.6                                npm                      
+@types/lodash.partialright                        4.2.6                                npm                      
+@types/lodash.partition                           4.6.6                                npm                      
+@types/lodash.pick                                4.4.6                                npm                      
+@types/lodash.pickby                              4.6.6                                npm                      
+@types/lodash.property                            4.4.6                                npm                      
+@types/lodash.propertyof                          4.4.6                                npm                      
+@types/lodash.pull                                4.1.6                                npm                      
+@types/lodash.pullall                             4.2.6                                npm                      
+@types/lodash.pullallby                           4.7.6                                npm                      
+@types/lodash.pullallwith                         4.7.3                                npm                      
+@types/lodash.pullat                              4.6.6                                npm                      
+@types/lodash.random                              3.2.6                                npm                      
+@types/lodash.range                               3.2.6                                npm                      
+@types/lodash.rangeright                          4.2.6                                npm                      
+@types/lodash.rearg                               4.4.6                                npm                      
+@types/lodash.reduce                              4.6.6                                npm                      
+@types/lodash.reduceright                         4.6.6                                npm                      
+@types/lodash.reject                              4.6.6                                npm                      
+@types/lodash.remove                              4.7.6                                npm                      
+@types/lodash.repeat                              4.1.6                                npm                      
+@types/lodash.replace                             4.1.6                                npm                      
+@types/lodash.rest                                4.0.6                                npm                      
+@types/lodash.result                              4.5.6                                npm                      
+@types/lodash.reverse                             4.0.6                                npm                      
+@types/lodash.round                               4.0.6                                npm                      
+@types/lodash.sample                              4.2.6                                npm                      
+@types/lodash.samplesize                          4.2.6                                npm                      
+@types/lodash.set                                 4.3.6                                npm                      
+@types/lodash.setwith                             4.3.6                                npm                      
+@types/lodash.shuffle                             4.2.6                                npm                      
+@types/lodash.size                                4.2.6                                npm                      
+@types/lodash.slice                               4.2.6                                npm                      
+@types/lodash.snakecase                           4.1.6                                npm                      
+@types/lodash.some                                4.6.6                                npm                      
+@types/lodash.sortby                              4.7.6                                npm                      
+@types/lodash.sortedindex                         4.1.6                                npm                      
+@types/lodash.sortedindexby                       4.6.6                                npm                      
+@types/lodash.sortedindexof                       4.1.6                                npm                      
+@types/lodash.sortedlastindex                     4.1.6                                npm                      
+@types/lodash.sortedlastindexby                   4.6.6                                npm                      
+@types/lodash.sortedlastindexof                   4.1.6                                npm                      
+@types/lodash.sorteduniq                          4.2.6                                npm                      
+@types/lodash.sorteduniqby                        4.7.6                                npm                      
+@types/lodash.split                               4.4.6                                npm                      
+@types/lodash.spread                              4.2.6                                npm                      
+@types/lodash.startcase                           4.4.6                                npm                      
+@types/lodash.startswith                          4.2.6                                npm                      
+@types/lodash.stubfalse                           4.13.0                               npm                      
+@types/lodash.stubtrue                            4.13.0                               npm                      
+@types/lodash.subtract                            4.2.6                                npm                      
+@types/lodash.sum                                 4.0.6                                npm                      
+@types/lodash.sumby                               4.6.6                                npm                      
+@types/lodash.tail                                4.1.6                                npm                      
+@types/lodash.take                                4.1.6                                npm                      
+@types/lodash.takeright                           4.1.6                                npm                      
+@types/lodash.takerightwhile                      4.6.6                                npm                      
+@types/lodash.takewhile                           4.6.6                                npm                      
+@types/lodash.template                            4.5.0                                npm                      
+@types/lodash.throttle                            4.1.6                                npm                      
+@types/lodash.times                               4.3.6                                npm                      
+@types/lodash.toarray                             4.4.6                                npm                      
+@types/lodash.tofinite                            4.12.3                               npm                      
+@types/lodash.tointeger                           4.0.6                                npm                      
+@types/lodash.tolength                            4.0.6                                npm                      
+@types/lodash.tolower                             4.1.6                                npm                      
+@types/lodash.tonumber                            4.0.6                                npm                      
+@types/lodash.topairs                             4.3.6                                npm                      
+@types/lodash.topairsin                           4.3.6                                npm                      
+@types/lodash.topath                              4.5.6                                npm                      
+@types/lodash.toplainobject                       4.2.6                                npm                      
+@types/lodash.tosafeinteger                       4.0.6                                npm                      
+@types/lodash.tostring                            4.1.6                                npm                      
+@types/lodash.toupper                             4.1.6                                npm                      
+@types/lodash.transform                           4.6.6                                npm                      
+@types/lodash.trim                                4.5.6                                npm                      
+@types/lodash.trimend                             4.5.6                                npm                      
+@types/lodash.trimstart                           4.5.6                                npm                      
+@types/lodash.truncate                            4.4.6                                npm                      
+@types/lodash.unary                               4.2.6                                npm                      
+@types/lodash.unescape                            4.0.6                                npm                      
+@types/lodash.union                               4.6.6                                npm                      
+@types/lodash.unionby                             4.8.6                                npm                      
+@types/lodash.unionwith                           4.6.6                                npm                      
+@types/lodash.uniq                                4.5.6                                npm                      
+@types/lodash.uniqby                              4.7.6                                npm                      
+@types/lodash.uniqueid                            4.0.6                                npm                      
+@types/lodash.uniqwith                            4.5.6                                npm                      
+@types/lodash.unset                               4.5.6                                npm                      
+@types/lodash.unzip                               3.4.6                                npm                      
+@types/lodash.unzipwith                           4.3.6                                npm                      
+@types/lodash.update                              4.10.6                               npm                      
+@types/lodash.updatewith                          4.10.3                               npm                      
+@types/lodash.uppercase                           4.3.6                                npm                      
+@types/lodash.upperfirst                          4.3.6                                npm                      
+@types/lodash.values                              4.3.6                                npm                      
+@types/lodash.valuesin                            4.3.6                                npm                      
+@types/lodash.without                             4.4.6                                npm                      
+@types/lodash.words                               4.2.6                                npm                      
+@types/lodash.wrap                                4.1.6                                npm                      
+@types/lodash.xor                                 4.5.6                                npm                      
+@types/lodash.xorby                               4.7.6                                npm                      
+@types/lodash.xorwith                             4.5.6                                npm                      
+@types/lodash.zip                                 4.2.6                                npm                      
+@types/lodash.zipobject                           4.1.6                                npm                      
+@types/lodash.zipobjectdeep                       4.4.3                                npm                      
+@types/lodash.zipwith                             4.2.6                                npm                      
+@types/merge-stream                               1.1.2                                npm                      
+@types/minimist                                   1.2.5                                npm                      
+@types/mute-stream                                0.0.1                                npm                      
+@types/n3                                         1.10.4                               npm                      
+@types/negotiator                                 0.6.1                                npm                      
+@types/object-inspect                             1.8.1                                npm                      
+@types/optimist                                   0.0.30                               npm                      
+@types/osenv                                      0.1.1                                npm                      
+@types/path-is-inside                             1.0.0                                npm                      
+@types/pify                                       5.0.1                                npm                      
+@types/promise-inflight                           1.0.0                                npm                      
+@types/punycode                                   2.1.4                                npm                      
+@types/randombytes                                2.0.0                                npm                      
+@types/rechoir                                    0.6.1                                npm                      
+@types/require-directory                          2.1.2                                npm                      
+@types/resolve                                    1.20.6                               npm                      
+@types/responselike                               1.0.0                                npm                      
+@types/retry                                      0.12.5                               npm                      
+@types/slice-ansi                                 5.0.0                                npm                      
+@types/source-list-map                            0.1.2                                npm                      
+@types/spdx-expression-parse                      3.0.1                                npm                      
+@types/sprintf-js                                 1.1.2                                npm                      
+@types/supports-color                             8.1.1                                npm                      
+@types/through                                    0.0.30                               npm                      
+@types/uuid                                       8.3.4                                npm                      
+@types/v8flags                                    3.1.1                                npm                      
+@types/webpack-sources                            3.2.0                                npm                      
+@types/write-file-atomic                          4.0.0                                npm                      
+@types/y18n                                       5.0.0                                npm                      
+@types/yallist                                    4.0.1                                npm                      
+Simple Launcher                                   1.1.0.14                             binary  (+5 duplicates)  
+abbrev                                            1.1.1                                npm                      
+abbrev                                            3.0.1                                npm     (+3 duplicates)  
+abbrev                                            4.0.0                                npm     (+1 duplicate)   
+acorn                                             8.15.0                               npm                      
+acorn                                             8.7.0                                npm                      
+acorn-jsx                                         5.3.2                                npm                      
+acorn-loose                                       8.3.0                                npm                      
+acorn-walk                                        8.2.0                                npm                      
+adduser                                           3.152                                deb                      
+agent-base                                        7.1.4                                npm     (+1 duplicate)   
+aggregate-error                                   3.1.0                                npm                      
+annotated-doc                                     0.0.4                                python                   
+annotated-types                                   0.7.0                                python                   
+ansi-escapes                                      4.3.1                                npm                      
+ansi-gray                                         0.1.1                                npm                      
+ansi-regex                                        5.0.1                                npm     (+3 duplicates)  
+ansi-regex                                        6.2.2                                npm     (+3 duplicates)  
+ansi-styles                                       4.3.0                                npm     (+2 duplicates)  
+ansi-styles                                       6.2.1                                npm                      
+ansi-styles                                       6.2.3                                npm     (+1 duplicate)   
+ansi-wrap                                         0.1.0                                npm                      
+anyio                                             4.11.0                               python                   
+aproba                                            2.0.0                                npm                      
+aproba                                            2.1.0                                npm     (+1 duplicate)   
+apt                                               3.0.3                                deb                      
+archy                                             1.0.0                                npm     (+1 duplicate)   
+are-we-there-yet                                  3.0.1                                npm                      
+argparse                                          2.0.1                                npm                      
+arrify                                            2.0.1                                npm                      
+async                                             3.2.6                                npm                      
+async-each                                        1.0.3                                npm                      
+async-es                                          3.2.6                                npm                      
+async-retry                                       1.3.3                                npm                      
+asyncro                                           3.0.0                                npm                      
+autocommand                                       2.2.2                                python                   
+azul-bedrock                                      9.0.15                               python                   
+azul-plugin-js-deobf                              9.0.13+g194d02800.d20251122          python                   
+azul-runner                                       9.0.14                               python                   
+babel-plugin-add-module-exports                   1.0.4                                npm                      
+backports-tarfile                                 1.2.0                                python                   
+balanced-match                                    1.0.2                                npm     (+1 duplicate)   
+balanced-match                                    2.0.0                                npm                      
+base-files                                        13.8+deb13u2                         deb                      
+base-passwd                                       3.6.7                                deb                      
+base64-js                                         1.5.1                                npm     (+1 duplicate)   
+bash                                              5.2.37-2+b5                          deb                      
+bash-completion                                   1:2.16.0-7                           deb                      
+beep-boop                                         1.2.3                                npm                      
+bin-links                                         6.0.0                                npm     (+1 duplicate)   
+binary-extensions                                 2.2.0                                npm                      
+binary-extensions                                 3.1.0                                npm     (+1 duplicate)   
+binary-search                                     1.3.6                                npm                      
+bitarray                                          3.8.0                                python                   
+bl                                                4.1.0                                npm                      
+brace-expansion                                   2.0.1                                npm                      
+brace-expansion                                   2.0.2                                npm     (+1 duplicate)   
+bsdutils                                          1:2.41-5                             deb                      
+buffer                                            5.7.1                                npm                      
+bufferstreams                                     3.0.0                                npm                      
+build                                             1.3.0                                python                   
+ca-certificates                                   20250419                             deb                      
+cacache                                           20.0.2                               npm     (+1 duplicate)   
+cacheable-lookup                                  6.1.0                                npm                      
+cacheable-request                                 7.0.2                                npm                      
+cachetools                                        6.2.2                                python                   
+callsites                                         3.1.0                                npm                      
+camelcase                                         7.0.0                                npm                      
+caniuse-lite                                      1.0.30001723                         npm                      
+cart                                              1.2.3                                python                   
+certifi                                           2025.11.12                           python                   
+chalk                                             5.6.2                                npm     (+1 duplicate)   
+chownr                                            1.1.4                                npm                      
+chownr                                            2.0.0                                npm                      
+chownr                                            3.0.0                                npm     (+1 duplicate)   
+chrome-trace-event                                1.0.3                                npm                      
+ci-info                                           4.0.0                                npm                      
+ci-info                                           4.3.1                                npm     (+1 duplicate)   
+cidr-regex                                        5.0.1                                npm     (+1 duplicate)   
+cjs-module-lexer                                  1.2.3                                npm                      
+clean-stack                                       3.0.1                                npm                      
+cli                                               UNKNOWN                              binary                   
+cli-32                                            UNKNOWN                              binary                   
+cli-64                                            UNKNOWN                              binary                   
+cli-arm64                                         UNKNOWN                              binary                   
+cli-columns                                       4.0.0                                npm     (+1 duplicate)   
+cliui                                             7.0.4                                npm                      
+clone                                             2.1.2                                npm                      
+clone-deep                                        4.0.1                                npm                      
+clone-response                                    1.0.3                                npm                      
+cmd-shim                                          8.0.0                                npm     (+1 duplicate)   
+color-convert                                     2.0.1                                npm     (+3 duplicates)  
+color-name                                        1.1.4                                npm     (+3 duplicates)  
+color-support                                     1.1.3                                npm                      
+colors                                            1.4.0                                npm                      
+commander                                         9.4.1                                npm                      
+common-ancestor-path                              1.0.1                                npm     (+1 duplicate)   
+commondir                                         1.0.1                                npm                      
+concat-stream                                     2.0.0                                npm                      
+console-control-strings                           1.1.0                                npm                      
+convert-source-map                                1.9.0                                npm                      
+core-js                                           3.33.2                               npm                      
+core-js-pure                                      3.33.2                               npm                      
+core-util-is                                      1.0.3                                npm                      
+corepack                                          0.34.2                               npm                      
+coreutils                                         9.7-3                                deb                      
+cross-spawn                                       7.0.6                                npm     (+1 duplicate)   
+cssesc                                            3.0.0                                npm     (+1 duplicate)   
+curl                                              8.14.1-2+deb13u2                     deb                      
+dash                                              0.5.12-12                            deb                      
+data-uri-to-buffer                                6.0.2                                npm                      
+debconf                                           1.5.91                               deb                      
+debian-archive-keyring                            2025.1                               deb                      
+debianutils                                       5.23.2                               deb                      
+debug                                             4.4.3                                npm     (+1 duplicate)   
+decompress-response                               6.0.0                                npm     (+1 duplicate)   
+deep-extend                                       0.6.0                                npm                      
+deep-is                                           0.1.4                                npm     (+1 duplicate)   
+defaults                                          1.0.4                                npm                      
+defer-to-connect                                  2.0.1                                npm                      
+define-property                                   2.0.2                                npm                      
+delegates                                         1.0.0                                npm                      
+deobfuscator                                      2.4.5                                npm                      
+depd                                              2.0.0                                npm                      
+detect-libc                                       2.1.2                                npm                      
+diff                                              5.0.0                                npm                      
+diff                                              8.0.2                                npm     (+1 duplicate)   
+diffutils                                         1:3.10-4                             deb                      
+dirmngr                                           2.4.7-21+b3                          deb                      
+dpkg                                              1.22.21                              deb                      
+eastasianwidth                                    0.2.0                                npm     (+1 duplicate)   
+electron-to-chromium                              1.5.166                              npm                      
+emoji-regex                                       8.0.0                                npm     (+2 duplicates)  
+emoji-regex                                       9.2.2                                npm     (+3 duplicates)  
+encoding                                          0.1.13                               npm     (+2 duplicates)  
+end-of-stream                                     1.4.5                                npm                      
+ensure-posix-path                                 1.1.1                                npm                      
+env-paths                                         2.2.1                                npm     (+1 duplicate)   
+err-code                                          2.0.3                                npm     (+2 duplicates)  
+error-ex                                          1.3.2                                npm                      
+es-module-lexer                                   1.1.0                                npm                      
+escalade                                          3.2.0                                npm                      
+escape-string-regexp                              4.0.0                                npm                      
+eslint-scope                                      7.1.1                                npm                      
+eslint-scope                                      8.4.0                                npm     (+1 duplicate)   
+eslint-utils                                      3.0.0                                npm                      
+eslint-visitor-keys                               3.3.0                                npm                      
+eslint-visitor-keys                               4.2.1                                npm                      
+espree                                            10.4.0                               npm                      
+esprima                                           4.0.1                                npm                      
+esquery                                           1.4.2                                npm                      
+esrecurse                                         4.3.0                                npm                      
+estraverse                                        5.3.0                                npm     (+1 duplicate)   
+esutils                                           2.0.3                                npm     (+1 duplicate)   
+events                                            3.3.0                                npm                      
+expand-template                                   2.0.3                                npm                      
+exponential-backoff                               3.1.3                                npm     (+1 duplicate)   
+fancy-log                                         1.3.3                                npm                      
+fast-deep-equal                                   3.1.3                                npm                      
+fast-levenshtein                                  2.0.6                                npm     (+1 duplicate)   
+fastapi                                           0.121.3                              python                   
+fastest-levenshtein                               1.0.16                               npm     (+1 duplicate)   
+fdir                                              6.5.0                                npm     (+1 duplicate)   
+fetch-blob                                        3.1.5                                npm                      
+find-up                                           6.3.0                                npm                      
+findutils                                         4.10.0-3                             deb                      
+flast                                             2.2.1                                npm                      
+flast                                             2.2.5                                npm                      
+flatted                                           3.2.7                                npm                      
+for-in                                            1.0.2                                npm                      
+for-own                                           1.0.0                                npm                      
+foreground-child                                  3.1.1                                npm                      
+foreground-child                                  3.3.1                                npm     (+1 duplicate)   
+formdata-polyfill                                 4.0.6                                npm                      
+fs-constants                                      1.0.0                                npm                      
+fs-minipass                                       3.0.3                                npm     (+1 duplicate)   
+fs-monkey                                         1.0.3                                npm                      
+fs-readdir-recursive                              1.1.0                                npm                      
+fs-write-stream-atomic                            1.0.10                               npm                      
+fs.realpath                                       1.0.0                                npm                      
+function-bind                                     1.1.2                                npm                      
+functional-red-black-tree                         1.0.1                                npm                      
+gcc-14-base                                       14.2.0-19                            deb                      
+get-caller-file                                   2.0.5                                npm     (+1 duplicate)   
+get-stream                                        8.0.1                                npm                      
+github-from-package                               0.0.0                                npm                      
+glob                                              11.0.3                               npm     (+1 duplicate)   
+glob                                              8.1.0                                npm                      
+globals                                           13.23.0                              npm                      
+globalyzer                                        0.1.4                                npm                      
+globrex                                           0.1.2                                npm                      
+gnupg                                             2.4.7-21                             deb                      
+gnupg-l10n                                        2.4.7-21                             deb                      
+gnupg-utils                                       2.4.7-21+b3                          deb                      
+got                                               11.8.5                               npm                      
+gpg                                               2.4.7-21+b3                          deb                      
+gpg-agent                                         2.4.7-21+b3                          deb                      
+gpg-wks-client                                    2.4.7-21+b3                          deb                      
+gpgconf                                           2.4.7-21+b3                          deb                      
+gpgsm                                             2.4.7-21+b3                          deb                      
+gpgv                                              2.4.7-21+b3                          deb                      
+graceful-fs                                       4.2.10                               npm                      
+graceful-fs                                       4.2.11                               npm     (+1 duplicate)   
+grep                                              3.11-4                               deb                      
+gui                                               UNKNOWN                              binary                   
+gui-32                                            UNKNOWN                              binary                   
+gui-64                                            UNKNOWN                              binary                   
+gui-arm64                                         UNKNOWN                              binary                   
+gyp                                               0.16.2-2                             deb                      
+gyp-next                                          0.16.2                               python                   
+gzip                                              1.13-1                               deb                      
+h11                                               0.16.0                               python                   
+handlebars                                        3:4.7.7+~4.1.0-1                     deb                      
+handlebars                                        4.7.7                                npm                      
+has                                               1.0.4                                npm                      
+has-flag                                          5.0.1                                npm                      
+has-unicode                                       2.0.1                                npm                      
+hosted-git-info                                   6.1.1                                npm                      
+hosted-git-info                                   9.0.2                                npm     (+1 duplicate)   
+hostname                                          3.25                                 deb                      
+http-cache-semantics                              4.1.0                                npm                      
+http-cache-semantics                              4.2.0                                npm     (+1 duplicate)   
+http-proxy-agent                                  7.0.2                                npm     (+1 duplicate)   
+http2-wrapper                                     2.1.11                               npm                      
+httpcore                                          1.0.9                                python                   
+https-proxy-agent                                 7.0.6                                npm     (+1 duplicate)   
+httpx                                             0.28.1                               python                   
+iconv-lite                                        0.6.3                                npm     (+2 duplicates)  
+idna                                              3.11                                 python                   
+ieee754                                           1.2.1                                npm     (+1 duplicate)   
+iferr                                             1.0.2                                npm                      
+ignore-walk                                       8.0.0                                npm     (+1 duplicate)   
+import-fresh                                      3.3.0                                npm                      
+importlib-metadata                                8.0.0                                python                   
+imurmurhash                                       0.1.4                                npm     (+2 duplicates)  
+indent-string                                     4.0.0                                npm                      
+inflect                                           7.3.1                                python                   
+inflight                                          1.0.6                                npm                      
+inherits                                          2.0.4                                npm     (+1 duplicate)   
+ini                                               1.3.8                                npm                      
+ini                                               3.0.1                                npm                      
+ini                                               6.0.0                                npm     (+1 duplicate)   
+init-package-json                                 8.2.3                                npm     (+1 duplicate)   
+init-system-helpers                               1.69~deb13u1                         deb                      
+interpret                                         2.2.0                                npm                      
+ip                                                2.0.1                                npm                      
+ip-address                                        10.0.1                               npm     (+1 duplicate)   
+ip-regex                                          4.3.0                                npm                      
+ip-regex                                          5.0.0                                npm     (+1 duplicate)   
+is-arrayish                                       0.3.2                                npm                      
+is-binary-path                                    2.1.0                                npm                      
+is-buffer                                         2.0.5                                npm                      
+is-cidr                                           6.0.1                                npm     (+1 duplicate)   
+is-core-module                                    2.13.1                               npm                      
+is-descriptor                                     3.0.0                                npm                      
+is-extendable                                     1.0.1                                npm                      
+is-extglob                                        2.1.1                                npm                      
+is-fullwidth-code-point                           3.0.0                                npm     (+2 duplicates)  
+is-fullwidth-code-point                           4.0.0                                npm                      
+is-interactive                                    1.0.0                                npm                      
+is-path-cwd                                       2.2.0                                npm                      
+is-plain-obj                                      3.0.0                                npm                      
+is-plain-object                                   5.0.0                                npm                      
+is-stream                                         3.0.0                                npm                      
+is-typedarray                                     1.0.0                                npm                      
+is-unicode-supported                              0.1.0                                npm                      
+is-windows                                        1.0.2                                npm                      
+isarray                                           2.0.5                                npm                      
+isexe                                             2.0.0                                npm     (+2 duplicates)  
+isexe                                             3.1.1                                npm     (+1 duplicate)   
+isobject                                          4.0.0                                npm                      
+isolated-vm                                       5.0.4                                npm                      
+jackspeak                                         4.1.1                                npm     (+1 duplicate)   
+jaraco-collections                                5.1.0                                python                   
+jaraco-context                                    5.3.0                                python                   
+jaraco-functools                                  4.0.1                                python                   
+jaraco-text                                       3.12.1                               python                   
+js-tokens                                         8.0.0                                npm                      
+jsesc                                             3.0.2                                npm                      
+json-buffer                                       3.0.1                                npm                      
+json-parse-better-errors                          1.0.2                                npm                      
+json-parse-even-better-errors                     2.3.1                                npm                      
+json-parse-even-better-errors                     5.0.0                                npm     (+1 duplicate)   
+json-schema                                       0.4.0                                npm                      
+json-schema-traverse                              1.0.0                                npm                      
+json-stable-stringify                             1.0.2                                npm                      
+json-stringify-nice                               1.1.4                                npm     (+1 duplicate)   
+jsonify                                           0.0.1                                npm                      
+jsonparse                                         1.3.1                                npm     (+2 duplicates)  
+just-diff                                         6.0.2                                npm     (+1 duplicate)   
+just-diff-apply                                   5.5.0                                npm     (+1 duplicate)   
+keyv                                              4.0.4                                npm                      
+kind-of                                           6.0.3                                npm                      
+krb5-locales                                      1.21.3-5                             deb                      
+levn                                              0.3.0                                npm                      
+levn                                              0.4.1                                npm                      
+libacl1                                           2.3.2-2+b1                           deb                      
+libapt-pkg7.0                                     3.0.3                                deb                      
+libassuan9                                        3.0.2-2                              deb                      
+libattr1                                          1:2.5.2-3                            deb                      
+libaudit-common                                   1:4.0.2-2                            deb                      
+libaudit1                                         1:4.0.2-2+b2                         deb                      
+libblkid1                                         2.41-5                               deb                      
+libbrotli1                                        1.1.0-2+b7                           deb                      
+libbsd0                                           0.12.2-2                             deb                      
+libbz2-1.0                                        1.0.8-6                              deb                      
+libc-bin                                          2.41-12                              deb                      
+libc6                                             2.41-12                              deb                      
+libcap-ng0                                        0.8.5-4+b1                           deb                      
+libcap2                                           1:2.75-10+b1                         deb                      
+libcares2                                         1.34.5-1                             deb                      
+libcom-err2                                       1.47.2-3+b3                          deb                      
+libcrypt1                                         1:4.4.38-1                           deb                      
+libcurl4t64                                       8.14.1-2+deb13u2                     deb                      
+libdb5.3t64                                       5.3.28+dfsg2-9                       deb                      
+libdebconfclient0                                 0.280                                deb                      
+libexpat1                                         2.7.1-2                              deb                      
+libffi8                                           3.4.8-2                              deb                      
+libgcc-s1                                         14.2.0-19                            deb                      
+libgcrypt20                                       1.11.0-7                             deb                      
+libgdbm6t64                                       1.24-2                               deb                      
+libgmp10                                          2:6.3.0+dfsg-3                       deb                      
+libgnutls30t64                                    3.8.9-3                              deb                      
+libgpg-error-l10n                                 1.51-4                               deb                      
+libgpg-error0                                     1.51-4                               deb                      
+libgssapi-krb5-2                                  1.21.3-5                             deb                      
+libhogweed6t64                                    3.10.1-1                             deb                      
+libicu76                                          76.1-4                               deb                      
+libidn2-0                                         2.3.8-2                              deb                      
+libjs-events                                      3.3.0+~3.0.0-3                       deb                      
+libjs-inherits                                    2.0.4-6                              deb                      
+libjs-is-typedarray                               1.0.0-4                              deb                      
+libjs-prettify                                    2015.12.04+dfsg-1.1                  deb                      
+libjs-regenerate                                  1.4.2-3                              deb                      
+libjs-source-map                                  0.7.0++dfsg2+really.0.6.1-15         deb                      
+libjs-sprintf-js                                  1.1.2+ds1+~1.1.2-1                   deb                      
+libjs-typedarray-to-buffer                        4.0.0-2                              deb                      
+libk5crypto3                                      1.21.3-5                             deb                      
+libkeyutils1                                      1.6.3-6                              deb                      
+libkrb5-3                                         1.21.3-5                             deb                      
+libkrb5support0                                   1.21.3-5                             deb                      
+libksba8                                          1.6.7-2+b1                           deb                      
+liblastlog2-2                                     2.41-5                               deb                      
+libldap-common                                    2.6.10+dfsg-1                        deb                      
+libldap2                                          2.6.10+dfsg-1                        deb                      
+liblz4-1                                          1.10.0-4                             deb                      
+liblzma5                                          5.8.1-1                              deb                      
+libmagic-dev                                      1:5.46-5                             deb                      
+libmagic-mgc                                      1:5.46-5                             deb                      
+libmagic1t64                                      1:5.46-5                             deb                      
+libmd0                                            1.1.0-2+b1                           deb                      
+libmount1                                         2.41-5                               deb                      
+libncursesw6                                      6.5+20250216-2                       deb                      
+libnettle8t64                                     3.10.1-1                             deb                      
+libnghttp2-14                                     1.64.0-1.1                           deb                      
+libnghttp3-9                                      1.8.0-1                              deb                      
+libnpmaccess                                      10.0.3                               npm     (+1 duplicate)   
+libnpmdiff                                        8.0.10                               npm     (+1 duplicate)   
+libnpmexec                                        10.1.9                               npm     (+1 duplicate)   
+libnpmfund                                        7.0.10                               npm     (+1 duplicate)   
+libnpmorg                                         8.0.1                                npm     (+1 duplicate)   
+libnpmpack                                        9.0.10                               npm     (+1 duplicate)   
+libnpmpublish                                     11.1.3                               npm     (+1 duplicate)   
+libnpmsearch                                      9.0.1                                npm     (+1 duplicate)   
+libnpmteam                                        8.0.2                                npm     (+1 duplicate)   
+libnpmversion                                     8.0.3                                npm     (+1 duplicate)   
+libnpth0t64                                       1.8-3                                deb                      
+libp11-kit0                                       0.25.5-3                             deb                      
+libpam-modules                                    1.7.0-5                              deb                      
+libpam-modules-bin                                1.7.0-5                              deb                      
+libpam-runtime                                    1.7.0-5                              deb                      
+libpam0g                                          1.7.0-5                              deb                      
+libpcre2-8-0                                      10.46-1~deb13u1                      deb                      
+libpsl5t64                                        0.21.2-1.1+b1                        deb                      
+libpython3-stdlib                                 3.13.5-1                             deb                      
+libpython3.13-minimal                             3.13.5-2                             deb                      
+libpython3.13-stdlib                              3.13.5-2                             deb                      
+libreadline8t64                                   8.2-6                                deb                      
+librtmp1                                          2.4+20151223.gitfa8646d.1-2+b5       deb                      
+libsasl2-2                                        2.1.28+dfsg1-9                       deb                      
+libsasl2-modules                                  2.1.28+dfsg1-9                       deb                      
+libsasl2-modules-db                               2.1.28+dfsg1-9                       deb                      
+libseccomp2                                       2.6.0-2                              deb                      
+libselinux1                                       3.8.1-1                              deb                      
+libsemanage-common                                3.8.1-1                              deb                      
+libsemanage2                                      3.8.1-1                              deb                      
+libsepol2                                         3.8.1-1                              deb                      
+libsmartcols1                                     2.41-5                               deb                      
+libsqlite3-0                                      3.46.1-7                             deb                      
+libssh2-1t64                                      1.11.1-1                             deb                      
+libssl-dev                                        3.5.4-1~deb13u1                      deb                      
+libssl3t64                                        3.5.4-1~deb13u1                      deb                      
+libstdc++6                                        14.2.0-19                            deb                      
+libsystemd0                                       257.9-1~deb13u1                      deb                      
+libtasn1-6                                        4.20.0-2                             deb                      
+libtinfo6                                         6.5+20250216-2                       deb                      
+libudev1                                          257.9-1~deb13u1                      deb                      
+libunistring5                                     1.3-2                                deb                      
+libuuid1                                          2.41-5                               deb                      
+libuv1-dev                                        1.50.0-2                             deb                      
+libuv1t64                                         1.50.0-2                             deb                      
+libxxhash0                                        0.8.3-2                              deb                      
+libzstd1                                          1.5.7+dfsg-1                         deb                      
+loader-runner                                     4.3.0                                npm                      
+locate-path                                       7.1.1                                npm                      
+lodash._reinterpolate                             4.17.21                              npm                      
+lodash.add                                        4.17.21                              npm                      
+lodash.after                                      4.17.21                              npm                      
+lodash.ary                                        4.17.21                              npm                      
+lodash.assign                                     4.17.21                              npm                      
+lodash.assignin                                   4.17.21                              npm                      
+lodash.assigninwith                               4.17.21                              npm                      
+lodash.assignwith                                 4.17.21                              npm                      
+lodash.at                                         4.17.21                              npm                      
+lodash.attempt                                    4.17.21                              npm                      
+lodash.before                                     4.17.21                              npm                      
+lodash.bind                                       4.17.21                              npm                      
+lodash.bindall                                    4.17.21                              npm                      
+lodash.bindkey                                    4.17.21                              npm                      
+lodash.camelcase                                  4.17.21                              npm                      
+lodash.capitalize                                 4.17.21                              npm                      
+lodash.castarray                                  4.17.21                              npm                      
+lodash.ceil                                       4.17.21                              npm                      
+lodash.chunk                                      4.17.21                              npm                      
+lodash.clamp                                      4.17.21                              npm                      
+lodash.clone                                      4.17.21                              npm                      
+lodash.clonedeep                                  4.17.21                              npm                      
+lodash.clonedeepwith                              4.17.21                              npm                      
+lodash.clonewith                                  4.17.21                              npm                      
+lodash.compact                                    4.17.21                              npm                      
+lodash.concat                                     4.17.21                              npm                      
+lodash.cond                                       4.17.21                              npm                      
+lodash.conforms                                   4.17.21                              npm                      
+lodash.conformsto                                 4.17.21                              npm                      
+lodash.constant                                   4.17.21                              npm                      
+lodash.countby                                    4.17.21                              npm                      
+lodash.create                                     4.17.21                              npm                      
+lodash.curry                                      4.17.21                              npm                      
+lodash.curryright                                 4.17.21                              npm                      
+lodash.debounce                                   4.17.21                              npm                      
+lodash.deburr                                     4.17.21                              npm                      
+lodash.defaults                                   4.17.21                              npm                      
+lodash.defaultsdeep                               4.17.21                              npm                      
+lodash.defaultto                                  4.17.21                              npm                      
+lodash.defer                                      4.17.21                              npm                      
+lodash.delay                                      4.17.21                              npm                      
+lodash.difference                                 4.17.21                              npm                      
+lodash.differenceby                               4.17.21                              npm                      
+lodash.differencewith                             4.17.21                              npm                      
+lodash.divide                                     4.17.21                              npm                      
+lodash.drop                                       4.17.21                              npm                      
+lodash.dropright                                  4.17.21                              npm                      
+lodash.droprightwhile                             4.17.21                              npm                      
+lodash.dropwhile                                  4.17.21                              npm                      
+lodash.endswith                                   4.17.21                              npm                      
+lodash.eq                                         4.17.21                              npm                      
+lodash.escape                                     4.17.21                              npm                      
+lodash.escaperegexp                               4.17.21                              npm                      
+lodash.every                                      4.17.21                              npm                      
+lodash.fill                                       4.17.21                              npm                      
+lodash.filter                                     4.17.21                              npm                      
+lodash.find                                       4.17.21                              npm                      
+lodash.findindex                                  4.17.21                              npm                      
+lodash.findkey                                    4.17.21                              npm                      
+lodash.findlast                                   4.17.21                              npm                      
+lodash.findlastindex                              4.17.21                              npm                      
+lodash.findlastkey                                4.17.21                              npm                      
+lodash.flatmap                                    4.17.21                              npm                      
+lodash.flatmapdeep                                4.17.21                              npm                      
+lodash.flatmapdepth                               4.17.21                              npm                      
+lodash.flatten                                    4.17.21                              npm                      
+lodash.flattendeep                                4.17.21                              npm                      
+lodash.flattendepth                               4.17.21                              npm                      
+lodash.flip                                       4.17.21                              npm                      
+lodash.floor                                      4.17.21                              npm                      
+lodash.flow                                       4.17.21                              npm                      
+lodash.flowright                                  4.17.21                              npm                      
+lodash.foreach                                    4.17.21                              npm                      
+lodash.foreachright                               4.17.21                              npm                      
+lodash.forin                                      4.17.21                              npm                      
+lodash.forinright                                 4.17.21                              npm                      
+lodash.forown                                     4.17.21                              npm                      
+lodash.forownright                                4.17.21                              npm                      
+lodash.frompairs                                  4.17.21                              npm                      
+lodash.functions                                  4.17.21                              npm                      
+lodash.functionsin                                4.17.21                              npm                      
+lodash.get                                        4.17.21                              npm                      
+lodash.groupby                                    4.17.21                              npm                      
+lodash.gt                                         4.17.21                              npm                      
+lodash.gte                                        4.17.21                              npm                      
+lodash.has                                        4.17.21                              npm                      
+lodash.hasin                                      4.17.21                              npm                      
+lodash.head                                       4.17.21                              npm                      
+lodash.identity                                   4.17.21                              npm                      
+lodash.includes                                   4.17.21                              npm                      
+lodash.indexof                                    4.17.21                              npm                      
+lodash.initial                                    4.17.21                              npm                      
+lodash.inrange                                    4.17.21                              npm                      
+lodash.intersection                               4.17.21                              npm                      
+lodash.intersectionby                             4.17.21                              npm                      
+lodash.intersectionwith                           4.17.21                              npm                      
+lodash.invert                                     4.17.21                              npm                      
+lodash.invertby                                   4.17.21                              npm                      
+lodash.invoke                                     4.17.21                              npm                      
+lodash.invokemap                                  4.17.21                              npm                      
+lodash.isarguments                                4.17.21                              npm                      
+lodash.isarray                                    4.17.21                              npm                      
+lodash.isarraybuffer                              4.17.21                              npm                      
+lodash.isarraylike                                4.17.21                              npm                      
+lodash.isarraylikeobject                          4.17.21                              npm                      
+lodash.isboolean                                  4.17.21                              npm                      
+lodash.isbuffer                                   4.17.21                              npm                      
+lodash.isdate                                     4.17.21                              npm                      
+lodash.iselement                                  4.17.21                              npm                      
+lodash.isempty                                    4.17.21                              npm                      
+lodash.isequal                                    4.17.21                              npm                      
+lodash.isequalwith                                4.17.21                              npm                      
+lodash.iserror                                    4.17.21                              npm                      
+lodash.isfinite                                   4.17.21                              npm                      
+lodash.isfunction                                 4.17.21                              npm                      
+lodash.isinteger                                  4.17.21                              npm                      
+lodash.islength                                   4.17.21                              npm                      
+lodash.ismap                                      4.17.21                              npm                      
+lodash.ismatch                                    4.17.21                              npm                      
+lodash.ismatchwith                                4.17.21                              npm                      
+lodash.isnan                                      4.17.21                              npm                      
+lodash.isnative                                   4.17.21                              npm                      
+lodash.isnil                                      4.17.21                              npm                      
+lodash.isnull                                     4.17.21                              npm                      
+lodash.isnumber                                   4.17.21                              npm                      
+lodash.isobject                                   4.17.21                              npm                      
+lodash.isobjectlike                               4.17.21                              npm                      
+lodash.isplainobject                              4.17.21                              npm                      
+lodash.isregexp                                   4.17.21                              npm                      
+lodash.issafeinteger                              4.17.21                              npm                      
+lodash.isset                                      4.17.21                              npm                      
+lodash.isstring                                   4.17.21                              npm                      
+lodash.issymbol                                   4.17.21                              npm                      
+lodash.istypedarray                               4.17.21                              npm                      
+lodash.isundefined                                4.17.21                              npm                      
+lodash.isweakmap                                  4.17.21                              npm                      
+lodash.isweakset                                  4.17.21                              npm                      
+lodash.iteratee                                   4.17.21                              npm                      
+lodash.join                                       4.17.21                              npm                      
+lodash.kebabcase                                  4.17.21                              npm                      
+lodash.keyby                                      4.17.21                              npm                      
+lodash.keys                                       4.17.21                              npm                      
+lodash.keysin                                     4.17.21                              npm                      
+lodash.last                                       4.17.21                              npm                      
+lodash.lastindexof                                4.17.21                              npm                      
+lodash.lowercase                                  4.17.21                              npm                      
+lodash.lowerfirst                                 4.17.21                              npm                      
+lodash.lt                                         4.17.21                              npm                      
+lodash.lte                                        4.17.21                              npm                      
+lodash.map                                        4.17.21                              npm                      
+lodash.mapkeys                                    4.17.21                              npm                      
+lodash.mapvalues                                  4.17.21                              npm                      
+lodash.matches                                    4.17.21                              npm                      
+lodash.matchesproperty                            4.17.21                              npm                      
+lodash.max                                        4.17.21                              npm                      
+lodash.maxby                                      4.17.21                              npm                      
+lodash.mean                                       4.17.21                              npm                      
+lodash.meanby                                     4.17.21                              npm                      
+lodash.memoize                                    4.17.21                              npm                      
+lodash.merge                                      4.17.21                              npm                      
+lodash.mergewith                                  4.17.21                              npm                      
+lodash.method                                     4.17.21                              npm                      
+lodash.methodof                                   4.17.21                              npm                      
+lodash.min                                        4.17.21                              npm                      
+lodash.minby                                      4.17.21                              npm                      
+lodash.mixin                                      4.17.21                              npm                      
+lodash.multiply                                   4.17.21                              npm                      
+lodash.negate                                     4.17.21                              npm                      
+lodash.noop                                       4.17.21                              npm                      
+lodash.now                                        4.17.21                              npm                      
+lodash.nth                                        4.17.21                              npm                      
+lodash.ntharg                                     4.17.21                              npm                      
+lodash.omit                                       4.17.21                              npm                      
+lodash.omitby                                     4.17.21                              npm                      
+lodash.once                                       4.17.21                              npm                      
+lodash.orderby                                    4.17.21                              npm                      
+lodash.over                                       4.17.21                              npm                      
+lodash.overargs                                   4.17.21                              npm                      
+lodash.overevery                                  4.17.21                              npm                      
+lodash.oversome                                   4.17.21                              npm                      
+lodash.pad                                        4.17.21                              npm                      
+lodash.padend                                     4.17.21                              npm                      
+lodash.padstart                                   4.17.21                              npm                      
+lodash.parseint                                   4.17.21                              npm                      
+lodash.partial                                    4.17.21                              npm                      
+lodash.partialright                               4.17.21                              npm                      
+lodash.partition                                  4.17.21                              npm                      
+lodash.pick                                       4.17.21                              npm                      
+lodash.pickby                                     4.17.21                              npm                      
+lodash.property                                   4.17.21                              npm                      
+lodash.propertyof                                 4.17.21                              npm                      
+lodash.pull                                       4.17.21                              npm                      
+lodash.pullall                                    4.17.21                              npm                      
+lodash.pullallby                                  4.17.21                              npm                      
+lodash.pullallwith                                4.17.21                              npm                      
+lodash.pullat                                     4.17.21                              npm                      
+lodash.random                                     4.17.21                              npm                      
+lodash.range                                      4.17.21                              npm                      
+lodash.rangeright                                 4.17.21                              npm                      
+lodash.rearg                                      4.17.21                              npm                      
+lodash.reduce                                     4.17.21                              npm                      
+lodash.reduceright                                4.17.21                              npm                      
+lodash.reject                                     4.17.21                              npm                      
+lodash.remove                                     4.17.21                              npm                      
+lodash.repeat                                     4.17.21                              npm                      
+lodash.replace                                    4.17.21                              npm                      
+lodash.rest                                       4.17.21                              npm                      
+lodash.result                                     4.17.21                              npm                      
+lodash.reverse                                    4.17.21                              npm                      
+lodash.round                                      4.17.21                              npm                      
+lodash.sample                                     4.17.21                              npm                      
+lodash.samplesize                                 4.17.21                              npm                      
+lodash.set                                        4.17.21                              npm                      
+lodash.setwith                                    4.17.21                              npm                      
+lodash.shuffle                                    4.17.21                              npm                      
+lodash.size                                       4.17.21                              npm                      
+lodash.slice                                      4.17.21                              npm                      
+lodash.snakecase                                  4.17.21                              npm                      
+lodash.some                                       4.17.21                              npm                      
+lodash.sortby                                     4.17.21                              npm                      
+lodash.sortedindex                                4.17.21                              npm                      
+lodash.sortedindexby                              4.17.21                              npm                      
+lodash.sortedindexof                              4.17.21                              npm                      
+lodash.sortedlastindex                            4.17.21                              npm                      
+lodash.sortedlastindexby                          4.17.21                              npm                      
+lodash.sortedlastindexof                          4.17.21                              npm                      
+lodash.sorteduniq                                 4.17.21                              npm                      
+lodash.sorteduniqby                               4.17.21                              npm                      
+lodash.split                                      4.17.21                              npm                      
+lodash.spread                                     4.17.21                              npm                      
+lodash.startcase                                  4.17.21                              npm                      
+lodash.startswith                                 4.17.21                              npm                      
+lodash.stubarray                                  4.17.21                              npm                      
+lodash.stubfalse                                  4.17.21                              npm                      
+lodash.stubobject                                 4.17.21                              npm                      
+lodash.stubstring                                 4.17.21                              npm                      
+lodash.stubtrue                                   4.17.21                              npm                      
+lodash.subtract                                   4.17.21                              npm                      
+lodash.sum                                        4.17.21                              npm                      
+lodash.sumby                                      4.17.21                              npm                      
+lodash.tail                                       4.17.21                              npm                      
+lodash.take                                       4.17.21                              npm                      
+lodash.takeright                                  4.17.21                              npm                      
+lodash.takerightwhile                             4.17.21                              npm                      
+lodash.takewhile                                  4.17.21                              npm                      
+lodash.template                                   4.17.21                              npm                      
+lodash.templatesettings                           4.17.21                              npm                      
+lodash.throttle                                   4.17.21                              npm                      
+lodash.times                                      4.17.21                              npm                      
+lodash.toarray                                    4.17.21                              npm                      
+lodash.tofinite                                   4.17.21                              npm                      
+lodash.tointeger                                  4.17.21                              npm                      
+lodash.tolength                                   4.17.21                              npm                      
+lodash.tolower                                    4.17.21                              npm                      
+lodash.tonumber                                   4.17.21                              npm                      
+lodash.topairs                                    4.17.21                              npm                      
+lodash.topairsin                                  4.17.21                              npm                      
+lodash.topath                                     4.17.21                              npm                      
+lodash.toplainobject                              4.17.21                              npm                      
+lodash.tosafeinteger                              4.17.21                              npm                      
+lodash.tostring                                   4.17.21                              npm                      
+lodash.toupper                                    4.17.21                              npm                      
+lodash.transform                                  4.17.21                              npm                      
+lodash.trim                                       4.17.21                              npm                      
+lodash.trimend                                    4.17.21                              npm                      
+lodash.trimstart                                  4.17.21                              npm                      
+lodash.truncate                                   4.17.21                              npm                      
+lodash.unary                                      4.17.21                              npm                      
+lodash.unescape                                   4.17.21                              npm                      
+lodash.union                                      4.17.21                              npm                      
+lodash.unionby                                    4.17.21                              npm                      
+lodash.unionwith                                  4.17.21                              npm                      
+lodash.uniq                                       4.17.21                              npm                      
+lodash.uniqby                                     4.17.21                              npm                      
+lodash.uniqueid                                   4.17.21                              npm                      
+lodash.uniqwith                                   4.17.21                              npm                      
+lodash.unset                                      4.17.21                              npm                      
+lodash.unzip                                      4.17.21                              npm                      
+lodash.unzipwith                                  4.17.21                              npm                      
+lodash.update                                     4.17.21                              npm                      
+lodash.updatewith                                 4.17.21                              npm                      
+lodash.uppercase                                  4.17.21                              npm                      
+lodash.upperfirst                                 4.17.21                              npm                      
+lodash.values                                     4.17.21                              npm                      
+lodash.valuesin                                   4.17.21                              npm                      
+lodash.without                                    4.17.21                              npm                      
+lodash.words                                      4.17.21                              npm                      
+lodash.wrap                                       4.17.21                              npm                      
+lodash.xor                                        4.17.21                              npm                      
+lodash.xorby                                      4.17.21                              npm                      
+lodash.xorwith                                    4.17.21                              npm                      
+lodash.zip                                        4.17.21                              npm                      
+lodash.zipobject                                  4.17.21                              npm                      
+lodash.zipobjectdeep                              4.17.21                              npm                      
+lodash.zipwith                                    4.17.21                              npm                      
+login                                             1:4.16.0-2+really2.41-5              deb                      
+login.defs                                        1:4.17.4-2                           deb                      
+lowercase-keys                                    2.0.0                                npm                      
+lru-cache                                         10.0.1                               npm                      
+lru-cache                                         11.2.2                               npm     (+1 duplicate)   
+make-fetch-happen                                 15.0.3                               npm     (+1 duplicate)   
+mawk                                              1.3.4.20250131-1                     deb                      
+media-types                                       13.0.0                               deb                      
+memfs                                             3.4.12                               npm                      
+merge-stream                                      2.0.0                                npm                      
+mersenne-twister                                  1.1.0                                npm                      
+mimic-fn                                          4.0.0                                npm                      
+mimic-response                                    3.1.0                                npm     (+1 duplicate)   
+minimatch                                         10.1.1                               npm     (+1 duplicate)   
+minimatch                                         9.0.3                                npm                      
+minimatch                                         9.0.5                                npm     (+1 duplicate)   
+minimist                                          1.2.8                                npm     (+1 duplicate)   
+minimist-options                                  4.1.0                                npm                      
+minipass                                          3.3.6                                npm     (+5 duplicates)  
+minipass                                          5.0.0                                npm                      
+minipass                                          7.1.2                                npm     (+1 duplicate)   
+minipass-collect                                  1.0.2                                npm                      
+minipass-collect                                  2.0.1                                npm     (+1 duplicate)   
+minipass-fetch                                    3.0.3                                npm                      
+minipass-fetch                                    5.0.0                                npm     (+1 duplicate)   
+minipass-flush                                    1.0.5                                npm     (+2 duplicates)  
+minipass-json-stream                              1.0.2                                npm                      
+minipass-pipeline                                 1.2.4                                npm     (+2 duplicates)  
+minipass-sized                                    1.0.3                                npm     (+2 duplicates)  
+minizlib                                          2.1.2                                npm                      
+minizlib                                          3.1.0                                npm     (+1 duplicate)   
+mkdirp-classic                                    0.5.3                                npm                      
+more-itertools                                    10.3.0                               python                   
+mount                                             2.41-5                               deb                      
+ms                                                2.1.3                                npm     (+1 duplicate)   
+multipart                                         1.3.0                                python                   
+mute-stream                                       0.0.8                                npm                      
+mute-stream                                       2.0.0                                npm     (+1 duplicate)   
+my-test-package                                   1.0                                  python                   
+n3                                                1.16.3                               npm                      
+napi-build-utils                                  2.0.0                                npm                      
+native-example                                    1.0.0                                npm                      
+ncurses-base                                      6.5+20250216-2                       deb                      
+ncurses-bin                                       6.5+20250216-2                       deb                      
+negotiator                                        0.6.3                                npm                      
+negotiator                                        1.0.0                                npm     (+1 duplicate)   
+neo-async                                         2.6.2                                npm                      
+netbase                                           6.5                                  deb                      
+node-abbrev                                       1.1.1+~1.1.2-1                       deb                      
+node-abi                                          3.85.0                               npm                      
+node-ampproject-remapping                         2.2.0+~cs5.15.37-1                   deb                      
+node-ansi-escapes                                 5.0.0+really.4.3.1-1                 deb                      
+node-ansi-regex                                   5.0.1-1                              deb                      
+node-ansi-styles                                  6.2.1-3                              deb                      
+node-aproba                                       2.0.0-3                              deb                      
+node-are-we-there-yet                             3.0.1+~1.1.0-1                       deb                      
+node-argparse                                     2.0.1-2                              deb                      
+node-arrify                                       2.0.1-3                              deb                      
+node-async                                        3.2.6+dfsg-2                         deb                      
+node-async-each                                   1.0.3-3                              deb                      
+node-babel-plugin-add-module-exports              1.0.4+dfsg1~cs5.8.0-4                deb                      
+node-babel7-runtime                               7.20.15+ds1+~cs214.269.168-8         deb                      
+node-balanced-match                               2.0.0-1                              deb                      
+node-base64-js                                    1.5.1+dfsg+~1.3.0-2                  deb                      
+node-binary-extensions                            2.2.0-2                              deb                      
+node-brace-expansion                              2.0.1+~1.1.0-2                       deb                      
+node-camelcase                                    7.0.0-3                              deb                      
+node-caniuse-lite                                 1.0.30001723+dfsg+~1.0.5-1           deb                      
+node-chownr                                       2.0.0-3                              deb                      
+node-chrome-trace-event                           1.0.3-2                              deb                      
+node-ci-info                                      4.0.0+~cs1.1.0-1                     deb                      
+node-cjs-module-lexer                             1.2.3+dfsg-1                         deb                      
+node-clone                                        2.1.2+~2.1.2-1                       deb                      
+node-clone-deep                                   4.0.1+~cs7.0.2-1                     deb                      
+node-color-convert                                2.0.1+~cs2.0.0-2                     deb                      
+node-color-name                                   1.1.4+~1.1.1-2                       deb                      
+node-colors                                       1.4.0-4                              deb                      
+node-commander                                    9.4.1-1                              deb                      
+node-commondir                                    1.0.1+~1.0.0-1                       deb                      
+node-concat-stream                                2.0.0+~2.0.0-2                       deb                      
+node-console-control-strings                      1.1.0-3                              deb                      
+node-convert-source-map                           1.9.0+~1.5.2-1                       deb                      
+node-core-js                                      3.33.2-1                             deb                      
+node-core-js-pure                                 3.33.2-1                             deb                      
+node-core-util-is                                 1.0.3-1                              deb                      
+node-data-uri-to-buffer                           6.0.2~0~2024040606-6                 deb                      
+node-decompress-response                          6.0.0-3                              deb                      
+node-deep-is                                      0.1.4-1                              deb                      
+node-defaults                                     1.0.4+~1.0.3-1                       deb                      
+node-define-property                              2.0.2+really+2.0.2-3                 deb                      
+node-delegates                                    1.0.0-3                              deb                      
+node-depd                                         2.0.0-2                              deb                      
+node-diff                                         5.0.0~dfsg+~5.0.1-4                  deb                      
+node-domexception                                 1.0.0                                npm                      
+node-electron-to-chromium                         1.5.166-1                            deb                      
+node-encoding                                     0.1.13-2                             deb                      
+node-err-code                                     2.0.3+dfsg-3                         deb                      
+node-error-ex                                     1.3.2-4                              deb                      
+node-es-module-lexer                              1.1.0+dfsg-3                         deb                      
+node-escape-string-regexp                         4.0.0-2                              deb                      
+node-eslint-utils                                 3.0.0-3                              deb                      
+node-eslint-visitor-keys                          3.3.0+~1.0.0-1                       deb                      
+node-esquery                                      1.4.2~ds-1                           deb                      
+node-estraverse                                   5.3.0+ds+~5.1.1-1                    deb                      
+node-esutils                                      2.0.3+~2.0.0-1                       deb                      
+node-events                                       3.3.0+~3.0.0-3                       deb                      
+node-fancy-log                                    1.3.3+~cs1.3.1-2                     deb                      
+node-fast-deep-equal                              3.1.3-3                              deb                      
+node-fast-levenshtein                             2.0.6+ds-3                           deb                      
+node-fetch                                        3.3.2                                npm                      
+node-fetch                                        3.3.2+~cs11.4.11-3                   deb                      
+node-find-up                                      6.3.0-7                              deb                      
+node-flatted                                      3.2.7~ds-1                           deb                      
+node-for-in                                       1.0.2-4                              deb                      
+node-for-own                                      1.0.0-3                              deb                      
+node-foreground-child                             3.1.1-2                              deb                      
+node-fs-readdir-recursive                         1.1.0+~1.1.0-1                       deb                      
+node-fs-write-stream-atomic                       1.0.10-6                             deb                      
+node-fs.realpath                                  1.0.0-3                              deb                      
+node-function-bind                                1.1.2+~cs2.1.14-1                    deb                      
+node-functional-red-black-tree                    1.0.1+20181105-7                     deb                      
+node-get-caller-file                              2.0.5+~cs1.1.1-4                     deb                      
+node-get-stream                                   8.0.1-11                             deb                      
+node-glob                                         8.1.0+~cs8.5.15-1                    deb                      
+node-globals                                      13.23.0-1                            deb                      
+node-got                                          11.8.5+~cs58.13.36-5                 deb                      
+node-graceful-fs                                  4.2.10-1                             deb                      
+node-gyp                                          12.1.0                               npm     (+1 duplicate)   
+node-has-flag                                     5.0.1-1                              deb                      
+node-has-unicode                                  2.0.1-5                              deb                      
+node-hosted-git-info                              6.1.1-2                              deb                      
+node-iconv-lite                                   0.6.3-3                              deb                      
+node-ieee754                                      1.2.1-3                              deb                      
+node-iferr                                        1.0.2+~1.0.2-1                       deb                      
+node-imurmurhash                                  0.1.4+dfsg+~0.1.1-2                  deb                      
+node-indent-string                                4.0.0-2                              deb                      
+node-inflight                                     1.0.6-2                              deb                      
+node-inherits                                     2.0.4-6                              deb                      
+node-ini                                          3.0.1-2                              deb                      
+node-interpret                                    2.2.0-3                              deb                      
+node-ip                                           2.0.1+~1.1.3-3                       deb                      
+node-ip-regex                                     4.3.0+~4.1.1-1                       deb                      
+node-is-arrayish                                  0.3.2-3                              deb                      
+node-is-binary-path                               2.1.0-5                              deb                      
+node-is-buffer                                    2.0.5-2                              deb                      
+node-is-descriptor                                3.0.0-2                              deb                      
+node-is-extendable                                1.0.1-3                              deb                      
+node-is-extglob                                   2.1.1-5                              deb                      
+node-is-path-cwd                                  2.2.0-2                              deb                      
+node-is-plain-obj                                 3.0.0-2                              deb                      
+node-is-plain-object                              5.0.0-7                              deb                      
+node-is-stream                                    3.0.0-4                              deb                      
+node-is-typedarray                                1.0.0-4                              deb                      
+node-is-windows                                   1.0.2+~cs1.0.0-1                     deb                      
+node-isarray                                      2.0.5-4                              deb                      
+node-isexe                                        2.0.0+~2.0.1-5                       deb                      
+node-isobject                                     4.0.0-2                              deb                      
+node-js-tokens                                    8.0.0-2                              deb                      
+node-jsesc                                        3.0.2+~3.0.1-1                       deb                      
+node-json-buffer                                  3.0.1+~3.0.0-1                       deb                      
+node-json-parse-better-errors                     1.0.2+~cs3.3.1-3                     deb                      
+node-json-schema                                  0.4.0+~7.0.11-1                      deb                      
+node-json-schema-traverse                         1.0.0-3                              deb                      
+node-json-stable-stringify                        1.0.2+repack1+~cs1.0.34-2            deb                      
+node-jsonify                                      0.0.1-1                              deb                      
+node-jsonparse                                    1.3.1-10                             deb                      
+node-kind-of                                      6.0.3+dfsg-2                         deb                      
+node-levn                                         0.4.1+dfsg-2                         deb                      
+node-loader-runner                                4.3.0-1                              deb                      
+node-locate-path                                  7.1.1-2                              deb                      
+node-lodash-packages                              4.17.21+dfsg+~cs8.31.198.20210220-9  deb                      
+node-lowercase-keys                               2.0.0-2                              deb                      
+node-lru-cache                                    10.0.1-3                             deb                      
+node-memfs                                        3.4.12+~cs1.0.3-1                    deb                      
+node-merge-stream                                 2.0.0+~1.1.2-2                       deb                      
+node-mimic-fn                                     4.0.0-5                              deb                      
+node-mimic-response                               3.1.0-9                              deb                      
+node-minimatch                                    9.0.3-6                              deb                      
+node-minimist                                     1.2.8+~cs5.3.5-1                     deb                      
+node-minipass                                     5.0.0+~cs10.3.21-3                   deb                      
+node-mute-stream                                  0.0.8+~0.0.1-3                       deb                      
+node-n3                                           1.16.3+~1.2.3+~1.10.4-1              deb                      
+node-negotiator                                   0.6.3+~0.6.1-1                       deb                      
+node-neo-async                                    2.6.2+~cs3.0.0-3                     deb                      
+node-npm-run-path                                 5.1.0+~4.0.0-8                       deb                      
+node-object-inspect                               1.12.2+~cs1.8.1-1                    deb                      
+node-once                                         1.4.1-1                              deb                      
+node-optimist                                     0.6.1+~0.0.30-2                      deb                      
+node-optionator                                   0.9.1+dfsg+~cs1.2.3-1                deb                      
+node-osenv                                        0.1.5+~0.1.1-1                       deb                      
+node-p-cancelable                                 2.1.1-1                              deb                      
+node-p-limit                                      4.0.0+~cs4.0.0-5                     deb                      
+node-p-locate                                     6.0.0-12                             deb                      
+node-p-map                                        4.0.0+~3.1.0+~3.0.1-2                deb                      
+node-path-dirname                                 1.0.2-2                              deb                      
+node-path-exists                                  5.0.0-8                              deb                      
+node-path-is-absolute                             2.0.0-2                              deb                      
+node-path-is-inside                               1.0.2+~1.0.0-1                       deb                      
+node-path-type                                    4.0.0-3                              deb                      
+node-pify                                         5.0.0+~cs5.0.1-1                     deb                      
+node-pkg-dir                                      5.0.0-2                              deb                      
+node-postcss-value-parser                         4.2.0-1                              deb                      
+node-prelude-ls                                   1.2.1+dfsg-3                         deb                      
+node-process-nextick-args                         2.0.1-3                              deb                      
+node-promise-inflight                             1.0.1+~1.0.0-1                       deb                      
+node-promise-retry                                2.0.1-4                              deb                      
+node-promzard                                     0.3.0-2                              deb                      
+node-prr                                          1.0.1-3                              deb                      
+node-punycode                                     2.3.1+~2.1.4-1                       deb                      
+node-quick-lru                                    6.1.1-4                              deb                      
+node-randombytes                                  2.1.0+~2.0.0-2                       deb                      
+node-read                                         1.0.7-5                              deb                      
+node-readable-stream                              3.6.0+~cs3.0.0-4                     deb                      
+node-rechoir                                      0.8.0+~0.6.1-2                       deb                      
+node-regenerate                                   1.4.2-3                              deb                      
+node-regenerate-unicode-properties                10.1.0+ds-1                          deb                      
+node-regenerator-runtime                          0.15.2+~0.10.8-1                     deb                      
+node-regenerator-transform                        0.15.2+~0.10.8-1                     deb                      
+node-regexpp                                      3.2.0-5                              deb                      
+node-regjsgen                                     0.7.1+ds-1                           deb                      
+node-repeat-string                                1.6.1+repack-1                       deb                      
+node-require-directory                            2.1.1+~2.1.2-1                       deb                      
+node-resolve                                      1.22.8+~cs5.34.15-2                  deb                      
+node-resolve-cwd                                  3.0.0-2                              deb                      
+node-resolve-from                                 5.0.0+~3.1.0+~3.3.0+~2.0.0-1         deb                      
+node-resumer                                      0.0.0-6                              deb                      
+node-retry                                        0.13.1.+~cs2.19.16-1                 deb                      
+node-run-queue                                    2.0.0-3                              deb                      
+node-safe-buffer                                  5.2.1+~cs2.1.2-3                     deb                      
+node-serialize-javascript                         6.0.2-1                              deb                      
+node-set-blocking                                 2.0.0-2                              deb                      
+node-set-immediate-shim                           2.0.0-2                              deb                      
+node-shebang-command                              2.0.0-1                              deb                      
+node-shebang-regex                                3.0.0-2                              deb                      
+node-signal-exit                                  4.1.0-7                              deb                      
+node-slash                                        4.0.0-3                              deb                      
+node-slice-ansi                                   5.0.0+~cs9.0.0-5                     deb                      
+node-source-list-map                              2.0.1+dfsg+~0.1.2-1                  deb                      
+node-source-map                                   0.7.0++dfsg2+really.0.6.1-15         deb                      
+node-spdx-correct                                 3.1.1-2                              deb                      
+node-spdx-exceptions                              2.3.0-2                              deb                      
+node-spdx-expression-parse                        3.0.1+~3.0.1-1                       deb                      
+node-spdx-license-ids                             3.0.12-1                             deb                      
+node-sprintf-js                                   1.1.2+ds1+~1.1.2-1                   deb                      
+node-ssri                                         9.0.1-3                              deb                      
+node-string-decoder                               1.3.0-6                              deb                      
+node-strip-bom                                    4.0.0-2                              deb                      
+node-strip-eof                                    3.0.0-5                              deb                      
+node-strip-json-comments                          4.0.0-4                              deb                      
+node-supports-color                               8.1.1+~8.1.1-1                       deb                      
+node-tapable                                      2.2.1-3                              deb                      
+node-terser                                       5.38.0-1                             deb                      
+node-text-table                                   0.2.0-4                              deb                      
+node-through                                      2.3.8+~cs0.0.30-1                    deb                      
+node-time-stamp                                   2.2.0-2                              deb                      
+node-to-fast-properties                           3.0.1-3                              deb                      
+node-tslib                                        2.4.1-1                              deb                      
+node-type-check                                   0.4.0+dfsg-3                         deb                      
+node-typedarray                                   0.0.7-1                              deb                      
+node-typedarray-to-buffer                         4.0.0-2                              deb                      
+node-undici                                       7.3.0+dfsg1+~cs24.12.11-1            deb                      
+node-unicode-canonical-property-names-ecmascript  2.0.0-2                              deb                      
+node-unicode-match-property-value-ecmascript      2.1.0+ds-1                           deb                      
+node-unicode-property-aliases-ecmascript          2.1.0+ds-1                           deb                      
+node-unique-filename                              1.1.1+ds-2                           deb                      
+node-uri-js                                       4.4.0+dfsg-8                         deb                      
+node-util-deprecate                               1.0.2-3                              deb                      
+node-uuid                                         8.3.2+~8.3.4-1                       deb                      
+node-v8flags                                      3.2.0+~3.1.1-1                       deb                      
+node-validate-npm-package-license                 3.0.4-2                              deb                      
+node-wcwidth.js                                   1.0.2-2                              deb                      
+node-webpack-sources                              3.2.3+~3.2.0-2                       deb                      
+node-wordwrap                                     1.0.0-4                              deb                      
+node-wrappy                                       1.0.2-3                              deb                      
+node-write-file-atomic                            4.0.2+~4.0.0-2                       deb                      
+node-xtend                                        4.0.2-3                              deb                      
+node-y18n                                         5.0.8+~5.0.0-3                       deb                      
+node-yallist                                      4.0.0+~4.0.1-1                       deb                      
+nodejs                                            24.11.1-1nodesource1                 deb                      
+nopt                                              8.1.0                                npm     (+3 duplicates)  
+nopt                                              9.0.0                                npm     (+1 duplicate)   
+normalize-url                                     7.1.0                                npm                      
+npm                                               11.6.3                               npm     (+1 duplicate)   
+npm-audit-report                                  6.0.0                                npm     (+1 duplicate)   
+npm-bundled                                       4.0.0                                npm     (+1 duplicate)   
+npm-bundled                                       5.0.0                                npm     (+1 duplicate)   
+npm-install-checks                                8.0.0                                npm     (+1 duplicate)   
+npm-normalize-package-bin                         4.0.0                                npm     (+1 duplicate)   
+npm-normalize-package-bin                         5.0.0                                npm     (+1 duplicate)   
+npm-package-arg                                   13.0.2                               npm     (+1 duplicate)   
+npm-packlist                                      10.0.3                               npm     (+1 duplicate)   
+npm-pick-manifest                                 11.0.3                               npm     (+1 duplicate)   
+npm-profile                                       12.0.1                               npm     (+1 duplicate)   
+npm-registry-fetch                                19.1.1                               npm     (+1 duplicate)   
+npm-run-path                                      5.1.0                                npm                      
+npm-user-validate                                 3.0.0                                npm     (+1 duplicate)   
+obfuscation-detector                              2.0.6                                npm                      
+object-inspect                                    1.12.2                               npm                      
+object-keys                                       1.1.1                                npm                      
+once                                              1.4.0                                npm                      
+once                                              1.4.1                                npm                      
+openssl                                           3.5.4-1~deb13u1                      deb                      
+openssl-provider-legacy                           3.5.4-1~deb13u1                      deb                      
+optimist                                          0.6.1                                npm                      
+optionator                                        0.8.3                                npm                      
+optionator                                        0.9.1                                npm                      
+osenv                                             0.1.5                                npm                      
+p-cancelable                                      2.1.1                                npm                      
+p-limit                                           4.0.0                                npm                      
+p-locate                                          6.0.0                                npm                      
+p-map                                             4.0.0                                npm                      
+p-map                                             7.0.3                                npm     (+1 duplicate)   
+p-try                                             3.0.0                                npm                      
+package-json-from-dist                            1.0.1                                npm     (+1 duplicate)   
+packaging                                         24.2                                 python                   
+packaging                                         25.0                                 python  (+1 duplicate)   
+pacote                                            21.0.4                               npm     (+1 duplicate)   
+parent-module                                     2.0.0                                npm                      
+parse-conflict-json                               5.0.1                                npm     (+1 duplicate)   
+parse-node-version                                1.0.1                                npm                      
+passwd                                            1:4.17.4-2                           deb                      
+path-dirname                                      1.0.2                                npm                      
+path-exists                                       5.0.0                                npm                      
+path-is-absolute                                  2.0.0                                npm                      
+path-is-inside                                    1.0.2                                npm                      
+path-key                                          3.1.1                                npm     (+1 duplicate)   
+path-key                                          4.0.0                                npm                      
+path-parse                                        1.0.7                                npm                      
+path-scurry                                       2.0.0                                npm     (+1 duplicate)   
+path-type                                         4.0.0                                npm                      
+pendulum                                          3.1.0                                python                   
+perl-base                                         5.40.1-6                             deb                      
+picomatch                                         4.0.3                                npm     (+1 duplicate)   
+pify                                              5.0.0                                npm                      
+pinentry-curses                                   1.3.1-2                              deb                      
+pip                                               25.0.1                               python                   
+pkg-dir                                           5.0.0                                npm                      
+platformdirs                                      4.2.2                                python                   
+postcss-selector-parser                           7.1.0                                npm     (+1 duplicate)   
+postcss-value-parser                              4.2.0                                npm                      
+prebuild-install                                  7.1.3                                npm                      
+prelude-ls                                        1.1.2                                npm                      
+prelude-ls                                        1.2.1                                npm                      
+proc-log                                          5.0.0                                npm     (+1 duplicate)   
+proc-log                                          6.0.0                                npm     (+1 duplicate)   
+process-nextick-args                              2.0.1                                npm                      
+proggy                                            3.0.0                                npm     (+1 duplicate)   
+promise-all-reject-late                           1.0.1                                npm     (+1 duplicate)   
+promise-call-limit                                3.0.2                                npm     (+1 duplicate)   
+promise-inflight                                  1.0.1                                npm                      
+promise-retry                                     2.0.1                                npm     (+2 duplicates)  
+promzard                                          0.3.0                                npm                      
+promzard                                          2.0.0                                npm     (+1 duplicate)   
+prr                                               1.0.1                                npm                      
+psutil                                            7.1.3                                python                   
+publicsuffix                                      20250328.1952-0.1                    deb                      
+pump                                              3.0.3                                npm                      
+punycode                                          2.3.1                                npm                      
+pycryptodome                                      3.23.0                               python                   
+pydantic                                          2.12.4                               python                   
+pydantic-core                                     2.41.5                               python                   
+pydantic-settings                                 2.12.0                               python                   
+pyproject-hooks                                   1.2.0                                python                   
+python                                            3.12.12                              binary                   
+python-dateutil                                   2.9.0.post0                          python                   
+python-dotenv                                     1.2.1                                python                   
+python-magic                                      0.4.27                               python                   
+python3                                           3.13.5-1                             deb                      
+python3-minimal                                   3.13.5-1                             deb                      
+python3-packaging                                 25.0-1                               deb                      
+python3.13                                        3.13.5-2                             deb                      
+python3.13-minimal                                3.13.5-2                             deb                      
+pyyaml                                            6.0.3                                python                   
+qrcode-terminal                                   0.12.0                               npm     (+1 duplicate)   
+queue-microtask                                   1.2.3                                npm                      
+quick-lru                                         6.1.1                                npm                      
+randombytes                                       2.1.0                                npm                      
+rc                                                1.2.8                                npm                      
+read                                              1.0.7                                npm                      
+read                                              4.1.0                                npm     (+1 duplicate)   
+read-cmd-shim                                     6.0.0                                npm     (+1 duplicate)   
+readable-stream                                   3.6.0                                npm                      
+readable-stream                                   3.6.2                                npm                      
+readline-common                                   8.2-6                                deb                      
+rechoir                                           0.8.0                                npm                      
+regenerate                                        1.4.2                                npm                      
+regenerate-unicode-properties                     10.1.0                               npm                      
+regenerator-runtime                               0.13.11                              npm                      
+regenerator-transform                             0.15.2                               npm                      
+regexpp                                           3.2.0                                npm                      
+regjsgen                                          0.7.1                                npm                      
+repeat-string                                     1.6.1                                npm                      
+require-directory                                 2.1.1                                npm     (+1 duplicate)   
+resolve                                           1.22.8                               npm                      
+resolve-alpn                                      1.2.1                                npm                      
+resolve-cwd                                       3.0.0                                npm                      
+resolve-from                                      5.0.0                                npm                      
+responselike                                      2.0.1                                npm                      
+restringer                                        2.0.7                                npm                      
+resumer                                           0.0.0                                npm                      
+retry                                             0.12.0                               npm     (+1 duplicate)   
+retry                                             0.13.1                               npm                      
+rjsmin                                            1.2.5                                python                   
+run-queue                                         2.0.0                                npm                      
+safe-buffer                                       5.2.1                                npm     (+1 duplicate)   
+safer-buffer                                      2.1.2                                npm     (+2 duplicates)  
+sed                                               4.9-2                                deb                      
+semver                                            7.7.3                                npm     (+2 duplicates)  
+serialize-javascript                              6.0.2                                npm                      
+set-blocking                                      2.0.0                                npm                      
+set-immediate-shim                                2.0.0                                npm                      
+setuptools                                        80.9.0                               python                   
+setuptools-scm                                    9.2.2                                python                   
+shallow-clone                                     3.0.1                                npm                      
+shebang-command                                   2.0.0                                npm     (+2 duplicates)  
+shebang-regex                                     3.0.0                                npm     (+2 duplicates)  
+signal-exit                                       4.1.0                                npm     (+2 duplicates)  
+sigstore                                          4.0.0                                npm     (+1 duplicate)   
+simple-concat                                     1.0.1                                npm                      
+simple-get                                        4.0.1                                npm                      
+six                                               1.17.0                               python                   
+slash                                             4.0.0                                npm                      
+slice-ansi                                        5.0.0                                npm                      
+smart-buffer                                      4.2.0                                npm     (+1 duplicate)   
+sniffio                                           1.3.1                                python                   
+socks                                             2.8.7                                npm     (+1 duplicate)   
+socks-proxy-agent                                 8.0.5                                npm     (+1 duplicate)   
+source-list-map                                   2.0.1                                npm                      
+source-map                                        0.6.1                                npm     (+1 duplicate)   
+spdx-correct                                      3.1.1                                npm                      
+spdx-correct                                      3.2.0                                npm     (+1 duplicate)   
+spdx-exceptions                                   2.3.0                                npm                      
+spdx-exceptions                                   2.5.0                                npm     (+1 duplicate)   
+spdx-expression-parse                             3.0.1                                npm     (+4 duplicates)  
+spdx-expression-parse                             4.0.0                                npm     (+1 duplicate)   
+spdx-license-ids                                  3.0.12                               npm                      
+spdx-license-ids                                  3.0.22                               npm     (+1 duplicate)   
+sprintf-js                                        1.1.2                                npm                      
+sqv                                               1.3.0-3                              deb                      
+ssri                                              13.0.0                               npm     (+1 duplicate)   
+ssri                                              9.0.1                                npm                      
+starlette                                         0.50.0                               python                   
+string-width                                      4.2.3                                npm     (+4 duplicates)  
+string-width                                      5.1.2                                npm     (+3 duplicates)  
+string_decoder                                    1.3.0                                npm     (+1 duplicate)   
+strip-ansi                                        6.0.1                                npm     (+4 duplicates)  
+strip-ansi                                        7.1.2                                npm     (+3 duplicates)  
+strip-bom                                         4.0.0                                npm                      
+strip-eof                                         2.0.0                                npm                      
+strip-final-newline                               3.0.0                                npm                      
+strip-json-comments                               2.0.1                                npm                      
+strip-json-comments                               4.0.0                                npm                      
+supports-color                                    10.2.2                               npm     (+1 duplicate)   
+supports-color                                    8.1.1                                npm                      
+sysvinit-utils                                    3.14-4                               deb                      
+tapable                                           2.2.1                                npm                      
+tar                                               1.35+dfsg-3.1                        deb                      
+tar                                               7.5.2                                npm     (+1 duplicate)   
+tar-fs                                            2.1.4                                npm                      
+tar-stream                                        2.2.0                                npm                      
+terser                                            5.38.0                               npm                      
+text-table                                        0.2.0                                npm     (+2 duplicates)  
+through                                           2.3.8                                npm                      
+time-stamp                                        2.2.0                                npm                      
+tiny-glob                                         0.2.9                                npm                      
+tiny-relative-date                                2.0.2                                npm     (+1 duplicate)   
+tinyglobby                                        0.2.15                               npm     (+1 duplicate)   
+to-fast-properties                                3.0.1                                npm                      
+tomli                                             2.0.1                                python                   
+treeverse                                         3.0.0                                npm     (+1 duplicate)   
+tslib                                             2.4.1                                npm                      
+tuf-js                                            4.0.0                                npm     (+1 duplicate)   
+tunnel-agent                                      0.6.0                                npm                      
+type-check                                        0.3.2                                npm                      
+type-check                                        0.4.0                                npm                      
+typedarray                                        0.0.7                                npm                      
+typedarray-to-buffer                              4.0.0                                npm                      
+typeguard                                         4.3.0                                python                   
+typing-extensions                                 4.12.2                               python                   
+typing-extensions                                 4.15.0                               python                   
+typing-inspection                                 0.4.2                                python                   
+tzdata                                            2025.2                               python                   
+tzdata                                            2025b-4+deb13u1                      deb                      
+undici                                            7.3.0                                npm                      
+undici-types                                      7.3.0                                npm                      
+unicode-canonical-property-names-ecmascript       2.0.0                                npm                      
+unicode-match-property-value-ecmascript           2.1.0                                npm                      
+unicode-property-aliases-ecmascript               2.1.0                                npm                      
+unique-filename                                   1.1.1                                npm                      
+unique-filename                                   4.0.0                                npm     (+1 duplicate)   
+unique-slug                                       2.0.2                                npm                      
+unique-slug                                       5.0.0                                npm     (+1 duplicate)   
+uri-js                                            4.4.0                                npm                      
+util-deprecate                                    1.0.2                                npm     (+3 duplicates)  
+util-linux                                        2.41-5                               deb                      
+uuid                                              8.3.2                                npm                      
+v8flags                                           3.2.0                                npm                      
+validate-npm-package-license                      3.0.4                                npm     (+2 duplicates)  
+validate-npm-package-name                         7.0.0                                npm     (+1 duplicate)   
+walk-up-path                                      4.0.0                                npm     (+1 duplicate)   
+watchdog                                          6.0.0                                python                   
+wcwidth.js                                        1.0.2                                npm                      
+web-streams-polyfill                              3.2.1                                npm                      
+web-streams-polyfill-es2018                       UNKNOWN                              npm                      
+web-streams-polyfill-es6                          UNKNOWN                              npm                      
+web-streams-ponyfill                              UNKNOWN                              npm                      
+web-streams-ponyfill-es2018                       UNKNOWN                              npm                      
+web-streams-ponyfill-es6                          UNKNOWN                              npm                      
+webpack-sources                                   3.2.3                                npm                      
+wheel                                             0.45.1                               python                   
+which                                             2.0.2                                npm     (+1 duplicate)   
+which                                             6.0.0                                npm     (+1 duplicate)   
+word-wrap                                         1.2.3                                npm                      
+word-wrap                                         1.2.5                                npm                      
+wordwrap                                          1.0.0                                npm                      
+wrap-ansi                                         7.0.0                                npm     (+2 duplicates)  
+wrap-ansi                                         8.1.0                                npm     (+1 duplicate)   
+wrappy                                            1.0.2                                npm     (+1 duplicate)   
+write-file-atomic                                 4.0.2                                npm                      
+write-file-atomic                                 7.0.0                                npm     (+1 duplicate)   
+xtend                                             4.0.2                                npm                      
+y18n                                              5.0.8                                npm     (+1 duplicate)   
+yallist                                           4.0.0                                npm     (+2 duplicates)  
+yallist                                           5.0.0                                npm     (+1 duplicate)   
+yara-python                                       4.5.4                                python                   
+yargs                                             17.3.1                               npm                      
+yargs-parser                                      21.1.1                               npm                      
+yocto-queue                                       1.0.0                                npm                      
+zipp                                              3.19.2                               python                   
+zlib1g                                            1:1.3.dfsg+really1.3.1-1+b1          deb                      

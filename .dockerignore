@@ -1,0 +1,8 @@
+Dockerfile
+Makefile
+.docusaurus
+build
+site
+node_modules
+devops
+.pre-commit-config.yaml
