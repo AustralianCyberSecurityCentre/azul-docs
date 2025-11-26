@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-11-26 | dotnet-deob          | feat: add link to fork. ..4.                       |
 | 2025-11-25 | alphabets            | fix: mirroring ..5.                                |
 | 2025-11-25 | alphabets            | fix: mirroring ..5.                                |
 | 2025-11-25 | alphabets            | fix: mirroring ..5.                                |
