@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-26 | runner               | feat: handle sigterm gracefully. ..4.              |
 | 2025-11-26 | bedrock              | feat: graceful exit on SIGTERM.SIGINT ..6.         |
 | 2025-11-24 | audit-forwarder      | feat: make timeout configurable. ..3.              |
 | 2025-11-20 | webui                | build.deps.dev.: bump glob from 10.4.5 to 10.5.0 ..8. |
