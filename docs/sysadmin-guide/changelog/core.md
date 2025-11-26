@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-26 | bedrock              | feat: graceful exit on SIGTERM.SIGINT ..6.         |
 | 2025-11-24 | audit-forwarder      | feat: make timeout configurable. ..3.              |
 | 2025-11-20 | webui                | build.deps.dev.: bump glob from 10.4.5 to 10.5.0 ..8. |
 | 2025-11-20 | bedrock              | build.deps.dev.: bump golang.org.x.crypto from 0.42.0 to 0.45.0 ..5. |
