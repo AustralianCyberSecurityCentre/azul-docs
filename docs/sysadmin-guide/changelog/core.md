@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-28 | bedrock              | feat: add feature pivot API endpoints. ..7.        |
 | 2025-11-26 | runner               | feat: handle sigterm gracefully. ..4.              |
 | 2025-11-26 | bedrock              | feat: graceful exit on SIGTERM.SIGINT ..6.         |
 | 2025-11-24 | audit-forwarder      | feat: make timeout configurable. ..3.              |
