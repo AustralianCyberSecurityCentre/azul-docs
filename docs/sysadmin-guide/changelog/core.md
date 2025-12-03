@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-03 | webui                | feat: add ability to pivot on features ..12.       |
 | 2025-12-01 | app                  | feat: initial PDBs for core services ..14.         |
 | 2025-11-28 | restapi-server       | fix: adapt to change in fastapi 0.122 change. ..4. |
 | 2025-11-28 | bedrock              | feat: add feature pivot API endpoints. ..7.        |
