@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-05 | app                  | fix: allow prometheus to scrape pods through the network policy ..15. |
 | 2025-12-05 | runner               | feat: log plugin registration ..5.                 |
 | 2025-12-03 | webui                | feat: add ability to pivot on features ..12.       |
 | 2025-12-01 | app                  | feat: initial PDBs for core services ..14.         |
