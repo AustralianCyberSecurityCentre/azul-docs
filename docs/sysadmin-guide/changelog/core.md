@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-08 | metastore            | feat: add additional debugging logs. ..5.          |
 | 2025-12-08 | metastore            | feat: add user supplied file extension. ..6.       |
 | 2025-12-08 | runner               | feat: deterministic plugin results. ..6.           |
 | 2025-12-08 | app                  | fix: allow redis.ingress policy                    |
