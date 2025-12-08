@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-08 | runner               | feat: deterministic plugin results. ..6.           |
 | 2025-12-08 | app                  | fix: allow redis.ingress policy                    |
 | 2025-12-08 | app                  | feat: maco git init ..16.                          |
 | 2025-12-08 | audit-forwarder      | feat: aws cloudwatch forwarding ..4.               |
