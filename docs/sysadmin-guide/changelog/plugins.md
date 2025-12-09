@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-12-09 | mandiant-capa        | feat: upgrade flare capa to version 9.3.1. ..3.    |
 | 2025-12-02 | tika                 | fix: better support for larger Tika content ..3.   |
 | 2025-11-26 | dotnet-deob          | feat: add link to fork. ..4.                       |
 | 2025-11-25 | alphabets            | fix: mirroring ..5.                                |
