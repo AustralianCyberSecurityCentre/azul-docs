@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-11 | webui                | feat: add AND toggle ..4.                          |
 | 2025-12-11 | metastore            | feat: update rel filter logic.test ..8.            |
 | 2025-12-11 | metastore            | feat: add the option to filter rels with AND clause ..2. |
 | 2025-12-10 | app                  | feat: increase unbox size by default. ..18.        |
