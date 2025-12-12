@@ -3,6 +3,7 @@
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
 | 2025-12-12 | app                  | feat: enable TopologySpreadConstratints and rack. ..19. |
+| 2025-12-12 | app                  | feat: enable TopologySpreadConstratints and rack. ..19. |
 | 2025-12-11 | webui                | feat: add AND toggle ..4.                          |
 | 2025-12-11 | metastore            | feat: update rel filter logic.test ..8.            |
 | 2025-12-11 | metastore            | feat: add the option to filter rels with AND clause ..2. |
