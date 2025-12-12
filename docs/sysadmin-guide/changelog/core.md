@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-12 | bedrock              | feat: add classifiers. ..8.                        |
 | 2025-12-12 | app                  | feat: enable TopologySpreadConstratints and rack. ..19. |
 | 2025-12-12 | app                  | feat: enable TopologySpreadConstratints and rack. ..19. |
 | 2025-12-11 | webui                | feat: add AND toggle ..4.                          |
