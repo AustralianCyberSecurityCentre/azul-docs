@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-15 | bedrock              | fix: pyproject.toml ..9.                           |
 | 2025-12-14 | app                  | add istio policy for scraping                      |
 | 2025-12-12 | client               | feat: add classifiers. ..3.                        |
 | 2025-12-12 | bedrock              | feat: add classifiers. ..8.                        |
