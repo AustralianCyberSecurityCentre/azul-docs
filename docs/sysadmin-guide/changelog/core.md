@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-15 | bedrock              | fix: s3 memory leak. ..10.                         |
 | 2025-12-15 | client               | fix: classifiers ..4.                              |
 | 2025-12-15 | bedrock              | fix: pyproject.toml ..9.                           |
 | 2025-12-14 | app                  | add istio policy for scraping                      |
