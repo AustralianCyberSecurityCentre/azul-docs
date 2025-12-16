@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-16 | app                  | feat: create 9.0.0.rc.1                            |
 | 2025-12-16 | dispatcher           | feat: upgrade bedrock. ..5.                        |
 | 2025-12-16 | audit-forwarder      | fix: default cloudwatch setting to None ..6.       |
 | 2025-12-16 | backup               | feat: upgrade bedrock. ..5.                        |
