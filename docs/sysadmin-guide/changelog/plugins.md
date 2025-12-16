@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-12-16 | entropy              | feat: upgrade bedrock. ..4.                        |
 | 2025-12-16 | virustotal           | feat: upgrade bedrock. ..4.                        |
 | 2025-12-16 | goinfo               | feat: upgrade bedrock. ..5.                        |
 | 2025-12-09 | ghidra               | feat: upgrade ghidra to version 12. ..5.           |
