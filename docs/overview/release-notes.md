@@ -8,7 +8,7 @@ sidebar_position: 3
 
 9.0 is our first open-source release of Azul. This represents a significant body of work to
 prepare the application for public release. As we work through improving the application, we
-appreciate any feedback or bugs. Please lodge these at <https://github.com/AustralianCyberSecurityCentre/azul>.
+appreciate any feedback or bugs. Please lodge these at [https://github.com/AustralianCyberSecurityCentre/azul](https://github.com/AustralianCyberSecurityCentre/azul).
 
 Over past releases, this release is primarily a bug-fix release but features overhauls and
 improvements to Azul plugins and the UI.
