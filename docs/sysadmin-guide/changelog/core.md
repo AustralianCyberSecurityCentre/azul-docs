@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-16 | app                  | release azul.9.0.0.rc3                             |
 | 2025-12-16 | audit-forwarder      | fix: cloudwatch client init ..8.                   |
 | 2025-12-16 | app                  | feat: remove report feeds from image list. ..20.   |
 | 2025-12-16 | audit-forwarder      | fix: None check ..7.                               |
