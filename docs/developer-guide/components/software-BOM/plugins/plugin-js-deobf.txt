@@ -4,10 +4,10 @@ NAME                                              VERSION                       
 @fastify/busboy                                   3.1.1                                npm                      
 @isaacs/balanced-match                            4.0.1                                npm     (+1 duplicate)   
 @isaacs/brace-expansion                           5.0.0                                npm     (+1 duplicate)   
-@isaacs/cliui                                     8.0.2                                npm     (+1 duplicate)   
 @isaacs/fs-minipass                               4.0.1                                npm     (+1 duplicate)   
 @isaacs/string-locale-compare                     1.1.0                                npm     (+1 duplicate)   
-@javascript-obfuscator/escodegen                  2.3.0                                npm     (+1 duplicate)   
+@javascript-obfuscator/escodegen                  2.3.0                                npm                      
+@javascript-obfuscator/escodegen                  2.3.1                                npm                      
 @javascript-obfuscator/estraverse                 5.4.0                                npm                      
 @jridgewell/gen-mapping                           0.3.2                                npm                      
 @jridgewell/resolve-uri                           3.1.0                                npm                      
@@ -16,19 +16,18 @@ NAME                                              VERSION                       
 @jridgewell/sourcemap-codec                       1.4.14                               npm                      
 @jridgewell/trace-mapping                         0.3.17                               npm                      
 @npmcli/agent                                     4.0.0                                npm     (+1 duplicate)   
-@npmcli/arborist                                  9.1.7                                npm     (+1 duplicate)   
-@npmcli/config                                    10.4.3                               npm     (+1 duplicate)   
-@npmcli/fs                                        4.0.0                                npm     (+1 duplicate)   
+@npmcli/arborist                                  9.1.9                                npm     (+1 duplicate)   
+@npmcli/config                                    10.4.5                               npm     (+1 duplicate)   
+@npmcli/fs                                        5.0.0                                npm     (+1 duplicate)   
 @npmcli/git                                       7.0.1                                npm     (+1 duplicate)   
-@npmcli/installed-package-contents                3.0.0                                npm     (+1 duplicate)   
 @npmcli/installed-package-contents                4.0.0                                npm     (+1 duplicate)   
-@npmcli/map-workspaces                            5.0.1                                npm     (+1 duplicate)   
+@npmcli/map-workspaces                            5.0.3                                npm     (+1 duplicate)   
 @npmcli/metavuln-calculator                       9.0.3                                npm     (+1 duplicate)   
 @npmcli/name-from-folder                          4.0.0                                npm     (+1 duplicate)   
 @npmcli/node-gyp                                  5.0.0                                npm     (+1 duplicate)   
-@npmcli/package-json                              7.0.2                                npm     (+1 duplicate)   
+@npmcli/package-json                              7.0.4                                npm     (+1 duplicate)   
 @npmcli/promise-spawn                             9.0.1                                npm     (+1 duplicate)   
-@npmcli/query                                     4.0.1                                npm     (+1 duplicate)   
+@npmcli/query                                     5.0.0                                npm     (+1 duplicate)   
 @npmcli/redact                                    4.0.0                                npm     (+1 duplicate)   
 @npmcli/run-script                                10.0.3                               npm     (+1 duplicate)   
 @sigstore/bundle                                  4.0.0                                npm     (+1 duplicate)   
@@ -399,7 +398,6 @@ NAME                                              VERSION                       
 @types/yallist                                    4.0.1                                npm                      
 Simple Launcher                                   1.1.0.14                             binary  (+5 duplicates)  
 abbrev                                            1.1.1                                npm                      
-abbrev                                            3.0.1                                npm     (+3 duplicates)  
 abbrev                                            4.0.0                                npm     (+1 duplicate)   
 acorn                                             8.15.0                               npm                      
 acorn                                             8.7.0                                npm                      
@@ -414,12 +412,10 @@ annotated-types                                   0.7.0                         
 ansi-escapes                                      4.3.1                                npm                      
 ansi-gray                                         0.1.1                                npm                      
 ansi-regex                                        5.0.1                                npm     (+3 duplicates)  
-ansi-regex                                        6.2.2                                npm     (+3 duplicates)  
-ansi-styles                                       4.3.0                                npm     (+2 duplicates)  
+ansi-styles                                       4.3.0                                npm                      
 ansi-styles                                       6.2.1                                npm                      
-ansi-styles                                       6.2.3                                npm     (+1 duplicate)   
 ansi-wrap                                         0.1.0                                npm                      
-anyio                                             4.11.0                               python                   
+anyio                                             4.12.0                               python                   
 aproba                                            2.0.0                                npm                      
 aproba                                            2.1.0                                npm     (+1 duplicate)   
 apt                                               3.0.3                                deb                      
@@ -433,9 +429,9 @@ async-es                                          3.2.6                         
 async-retry                                       1.3.3                                npm                      
 asyncro                                           3.0.0                                npm                      
 autocommand                                       2.2.2                                python                   
-azul-bedrock                                      9.0.15                               python                   
-azul-plugin-js-deobf                              9.0.13+g194d02800.d20251122          python                   
-azul-runner                                       9.0.14                               python                   
+azul-bedrock                                      9.0.28                               python                   
+azul-plugin-js-deobf                              9.0.24+g194d02800.d20251215          python                   
+azul-runner                                       9.0.31                               python                   
 babel-plugin-add-module-exports                   1.0.4                                npm                      
 backports-tarfile                                 1.2.0                                python                   
 balanced-match                                    1.0.2                                npm     (+1 duplicate)   
@@ -459,10 +455,10 @@ buffer                                            5.7.1                         
 bufferstreams                                     3.0.0                                npm                      
 build                                             1.3.0                                python                   
 ca-certificates                                   20250419                             deb                      
-cacache                                           20.0.2                               npm     (+1 duplicate)   
+cacache                                           20.0.3                               npm     (+1 duplicate)   
 cacheable-lookup                                  6.1.0                                npm                      
 cacheable-request                                 7.0.2                                npm                      
-cachetools                                        6.2.2                                python                   
+cachetools                                        6.2.4                                python                   
 callsites                                         3.1.0                                npm                      
 camelcase                                         7.0.0                                npm                      
 caniuse-lite                                      1.0.30001723                         npm                      
@@ -488,10 +484,11 @@ clone                                             2.1.2                         
 clone-deep                                        4.0.1                                npm                      
 clone-response                                    1.0.3                                npm                      
 cmd-shim                                          8.0.0                                npm     (+1 duplicate)   
-color-convert                                     2.0.1                                npm     (+3 duplicates)  
-color-name                                        1.1.4                                npm     (+3 duplicates)  
+color-convert                                     2.0.1                                npm     (+1 duplicate)   
+color-name                                        1.1.4                                npm     (+1 duplicate)   
 color-support                                     1.1.3                                npm                      
 colors                                            1.4.0                                npm                      
+commander                                         14.0.2                               npm                      
 commander                                         9.4.1                                npm                      
 common-ancestor-path                              1.0.1                                npm     (+1 duplicate)   
 commondir                                         1.0.1                                npm                      
@@ -503,7 +500,6 @@ core-js-pure                                      3.33.2                        
 core-util-is                                      1.0.3                                npm                      
 corepack                                          0.34.2                               npm                      
 coreutils                                         9.7-3                                deb                      
-cross-spawn                                       7.0.6                                npm     (+1 duplicate)   
 cssesc                                            3.0.0                                npm     (+1 duplicate)   
 curl                                              8.14.1-2+deb13u2                     deb                      
 dash                                              0.5.12-12                            deb                      
@@ -527,10 +523,8 @@ diff                                              8.0.2                         
 diffutils                                         1:3.10-4                             deb                      
 dirmngr                                           2.4.7-21+b3                          deb                      
 dpkg                                              1.22.21                              deb                      
-eastasianwidth                                    0.2.0                                npm     (+1 duplicate)   
 electron-to-chromium                              1.5.166                              npm                      
 emoji-regex                                       8.0.0                                npm     (+2 duplicates)  
-emoji-regex                                       9.2.2                                npm     (+3 duplicates)  
 encoding                                          0.1.13                               npm     (+2 duplicates)  
 end-of-stream                                     1.4.5                                npm                      
 ensure-posix-path                                 1.1.1                                npm                      
@@ -541,7 +535,7 @@ es-module-lexer                                   1.1.0                         
 escalade                                          3.2.0                                npm                      
 escape-string-regexp                              4.0.0                                npm                      
 eslint-scope                                      7.1.1                                npm                      
-eslint-scope                                      8.4.0                                npm     (+1 duplicate)   
+eslint-scope                                      8.4.0                                npm                      
 eslint-utils                                      3.0.0                                npm                      
 eslint-visitor-keys                               3.3.0                                npm                      
 eslint-visitor-keys                               4.2.1                                npm                      
@@ -557,19 +551,17 @@ exponential-backoff                               3.1.3                         
 fancy-log                                         1.3.3                                npm                      
 fast-deep-equal                                   3.1.3                                npm                      
 fast-levenshtein                                  2.0.6                                npm     (+1 duplicate)   
-fastapi                                           0.121.3                              python                   
+fastapi                                           0.124.4                              python                   
 fastest-levenshtein                               1.0.16                               npm     (+1 duplicate)   
 fdir                                              6.5.0                                npm     (+1 duplicate)   
 fetch-blob                                        3.1.5                                npm                      
 find-up                                           6.3.0                                npm                      
 findutils                                         4.10.0-3                             deb                      
-flast                                             2.2.1                                npm                      
 flast                                             2.2.5                                npm                      
 flatted                                           3.2.7                                npm                      
 for-in                                            1.0.2                                npm                      
 for-own                                           1.0.0                                npm                      
 foreground-child                                  3.1.1                                npm                      
-foreground-child                                  3.3.1                                npm     (+1 duplicate)   
 formdata-polyfill                                 4.0.6                                npm                      
 fs-constants                                      1.0.0                                npm                      
 fs-minipass                                       3.0.3                                npm     (+1 duplicate)   
@@ -583,7 +575,7 @@ gcc-14-base                                       14.2.0-19                     
 get-caller-file                                   2.0.5                                npm     (+1 duplicate)   
 get-stream                                        8.0.1                                npm                      
 github-from-package                               0.0.0                                npm                      
-glob                                              11.0.3                               npm     (+1 duplicate)   
+glob                                              13.0.0                               npm     (+1 duplicate)   
 glob                                              8.1.0                                npm                      
 globals                                           13.23.0                              npm                      
 globalyzer                                        0.1.4                                npm                      
@@ -639,7 +631,7 @@ inherits                                          2.0.4                         
 ini                                               1.3.8                                npm                      
 ini                                               3.0.1                                npm                      
 ini                                               6.0.0                                npm     (+1 duplicate)   
-init-package-json                                 8.2.3                                npm     (+1 duplicate)   
+init-package-json                                 8.2.4                                npm     (+1 duplicate)   
 init-system-helpers                               1.69~deb13u1                         deb                      
 interpret                                         2.2.0                                npm                      
 ip                                                2.0.1                                npm                      
@@ -665,11 +657,10 @@ is-typedarray                                     1.0.0                         
 is-unicode-supported                              0.1.0                                npm                      
 is-windows                                        1.0.2                                npm                      
 isarray                                           2.0.5                                npm                      
-isexe                                             2.0.0                                npm     (+2 duplicates)  
+isexe                                             2.0.0                                npm                      
 isexe                                             3.1.1                                npm     (+1 duplicate)   
 isobject                                          4.0.0                                npm                      
 isolated-vm                                       5.0.4                                npm                      
-jackspeak                                         4.1.1                                npm     (+1 duplicate)   
 jaraco-collections                                5.1.0                                python                   
 jaraco-context                                    5.3.0                                python                   
 jaraco-functools                                  4.0.1                                python                   
@@ -754,11 +745,11 @@ libnettle8t64                                     3.10.1-1                      
 libnghttp2-14                                     1.64.0-1.1                           deb                      
 libnghttp3-9                                      1.8.0-1                              deb                      
 libnpmaccess                                      10.0.3                               npm     (+1 duplicate)   
-libnpmdiff                                        8.0.10                               npm     (+1 duplicate)   
-libnpmexec                                        10.1.9                               npm     (+1 duplicate)   
-libnpmfund                                        7.0.10                               npm     (+1 duplicate)   
+libnpmdiff                                        8.0.12                               npm     (+1 duplicate)   
+libnpmexec                                        10.1.11                              npm     (+1 duplicate)   
+libnpmfund                                        7.0.12                               npm     (+1 duplicate)   
 libnpmorg                                         8.0.1                                npm     (+1 duplicate)   
-libnpmpack                                        9.0.10                               npm     (+1 duplicate)   
+libnpmpack                                        9.0.12                               npm     (+1 duplicate)   
 libnpmpublish                                     11.1.3                               npm     (+1 duplicate)   
 libnpmsearch                                      9.0.1                                npm     (+1 duplicate)   
 libnpmteam                                        8.0.2                                npm     (+1 duplicate)   
@@ -1134,7 +1125,7 @@ mount                                             2.41-5                        
 ms                                                2.1.3                                npm     (+1 duplicate)   
 multipart                                         1.3.0                                python                   
 mute-stream                                       0.0.8                                npm                      
-mute-stream                                       2.0.0                                npm     (+1 duplicate)   
+mute-stream                                       3.0.0                                npm     (+1 duplicate)   
 my-test-package                                   1.0                                  python                   
 n3                                                1.16.3                               npm                      
 napi-build-utils                                  2.0.0                                npm                      
@@ -1376,15 +1367,12 @@ node-xtend                                        4.0.2-3                       
 node-y18n                                         5.0.8+~5.0.0-3                       deb                      
 node-yallist                                      4.0.0+~4.0.1-1                       deb                      
 nodejs                                            24.11.1-1nodesource1                 deb                      
-nopt                                              8.1.0                                npm     (+3 duplicates)  
 nopt                                              9.0.0                                npm     (+1 duplicate)   
 normalize-url                                     7.1.0                                npm                      
-npm                                               11.6.3                               npm     (+1 duplicate)   
-npm-audit-report                                  6.0.0                                npm     (+1 duplicate)   
-npm-bundled                                       4.0.0                                npm     (+1 duplicate)   
+npm                                               11.7.0                               npm     (+1 duplicate)   
+npm-audit-report                                  7.0.0                                npm     (+1 duplicate)   
 npm-bundled                                       5.0.0                                npm     (+1 duplicate)   
 npm-install-checks                                8.0.0                                npm     (+1 duplicate)   
-npm-normalize-package-bin                         4.0.0                                npm     (+1 duplicate)   
 npm-normalize-package-bin                         5.0.0                                npm     (+1 duplicate)   
 npm-package-arg                                   13.0.2                               npm     (+1 duplicate)   
 npm-packlist                                      10.0.3                               npm     (+1 duplicate)   
@@ -1392,8 +1380,8 @@ npm-pick-manifest                                 11.0.3                        
 npm-profile                                       12.0.1                               npm     (+1 duplicate)   
 npm-registry-fetch                                19.1.1                               npm     (+1 duplicate)   
 npm-run-path                                      5.1.0                                npm                      
-npm-user-validate                                 3.0.0                                npm     (+1 duplicate)   
-obfuscation-detector                              2.0.6                                npm                      
+npm-user-validate                                 4.0.0                                npm     (+1 duplicate)   
+obfuscation-detector                              2.0.7                                npm                      
 object-inspect                                    1.12.2                               npm                      
 object-keys                                       1.1.1                                npm                      
 once                                              1.4.0                                npm                      
@@ -1408,9 +1396,8 @@ p-cancelable                                      2.1.1                         
 p-limit                                           4.0.0                                npm                      
 p-locate                                          6.0.0                                npm                      
 p-map                                             4.0.0                                npm                      
-p-map                                             7.0.3                                npm     (+1 duplicate)   
+p-map                                             7.0.4                                npm     (+1 duplicate)   
 p-try                                             3.0.0                                npm                      
-package-json-from-dist                            1.0.1                                npm     (+1 duplicate)   
 packaging                                         24.2                                 python                   
 packaging                                         25.0                                 python  (+1 duplicate)   
 pacote                                            21.0.4                               npm     (+1 duplicate)   
@@ -1422,7 +1409,6 @@ path-dirname                                      1.0.2                         
 path-exists                                       5.0.0                                npm                      
 path-is-absolute                                  2.0.0                                npm                      
 path-is-inside                                    1.0.2                                npm                      
-path-key                                          3.1.1                                npm     (+1 duplicate)   
 path-key                                          4.0.0                                npm                      
 path-parse                                        1.0.7                                npm                      
 path-scurry                                       2.0.0                                npm     (+1 duplicate)   
@@ -1441,22 +1427,22 @@ prebuild-install                                  7.1.3                         
 prelude-ls                                        1.1.2                                npm                      
 prelude-ls                                        1.2.1                                npm                      
 proc-log                                          5.0.0                                npm     (+1 duplicate)   
-proc-log                                          6.0.0                                npm     (+1 duplicate)   
+proc-log                                          6.1.0                                npm     (+1 duplicate)   
 process-nextick-args                              2.0.1                                npm                      
-proggy                                            3.0.0                                npm     (+1 duplicate)   
+proggy                                            4.0.0                                npm     (+1 duplicate)   
 promise-all-reject-late                           1.0.1                                npm     (+1 duplicate)   
 promise-call-limit                                3.0.2                                npm     (+1 duplicate)   
 promise-inflight                                  1.0.1                                npm                      
 promise-retry                                     2.0.1                                npm     (+2 duplicates)  
 promzard                                          0.3.0                                npm                      
-promzard                                          2.0.0                                npm     (+1 duplicate)   
+promzard                                          3.0.1                                npm     (+1 duplicate)   
 prr                                               1.0.1                                npm                      
 psutil                                            7.1.3                                python                   
 publicsuffix                                      20250328.1952-0.1                    deb                      
 pump                                              3.0.3                                npm                      
 punycode                                          2.3.1                                npm                      
 pycryptodome                                      3.23.0                               python                   
-pydantic                                          2.12.4                               python                   
+pydantic                                          2.12.5                               python                   
 pydantic-core                                     2.41.5                               python                   
 pydantic-settings                                 2.12.0                               python                   
 pyproject-hooks                                   1.2.0                                python                   
@@ -1476,7 +1462,7 @@ quick-lru                                         6.1.1                         
 randombytes                                       2.1.0                                npm                      
 rc                                                1.2.8                                npm                      
 read                                              1.0.7                                npm                      
-read                                              4.1.0                                npm     (+1 duplicate)   
+read                                              5.0.1                                npm     (+1 duplicate)   
 read-cmd-shim                                     6.0.0                                npm     (+1 duplicate)   
 readable-stream                                   3.6.0                                npm                      
 readable-stream                                   3.6.2                                npm                      
@@ -1495,7 +1481,7 @@ resolve-alpn                                      1.2.1                         
 resolve-cwd                                       3.0.0                                npm                      
 resolve-from                                      5.0.0                                npm                      
 responselike                                      2.0.1                                npm                      
-restringer                                        2.0.7                                npm                      
+restringer                                        2.1.0                                npm                      
 resumer                                           0.0.0                                npm                      
 retry                                             0.12.0                               npm     (+1 duplicate)   
 retry                                             0.13.1                               npm                      
@@ -1511,8 +1497,8 @@ set-immediate-shim                                2.0.0                         
 setuptools                                        80.9.0                               python                   
 setuptools-scm                                    9.2.2                                python                   
 shallow-clone                                     3.0.1                                npm                      
-shebang-command                                   2.0.0                                npm     (+2 duplicates)  
-shebang-regex                                     3.0.0                                npm     (+2 duplicates)  
+shebang-command                                   2.0.0                                npm                      
+shebang-regex                                     3.0.0                                npm                      
 signal-exit                                       4.1.0                                npm     (+2 duplicates)  
 sigstore                                          4.0.0                                npm     (+1 duplicate)   
 simple-concat                                     1.0.1                                npm                      
@@ -1521,7 +1507,6 @@ six                                               1.17.0                        
 slash                                             4.0.0                                npm                      
 slice-ansi                                        5.0.0                                npm                      
 smart-buffer                                      4.2.0                                npm     (+1 duplicate)   
-sniffio                                           1.3.1                                python                   
 socks                                             2.8.7                                npm     (+1 duplicate)   
 socks-proxy-agent                                 8.0.5                                npm     (+1 duplicate)   
 source-list-map                                   2.0.1                                npm                      
@@ -1539,11 +1524,9 @@ sqv                                               1.3.0-3                       
 ssri                                              13.0.0                               npm     (+1 duplicate)   
 ssri                                              9.0.1                                npm                      
 starlette                                         0.50.0                               python                   
-string-width                                      4.2.3                                npm     (+4 duplicates)  
-string-width                                      5.1.2                                npm     (+3 duplicates)  
+string-width                                      4.2.3                                npm     (+2 duplicates)  
 string_decoder                                    1.3.0                                npm     (+1 duplicate)   
-strip-ansi                                        6.0.1                                npm     (+4 duplicates)  
-strip-ansi                                        7.1.2                                npm     (+3 duplicates)  
+strip-ansi                                        6.0.1                                npm     (+2 duplicates)  
 strip-bom                                         4.0.0                                npm                      
 strip-eof                                         2.0.0                                npm                      
 strip-final-newline                               3.0.0                                npm                      
@@ -1578,7 +1561,7 @@ typeguard                                         4.3.0                         
 typing-extensions                                 4.12.2                               python                   
 typing-extensions                                 4.15.0                               python                   
 typing-inspection                                 0.4.2                                python                   
-tzdata                                            2025.2                               python                   
+tzdata                                            2025.3                               python                   
 tzdata                                            2025b-4+deb13u1                      deb                      
 undici                                            7.3.0                                npm                      
 undici-types                                      7.3.0                                npm                      
@@ -1586,9 +1569,9 @@ unicode-canonical-property-names-ecmascript       2.0.0                         
 unicode-match-property-value-ecmascript           2.1.0                                npm                      
 unicode-property-aliases-ecmascript               2.1.0                                npm                      
 unique-filename                                   1.1.1                                npm                      
-unique-filename                                   4.0.0                                npm     (+1 duplicate)   
+unique-filename                                   5.0.0                                npm     (+1 duplicate)   
 unique-slug                                       2.0.2                                npm                      
-unique-slug                                       5.0.0                                npm     (+1 duplicate)   
+unique-slug                                       6.0.0                                npm     (+1 duplicate)   
 uri-js                                            4.4.0                                npm                      
 util-deprecate                                    1.0.2                                npm     (+3 duplicates)  
 util-linux                                        2.41-5                               deb                      
@@ -1607,13 +1590,11 @@ web-streams-ponyfill-es2018                       UNKNOWN                       
 web-streams-ponyfill-es6                          UNKNOWN                              npm                      
 webpack-sources                                   3.2.3                                npm                      
 wheel                                             0.45.1                               python                   
-which                                             2.0.2                                npm     (+1 duplicate)   
 which                                             6.0.0                                npm     (+1 duplicate)   
 word-wrap                                         1.2.3                                npm                      
 word-wrap                                         1.2.5                                npm                      
 wordwrap                                          1.0.0                                npm                      
-wrap-ansi                                         7.0.0                                npm     (+2 duplicates)  
-wrap-ansi                                         8.1.0                                npm     (+1 duplicate)   
+wrap-ansi                                         7.0.0                                npm                      
 wrappy                                            1.0.2                                npm     (+1 duplicate)   
 write-file-atomic                                 4.0.2                                npm                      
 write-file-atomic                                 7.0.0                                npm     (+1 duplicate)   

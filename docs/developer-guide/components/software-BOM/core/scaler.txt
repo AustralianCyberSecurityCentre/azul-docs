@@ -2,10 +2,10 @@ NAME                     VERSION                      TYPE
 Simple Launcher          1.1.0.14                     binary  (+5 duplicates)  
 adduser                  3.152                        deb                      
 annotated-types          0.7.0                        python                   
-anyio                    4.11.0                       python                   
+anyio                    4.12.0                       python                   
 apt                      3.0.3                        deb                      
 autocommand              2.2.2                        python                   
-azul-scaler              9.0.7+g25895ea0b.d20251118   python                   
+azul-scaler              9.0.10+g25895ea0b.d20251213  python                   
 backports-tarfile        1.2.0                        python                   
 base-files               13.8+deb13u2                 deb                      
 base-passwd              3.6.7                        deb                      
@@ -113,19 +113,18 @@ passwd                   1:4.17.4-2                   deb
 perl-base                5.40.1-6                     deb                      
 pip                      25.0.1                       python                   
 platformdirs             4.2.2                        python                   
-protobuf                 6.33.1                       python                   
-pydantic                 2.12.4                       python                   
+protobuf                 6.33.2                       python                   
+pydantic                 2.12.5                       python                   
 pydantic-core            2.41.5                       python                   
 pydantic-settings        2.12.0                       python                   
 pyproject-hooks          1.2.0                        python                   
 python                   3.12.12                      binary                   
 python-dotenv            1.2.1                        python                   
 readline-common          8.2-6                        deb                      
-redis                    7.0.1                        python                   
+redis                    7.1.0                        python                   
 sed                      4.9-2                        deb                      
 setuptools               80.9.0                       python                   
 setuptools-scm           9.2.2                        python                   
-sniffio                  1.3.1                        python                   
 sqv                      1.3.0-3                      deb                      
 sysvinit-utils           3.14-4                       deb                      
 tar                      1.35+dfsg-3.1                deb                      

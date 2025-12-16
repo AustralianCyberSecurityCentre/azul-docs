@@ -1,6 +1,6 @@
 NAME                                                        VERSION                             TYPE       
 github.com/AustralianCyberSecurityCentre/azul-backup.git    UNKNOWN                             go-module  
-github.com/AustralianCyberSecurityCentre/azul-bedrock/v9    v9.0.10                             go-module  
+github.com/AustralianCyberSecurityCentre/azul-bedrock/v9    v9.0.28                             go-module  
 github.com/Azure/azure-sdk-for-go/sdk/azcore                v1.19.0                             go-module  
 github.com/Azure/azure-sdk-for-go/sdk/azidentity            v1.10.1                             go-module  
 github.com/Azure/azure-sdk-for-go/sdk/internal              v1.11.2                             go-module  
@@ -55,10 +55,10 @@ github.com/stretchr/testify                                 v1.11.1             
 github.com/tinylib/msgp                                     v1.4.0                              go-module  
 go.uber.org/automaxprocs                                    v1.6.0                              go-module  
 go.yaml.in/yaml/v2                                          v2.4.2                              go-module  
-golang.org/x/crypto                                         v0.42.0                             go-module  
-golang.org/x/net                                            v0.44.0                             go-module  
-golang.org/x/sys                                            v0.36.0                             go-module  
-golang.org/x/text                                           v0.29.0                             go-module  
+golang.org/x/crypto                                         v0.45.0                             go-module  
+golang.org/x/net                                            v0.47.0                             go-module  
+golang.org/x/sys                                            v0.38.0                             go-module  
+golang.org/x/text                                           v0.31.0                             go-module  
 google.golang.org/protobuf                                  v1.36.9                             go-module  
 gopkg.in/yaml.v3                                            v3.0.1                              go-module  
-stdlib                                                      go1.25.4                            go-module  
+stdlib                                                      go1.25.5                            go-module  

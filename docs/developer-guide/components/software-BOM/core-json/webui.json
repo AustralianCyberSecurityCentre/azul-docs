@@ -2,25 +2,25 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:3f235454-413e-4bce-b918-549e5928dab9",
+  "serialNumber": "urn:uuid:8ef29831-9540-4fb2-bb6f-59f040b7f3fe",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-11-25T05:03:03Z",
+    "timestamp": "2025-12-16T05:28:29Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.38.0"
+          "version": "1.38.2"
         }
       ]
     },
     "component": {
-      "bom-ref": "541180c9de320f85",
+      "bom-ref": "f44650927fd6d307",
       "type": "container",
       "name": "webui",
-      "version": "9.0.0-rc1"
+      "version": "9.0.0-rc2"
     },
     "properties": [
       {
@@ -4772,7 +4772,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:666a41730f6d08ca44ee3a6711fc0ec1feb6121b5e1652b404af333a01a32bb2"
+          "value": "sha256:65f16612a6cd62453b568fbf03a702f30f1064ac96c4d8f7b04c61e3d224b249"
         },
         {
           "name": "syft:location:0:path",
@@ -21083,7 +21083,7 @@
       ]
     },
     {
-      "bom-ref": "481de3e08bb61988",
+      "bom-ref": "36ac85c9a85d4884",
       "type": "file",
       "name": "/etc/nginx/nginx.conf",
       "hashes": [
@@ -21098,7 +21098,7 @@
       ]
     },
     {
-      "bom-ref": "22232eeca033fcfe",
+      "bom-ref": "14fbc3b57c832e46",
       "type": "file",
       "name": "/usr/share/nginx/html/dist/browser/assets/monaco/package.json",
       "hashes": [

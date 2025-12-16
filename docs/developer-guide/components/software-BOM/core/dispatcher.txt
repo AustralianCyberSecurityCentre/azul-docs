@@ -52,7 +52,7 @@ gcc-14-x86-64-linux-gnu                                       14.2.0-19         
 gcc-x86-64-linux-gnu                                          4:14.2.0-1                          deb                         
 git                                                           1:2.47.3-0+deb13u1                  deb                         
 git-man                                                       1:2.47.3-0+deb13u1                  deb                         
-github.com/AustralianCyberSecurityCentre/azul-bedrock/v9      v9.0.10                             go-module                   
+github.com/AustralianCyberSecurityCentre/azul-bedrock/v9      v9.0.28                             go-module                   
 github.com/AustralianCyberSecurityCentre/azul-dispatcher.git  UNKNOWN                             go-module                   
 github.com/Azure/azure-sdk-for-go/sdk/azcore                  v1.19.0                             go-module                   
 github.com/Azure/azure-sdk-for-go/sdk/azidentity              v1.11.0                             go-module                   
@@ -143,16 +143,16 @@ github.com/tinylib/msgp                                       v1.4.0            
 github.com/ugorji/go/codec                                    v1.3.0                              go-module                   
 gnupg                                                         2.4.7-21                            deb                         
 gnupg-l10n                                                    2.4.7-21                            deb                         
-go                                                            1.25.4                              binary                      
+go                                                            1.25.5                              binary                      
 go.uber.org/automaxprocs                                      v1.6.0                              go-module                   
 go.uber.org/mock                                              v0.6.0                              go-module                   
 go.yaml.in/yaml/v2                                            v2.4.2                              go-module                   
-golang.org/x/crypto                                           v0.42.0                             go-module                   
+golang.org/x/crypto                                           v0.45.0                             go-module                   
 golang.org/x/exp                                              v0.0.0-20250819193227-8b4c13bb791b  go-module                   
-golang.org/x/net                                              v0.44.0                             go-module                   
-golang.org/x/sync                                             v0.17.0                             go-module                   
-golang.org/x/sys                                              v0.36.0                             go-module                   
-golang.org/x/text                                             v0.29.0                             go-module                   
+golang.org/x/net                                              v0.47.0                             go-module                   
+golang.org/x/sync                                             v0.18.0                             go-module                   
+golang.org/x/sys                                              v0.38.0                             go-module                   
+golang.org/x/text                                             v0.31.0                             go-module                   
 google.golang.org/protobuf                                    v1.36.9                             go-module                   
 gopkg.in/natefinch/lumberjack.v2                              v2.2.1                              go-module                   
 gopkg.in/yaml.v3                                              v3.0.1                              go-module                   
@@ -328,7 +328,7 @@ sed                                                           4.9-2             
 sensible-utils                                                0.0.25                              deb                         
 sq                                                            1.3.1-2+b1                          deb                         
 sqv                                                           1.3.0-3                             deb                         
-stdlib                                                        go1.25.4                            go-module  (+9 duplicates)  
+stdlib                                                        go1.25.5                            go-module  (+9 duplicates)  
 subversion                                                    1.14.5-3                            deb                         
 sysvinit-utils                                                3.14-4                              deb                         
 tar                                                           1.35+dfsg-3.1                       deb                         

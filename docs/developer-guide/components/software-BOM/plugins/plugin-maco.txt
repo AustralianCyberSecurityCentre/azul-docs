@@ -7,12 +7,12 @@ Simple Launcher                          1.1.0.14                        binary 
 adduser                                  3.134                           deb                      
 annotated-doc                            0.0.4                           python                   
 annotated-types                          0.7.0                           python                   
-anyio                                    4.11.0                          python                   
+anyio                                    4.12.0                          python                   
 apt                                      2.6.1                           deb                      
 autocommand                              2.2.2                           python                   
-azul-bedrock                             9.0.15                          python                   
-azul-plugin-maco                         9.0.15+gb1ef59bb3.d20251122     python                   
-azul-runner                              9.0.14                          python                   
+azul-bedrock                             9.0.28                          python                   
+azul-plugin-maco                         9.0.26+gb1ef59bb3.d20251215     python                   
+azul-runner                              9.0.31                          python                   
 backports-tarfile                        1.2.0                           python                   
 base-files                               12.4+deb12u12                   deb                      
 base-passwd                              3.6.1                           deb                      
@@ -27,7 +27,7 @@ build-essential                          12.9                            deb
 bzip2                                    1.0.8-5+b1                      deb                      
 ca-certificates                          20230311+deb12u1                deb                      
 cabextract                               1.9-3                           deb                      
-cachetools                               6.2.2                           python                   
+cachetools                               6.2.4                           python                   
 cart                                     1.2.3                           python                   
 certifi                                  2025.11.12                      python                   
 cli                                      UNKNOWN                         binary                   
@@ -47,14 +47,14 @@ debianutils                              5.7-0.5~deb12u1                 deb
 diffutils                                1:3.8-4                         deb                      
 dill                                     0.4.0                           python                   
 dnlib                                    2.1.0.0                         dotnet  (+1 duplicate)   
-dotnet-host                              10.0.0                          deb                      
+dotnet-host                              10.0.1                          deb                      
 dotnet-hostfxr-9.0                       9.0.11-1                        deb                      
 dotnet-runtime-9.0                       9.0.11-1                        deb                      
 dotnet-runtime-deps-9.0                  9.0.11-1                        deb                      
 dpkg                                     1.21.22                         deb                      
 dpkg-dev                                 1.21.22                         deb                      
 e2fsprogs                                1.47.0-2+b2                     deb                      
-fastapi                                  0.121.3                         python                   
+fastapi                                  0.124.4                         python                   
 findutils                                4.9.0-4                         deb                      
 g++                                      4:12.2.0-3                      deb                      
 g++-12                                   12.2.0-14+deb12u1               deb                      
@@ -224,7 +224,7 @@ libzstd1                                 1.5.4+dfsg2-5                   deb
 linux-libc-dev                           6.1.158-1                       deb                      
 login                                    1:4.13+dfsg1-1+deb12u1          deb                      
 logsave                                  1.47.0-2+b2                     deb                      
-maco                                     1.2.17                          python                   
+maco                                     1.2.18                          python                   
 make                                     4.3-4.1                         deb                      
 mawk                                     1.3.4.20200120-3.1              deb                      
 media-types                              10.0.0                          deb                      
@@ -256,7 +256,7 @@ platformdirs                             4.2.2                           python
 procps                                   2:4.0.2-3                       deb                      
 psutil                                   7.1.3                           python                   
 pycryptodome                             3.23.0                          python                   
-pydantic                                 2.12.4                          python                   
+pydantic                                 2.12.5                          python                   
 pydantic-core                            2.41.5                          python                   
 pydantic-settings                        2.12.0                          python                   
 pyproject-hooks                          1.2.0                           python                   
@@ -279,7 +279,6 @@ sed                                      4.9-1                           deb
 setuptools                               80.9.0                          python                   
 setuptools-scm                           9.2.2                           python                   
 six                                      1.17.0                          python                   
-sniffio                                  1.3.1                           python                   
 starlette                                0.50.0                          python                   
 sysvinit-utils                           3.06-4                          deb                      
 tar                                      1.34+dfsg-1.2+deb12u1           deb                      
@@ -288,12 +287,12 @@ typeguard                                4.3.0                           python
 typing-extensions                        4.12.2                          python                   
 typing-extensions                        4.15.0                          python                   
 typing-inspection                        0.4.2                           python                   
-tzdata                                   2025.2                          python                   
+tzdata                                   2025.3                          python                   
 tzdata                                   2025b-0+deb12u2                 deb                      
 usr-is-merged                            37~deb12u1                      deb                      
 util-linux                               2.38.1-5+deb12u3                deb                      
 util-linux-extra                         2.38.1-5+deb12u3                deb                      
-uv                                       0.9.11                          python                   
+uv                                       0.9.17                          python                   
 watchdog                                 6.0.0                           python                   
 wheel                                    0.45.1                          python                   
 xz-utils                                 5.4.1-1                         deb                      

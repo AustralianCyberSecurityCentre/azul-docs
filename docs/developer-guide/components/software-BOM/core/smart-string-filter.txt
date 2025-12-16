@@ -3,11 +3,11 @@ Simple Launcher           1.1.0.14                     binary  (+5 duplicates)
 adduser                   3.152                        deb                      
 annotated-doc             0.0.4                        python                   
 annotated-types           0.7.0                        python                   
-anyio                     4.11.0                       python                   
+anyio                     4.12.0                       python                   
 apt                       3.0.3                        deb                      
 autocommand               2.2.2                        python                   
-azul-bedrock              9.0.15                       python                   
-azul-smart-string-filter  9.0.11+gde6bc75ca.d20251122  python                   
+azul-bedrock              9.0.28                       python                   
+azul-smart-string-filter  9.0.22+gde6bc75ca.d20251215  python                   
 backports-tarfile         1.2.0                        python                   
 base-files                13.8+deb13u2                 deb                      
 base-passwd               3.6.7                        deb                      
@@ -15,7 +15,7 @@ bash                      5.2.37-2+b5                  deb
 bsdutils                  1:2.41-5                     deb                      
 build                     1.3.0                        python                   
 ca-certificates           20250419                     deb                      
-cachetools                6.2.2                        python                   
+cachetools                6.2.4                        python                   
 certifi                   2025.11.12                   python                   
 cli                       UNKNOWN                      binary                   
 cli-32                    UNKNOWN                      binary                   
@@ -30,7 +30,7 @@ debian-archive-keyring    2025.1                       deb
 debianutils               5.23.2                       deb                      
 diffutils                 1:3.10-4                     deb                      
 dpkg                      1.22.21                      deb                      
-fastapi                   0.121.3                      python                   
+fastapi                   0.124.4                      python                   
 findutils                 4.10.0-3                     deb                      
 flatbuffers               25.9.23                      python                   
 gcc-14-base               14.2.0-19                    deb                      
@@ -54,7 +54,7 @@ jaraco-collections        5.1.0                        python
 jaraco-context            5.3.0                        python                   
 jaraco-functools          4.0.1                        python                   
 jaraco-text               3.12.1                       python                   
-joblib                    1.5.2                        python                   
+joblib                    1.5.3                        python                   
 libacl1                   2.3.2-2+b1                   deb                      
 libapt-pkg7.0             3.0.3                        deb                      
 libattr1                  1:2.5.2-3                    deb                      
@@ -119,7 +119,7 @@ ncurses-base              6.5+20250216-2               deb
 ncurses-bin               6.5+20250216-2               deb                      
 netbase                   6.5                          deb                      
 numpy                     2.3.5                        python                   
-onnx                      1.19.1                       python                   
+onnx                      1.20.0                       python                   
 onnxruntime               1.23.2                       python                   
 openssl                   3.5.4-1~deb13u1              deb                      
 openssl-provider-legacy   3.5.4-1~deb13u1              deb                      
@@ -131,8 +131,8 @@ perl-base                 5.40.1-6                     deb
 pip                       25.0.1                       python                   
 platformdirs              4.2.2                        python                   
 prometheus-client         0.23.1                       python                   
-protobuf                  6.33.1                       python                   
-pydantic                  2.12.4                       python                   
+protobuf                  6.33.2                       python                   
+pydantic                  2.12.5                       python                   
 pydantic-core             2.41.5                       python                   
 pyproject-hooks           1.2.0                        python                   
 python                    3.12.12                      binary                   
@@ -141,14 +141,13 @@ python-dotenv             1.2.1                        python
 python-magic              0.4.27                       python                   
 pyyaml                    6.0.3                        python                   
 readline-common           8.2-6                        deb                      
-scikit-learn              1.7.2                        python                   
+scikit-learn              1.8.0                        python                   
 scipy                     1.16.3                       python                   
 sed                       4.9-2                        deb                      
 setuptools                80.9.0                       python                   
 setuptools-scm            9.2.2                        python                   
 six                       1.17.0                       python                   
 skl2onnx                  1.19.1                       python                   
-sniffio                   1.3.1                        python                   
 sqv                       1.3.0-3                      deb                      
 starlette                 0.50.0                       python                   
 starlette-exporter        0.23.0                       python                   
@@ -161,7 +160,7 @@ typeguard                 4.3.0                        python
 typing-extensions         4.12.2                       python                   
 typing-extensions         4.15.0                       python                   
 typing-inspection         0.4.2                        python                   
-tzdata                    2025.2                       python                   
+tzdata                    2025.3                       python                   
 tzdata                    2025b-4+deb13u1              deb                      
 util-linux                2.41-5                       deb                      
 uvicorn                   0.38.0                       python                   
