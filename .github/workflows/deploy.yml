@@ -37,7 +37,7 @@ jobs:
     name: Deploy to GitHub Pages
     needs: build
 
-    if: ${{ github.repository == 'AustralianCyberSecurityCentre/azul' }}
+    if: ${{ github.repository == 'AustralianCyberSecurityCentre/australiancybersecuritycentre.github.io' }}
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
