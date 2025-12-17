@@ -22,13 +22,16 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      - name: Build website
-        run: npm run build
+      - name: Build Azul website
+        run: |
+          BASE_URL=/azul/ npm run build
+          mkdir output
+          mv build output/azul
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: output
 
   deploy:
     name: Deploy to GitHub Pages

@@ -16,15 +16,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://asd-azul.github.io",
+  url: "https://australiancybersecuritycentre.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: process.env.BASE_URL || "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "asd-azul", // Usually your GitHub org/user name.
-  projectName: "asd-azul.github.io", // Usually your repo name.
+  organizationName: "AustralianCyberSecurityCentre", // Usually your GitHub org/user name.
+  projectName: "australiancybersecuritycentre.github.io", // Usually your repo name.
 
 
 
