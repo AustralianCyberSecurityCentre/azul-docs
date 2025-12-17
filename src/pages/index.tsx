@@ -31,9 +31,9 @@ function HomepageHeader() {
         <Admonition type="info">
           <p>
             <Link to="./overview/release-notes">
-              7.0.0 has been released
+              9.0.0 has been released
             </Link>
-            , with significant bug fixes and prep work for future releases.
+            , our first open-source release!
           </p>
         </Admonition>
         <div className={styles.buttons}>
