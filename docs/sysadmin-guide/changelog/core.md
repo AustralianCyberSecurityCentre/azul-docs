@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-17 | bedrock              | feat: add long description for pypi. ..11.         |
 | 2025-12-16 | app                  | release azul.9.0.0.rc3                             |
 | 2025-12-16 | audit-forwarder      | fix: cloudwatch client init ..8.                   |
 | 2025-12-16 | app                  | feat: remove report feeds from image list. ..20.   |
