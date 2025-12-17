@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:6b2144d1-99ec-480a-a0fb-f74bf2253cb3",
+  "serialNumber": "urn:uuid:bebb2077-8521-4750-b386-3282a953ee7a",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-12-16T05:34:22Z",
+    "timestamp": "2025-12-17T22:11:11Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "884210191584c393",
       "type": "container",
       "name": "plugin-portex",
-      "version": "9.0.0-rc2"
+      "version": "9.0.0"
     },
     "properties": [
       {

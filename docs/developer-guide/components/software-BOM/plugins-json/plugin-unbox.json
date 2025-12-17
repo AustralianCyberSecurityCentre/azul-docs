@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:59fe5719-183c-46b1-87b0-62ca824f5bc0",
+  "serialNumber": "urn:uuid:46dabaf9-b6bd-42c2-972d-9a6299b65e8c",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-12-16T05:33:25Z",
+    "timestamp": "2025-12-17T22:09:58Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "89ff4760bde2cd18",
       "type": "container",
       "name": "plugin-unbox",
-      "version": "9.0.0-rc2"
+      "version": "9.0.0"
     },
     "properties": [
       {

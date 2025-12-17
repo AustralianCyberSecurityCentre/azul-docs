@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:4fa1212c-5d71-4556-b070-f6f1e6710b4d",
+  "serialNumber": "urn:uuid:a3cd8584-e23b-46b0-a243-4d461afb97b6",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-12-16T05:30:58Z",
+    "timestamp": "2025-12-17T22:06:38Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "cb87de05117ca1aa",
       "type": "container",
       "name": "plugin-floss",
-      "version": "9.0.0-rc2"
+      "version": "9.0.0"
     },
     "properties": [
       {
@@ -70688,14 +70688,14 @@
     {
       "ref": "pkg:pypi/annotated-types@0.7.0?package-id=90fbb09e4c787204",
       "dependsOn": [
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
       "ref": "pkg:pypi/anyio@4.12.0?package-id=c52132c52609a69d",
       "dependsOn": [
         "pkg:pypi/idna@3.11?package-id=945c446d1091a817",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
@@ -70763,7 +70763,7 @@
         "pkg:pypi/pydantic@2.12.5?package-id=baf01b13961495b6",
         "pkg:pypi/pyyaml@6.0.3?package-id=e058e5b0918ccf3c",
         "pkg:pypi/starlette@0.50.0?package-id=f510b4c03cf0d9b6",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
@@ -70818,7 +70818,7 @@
       "ref": "pkg:pypi/importlib-metadata@8.0.0?package-id=2220c45064056c97",
       "dependsOn": [
         "pkg:pypi/packaging@24.2?package-id=724da53c4f96d756",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859",
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b",
         "pkg:pypi/zipp@3.19.2?package-id=9d6e9838cd2ae2c2"
       ]
     },
@@ -70828,7 +70828,7 @@
         "pkg:pypi/more-itertools@10.3.0?package-id=38cf0e4396c41194",
         "pkg:pypi/pygments@2.19.2?package-id=fa03d33c68889272",
         "pkg:pypi/typeguard@4.3.0?package-id=e0b182a8d2d8108d",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
@@ -70910,7 +70910,7 @@
     {
       "ref": "pkg:pypi/pydantic-core@2.41.5?package-id=c0fe3ca877f02e7f",
       "dependsOn": [
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
@@ -70928,7 +70928,7 @@
       "dependsOn": [
         "pkg:pypi/annotated-types@0.7.0?package-id=90fbb09e4c787204",
         "pkg:pypi/pydantic-core@2.41.5?package-id=c0fe3ca877f02e7f",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859",
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b",
         "pkg:pypi/typing-inspection@0.4.2?package-id=92ac15a4944e10b6",
         "pkg:pypi/tzdata@2025.3?package-id=3c8b01e954f10200"
       ]
@@ -70959,7 +70959,7 @@
         "pkg:pypi/rich@14.2.0?package-id=8834aebe4c7473dd",
         "pkg:pypi/setuptools@80.9.0?package-id=5dc23af9381d7917",
         "pkg:pypi/tomli@2.0.1?package-id=8c7489746799fa53",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
@@ -70984,7 +70984,7 @@
         "pkg:pypi/anyio@4.12.0?package-id=c52132c52609a69d",
         "pkg:pypi/httpx@0.28.1?package-id=fb0d374f96f6b16e",
         "pkg:pypi/pyyaml@6.0.3?package-id=e058e5b0918ccf3c",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
@@ -70998,13 +70998,13 @@
       "dependsOn": [
         "pkg:pypi/importlib-metadata@8.0.0?package-id=2220c45064056c97",
         "pkg:pypi/packaging@24.2?package-id=724da53c4f96d756",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
       "ref": "pkg:pypi/typing-inspection@0.4.2?package-id=92ac15a4944e10b6",
       "dependsOn": [
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859"
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b"
       ]
     },
     {
@@ -71016,7 +71016,7 @@
         "pkg:pypi/pefile@2024.8.26?package-id=c08caef455a36a25",
         "pkg:pypi/python-flirt@0.9.7?package-id=b70b87d3c9c4296a",
         "pkg:pypi/setuptools@80.9.0?package-id=5dc23af9381d7917",
-        "pkg:pypi/typing-extensions@4.12.2?package-id=8d500e3be1b2e859",
+        "pkg:pypi/typing-extensions@4.15.0?package-id=bde11e44eadd8c3b",
         "pkg:pypi/vivisect@1.2.1?package-id=12ebf873eb795272"
       ]
     },

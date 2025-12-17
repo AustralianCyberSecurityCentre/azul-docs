@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:26c33747-d9f1-4902-885e-9d120e1ca197",
+  "serialNumber": "urn:uuid:f458fc17-8c8c-4ac9-8d59-4f675df36426",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-12-16T05:33:27Z",
+    "timestamp": "2025-12-17T22:10:01Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "ef04140b0ac2baaa",
       "type": "container",
       "name": "plugin-virustotal",
-      "version": "9.0.0-rc2"
+      "version": "9.0.0"
     },
     "properties": [
       {
