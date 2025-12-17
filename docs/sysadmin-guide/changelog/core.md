@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-17 | bedrock              | feat: add python 3.14 support. ..12.               |
 | 2025-12-17 | app                  | fix: network policy for opensearch startup. ..22.  |
 | 2025-12-17 | app                  | release azul.9.0.0                                 |
 | 2025-12-17 | runner               | feat: add long description for pypi. ..7.          |
