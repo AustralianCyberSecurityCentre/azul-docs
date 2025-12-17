@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-17 | runner               | feat: add long description for pypi. ..7.          |
 | 2025-12-17 | client               | feat: add long description for pypi. ..5.          |
 | 2025-12-17 | bedrock              | feat: add long description for pypi. ..11.         |
 | 2025-12-16 | app                  | release azul.9.0.0.rc3                             |
