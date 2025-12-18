@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-18 | client               | feat: implement locking for multiprocessing and multithreading. ..6. |
 | 2025-12-18 | backup               | feat: upgrade bedrock to v10 ..6.                  |
 | 2025-12-18 | bedrock              | feat: upgrade bedrock to v10 ..13.                 |
 | 2025-12-18 | app                  | feat: bump to major version 10. ..23.              |
