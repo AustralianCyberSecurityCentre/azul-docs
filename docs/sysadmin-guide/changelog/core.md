@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-18 | app                  | feat: bump to major version 10. ..23.              |
 | 2025-12-18 | demo                 | fix: use correct image path ..3.                   |
 | 2025-12-18 | runner               | feat: add python 3.14 support. ..8.                |
 | 2025-12-17 | bedrock              | feat: add python 3.14 support. ..12.               |
