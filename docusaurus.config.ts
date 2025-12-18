@@ -106,7 +106,7 @@ const config: Config = {
           label: "Developer Guide",
         },
         {
-          href: "https://github.com/ASD-Azul/azul",
+          href: "https://github.com/AustralianCyberSecurityCentre/azul",
           label: "GitHub",
           position: "right",
         },
