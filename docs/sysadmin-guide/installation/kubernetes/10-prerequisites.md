@@ -90,4 +90,4 @@ Some additional optional dependencies:
     consider deploying an overlay network that supports mutual TLS.
 
 When working through this documentation, it will likely be useful to also refer to the
-Helm chart [documentation](https://github.com/ASD-Azul/azul-app) for Azul.
+Helm chart [documentation](https://github.com/AustralianCyberSecurityCentre/azul-app) for Azul.

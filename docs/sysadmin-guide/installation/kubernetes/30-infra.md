@@ -10,7 +10,7 @@ Azul includes a [Helm](https://helm.sh) chart which contains deployments of most
 common Azul requirements. Each component is individually configurable and you can
 deploy **none, some or all** of the example components.
 
-This is included in the `infra/` folder in [azul-app](https://github.com/ASD-Azul/azul-app).
+This is included in the `infra/` folder in [azul-app](https://github.com/AustralianCyberSecurityCentre/azul-app).
 
 First, look at the default `values.yaml` file in this folder - for example, it contains:
 
