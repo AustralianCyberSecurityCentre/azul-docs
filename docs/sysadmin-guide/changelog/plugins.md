@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2025-12-18 | goinfo               | feat: upgrade bedrock to v10 ..6.                  |
 | 2025-12-18 | virustotal           | feat: upgrade bedrock to v10 ..5.                  |
 | 2025-12-18 | entropy              | feat: upgrade bedrock to v10 ..5.                  |
 | 2025-12-16 | floss                | fix: no pyinstaller flare.floss ..3.               |
