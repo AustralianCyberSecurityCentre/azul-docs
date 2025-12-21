@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-21 | webui                | feat: make relational graph easier to use. ..15.   |
 | 2025-12-21 | webui                | feat: switch icons over to using filetype. ..14.   |
 | 2025-12-18 | client               | feat: implement locking for multiprocessing and multithreading. ..6. |
 | 2025-12-18 | backup               | feat: upgrade bedrock to v10 ..6.                  |
