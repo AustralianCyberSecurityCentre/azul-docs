@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-05 | audit-forwarder      | fix: allow CloudWatch client to use IRSA creds ..9. |
 | 2025-12-22 | webui                | feat: add tag picker ..16.                         |
 | 2025-12-21 | webui                | feat: make relational graph easier to use. ..15.   |
 | 2025-12-21 | webui                | feat: switch icons over to using filetype. ..14.   |
