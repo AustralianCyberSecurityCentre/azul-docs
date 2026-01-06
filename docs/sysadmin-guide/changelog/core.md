@@ -3,6 +3,7 @@
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
 | 2026-01-06 | webui                | build.deps.: bump axios.cache.interceptor from 1.8.3 to 1.11.1 ..17. |
+| 2026-01-06 | webui                | build.deps.: bump axios.cache.interceptor from 1.8.3 to 1.11.1 ..17. |
 | 2026-01-05 | audit-forwarder      | fix: allow CloudWatch client to use IRSA creds ..9. |
 | 2025-12-22 | webui                | feat: add tag picker ..16.                         |
 | 2025-12-21 | webui                | feat: make relational graph easier to use. ..15.   |
