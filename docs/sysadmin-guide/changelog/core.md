@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-14 | bedrock              | feat: remove file format legacy. ..14.             |
 | 2026-01-14 | webui                | feat: remove file format legacy. ..24.             |
 | 2026-01-14 | webui                | feat: upgrade angular to v21. ..22.                |
 | 2026-01-14 | webui                | build.deps.dev.: bump hono from 4.11.3 to 4.11.4 ..23. |
