@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-14 | dispatcher           | feat: remove file.format.legacy. ..7.              |
 | 2026-01-14 | bedrock              | feat: remove file format legacy. ..14.             |
 | 2026-01-14 | webui                | feat: remove file format legacy. ..24.             |
 | 2026-01-14 | webui                | feat: upgrade angular to v21. ..22.                |
