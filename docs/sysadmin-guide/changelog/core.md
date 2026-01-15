@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-15 | webui                | feat: add more options to the relational graph. ..26. |
 | 2026-01-15 | backup               | feat: remove file format legacy ..7.               |
 | 2026-01-15 | metastore            | feat: add more options for the cousin search. ..11. |
 | 2026-01-15 | restapi-server       | feat: add warning to top of swagger ui. ..5.       |
