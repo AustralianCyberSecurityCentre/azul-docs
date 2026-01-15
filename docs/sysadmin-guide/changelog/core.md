@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-15 | client               | feat: remove file format legacy ..8.               |
 | 2026-01-14 | bedrock              | feat: add small option for relational graph. ..16. |
 | 2026-01-14 | dispatcher           | feat: remove file.format.legacy. ..7.              |
 | 2026-01-14 | bedrock              | feat: remove file format legacy. ..14.             |
