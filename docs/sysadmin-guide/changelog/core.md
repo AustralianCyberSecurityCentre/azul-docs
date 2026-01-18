@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-18 | app                  | feat: add rel origin ..25.                         |
 | 2026-01-18 | webui                | build.deps.: bump tar from 7.5.2 to 7.5.3 ..27.    |
 | 2026-01-15 | webui                | feat: add more options to the relational graph. ..26. |
 | 2026-01-15 | backup               | feat: remove file format legacy ..7.               |
