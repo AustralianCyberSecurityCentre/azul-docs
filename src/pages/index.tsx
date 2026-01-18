@@ -1,18 +1,18 @@
-import type { ReactNode } from "react";
-import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import clsx from "clsx";
+import type { ReactNode } from "react";
 
 // import "@docusaurus/theme-classic";
 
-import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
+import Layout from "@theme/Layout";
 
-import styles from "./index.module.css";
 import Graph from "../components/Graph";
+import styles from "./index.module.css";
 
-import Azul from "../../static/img/azul-text-glitched.svg";
 import Admonition from "@theme/Admonition";
+import Azul from "../../static/img/azul-text-glitched.svg";
 
 
 function HomepageHeader() {
@@ -30,7 +30,7 @@ function HomepageHeader() {
       <div>
         <Admonition type="info">
           <p>
-            <Link to="./overview/release-notes">
+            <Link to="./overview/release-notes/">
               9.0.0 has been released
             </Link>
             , our first open-source release!
@@ -39,19 +39,19 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="./overview/about"
+            to="./overview/about/"
           >
             💡 About
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="./user-guide/malware-analysis"
+            to="./user-guide/malware-analysis/"
           >
             ✏️ Learn
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="./sysadmin-guide/installation"
+            to="./sysadmin-guide/installation/"
           >
             🚀 Deploy
           </Link>
