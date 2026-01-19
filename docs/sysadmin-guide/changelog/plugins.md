@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-19 | yara                 | feat: fix linting ..3.                             |
 | 2026-01-19 | malcarve             | feat: fix linting ..3.                             |
 | 2026-01-19 | repeated-bytes       | feat: fix linting ..3.                             |
 | 2026-01-19 | de4dot               | feat: fix linting ..5.                             |
