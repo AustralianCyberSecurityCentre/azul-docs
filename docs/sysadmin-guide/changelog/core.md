@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-19 | smart-string-filter  | feat: fix linting ..3.                             |
 | 2026-01-19 | audit-forwarder      | feat: fix linting ..10.                            |
 | 2026-01-19 | security             | feat: fix linting ..4.                             |
 | 2026-01-18 | app                  | feat: add rel origin ..25.                         |
