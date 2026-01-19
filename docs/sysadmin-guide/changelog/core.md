@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-19 | restapi-server       | feat: fix linting ..6.                             |
 | 2026-01-19 | client               | feat: fix linting ..9.                             |
 | 2026-01-19 | stats                | feat: fix linting ..3.                             |
 | 2026-01-19 | bedrock              | feat: linting ..17.                                |
