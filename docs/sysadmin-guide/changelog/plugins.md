@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-19 | exiftool             | feat: fix linting ..3.                             |
 | 2026-01-19 | portex               | feat: fix linting ..3.                             |
 | 2026-01-19 | office               | feat: fix linting ..3.                             |
 | 2026-01-19 | shortcut             | feat: fix linting ..3.                             |
