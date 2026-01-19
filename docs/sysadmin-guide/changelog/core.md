@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-19 | bedrock              | feat: linting ..17.                                |
 | 2026-01-19 | runner               | feat: fix linting ..10.                            |
 | 2026-01-19 | scaler               | feat: fix linting ..3.                             |
 | 2026-01-19 | smart-string-filter  | feat: fix linting ..3.                             |
