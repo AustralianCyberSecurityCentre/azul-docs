@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-19 | lief                 | feat: fix linting ..3.                             |
 | 2026-01-19 | script-decoder       | feat: fix linting ..3.                             |
 | 2026-01-19 | exiftool             | feat: fix linting ..3.                             |
 | 2026-01-19 | portex               | feat: fix linting ..3.                             |
