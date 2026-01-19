@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-19 | qrcode               | feat: fix linting ..3.                             |
 | 2026-01-14 | assemblyline         | feat: remove file.format.legacy. ..3.              |
 | 2026-01-14 | virustotal           | feat: remove file.format.legacy. ..6.              |
 | 2025-12-18 | goinfo               | feat: upgrade bedrock to v10 ..6.                  |
