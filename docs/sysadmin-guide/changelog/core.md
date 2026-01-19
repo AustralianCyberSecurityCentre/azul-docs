@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-19 | audit-forwarder      | feat: fix linting ..10.                            |
 | 2026-01-19 | security             | feat: fix linting ..4.                             |
 | 2026-01-18 | app                  | feat: add rel origin ..25.                         |
 | 2026-01-18 | webui                | build.deps.: bump tar from 7.5.2 to 7.5.3 ..27.    |
