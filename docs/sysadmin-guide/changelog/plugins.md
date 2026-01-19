@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-19 | tika                 | feat: fix linting ..4.                             |
 | 2026-01-19 | debloat              | feat: fix linting ..3.                             |
 | 2026-01-19 | ghidra               | feat: fix linting ..6.                             |
 | 2026-01-19 | lief                 | feat: fix linting ..3.                             |
