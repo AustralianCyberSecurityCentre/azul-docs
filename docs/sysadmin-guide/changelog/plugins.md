@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-19 | netinfo              | feat: fix linting ..3.                             |
 | 2026-01-19 | suricata             | feat: fix linting ..3.                             |
 | 2026-01-19 | maco                 | feat: fix linting ..4.                             |
 | 2026-01-19 | image-convert        | feat: fix linting ..3.                             |
