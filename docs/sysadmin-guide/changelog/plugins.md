@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-19 | image-convert        | feat: fix linting ..3.                             |
 | 2026-01-19 | js-deobf             | feat: fix linting ..3.                             |
 | 2026-01-19 | retrohunt            | feat: fix linting ..3.                             |
 | 2026-01-19 | dotnet-deob          | feat: fix linting ..5.                             |
