@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-20 | runner               | fix: refine memory check to account for inactive.file. ..11. |
 | 2026-01-20 | webui                | feat: binary page formatting ..28.                 |
 | 2026-01-19 | restapi-server       | feat: fix linting ..6.                             |
 | 2026-01-19 | client               | feat: fix linting ..9.                             |
