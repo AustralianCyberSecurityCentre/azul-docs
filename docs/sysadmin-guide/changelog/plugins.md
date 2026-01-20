@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-01-20 | goinfo               | feat: upgrade bedrock to v10.10 ..7.               |
 | 2026-01-20 | floss                | feat: fix linting ..4.                             |
 | 2026-01-19 | python               | feat: fix linting ..5.                             |
 | 2026-01-19 | mandiant-capa        | feat: fix linting ..4.                             |
