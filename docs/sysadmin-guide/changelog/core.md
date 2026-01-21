@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-21 | webui                | fix: ai string filter not being provided a value. ..29. |
 | 2026-01-20 | metastore            | fix: 500 errors detected via fuzz testing. ..13.   |
 | 2026-01-20 | runner               | fix: refine memory check to account for inactive.file. ..11. |
 | 2026-01-20 | webui                | feat: binary page formatting ..28.                 |
