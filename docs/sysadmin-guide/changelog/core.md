@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-21 | webui                | feat: add option for strings over large files. ..31. |
 | 2026-01-21 | webui                | build.deps.: bump tar from 7.5.3 to 7.5.6 ..30.    |
 | 2026-01-21 | webui                | fix: ai string filter not being provided a value. ..29. |
 | 2026-01-20 | metastore            | fix: 500 errors detected via fuzz testing. ..13.   |
