@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-26 | webui                | build.deps.: bump lodash from 4.17.21 to 4.17.23 ..34. |
 | 2026-01-22 | metastore            | fix: ai filter keeps breaking. ..15.               |
 | 2026-01-21 | webui                | feat: fix security labels ..25.                    |
 | 2026-01-21 | security             | feat: update security labels webui ..3.            |
