@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-30 | webui                | build.deps.: bump hono from 4.11.4 to 4.11.7 ..36. |
 | 2026-01-27 | webui                | fix: icon service ..35.                            |
 | 2026-01-27 | app                  | feat: add api secrets optionally for feedley ..26. |
 | 2026-01-26 | webui                | build.deps.: bump lodash from 4.17.21 to 4.17.23 ..34. |
