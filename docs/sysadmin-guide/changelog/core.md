@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-01-30 | app                  | feat: add longer consumer group retention. ..27.   |
 | 2026-01-30 | webui                | build.deps.: bump hono from 4.11.4 to 4.11.7 ..36. |
 | 2026-01-27 | webui                | fix: icon service ..35.                            |
 | 2026-01-27 | app                  | feat: add api secrets optionally for feedley ..26. |
