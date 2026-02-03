@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-03 | app                  | fix: alloy doesn.t have internet. disable telemetry ..28. |
 | 2026-02-03 | bedrock              | feat: switch to uv. ruff and enable ty in audit mode ..18. |
 | 2026-02-03 | client               | feat: switch to uv. ruff and enable ty in audit mode ..10. |
 | 2026-02-03 | audit-forwarder      | feat: switch to uv. ruff and enable ty in audit mode ..11. |
