@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | truncated            | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | yara                 | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | shortcut             | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-01-20 | entropy              | feat: upgrade bedrock. ..6.                        |
