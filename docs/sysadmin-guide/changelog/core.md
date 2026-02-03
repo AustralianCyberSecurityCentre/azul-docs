@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-03 | runner               | feat: switch to uv. ruff and enable ty in audit mode ..14. |
 | 2026-02-03 | security             | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-01-30 | dispatcher           | feat: add longer consumer group retention. ..8.    |
 | 2026-01-30 | webui                | build.deps.: bump tar from 7.5.6 to 7.5.7 ..37.    |
