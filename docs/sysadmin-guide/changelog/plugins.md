@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | mandiant-capa        | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | export-hashes        | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | index-coincidence    | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | lief                 | feat: switch to uv. ruff and enable ty in audit mode ..4. |
