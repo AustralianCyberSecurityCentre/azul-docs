@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-03 | metastore            | feat: switch to uv. ruff and enable ty in audit mode ..16. |
 | 2026-02-03 | app                  | fix: alloy doesn.t have internet. disable telemetry ..28. |
 | 2026-02-03 | bedrock              | feat: switch to uv. ruff and enable ty in audit mode ..18. |
 | 2026-02-03 | client               | feat: switch to uv. ruff and enable ty in audit mode ..10. |
