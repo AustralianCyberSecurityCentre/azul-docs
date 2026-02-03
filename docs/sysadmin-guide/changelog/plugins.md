@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | floss                | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | dotnet-deob          | feat: switch to uv. ruff and enable ty in audit mode ..6. |
 | 2026-02-03 | js-deobf             | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | de4dot               | feat: switch to uv. ruff and enable ty in audit mode ..6. |
