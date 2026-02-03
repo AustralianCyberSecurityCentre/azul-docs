@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-03 | webui                | feat: load new Azul mascot ..38.                   |
 | 2026-02-03 | bedrock              | fix: additional lint changes. ..19.                |
 | 2026-02-03 | runner               | fix: add in missing test.utils. ..15.              |
 | 2026-02-03 | metastore            | feat: switch to uv. ruff and enable ty in audit mode ..16. |
