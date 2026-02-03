@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | de4dot               | feat: switch to uv. ruff and enable ty in audit mode ..6. |
 | 2026-02-03 | entrypointcheck      | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | dotnet-decompiler    | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | netinfo              | feat: switch to uv. ruff and enable ty in audit mode ..4. |
