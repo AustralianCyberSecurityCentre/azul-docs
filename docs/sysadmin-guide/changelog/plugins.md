@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | retrohunt            | fix: additional lint changes. ..5.                 |
 | 2026-02-03 | image-convert        | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | nsrl                 | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | portex               | feat: switch to uv. ruff and enable ty in audit mode ..4. |
