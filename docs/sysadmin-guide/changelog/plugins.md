@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | alphabets            | feat: fix linting ..7.                             |
 | 2026-02-03 | tika                 | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | repeated-bytes       | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | unbox                | feat: switch to uv. ruff and enable ty in audit mode ..5. |
