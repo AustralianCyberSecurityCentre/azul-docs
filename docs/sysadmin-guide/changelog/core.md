@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-03 | client               | feat: switch to uv. ruff and enable ty in audit mode ..10. |
 | 2026-02-03 | audit-forwarder      | feat: switch to uv. ruff and enable ty in audit mode ..11. |
 | 2026-02-03 | restapi-server       | feat: switch to uv. ruff and enable ty in audit mode ..7. |
 | 2026-02-03 | stats                | feat: switch to uv. ruff and enable ty in audit mode ..4. |
