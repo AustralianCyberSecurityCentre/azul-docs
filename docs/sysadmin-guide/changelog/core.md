@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-03 | stats                | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | scaler               | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | runner               | feat: switch to uv. ruff and enable ty in audit mode ..14. |
 | 2026-02-03 | security             | feat: switch to uv. ruff and enable ty in audit mode ..5. |
