@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | alphabets            | feat: switch to uv. ruff and enable ty in audit mode ..8. |
 | 2026-02-03 | cape                 | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | assemblyline         | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | build-time-strings   | feat: switch to uv. ruff and enable ty in audit mode ..4. |
