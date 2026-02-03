@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | ghidra               | feat: switch to uv. ruff and enable ty in audit mode ..7. |
 | 2026-02-03 | debloat              | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | python               | feat: switch to uv. ruff and enable ty in audit mode ..6. |
 | 2026-02-03 | mandiant-capa        | feat: switch to uv. ruff and enable ty in audit mode ..5. |
