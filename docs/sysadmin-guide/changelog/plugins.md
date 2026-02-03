@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | email                | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | exiftool             | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | ghidra               | feat: switch to uv. ruff and enable ty in audit mode ..7. |
 | 2026-02-03 | debloat              | feat: switch to uv. ruff and enable ty in audit mode ..4. |
