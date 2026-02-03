@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-03 | office               | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | maco                 | feat: switch to uv. ruff and enable ty in audit mode ..5. |
 | 2026-02-03 | malcarve             | feat: switch to uv. ruff and enable ty in audit mode ..4. |
 | 2026-02-03 | qrcode               | feat: switch to uv. ruff and enable ty in audit mode ..4. |
