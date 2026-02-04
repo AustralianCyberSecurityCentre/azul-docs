@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-04 | app                  | fix: gitsync period needs to have a unit ..29.     |
 | 2026-02-04 | metastore            | feat: ruff update changes ..17.                    |
 | 2026-02-04 | restapi-server       | fix: add user.me api back in. ..8.                 |
 | 2026-02-03 | webui                | feat: load new Azul mascot ..38.                   |
