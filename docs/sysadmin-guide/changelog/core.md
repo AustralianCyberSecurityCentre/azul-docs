@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-05 | webui                | fix: allow scroll up from bottom of file ..39.     |
 | 2026-02-05 | runner               | fix: liniting tool doco ..17.                      |
 | 2026-02-05 | audit-forwarder      | fix: remove hidden pyproject toml. ..12.           |
 | 2026-02-05 | runner               | fix: runner tmp file cleanup ..13.                 |
