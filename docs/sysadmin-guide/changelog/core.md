@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-10 | runner               | feat: make compatible with bedrock exception changes. ..18. |
 | 2026-02-10 | client               | feat: add a simple download for azul.client. ..11. |
 | 2026-02-10 | bedrock              | feat: make compatible with bedrock exception changes. ..22. |
 | 2026-02-10 | webui                | feat: add type a plugin will process. ..41.        |
