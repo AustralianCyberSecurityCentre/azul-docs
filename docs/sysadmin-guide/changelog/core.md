@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-10 | webui                | feat: add type a plugin will process. ..41.        |
 | 2026-02-09 | bedrock              | feat: centeralise translatable errors. ..21.       |
 | 2026-02-09 | smart-string-filter  | feat: make ai model persistent ..5.                |
 | 2026-02-05 | bedrock              | feat: address ty comments. can.t enable yet due to multipart. ..20. |
