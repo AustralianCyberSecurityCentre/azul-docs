@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-12 | retrohunt            | fix: bedrock exception import change. ..6.         |
 | 2026-02-12 | unbox                | feat: remove reliance on pkg.resource ..6.         |
 | 2026-02-12 | script-decoder       | feat: remove reliance on pkg.resource ..5.         |
 | 2026-02-12 | pdftools             | feat: remove reliance on pkg.resource ..6.         |
