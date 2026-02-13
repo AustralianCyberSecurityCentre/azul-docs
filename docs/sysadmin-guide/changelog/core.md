@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-13 | runner               | feat: switch over to forkserver for tests. ..19.   |
 | 2026-02-12 | webui                | build.deps.: bump axios from 1.13.2 to 1.13.5 ..42. |
 | 2026-02-10 | runner               | feat: make compatible with bedrock exception changes. ..18. |
 | 2026-02-10 | client               | feat: add a simple download for azul.client. ..11. |
