@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-15 | security             | feat: move all exceptions to bedrock ..6.          |
 | 2026-02-15 | bedrock              | feat: add metastore error messages. ..23.          |
 | 2026-02-15 | webui                | build.deps.: bump qs from 6.14.1 to 6.14.2 ..43.   |
 | 2026-02-13 | runner               | feat: switch over to forkserver for tests. ..19.   |
