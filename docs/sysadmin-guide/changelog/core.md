@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-16 | restapi-server       | fix: bedrock exception import path change. ..9.    |
 | 2026-02-16 | metastore            | feat: add metastore errors to bedrock. ..18.       |
 | 2026-02-15 | security             | feat: move all exceptions to bedrock ..6.          |
 | 2026-02-15 | bedrock              | feat: add metastore error messages. ..23.          |
