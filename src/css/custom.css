@@ -15,6 +15,8 @@
   --ifm-color-primary-lighter: #27314f;
   --ifm-color-primary-lightest: #2c385a;
 
+  --ifm-link-color: #1122BB;
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -30,6 +32,8 @@
   --ifm-color-primary-lighter: #aebbc9;
   --ifm-color-primary-lightest: #cbd3dc;
 
+  --ifm-link-color: #AAAAFF;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -37,15 +41,15 @@
    to be done globally in order to actually hit the svg as css elsewhere is scoped */
 [data-theme='light'] {
   svg .cls-1 {
-    fill: oklch(86.9% 0.022 252.894);
+    fill: oklch(55.4% 0.046 257.417);
   }
 
   svg .cls-2 {
-    fill: oklch(20.8% 0.042 265.755);
+    fill: oklch(86.9% 0.022 252.894);
   }
 
   svg .cls-3 {
-    fill: oklch(55.4% 0.046 257.417);
+    fill: oklch(20.8% 0.042 265.755);
   }
 }
 
@@ -56,5 +60,30 @@
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+  }
+}
+
+/* Invert the opacity for the ASD logo */
+.footer__bottom a {
+  opacity: 1;
+}
+
+.footer__bottom a:hover {
+  opacity: 0.5;
+}
+
+/* Fix the success button on a dark background */
+.button--block {
+  color: white;
+  opacity: 1;
+}
+
+[data-theme='dark'] {
+  .button--primary {
+    background: #222b45;
+  }
+
+  .button--primary:hover {
+    background: #252f4c;
   }
 }
