@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-22 | demo                 | fix: various cleanups ..4.                         |
 | 2026-02-18 | app                  | feat: add redis endpoint ..31.                     |
 | 2026-02-17 | app                  | fix: use correct restapi logging config variable ..30. |
 | 2026-02-16 | restapi-server       | fix: bedrock exception import path change. ..9.    |
