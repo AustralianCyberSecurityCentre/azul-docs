@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-23 | app                  | feat: add PAT auth method alongside oidc ..33.     |
 | 2026-02-23 | webui                | build.deps.: bump hono from 4.11.7 to 4.12.0 ..45. |
 | 2026-02-23 | app                  | feat: update redis env config ..32.                |
 | 2026-02-23 | metastore            | feat: centeralise basic opensearch access. ..19.   |
