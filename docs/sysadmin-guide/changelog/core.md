@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-23 | restapi-server       | feat: add pat auth inital. ..10.                   |
 | 2026-02-23 | runner               | fix: test file cleanup. ..20.                      |
 | 2026-02-23 | bedrock              | feat: centeralise basic opensearch access. ..24.   |
 | 2026-02-23 | webui                | build.deps.: bump tar from 7.5.7 to 7.5.9 ..44.    |
