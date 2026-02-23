@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-23 | webui                | build.deps.: bump tar from 7.5.7 to 7.5.9 ..44.    |
 | 2026-02-23 | security             | feat: add an additional admin role utility. ..7.   |
 | 2026-02-22 | demo                 | fix: various cleanups ..4.                         |
 | 2026-02-18 | app                  | feat: add redis endpoint ..31.                     |
