@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-24 | bedrock              | feat: add IRSA support for S3 ..25.                |
 | 2026-02-24 | app                  | feat: irsa compatibility for backup ..34.          |
 | 2026-02-23 | app                  | feat: add PAT auth method alongside oidc ..33.     |
 | 2026-02-23 | webui                | build.deps.: bump hono from 4.11.7 to 4.12.0 ..45. |
