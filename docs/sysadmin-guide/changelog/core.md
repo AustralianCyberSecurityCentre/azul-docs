@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-25 | bedrock              | feat: error message translation for dispatcher errors. ..26. |
 | 2026-02-24 | bedrock              | feat: add IRSA support for S3 ..25.                |
 | 2026-02-24 | app                  | feat: irsa compatibility for backup ..34.          |
 | 2026-02-23 | app                  | feat: add PAT auth method alongside oidc ..33.     |
