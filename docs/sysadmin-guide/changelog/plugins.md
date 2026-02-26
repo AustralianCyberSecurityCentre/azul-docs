@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-02-26 | tika                 | feat: update test ..6.                             |
 | 2026-02-16 | retrohunt            | fix: remove azul security. ..7.                    |
 | 2026-02-12 | retrohunt            | fix: bedrock exception import change. ..6.         |
 | 2026-02-12 | unbox                | feat: remove reliance on pkg.resource ..6.         |
