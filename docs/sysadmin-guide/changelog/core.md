@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-02-26 | metastore            | fix: metastore integration test case break. ..21.  |
 | 2026-02-26 | webui                | build.deps.dev.: bump rollup from 4.55.1 to 4.59.0 ..47. |
 | 2026-02-26 | webui                | build.deps.: bump hono from 4.12.0 to 4.12.2 ..46. |
 | 2026-02-25 | app                  | fix: use s3AuthMode to configure how to backup ..36. |
