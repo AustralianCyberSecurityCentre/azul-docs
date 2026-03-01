@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-01 | bedrock              | feat: add logger fo golang plugins. ..28.          |
 | 2026-03-01 | app                  | feat: allow users to set log levels more easily. ..37. |
 | 2026-03-01 | webui                | build.deps.: bump minimatch ..48.                  |
 | 2026-03-01 | restapi-server       | fix: more descriptive bad security provider. ..11. |
