@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-01 | webui                | build.deps.: bump minimatch ..48.                  |
 | 2026-03-01 | restapi-server       | fix: more descriptive bad security provider. ..11. |
 | 2026-02-26 | metastore            | fix: metastore integration test case break. ..21.  |
 | 2026-02-26 | webui                | build.deps.dev.: bump rollup from 4.55.1 to 4.59.0 ..47. |
