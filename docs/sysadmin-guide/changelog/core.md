@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-01 | dispatcher           | feat: modify track.id. ..10.                       |
 | 2026-03-01 | smart-string-filter  | feat: add logging configuration. ..6.              |
 | 2026-03-01 | stats                | feat: minimise stats logging. ..5.                 |
 | 2026-03-01 | bedrock              | feat: add logger fo golang plugins. ..28.          |
