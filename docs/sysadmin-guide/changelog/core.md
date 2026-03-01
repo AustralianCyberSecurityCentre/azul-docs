@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-01 | stats                | feat: minimise stats logging. ..5.                 |
 | 2026-03-01 | bedrock              | feat: add logger fo golang plugins. ..28.          |
 | 2026-03-01 | app                  | feat: allow users to set log levels more easily. ..37. |
 | 2026-03-01 | webui                | build.deps.: bump minimatch ..48.                  |
