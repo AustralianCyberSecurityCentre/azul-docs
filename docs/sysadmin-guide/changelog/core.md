@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-02 | webui                | feat: configure better dependabot behaviour. ..50. |
 | 2026-03-02 | app                  | fix: add a default for log levels. ..39.           |
 | 2026-03-01 | metastore            | fix: ensure inserted children are purged appropriately ..22. |
 | 2026-03-01 | dispatcher           | feat: modify track.id. ..10.                       |
