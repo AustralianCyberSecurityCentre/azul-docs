@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | email                | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | alphabets            | feat: switch to uv. ruff and enable ty in audit mode ..8. |
 | 2026-03-03 | export-hashes        | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | dotnet-decompiler    | fix: update outdated readme.md ..6.                |
