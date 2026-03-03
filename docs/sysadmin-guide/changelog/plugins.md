@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | tika                 | fix: update outdated readme.md ..7.                |
 | 2026-03-03 | python               | fix: update outdated readme.md ..7.                |
 | 2026-03-03 | mandiant-capa        | fix: update outdated readme.md ..6.                |
 | 2026-03-03 | repeated-bytes       | fix: update outdated readme.md ..5.                |
