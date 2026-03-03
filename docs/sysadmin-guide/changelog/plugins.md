@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | ghidra               | fix: update outdated readme.md ..8.                |
 | 2026-03-03 | suricata             | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | truncated            | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | office               | fix: update outdated readme.md ..5.                |
