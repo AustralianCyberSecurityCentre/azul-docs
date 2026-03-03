@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-03 | restapi-server       | fix: update outdated readme.md ..14.               |
 | 2026-03-03 | restapi-server       | fix: remove metastore dev pinning ..13.            |
 | 2026-03-03 | webui                | feat: update restapi models. ..53.                 |
 | 2026-03-02 | metastore            | fix: add edge case log types. ..23.                |
