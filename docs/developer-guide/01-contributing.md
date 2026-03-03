@@ -16,7 +16,7 @@ In general:
 * Meaningful documentation.
   Use [google style](https://google.github.io/styleguide/pyguide.html#s3.8-comments-and-docstrings).
   See [example](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
-
+* `ruff` for formatting and linting.
 
 Azul is split across many separate repositories to simplify management. For more specific details, please refer to that
 subsection of the documentation.
@@ -29,7 +29,7 @@ Before submitting a pull request for your changes, please follow these guideline
 
 1. Test should be included.
 2. If you are adding functionality, documentation should be updated/included.
-3. Your contribution should work on Python 3.9+
+3. Your contribution should work on Python 3.10+
 
 
 ## Plugin Development
