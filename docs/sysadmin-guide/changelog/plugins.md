@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | yara                 | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | entrypointcheck      | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | ghidra               | fix: update outdated readme.md ..8.                |
 | 2026-03-03 | suricata             | fix: update outdated readme.md ..5.                |
