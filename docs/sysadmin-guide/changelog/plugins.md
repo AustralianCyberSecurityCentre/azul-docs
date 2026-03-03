@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | assemblyline         | fix: update outdated readme.md ..6.                |
 | 2026-03-03 | maco                 | fix: update outdated readme.md ..6.                |
 | 2026-03-03 | lookback             | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | exiftool             | fix: update outdated readme.md ..5.                |
