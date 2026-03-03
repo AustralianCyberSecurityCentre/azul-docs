@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | export-hashes        | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | dotnet-decompiler    | fix: update outdated readme.md ..6.                |
 | 2026-03-03 | tika                 | fix: update outdated readme.md ..7.                |
 | 2026-03-03 | python               | fix: update outdated readme.md ..7.                |
