@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | portex               | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | de4dot               | fix: update outdated readme.md ..7.                |
 | 2026-03-03 | certificates         | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | email                | fix: update outdated readme.md ..5.                |
