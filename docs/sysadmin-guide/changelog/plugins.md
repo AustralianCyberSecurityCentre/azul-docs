@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | image-convert        | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | debloat              | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | lief                 | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | nsrl                 | fix: update outdated readme.md ..6.                |
