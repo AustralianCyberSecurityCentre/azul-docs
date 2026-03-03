@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | mandiant-capa        | fix: update outdated readme.md ..6.                |
 | 2026-03-03 | repeated-bytes       | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | shortcut             | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | richid               | fix: update outdated readme.md ..5.                |
