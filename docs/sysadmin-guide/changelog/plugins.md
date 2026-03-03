@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-03 | richid               | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | netinfo              | fix: update outdated readme.md ..5.                |
 | 2026-03-03 | pdftools             | fix: update outdated readme.md ..7.                |
 | 2026-03-03 | script-decoder       | fix: update outdated readme.md ..6.                |
