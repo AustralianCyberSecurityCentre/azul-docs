@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-04 | app                  | feat: add a retrohunt cronjob ..35.                |
 | 2026-03-03 | runner               | fix: update outdated readme.md ..21.               |
 | 2026-03-03 | restapi-server       | fix: update outdated readme.md ..14.               |
 | 2026-03-03 | restapi-server       | fix: remove metastore dev pinning ..13.            |
