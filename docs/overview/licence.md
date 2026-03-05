@@ -10,7 +10,7 @@ copyleft licenses). It is your responsibilty to understand what is suitable for 
 
 ## Plugins with Different Licenses
 
-The following plugin is GPL licensed as it was based on existing GPL code:
+The following plugin is GPLv3 licensed as it was based on existing GPLv3 code:
 
 - azul-plugin-email
 
