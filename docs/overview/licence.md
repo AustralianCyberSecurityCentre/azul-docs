@@ -8,6 +8,12 @@ Azul is made available to you under the MIT License. Built Azul container images
 which are licensed under separate arrangements (including, but not limited to, Linux utilities licensed under GPL or other
 copyleft licenses). It is your responsibilty to understand what is suitable for your environments.
 
+## Plugins with Different Licenses
+
+The following plugin is GPL licensed as it was based on existing GPL code:
+
+- azul-plugin-email
+
 # MIT License
 
 Copyright 2025 Commonwealth of Australia
