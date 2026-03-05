@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-05 | webui                | feat.upgrade npm manually ..66.                    |
 | 2026-03-05 | webui                | fix: slow down dependabot. ..63.                   |
 | 2026-03-04 | app                  | feat: add a retrohunt cronjob ..35.                |
 | 2026-03-03 | runner               | fix: update outdated readme.md ..21.               |
