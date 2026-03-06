@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-06 | webui                | fix: small file scrolling. ..68.                   |
 | 2026-03-06 | webui                | fix: feature explore not keeping plugin names. ..58. |
 | 2026-03-05 | webui                | feat.upgrade npm manually ..66.                    |
 | 2026-03-05 | webui                | fix: slow down dependabot. ..63.                   |
