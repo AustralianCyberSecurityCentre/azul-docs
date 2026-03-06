@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-06 | maco                 | fix: attempt to fix extractor that needs pkg.resource. ..7. |
 | 2026-03-06 | email                | feat: swap to gpl license v3 ..6.                  |
 | 2026-03-03 | retrohunt            | fix: update outdated readme.md ..9.                |
 | 2026-03-03 | floss                | fix: update outdated readme.md ..6.                |
