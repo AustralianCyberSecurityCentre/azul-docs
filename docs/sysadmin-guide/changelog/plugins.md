@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-09 | goinfo               | feat: upgrade golang to 1.26 ..8.                  |
 | 2026-03-09 | entropy              | feat: upgrade golang to 1.26 ..7.                  |
 | 2026-03-06 | alphabets            | feat: include offset and size of alphabet ..10.    |
 | 2026-03-06 | maco                 | fix: attempt to fix extractor that needs pkg.resource. ..7. |
