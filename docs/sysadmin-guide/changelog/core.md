@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-09 | backup               | feat: upgrade golang to 1.26 ..11.                 |
 | 2026-03-06 | bedrock              | feat: upgrade golang to 1.26 ..29.                 |
 | 2026-03-06 | webui                | fix: small file scrolling. ..68.                   |
 | 2026-03-06 | webui                | fix: feature explore not keeping plugin names. ..58. |
