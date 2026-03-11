@@ -38,7 +38,10 @@ Improvements include:
   - Fixed an out‑of‑memory issue caused by temporary file accumulation.
 
 - **netinfo**
-  - added extraction of ja4 features.
+  - Added extraction of ja4 features.
+ 
+- **retrohunt**
+  - Now uses redis for message transfer between server and worker to make jobs more reliable.
 
 ### UI
 
