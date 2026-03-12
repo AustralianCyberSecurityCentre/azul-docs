@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-12 | app                  | fix: retrohunt redis network policy. ..43.         |
 | 2026-03-11 | app                  | fix: retrohunt envs. ..40.                         |
 | 2026-03-10 | app                  | fix: font policy includes data ..42.               |
 | 2026-03-10 | restapi-server       | fix: version pin in pyproject.toml ..16.           |
