@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-12 | app                  | fix: revert bad image override                     |
 | 2026-03-12 | app                  | release azul.10.0.0.rc1                            |
 | 2026-03-12 | app                  | fix: retrohunt redis network policy. ..43.         |
 | 2026-03-11 | app                  | fix: retrohunt envs. ..40.                         |
