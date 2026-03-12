@@ -14,13 +14,15 @@ Improvements include:
 ### Core
 
 - Added support for Personal Access Token (PAT) authentication for administrators, enabling easier system-to-system integrations.
-- Implemented client-side locking, allowing safe use in multiprocessing and multi-threaded applications.
-- Added a new command for simplified file downloads: `azul download <sha256>`.
 - Added configuration options to control Kafka `consumerGroup` expiry, allowing users to avoid unnecessary message reprocessing.
 - Updated error message format to include an enum value for clearer and more consistent error identification.
 - Expanded Helm chart configuration options for more configurable logging.
 - Enhanced backup functionality with support for AWS S3 storage and additional authentication methods.
 - Added configuration options for auditing and audit forwarding.
+
+#### azul-client
+- Implemented client-side locking, allowing safe use in multiprocessing and multi-threaded applications.
+- Added a new command for simplified file downloads: `azul download <sha256>`.
 
 ### Demo
 
