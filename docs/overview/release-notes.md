@@ -4,6 +4,56 @@ sidebar_position: 3
 
 # Release Notes
 
+
+## 10.0.0
+
+10.0 introduces several new features based on user feedback and removes a number of legacy model components that are no longer required.
+
+Improvements include:
+
+### Core
+
+- Added support for Personal Access Token (PAT) authentication for administrators, enabling easier system-to-system integrations.
+- Added configuration options to control Kafka `consumerGroup` expiry, allowing users to avoid unnecessary message reprocessing.
+- Updated error message format to include an enum value for clearer and more consistent error identification.
+- Expanded Helm chart configuration options for more configurable logging.
+- Enhanced backup functionality with support for AWS S3 storage and additional authentication methods.
+- Added configuration options for auditing and audit forwarding.
+
+#### azul-client
+- Implemented client-side locking, allowing safe use in multiprocessing and multi-threaded applications.
+- Added a new command for simplified file downloads: `azul download <sha256>`.
+
+### Demo
+
+- Updated the Azul demo to support `docker-compose` deployments to allow users to try out Azul.
+
+### Plugins
+
+- **Alphabets**
+  - Include offset and size information for extracted alphabets.
+
+- **maco**
+  - Improved startup performance by using the `pip` install cache.
+
+- **floss**
+  - Fixed an out‑of‑memory issue caused by temporary file accumulation.
+
+- **netinfo**
+  - Added extraction of ja4 features.
+ 
+- **retrohunt**
+  - Now uses redis for message transfer between server and worker to make jobs more reliable.
+
+### UI
+
+- Added a slider to the relational graph, enabling users to adjust the number of parent/related nodes displayed and reduce visual clutter.
+- Simplified selection controls when viewing binary features.
+- Existing tags now appear in a list when tagging binaries or features.
+- Strings can now be loaded for an entire file, removing the previous 10 MiB limit.
+- Hovering over hex characters in the hex view now jumps the strings view to the corresponding string.
+- Improved layout for the binaries list on the Explore page, particularly for wide screens.
+
 ## 9.0.0
 
 9.0 is our first open-source release of Azul. This represents a significant body of work to
