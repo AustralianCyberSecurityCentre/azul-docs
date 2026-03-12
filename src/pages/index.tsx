@@ -33,7 +33,6 @@ function HomepageHeader() {
             <Link to="./overview/release-notes/">
               10.0.0 has been released
             </Link>
-            , our first open-source release!
           </p>
         </Admonition>
         <div className={styles.buttons}>
