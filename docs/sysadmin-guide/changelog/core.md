@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-13 | metastore            | feat: add docand grammar and fix find.all. ..24.   |
 | 2026-03-13 | dispatcher           | feat: upgrade bedrock to version 11. ..12.         |
 | 2026-03-13 | restapi-server       | feat: log host ip from env var ..15.               |
 | 2026-03-13 | webui                | feat: add docand grammar. ..72.                    |
