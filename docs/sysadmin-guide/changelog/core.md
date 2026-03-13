@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-13 | backup               | feat: upgrade bedrock to version 11. ..12.         |
 | 2026-03-13 | bedrock              | feat: upgrade golang version to v11. ..30.         |
 | 2026-03-13 | app                  | release azul.10.0.0                                |
 | 2026-03-12 | app                  | fix: revert bad image override                     |
