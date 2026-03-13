@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:3b7882c1-b565-499c-8942-411ce80dc54d",
+  "serialNumber": "urn:uuid:0840761e-56aa-47be-970f-72ee89e87fde",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-03-12T01:43:30Z",
+    "timestamp": "2026-03-13T03:16:21Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "32e94ce7e7cd4134",
       "type": "container",
       "name": "plugin-malcarve",
-      "version": "10.0.0-rc2"
+      "version": "10.0.0"
     },
     "properties": [
       {

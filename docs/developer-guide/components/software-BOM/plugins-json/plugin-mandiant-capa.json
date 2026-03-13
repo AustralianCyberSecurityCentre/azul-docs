@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:c7510776-2016-401d-92c4-ba1aebe35984",
+  "serialNumber": "urn:uuid:f0dac248-75c3-44dd-b9b0-d6b1db51107b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-03-12T01:40:27Z",
+    "timestamp": "2026-03-13T03:13:16Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "d716c2aedc6b8501",
       "type": "container",
       "name": "plugin-mandiant-capa",
-      "version": "10.0.0-rc2"
+      "version": "10.0.0"
     },
     "properties": [
       {
@@ -133933,7 +133933,7 @@
         "pkg:pypi/httpx@0.28.1?package-id=db6b61f3cf672e63",
         "pkg:pypi/idapro@0.0.7?package-id=944fa568b7c1bc81",
         "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
-        "pkg:pypi/pip@25.0.1?package-id=b07d834d26c4749b",
+        "pkg:pypi/pip@26.0.1?package-id=7d114e5b402e266d",
         "pkg:pypi/platformdirs@4.4.0?package-id=52aee8c64f12e994",
         "pkg:pypi/pydantic@2.12.5?package-id=33d18d5efc159ea6",
         "pkg:pypi/pyyaml@6.0.3?package-id=c8b26038432ae93f",
@@ -134200,7 +134200,7 @@
         "pkg:pypi/jaraco-text@4.0.0?package-id=9791bc1f9b13791a",
         "pkg:pypi/more-itertools@10.8.0?package-id=11e8bcfc4f4b1fbe",
         "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
-        "pkg:pypi/pip@25.0.1?package-id=b07d834d26c4749b",
+        "pkg:pypi/pip@26.0.1?package-id=7d114e5b402e266d",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
         "pkg:pypi/wheel@0.46.3?package-id=3fcc9a0fa6b76fec"
       ]

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:dcd80452-22fa-406c-a705-a86aac656a16",
+  "serialNumber": "urn:uuid:6b05c846-ec49-4837-83f9-90e2cdad4e82",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-03-12T01:44:01Z",
+    "timestamp": "2026-03-13T03:16:52Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "b4013604992019f9",
       "type": "container",
       "name": "plugin-pdftools",
-      "version": "10.0.0-rc2"
+      "version": "10.0.0"
     },
     "properties": [
       {

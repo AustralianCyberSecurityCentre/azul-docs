@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:8edbcc0e-b327-4514-91f8-f86bdf2b6222",
+  "serialNumber": "urn:uuid:dd51786e-090f-48ea-b197-f259c63def14",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-03-12T01:45:36Z",
+    "timestamp": "2026-03-13T03:18:21Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "02c98de2fa8e58ca",
       "type": "container",
       "name": "nsrl-lookup-server",
-      "version": "10.0.0-rc2"
+      "version": "10.0.0"
     },
     "properties": [
       {

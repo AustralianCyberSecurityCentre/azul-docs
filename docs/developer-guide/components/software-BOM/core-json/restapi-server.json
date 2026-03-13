@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:a6cd3a31-df5e-4f5e-bcc8-583109cda0f1",
+  "serialNumber": "urn:uuid:559137de-612c-4eae-8dd4-5fe08a738495",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-03-12T01:39:46Z",
+    "timestamp": "2026-03-13T03:12:34Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "cd94545c44f9120d",
       "type": "container",
       "name": "restapi-server",
-      "version": "10.0.0-rc2"
+      "version": "10.0.0"
     },
     "properties": [
       {
@@ -126287,9 +126287,9 @@
       "dependsOn": [
         "pkg:pypi/click@8.3.1?package-id=35dd58e1eefd5a8c",
         "pkg:pypi/mypy-extensions@1.1.0?package-id=e99a3ca7ce7ee781",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.0?package-id=5e26f510329c0bee",
         "pkg:pypi/pathspec@1.0.4?package-id=74af8da9246959fc",
-        "pkg:pypi/platformdirs@4.4.0?package-id=52aee8c64f12e994",
+        "pkg:pypi/platformdirs@4.9.4?package-id=50794d4fc7762b40",
         "pkg:pypi/pytokens@0.4.1?package-id=9e4f1f16cf93bc3a",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
         "pkg:pypi/typing-extensions@4.15.0?package-id=726cf7298364912e",
@@ -126354,7 +126354,7 @@
     {
       "ref": "pkg:pypi/hatchling@1.29.0?package-id=f04035798d5e8fba",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.0?package-id=5e26f510329c0bee",
         "pkg:pypi/pathspec@1.0.4?package-id=74af8da9246959fc",
         "pkg:pypi/pluggy@1.6.0?package-id=2b1acb3f51ace169",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
@@ -126382,7 +126382,7 @@
     {
       "ref": "pkg:pypi/importlib-metadata@8.7.1?package-id=050afc305419d637",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.0?package-id=5e26f510329c0bee",
         "pkg:pypi/zipp@3.23.0?package-id=7236703906570984"
       ]
     },
@@ -126546,7 +126546,7 @@
     {
       "ref": "pkg:pypi/setuptools-scm@9.2.2?package-id=22f24d4bc6460fee",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.0?package-id=5e26f510329c0bee",
         "pkg:pypi/setuptools@82.0.1?package-id=780c8b13b35ebea2",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
         "pkg:pypi/typing-extensions@4.15.0?package-id=726cf7298364912e"
@@ -126559,7 +126559,7 @@
         "pkg:pypi/jaraco-functools@4.4.0?package-id=a6212e104cc4b0bb",
         "pkg:pypi/jaraco-text@4.0.0?package-id=9791bc1f9b13791a",
         "pkg:pypi/more-itertools@10.8.0?package-id=11e8bcfc4f4b1fbe",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.0?package-id=5e26f510329c0bee",
         "pkg:pypi/pip@25.0.1?package-id=b07d834d26c4749b",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
         "pkg:pypi/wheel@0.46.3?package-id=3fcc9a0fa6b76fec"
@@ -126617,7 +126617,7 @@
     {
       "ref": "pkg:pypi/wheel@0.46.3?package-id=3fcc9a0fa6b76fec",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.0?package-id=5e26f510329c0bee",
         "pkg:pypi/setuptools@82.0.1?package-id=780c8b13b35ebea2"
       ]
     },

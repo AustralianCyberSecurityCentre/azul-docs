@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:c8e6a07a-2119-457a-bbab-b84b64f1e987",
+  "serialNumber": "urn:uuid:2e3fc895-46fd-45cb-a84b-28d2305a821d",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-03-12T01:42:20Z",
+    "timestamp": "2026-03-13T03:15:01Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "b9dbb22023136e62",
       "type": "container",
       "name": "plugin-maco",
-      "version": "10.0.0-rc2"
+      "version": "10.0.0"
     },
     "properties": [
       {
