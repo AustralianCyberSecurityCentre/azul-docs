@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-13 | app                  | release azul.10.0.0                                |
 | 2026-03-12 | app                  | fix: revert bad image override                     |
 | 2026-03-12 | app                  | release azul.10.0.0.rc2                            |
 | 2026-03-12 | app                  | fix: revert bad image override                     |
