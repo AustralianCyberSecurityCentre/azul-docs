@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-13 | goinfo               | feat: upgrade bedrock to version 11. ..9.          |
 | 2026-03-13 | entropy              | feat: upgrade bedrock to version 11. ..8.          |
 | 2026-03-11 | retrohunt            | feat: replace dispatcher and kafka with redis ..8. |
 | 2026-03-10 | netinfo              | feat: add ja4 ..6.                                 |
