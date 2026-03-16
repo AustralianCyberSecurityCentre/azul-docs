@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-16 | retrohunt            | feat: fixed worker not gettings stale jobs ..11.   |
 | 2026-03-15 | python               | fix: remove debugging print statements. ..8.       |
 | 2026-03-13 | python               | feat: prevent un.necessary reads into memory ..9.  |
 | 2026-03-13 | virustotal           | feat: upgrade bedrock to version 11. ..8.          |
