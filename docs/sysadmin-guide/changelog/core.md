@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-19 | bedrock              | feat: add dependabot and a uv.lock ..32.           |
 | 2026-03-16 | app                  | feat: add cleanup running delay env for retrohunt ..45. |
 | 2026-03-13 | metastore            | feat: add docand grammar and fix find.all. ..24.   |
 | 2026-03-13 | dispatcher           | feat: upgrade bedrock to version 11. ..12.         |
