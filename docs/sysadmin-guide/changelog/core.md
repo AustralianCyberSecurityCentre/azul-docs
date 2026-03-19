@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-19 | bedrock              | feat: entropy similarity models. ..31.             |
 | 2026-03-19 | dispatcher           | feat: upgrade yara and file ..13.                  |
 | 2026-03-19 | runner               | feat: upgrade files. ..23.                         |
 | 2026-03-19 | bedrock              | feat: add dependabot and a uv.lock ..32.           |
