@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-19 | webui                | fix: renovate config. ..78.                        |
 | 2026-03-19 | metastore            | feat: entropy similarity searching. ..25.          |
 | 2026-03-19 | webui                | feat: add entropy similarity comparison ..76.      |
 | 2026-03-19 | bedrock              | feat: entropy similarity models. ..31.             |
