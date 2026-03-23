@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-03-23 | virustotal           | feat: try and force major updates to update p      |
 | 2026-03-20 | alphabets            | feat: include offset and size of alphabet ..10.    |
 | 2026-03-19 | office               | feat: upgrade file to 47 ..6.                      |
 | 2026-03-16 | retrohunt            | feat: fixed worker not gettings stale jobs ..11.   |
