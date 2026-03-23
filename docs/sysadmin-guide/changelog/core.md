@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-23 | app                  | feat: rollback operator upgrade ..48.              |
 | 2026-03-23 | app                  | feat: add security context to retrohunt cronjob ..49. |
 | 2026-03-22 | app                  | fix: use new OpenSearch API version ..47.          |
 | 2026-03-19 | webui                | fix: renovate config. ..78.                        |
