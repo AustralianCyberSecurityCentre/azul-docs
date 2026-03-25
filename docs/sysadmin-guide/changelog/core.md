@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-25 | metastore            | feat: add log references ..32.                     |
 | 2026-03-25 | bedrock              | feat: use enum values ..43.                        |
 | 2026-03-24 | metastore            | fix: remove session.id ..31.                       |
 | 2026-03-23 | app                  | feat: rollback operator upgrade ..48.              |
