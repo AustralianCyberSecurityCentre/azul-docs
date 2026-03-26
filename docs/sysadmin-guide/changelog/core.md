@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-26 | metastore            | feat: log filename ..34.                           |
 | 2026-03-26 | metastore            | feat: enable ty. ..33.                             |
 | 2026-03-26 | client               | feat: enable ty checks. ..14.                      |
 | 2026-03-26 | bedrock              | feat: add missing exceptions and types for metastore ..44. |
