@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-26 | client               | feat: enable ty checks. ..14.                      |
 | 2026-03-26 | bedrock              | feat: add missing exceptions and types for metastore ..44. |
 | 2026-03-25 | metastore            | feat: add log references ..32.                     |
 | 2026-03-25 | bedrock              | feat: use enum values ..43.                        |
