@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-30 | app                  | feat: replace git.sync ..46.                       |
 | 2026-03-27 | app                  | feat: change security context ..51.                |
 | 2026-03-26 | metastore            | feat: log filename ..34.                           |
 | 2026-03-26 | metastore            | feat: enable ty. ..33.                             |
