@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-03-31 | webui                | feat: switch everything to onpush ..95.            |
 | 2026-03-31 | webui                | feat: add a webp.gif stepper view to the data page. ..89. |
 | 2026-03-30 | runner               | feat: replace gitsync sidecar ..22.                |
 | 2026-03-30 | app                  | feat: replace git.sync ..46.                       |
