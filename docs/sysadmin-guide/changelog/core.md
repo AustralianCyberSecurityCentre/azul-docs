@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-02 | webui                | feat: add minimum release age in repo ..98.        |
 | 2026-04-02 | backup               | feat: remove go private. ..22.                     |
 | 2026-03-31 | webui                | feat: switch everything to onpush ..95.            |
 | 2026-03-31 | webui                | feat: add a webp.gif stepper view to the data page. ..89. |
