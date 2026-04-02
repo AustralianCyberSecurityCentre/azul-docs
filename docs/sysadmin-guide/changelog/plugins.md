@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-02 | goinfo               | feat: remove go private. ..15.                     |
 | 2026-04-02 | entropy              | feat: remove go private. ..15.                     |
 | 2026-04-02 | virustotal           | feat: remove go private. ..19.                     |
 | 2026-03-30 | retrohunt            | fix: templateResponse funciton now requires keyword arguments ..18. |
