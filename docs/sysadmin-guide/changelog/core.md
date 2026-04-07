@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-07 | app                  | feat: add liveness check ..52.                     |
 | 2026-04-07 | webui                | fix: webui fails to render similar features and parent links. ..96. |
 | 2026-04-02 | dispatcher           | feat: remove go private. ..25.                     |
 | 2026-04-02 | webui                | feat: add minimum release age in repo ..98.        |
