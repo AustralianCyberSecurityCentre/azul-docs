@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | dotnet-decompiler    | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | floss                | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | js-deobf             | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | python               | feat: exclude newer python packages. ..12.         |
