@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-09 | metastore            | feat: exclude newer python packages. ..35.         |
 | 2026-04-09 | client               | feat: exclude newer python packages. ..15.         |
 | 2026-04-09 | stats                | feat: exclude newer python packages. ..12.         |
 | 2026-04-09 | scaler               | feat: exclude newer python packages. ..6.          |
