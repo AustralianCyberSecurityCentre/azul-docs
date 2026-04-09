@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-09 | scaler               | feat: exclude newer python packages. ..6.          |
 | 2026-04-09 | bedrock              | feat: exclude newer python packages. ..47.         |
 | 2026-04-09 | runner               | feat: exclude newer python packages. ..27.         |
 | 2026-04-09 | audit-forwarder      | feat: exclude newer python packages. ..14.         |
