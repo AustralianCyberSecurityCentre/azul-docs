@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | email                | feat: exclude newer python packages. ..10.         |
 | 2026-04-09 | alphabets            | feat: exclude newer python packages. ..12.         |
 | 2026-04-09 | image-convert        | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | ghidra               | feat: exclude newer python packages. ..10.         |
