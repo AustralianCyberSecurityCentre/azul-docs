@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | build-time-strings   | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | cape                 | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | android-parser       | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | pdftools             | feat: exclude newer python packages. ..9.          |
