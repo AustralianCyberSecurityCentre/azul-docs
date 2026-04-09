@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | suricata             | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | repeated-bytes       | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | yara                 | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | richid               | feat: exclude newer python packages. ..7.          |
