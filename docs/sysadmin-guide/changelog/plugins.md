@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | debloat              | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | maco                 | feat: exclude newer python packages. ..9.          |
 | 2026-04-09 | tika                 | feat: exclude newer python packages. ..11.         |
 | 2026-04-09 | lief                 | feat: exclude newer python packages. ..8.          |
