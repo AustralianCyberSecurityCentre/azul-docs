@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-09 | security             | feat: exclude newer python packages. ..9.          |
 | 2026-04-09 | restapi-server       | feat: exclude newer python packages. ..19.         |
 | 2026-04-08 | app                  | fix: set runAsUser in container securityContext ..55. |
 | 2026-04-07 | app                  | feat: add liveness check ..52.                     |
