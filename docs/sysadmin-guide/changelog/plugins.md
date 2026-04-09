@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | dotnet-deob          | feat: exclude newer python packages. ..9.          |
 | 2026-04-09 | exiftool             | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | assemblyline         | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | alphabets            | feat: exclude newer python packages. ..12.         |
