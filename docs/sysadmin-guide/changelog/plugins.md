@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | qrcode               | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | lookback             | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | portex               | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | unbox                | feat: exclude newer python packages. ..11.         |
