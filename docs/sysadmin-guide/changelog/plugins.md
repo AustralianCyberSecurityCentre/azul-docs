@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | lief                 | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | entrypointcheck      | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | index-coincidence    | feat: exclude newer python packages. ..7.          |
 | 2026-04-09 | malcarve             | feat: exclude newer python packages. ..7.          |
