@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-09 | audit-forwarder      | feat: exclude newer python packages. ..14.         |
 | 2026-04-09 | smart-string-filter  | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | security             | feat: exclude newer python packages. ..9.          |
 | 2026-04-09 | restapi-server       | feat: exclude newer python packages. ..19.         |
