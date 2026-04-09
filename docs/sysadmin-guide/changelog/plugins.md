@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-09 | js-deobf             | feat: exclude newer python packages. ..8.          |
 | 2026-04-09 | python               | feat: exclude newer python packages. ..12.         |
 | 2026-04-09 | email                | feat: exclude newer python packages. ..10.         |
 | 2026-04-09 | alphabets            | feat: exclude newer python packages. ..12.         |
