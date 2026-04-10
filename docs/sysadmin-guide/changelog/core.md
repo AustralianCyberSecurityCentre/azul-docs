@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-10 | app                  | feat: conditionally disable entropy similarity. ..56. |
 | 2026-04-10 | bedrock              | feat: enable api to be disabled in metastore. ..49. |
 | 2026-04-09 | metastore            | feat: exclude newer python packages. ..35.         |
 | 2026-04-09 | client               | feat: exclude newer python packages. ..15.         |
