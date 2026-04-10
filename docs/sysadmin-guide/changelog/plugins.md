@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | entrypointcheck      | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | android-parser       | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | portex               | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | richid               | fix: dockerfile was missing semicolon. ..8.        |
