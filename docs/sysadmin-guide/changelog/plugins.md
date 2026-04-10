@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | unbox                | fix: dockerfile was missing semicolon. ..12.       |
 | 2026-04-10 | floss                | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | tika                 | fix: dockerfile was missing semicolon. ..12.       |
 | 2026-04-10 | python               | fix: dockerfile was missing semicolon. ..13.       |
