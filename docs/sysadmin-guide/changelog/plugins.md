@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | cape                 | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | lookback             | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | qrcode               | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | netinfo              | fix: dockerfile was missing semicolon. ..9.        |
