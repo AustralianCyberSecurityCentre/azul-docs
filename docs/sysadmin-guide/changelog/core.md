@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-10 | audit-forwarder      | fix: dockerfile was missing semicolon. ..15.       |
 | 2026-04-10 | metastore            | feat: conditionally disable entropy similarity. ..36. |
 | 2026-04-10 | webui                | fix: accidental showing double sha256. ..101.      |
 | 2026-04-10 | restapi-server       | fix: dockerfile remove . from if else. ..21.       |
