@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | alphabets            | fix: dockerfile was missing semicolon. ..13.       |
 | 2026-04-10 | retrohunt            | fix: dockerfile was missing semicolon. ..20.       |
 | 2026-04-10 | js-deobf             | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | unbox                | fix: dockerfile was missing semicolon. ..12.       |
