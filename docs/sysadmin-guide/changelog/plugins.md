@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | image-convert        | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | de4dot               | fix: dockerfile was missing semicolon. ..10.       |
 | 2026-04-10 | export-hashes        | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | entrypointcheck      | fix: dockerfile was missing semicolon. ..9.        |
