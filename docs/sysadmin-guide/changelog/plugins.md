@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | yara                 | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | script-decoder       | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | suricata             | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | email                | fix: dockerfile was missing semicolon. ..11.       |
