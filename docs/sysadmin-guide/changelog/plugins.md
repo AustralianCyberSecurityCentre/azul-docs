@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | assemblyline         | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | truncated            | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | index-coincidence    | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | malcarve             | fix: dockerfile was missing semicolon. ..8.        |
