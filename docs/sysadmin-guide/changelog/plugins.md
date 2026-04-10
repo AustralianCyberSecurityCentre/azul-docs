@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | alphabets            | fix: dockerfile was missing semicolon. ..13.       |
 | 2026-04-10 | lief                 | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | office               | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | build-time-strings   | fix: dockerfile was missing semicolon. ..8.        |
