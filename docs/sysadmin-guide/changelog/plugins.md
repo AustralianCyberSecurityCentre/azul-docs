@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | portex               | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | richid               | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | repeated-bytes       | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | yara                 | fix: dockerfile was missing semicolon. ..9.        |
