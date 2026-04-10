@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | tika                 | fix: dockerfile was missing semicolon. ..12.       |
 | 2026-04-10 | python               | fix: dockerfile was missing semicolon. ..13.       |
 | 2026-04-10 | dotnet-deob          | fix: dockerfile was missing semicolon. ..10.       |
 | 2026-04-10 | dotnet-decompiler    | fix: dockerfile was missing semicolon. ..9.        |
