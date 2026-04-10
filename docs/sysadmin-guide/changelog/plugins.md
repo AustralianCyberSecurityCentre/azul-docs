@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | netinfo              | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | exiftool             | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | alphabets            | fix: dockerfile was missing semicolon. ..13.       |
 | 2026-04-10 | lief                 | fix: dockerfile was missing semicolon. ..9.        |
