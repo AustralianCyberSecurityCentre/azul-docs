@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-10 | pdftools             | fix: dockerfile was missing semicolon. ..10.       |
 | 2026-04-10 | debloat              | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-10 | certificates         | fix: dockerfile was missing semicolon. ..8.        |
 | 2026-04-09 | nsrl                 | feat: exclude newer python packages. ..8.          |
