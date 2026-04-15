@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@dagrejs/dagre": "^3.0.0",
-    "@docusaurus/core": "3.9.2",
+    "@docusaurus/core": "3.10.0",
     "@docusaurus/faster": "^3.9.1",
     "@docusaurus/preset-classic": "^3.9.1",
     "@docusaurus/theme-mermaid": "^3.9.1",
@@ -29,9 +29,9 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.9.2",
-    "@docusaurus/tsconfig": "3.9.2",
-    "@docusaurus/types": "3.9.2",
+    "@docusaurus/module-type-aliases": "3.10.0",
+    "@docusaurus/tsconfig": "3.10.0",
+    "@docusaurus/types": "3.10.0",
     "typescript": "~6.0.0"
   },
   "browserslist": {
