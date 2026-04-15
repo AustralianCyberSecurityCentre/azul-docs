@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-15 | bedrock              | feat: add decompiled.java label ..48.              |
 | 2026-04-10 | stats                | fix: dockerfile was missing semicolon. ..13.       |
 | 2026-04-10 | smart-string-filter  | fix: dockerfile was missing semicolon. ..9.        |
 | 2026-04-10 | audit-forwarder      | fix: dockerfile was missing semicolon. ..15.       |
