@@ -15,7 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@dagrejs/dagre": "^1.1.5",
+    "@dagrejs/dagre": "^3.0.0",
     "@docusaurus/core": "3.9.2",
     "@docusaurus/faster": "^3.9.1",
     "@docusaurus/preset-classic": "^3.9.1",
@@ -32,7 +32,7 @@
     "@docusaurus/module-type-aliases": "3.9.2",
     "@docusaurus/tsconfig": "3.9.2",
     "@docusaurus/types": "3.9.2",
-    "typescript": "~5.9.3"
+    "typescript": "~6.0.0"
   },
   "browserslist": {
     "production": [
