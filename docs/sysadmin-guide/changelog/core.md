@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-16 | restapi-server       | feat: ensure metastore upgrades ..23.              |
 | 2026-04-15 | restapi-server       | feat: log query string if present ..22.            |
 | 2026-04-15 | bedrock              | feat: add decompiled.java label ..48.              |
 | 2026-04-10 | stats                | fix: dockerfile was missing semicolon. ..13.       |
