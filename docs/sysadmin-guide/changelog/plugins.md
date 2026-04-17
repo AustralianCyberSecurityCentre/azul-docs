@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-17 | yara                 | fix: add openssh.client to debian.txt ..11.        |
 | 2026-04-17 | maco                 | fix: add openssh.client to debian.txt ..12.        |
 | 2026-04-17 | suricata             | fix: add openssh.client to debian.txt ..10.        |
 | 2026-04-16 | retrohunt            | fix: fix divisor ..25.                             |
