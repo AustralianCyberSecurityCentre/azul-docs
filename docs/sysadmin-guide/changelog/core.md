@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-17 | webui                | fix: error messages from exceptions. ..108.        |
 | 2026-04-17 | bedrock              | feat: update identify with assemblyline changes. ..53. |
 | 2026-04-16 | restapi-server       | feat: ensure metastore upgrades ..23.              |
 | 2026-04-15 | restapi-server       | feat: log query string if present ..22.            |
