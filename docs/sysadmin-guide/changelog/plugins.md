@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-17 | netinfo              | feat: upgrade with latest ja3 changes. ..11.       |
 | 2026-04-17 | script-decoder       | feat: cleanup all the un.used didier libraries. ..11. |
 | 2026-04-17 | repeated-bytes       | feat: remove black badge ..10.                     |
 | 2026-04-17 | suricata             | feat: upgrade suricata to version 8. ..11.         |
