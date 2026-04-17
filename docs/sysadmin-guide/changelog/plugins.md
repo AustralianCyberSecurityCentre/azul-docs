@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-17 | pdftools             | feat: upgrade didier scripts. ..12.                |
 | 2026-04-17 | ghidra               | feat: upgrade ghidra ..13.                         |
 | 2026-04-17 | unbox                | feat: upgrade 7zip ..14.                           |
 | 2026-04-17 | netinfo              | feat: upgrade with latest ja3 changes. ..11.       |
