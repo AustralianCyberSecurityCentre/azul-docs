@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-20 | bedrock              | feat: security additional exception ..66.          |
 | 2026-04-20 | security             | feat: add caveat restrictions. ..27.               |
 | 2026-04-20 | app                  | fix: add egress port for OS dashboards ..60.       |
 | 2026-04-17 | client               | fix: dockerfile was missing semicolon. ..16.       |
