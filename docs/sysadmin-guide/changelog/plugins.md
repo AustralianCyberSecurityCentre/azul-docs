@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-20 | maco                 | added line for dead drop resolver feature in connections ..26. |
 | 2026-04-20 | retrohunt            | fix: fix endpoints ..34.                           |
 | 2026-04-17 | pdftools             | feat: upgrade didier scripts. ..12.                |
 | 2026-04-17 | ghidra               | feat: upgrade ghidra ..13.                         |
