@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-22 | app                  | feat: add retrohunt envs to restapi ..54.          |
 | 2026-04-22 | webui                | fix: make UI show valid security pick options. ..120. |
 | 2026-04-22 | bedrock              | feat: add yara hit label ..67.                     |
 | 2026-04-20 | bedrock              | feat: security additional exception ..66.          |
