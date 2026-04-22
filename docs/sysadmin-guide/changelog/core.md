@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-22 | bedrock              | feat: add yara hit label ..67.                     |
 | 2026-04-20 | bedrock              | feat: security additional exception ..66.          |
 | 2026-04-20 | security             | feat: add caveat restrictions. ..27.               |
 | 2026-04-20 | app                  | fix: add egress port for OS dashboards ..60.       |
