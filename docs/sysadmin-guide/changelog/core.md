@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-23 | app                  | feat: add broad.narrow phase panel ..57.           |
 | 2026-04-23 | app                  | fix: redis ingress ..61.                           |
 | 2026-04-22 | app                  | feat: add retrohunt envs to restapi ..54.          |
 | 2026-04-22 | webui                | fix: make UI show valid security pick options. ..120. |
