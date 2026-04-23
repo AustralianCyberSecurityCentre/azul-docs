@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-23 | dispatcher           | feat: bump bedrock to 11.68 ..39.                  |
 | 2026-04-23 | app                  | feat: add broad.narrow phase panel ..57.           |
 | 2026-04-23 | app                  | fix: redis ingress ..61.                           |
 | 2026-04-22 | app                  | feat: add retrohunt envs to restapi ..54.          |
