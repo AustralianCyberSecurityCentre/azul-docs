@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-28 | runner               | fix: flakey test. ..51.                            |
 | 2026-04-27 | runner               | fix: ack job error handling getting invalid arg. ..50. |
 | 2026-04-23 | dispatcher           | feat: bump bedrock to 11.68 ..39.                  |
 | 2026-04-23 | app                  | feat: add broad.narrow phase panel ..57.           |
