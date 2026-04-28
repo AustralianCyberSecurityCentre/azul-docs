@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-28 | restapi-server       | feat: add retrohunt envs ..20.                     |
 | 2026-04-28 | app                  | fix: reduce ttl time ..62.                         |
 | 2026-04-28 | metastore            | feat: create better plugin completion tracking. ..41. |
 | 2026-04-28 | runner               | fix: flakey test. ..51.                            |
