@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-04-29 | retrohunt            | fix: fix api calls ..35.                           |
 | 2026-04-28 | yara                 | feat: include yara hits as streams. ..25.          |
 | 2026-04-28 | retrohunt            | fix: retrohunt timing buckets ..21.                |
 | 2026-04-20 | maco                 | added line for dead drop resolver feature in connections ..26. |
