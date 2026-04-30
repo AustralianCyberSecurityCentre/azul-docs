@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-04-30 | restapi-server       | feat: add retrohunt trigger ..47.                  |
 | 2026-04-29 | audit-forwarder      | feat: add chunking logic ..32.                     |
 | 2026-04-29 | webui                | feat: merge yara hits. ..129.                      |
 | 2026-04-28 | restapi-server       | feat: add retrohunt envs ..20.                     |
