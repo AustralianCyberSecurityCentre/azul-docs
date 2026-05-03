@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-03 | security             | feat: allow multiple bedrock versions. ..40.       |
 | 2026-05-01 | bedrock              | feat: add common strings return value to the API. ..78. |
 | 2026-04-30 | app                  | feat: add jadx plugin ..58.                        |
 | 2026-04-30 | restapi-server       | feat: add retrohunt trigger ..47.                  |
