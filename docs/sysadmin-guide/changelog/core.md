@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-03 | metastore            | feat: add ability to compare common strings between two binaries. ..43. |
 | 2026-05-03 | webui                | feat: improve binary compare and add string comparison. ..130. |
 | 2026-05-03 | webui                | fix: accordion broken after onPush change detection. ..135. |
 | 2026-05-03 | audit-forwarder      | feat: remove threads and add dynamic windows ..45. |
