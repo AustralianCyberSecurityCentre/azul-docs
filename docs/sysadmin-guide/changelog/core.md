@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-03 | webui                | fix: accordion broken after onPush change detection. ..135. |
 | 2026-05-03 | audit-forwarder      | feat: remove threads and add dynamic windows ..45. |
 | 2026-05-03 | security             | feat: allow multiple bedrock versions. ..40.       |
 | 2026-05-01 | bedrock              | feat: add common strings return value to the API. ..78. |
