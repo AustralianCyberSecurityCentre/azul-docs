@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-07 | app                  | fix: allow custom plugins to override their hpas ..63. |
 | 2026-05-05 | webui                | fix: prevent empty JWT requests being sent by UI. ..136. |
 | 2026-05-05 | bedrock              | feat: rename similar to similar feature. ..79.     |
 | 2026-05-03 | metastore            | feat: add ability to compare common strings between two binaries. ..43. |
