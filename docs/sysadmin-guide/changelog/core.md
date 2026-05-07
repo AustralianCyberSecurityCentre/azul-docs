@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-07 | metastore            | feat: rename similar to similar features for clarity. ..44. |
 | 2026-05-07 | webui                | fix: remove security picker selects. ..138.        |
 | 2026-05-07 | app                  | fix: allow custom plugins to override their hpas ..63. |
 | 2026-05-05 | webui                | fix: prevent empty JWT requests being sent by UI. ..136. |
