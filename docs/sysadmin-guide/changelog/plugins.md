@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-05-07 | yara                 | fix: yara events too large for dispatcher. ..34.   |
 | 2026-04-30 | retrohunt            | fix: remove restapi trigger ..46.                  |
 | 2026-04-29 | retrohunt            | fix: fix api calls ..35.                           |
 | 2026-04-28 | yara                 | feat: include yara hits as streams. ..25.          |
