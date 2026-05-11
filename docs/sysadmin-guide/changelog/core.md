@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-11 | webui                | feat: description for features.current page ..140. |
 | 2026-05-07 | client               | feat: rename similar to similar features endpoint. ..17. |
 | 2026-05-07 | webui                | feat: rename similar to similar feature. ..137.    |
 | 2026-05-07 | metastore            | feat: rename similar to similar features for clarity. ..44. |
