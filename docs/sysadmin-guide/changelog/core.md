@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-19 | demo                 | fix: correct OpenSearch healthcheck password ..25. |
 | 2026-05-15 | webui                | feat: display message during loading. ..146.       |
 | 2026-05-12 | runner               | feat: create download setting and remove unused. ..52. |
 | 2026-05-11 | webui                | feat: description for features.current page ..140. |
