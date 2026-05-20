@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-20 | app                  | feat: add download ingestor ..64.                  |
 | 2026-05-20 | bedrock              | feat: improve validation and add more options for download events. ..80. |
 | 2026-05-19 | demo                 | fix: correct OpenSearch healthcheck password ..25. |
 | 2026-05-15 | webui                | feat: display message during loading. ..146.       |
