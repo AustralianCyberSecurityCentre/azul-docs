@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-24 | bedrock              | feat: switch yara to yara.x ..84.                  |
 | 2026-05-22 | audit-forwarder      | fix: skip broken windows ..17.                     |
 | 2026-05-20 | metastore            | feat: add download API to restapi ..45.            |
 | 2026-05-20 | webui                | feat: add download hash to UI. ..150.              |
