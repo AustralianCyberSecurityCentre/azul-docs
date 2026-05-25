@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-05-25 | mandiant-capa        | feat: upgrading flare.capa ..14.                   |
 | 2026-05-25 | maco                 | feat: remove yara python ..41.                     |
 | 2026-05-20 | virustotal           | feat: ensure download event source path isnt modified ..44. |
 | 2026-05-20 | maco                 | feat: add maco version to plugin config ..40.      |
