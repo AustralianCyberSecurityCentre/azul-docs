@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-26 | security             | fix: max security show most restrictive rel. ..43. |
 | 2026-05-25 | dispatcher           | fix: dispatcher tests and build after bedrock changes ..53. |
 | 2026-05-25 | app                  | feat: no store for cache to not cache bad content ..65. |
 | 2026-05-24 | bedrock              | feat: switch yara to yara.x ..84.                  |
