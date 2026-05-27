@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-27 | security             | fix: max access display and parsing fixes. ..44.   |
 | 2026-05-27 | bedrock              | fix: max.security add display setting. ..86.       |
 | 2026-05-26 | security             | fix: max security show most restrictive rel. ..43. |
 | 2026-05-25 | dispatcher           | fix: dispatcher tests and build after bedrock changes ..53. |
