@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-27 | webui                | fix: display user max access with alt.origin settings. ..161. |
 | 2026-05-27 | webui                | fix: ensure webui updates after a security change. ..159. |
 | 2026-05-27 | security             | fix: max access display and parsing fixes. ..44.   |
 | 2026-05-27 | bedrock              | fix: max.security add display setting. ..86.       |
