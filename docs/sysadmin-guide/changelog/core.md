@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-27 | metastore            | fix: account for display and non.display max access. ..48. |
 | 2026-05-27 | webui                | fix: display user max access with alt.origin settings. ..161. |
 | 2026-05-27 | webui                | fix: ensure webui updates after a security change. ..159. |
 | 2026-05-27 | security             | fix: max access display and parsing fixes. ..44.   |
