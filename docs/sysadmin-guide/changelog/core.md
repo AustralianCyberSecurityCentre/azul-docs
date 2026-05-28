@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-28 | bedrock              | fix: correct security import for speed. ..88.      |
 | 2026-05-28 | security             | feat: lazy loading bedrock for faster CLI ..46.    |
 | 2026-05-28 | client               | feat: add examples. rewrite.move docstrings. centralise vars ..18. |
 | 2026-05-28 | bedrock              | feat: support lazy security. ..87.                 |
