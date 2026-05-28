@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-05-28 | client               | feat: add examples. rewrite.move docstrings. centralise vars ..18. |
 | 2026-05-28 | bedrock              | feat: support lazy security. ..87.                 |
 | 2026-05-28 | security             | feat: author security comparison by string. ..45.  |
 | 2026-05-27 | metastore            | fix: account for display and non.display max access. ..48. |
