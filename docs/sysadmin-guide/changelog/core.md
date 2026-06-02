@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-02 | bedrock              | feat: add maximum security setting ..89.           |
 | 2026-05-29 | client               | feat: add zero entropy seed files. ..19.           |
 | 2026-05-29 | security             | fix: add missing dependencies ..47.                |
 | 2026-05-28 | metastore            | feat: simplify imports for maintenance. ..49.      |
