@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-02 | runner               | feat: add max.security setting. ..54.              |
 | 2026-06-02 | app                  | feat: allow dispatcher to have security configuration. ..67. |
 | 2026-06-02 | bedrock              | feat: add maximum security setting ..89.           |
 | 2026-05-29 | client               | feat: add zero entropy seed files. ..19.           |
