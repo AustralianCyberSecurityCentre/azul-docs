@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-02 | app                  | feat: add retrohunt config webui ..66.             |
 | 2026-06-02 | runner               | feat: add max.security setting. ..54.              |
 | 2026-06-02 | app                  | feat: allow dispatcher to have security configuration. ..67. |
 | 2026-06-02 | bedrock              | feat: add maximum security setting ..89.           |
