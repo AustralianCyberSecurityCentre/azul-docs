@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-03 | dispatcher           | feat: add security filter. ..56.                   |
 | 2026-06-03 | webui                | feat: integrate retrohunt webui ..160.             |
 | 2026-06-02 | app                  | feat: add retrohunt config webui ..66.             |
 | 2026-06-02 | runner               | feat: add max.security setting. ..54.              |
