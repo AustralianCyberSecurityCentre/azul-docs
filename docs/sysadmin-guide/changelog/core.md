@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-03 | app                  | feat: simplify retrohunt config. ..69.             |
 | 2026-06-03 | app                  | feat: remove retrohunt server ..70.                |
 | 2026-06-03 | app                  | fix: retrohunt cronjob. ..68.                      |
 | 2026-06-03 | dispatcher           | feat: add security filter. ..56.                   |
