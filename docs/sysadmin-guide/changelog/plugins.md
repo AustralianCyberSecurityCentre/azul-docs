@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-06-03 | virustotal           | fix: settings not loading correctly. ..52.         |
 | 2026-06-02 | virustotal           | feat: filter input events based on security. ..51. |
 | 2026-05-25 | mandiant-capa        | feat: upgrading flare.capa ..14.                   |
 | 2026-05-25 | maco                 | feat: remove yara python ..41.                     |
