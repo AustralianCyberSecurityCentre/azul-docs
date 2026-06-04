@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-06-04 | retrohunt            | fix: enum issue ..54.                              |
 | 2026-06-04 | js-deobf             | feat: additional lock file maintenance ..19.       |
 | 2026-06-04 | python               | feat: additional lock file maintenance. ..24.      |
 | 2026-06-04 | ghidra               | feat: additional lock file maintenance. ..30.      |
