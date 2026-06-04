@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-06-04 | nsrl                 | feat: additional lock file maintenance. ..31.      |
 | 2026-06-04 | debloat              | feat: additional lock file maintenance. ..33.      |
 | 2026-06-04 | malcarve             | feat: additional lock file maintenance. ..9.       |
 | 2026-06-04 | image-convert        | feat: additional lock file maintenance. ..34.      |
