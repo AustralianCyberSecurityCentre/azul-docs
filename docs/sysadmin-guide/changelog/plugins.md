@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-06-04 | malcarve             | feat: additional lock file maintenance. ..9.       |
 | 2026-06-04 | image-convert        | feat: additional lock file maintenance. ..34.      |
 | 2026-06-03 | virustotal           | fix: settings not loading correctly. ..52.         |
 | 2026-06-02 | virustotal           | feat: filter input events based on security. ..51. |
