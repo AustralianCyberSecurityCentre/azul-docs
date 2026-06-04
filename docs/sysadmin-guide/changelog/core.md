@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-04 | app                  | fix: prevent assemblyline reciever from liveness fail. ..72. |
 | 2026-06-04 | app                  | fix: remove redis ingress. as not needed ..71.     |
 | 2026-06-04 | smart-string-filter  | feat: additional lock file maintenance. ..17.      |
 | 2026-06-03 | metastore            | fix: avoid security filtering on opensearch .me. ..50. |
