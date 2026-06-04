@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-04 | smart-string-filter  | feat: additional lock file maintenance. ..17.      |
 | 2026-06-03 | metastore            | fix: avoid security filtering on opensearch .me. ..50. |
 | 2026-06-03 | demo                 | fix: opensearch init ..30.                         |
 | 2026-06-03 | app                  | feat: simplify retrohunt config. ..69.             |
