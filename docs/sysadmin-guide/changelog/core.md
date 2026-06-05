@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-05 | app                  | release azul.11.0.0.rc1                            |
 | 2026-06-05 | webui                | feat: make logs copyable ..170.                    |
 | 2026-06-05 | webui                | fix: add timestamp param to purge ..169.           |
 | 2026-06-04 | app                  | fix: prevent assemblyline reciever from liveness fail. ..72. |
