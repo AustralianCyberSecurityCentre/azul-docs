@@ -4,6 +4,103 @@ sidebar_position: 3
 
 # Release Notes
 
+## 11.0.0
+
+Version 11.0 introduces new core features, focusing on enhanced capabilities and improved ease of use through the Azul UI.
+
+Improvements include:
+
+### Core
+
+#### azul-app
+
+- Added a liveness check for all plugins.
+
+#### audit-forwarder
+
+- Added dynamic windowing to better handle bursts of logs.
+- Included additional information in the log format.
+
+#### metastore/restapi
+
+- Added `docand` grammar to enable more precise searches  
+  (e.g searching for `depth:0 DOCAND source:"testing"` it ensures the depth is actually 0 with the source and not just that a binary has depth 0 somewhere and testing somewhere)
+- Introduced entropy similarity, enabling searches for similar binaries based on entropy graphs  
+  (disabled by default due to potential crashes in older OpenSearch clusters using the FAISS plugin).
+- Fixed an issue where plugin features and statuses were not always from the latest plugin version.
+- Added an API to find common strings between two binaries.
+- Introduced a download API, allowing users to request hash downloads via plugins.
+
+#### azul-dispatcher
+
+- Added a `maxSecurity` filter to prevent plugins from collecting jobs above a specified classification level.
+
+#### azul-client
+
+- Improved help information to make the client more user friendly.
+- Updated to match the API that renamed `similar` to `similar_feature`.
+
+#### azul-java-client
+
+- Introduced a new Java client with a minimal interface, enabling Java users to interact with Azul via the Rest API.
+
+#### azul-runner
+
+- Git synchronization is now fully managed within azul-runner and no longer handled by a git-sync sidecar.
+- Added a continuously updated liveness check file to detect when the runner stops functioning and reboot a pod.
+
+#### azul-security
+
+- Added new restriction settings for caveats: `min_priority` and `max_priority`, limiting which classification caveats can appear with, which prevents invalid classifications.
+- Improved the value displayed by max-security to ensure users know the actual maximum classification.
+
+### Demo
+
+- Fixed multiple issues affecting broken components.
+
+### Retrohunt
+
+- Integrated with the Rest API.
+- Now available in the Azul Web UI (under the Binaries dropdown).
+- Fixed numerous bugs related to hunt creation, deletion, and maintenance.
+
+### Plugins
+
+- **jadx**
+  - New plugin using JADX to decompile `.apk` and `.dex` files.
+  - Generates features.
+  - Decompiles and renders non-core Java libraries for associated binaries (similar to the .NET plugin).
+
+- **image-convert**
+  - Now converts images to WebP instead of PNG and added support for processing all frames in GIFs.
+
+- **maco**
+  - Added new features.
+  - Replaced `yara-python` with `yara-x`.
+  - The running maco version is now displayed in configuration information.
+
+- **yara**
+  - Fixed an issue where events became too large due to the `info` field storing all features.
+  - Now returns rule hits with results.
+
+- Updated shared plugin libraries, including:
+  - pdftools  
+  - ghidra  
+  - unbox  
+  - netinfo  
+  - script-decoder  
+  - mandiant-capa  
+
+### UI
+
+- Added GIF display with step controls (forward and backward navigation).
+- Included additional text during loading screens.
+- Simplified the security picker to display only permissible classifications (hiding TLP, REL, and caveats as appropriate).
+- Fixed an issue when rendering similar features for parent objects.
+- Displays YARA rule hits in the "Data" view.
+- Significantly improved the binary comparison page, including string comparison when exactly two binaries are selected.
+- Fixed an issue where an empty JWT could be sent to the Rest API under certain conditions.
+- Added the ability to request SHA256 downloads from all Azul download plugins.
 
 ## 10.0.0
 
