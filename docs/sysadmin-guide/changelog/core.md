@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-05 | webui                | fix: add timestamp param to purge ..169.           |
 | 2026-06-04 | app                  | fix: prevent assemblyline reciever from liveness fail. ..72. |
 | 2026-06-04 | app                  | fix: remove redis ingress. as not needed ..71.     |
 | 2026-06-04 | smart-string-filter  | feat: additional lock file maintenance. ..17.      |
