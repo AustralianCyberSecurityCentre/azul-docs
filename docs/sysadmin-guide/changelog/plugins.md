@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-06-08 | retrohunt            | fix: fix cronjob ..57.                             |
 | 2026-06-05 | retrohunt            | fix: fix return type ..56.                         |
 | 2026-06-04 | retrohunt            | fix: enum issue ..54.                              |
 | 2026-06-04 | js-deobf             | feat: additional lock file maintenance ..19.       |
