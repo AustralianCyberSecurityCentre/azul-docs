@@ -1,344 +1,892 @@
-NAME                                                          VERSION                             TYPE                         
-adduser                                                       3.152                               deb                          
-apt                                                           3.0.3                               deb                          
-autoconf                                                      2.72-3.1                            deb                          
-automake                                                      1:1.17-4                            deb                          
-autotools-dev                                                 20240727.1                          deb                          
-base-files                                                    13.8+deb13u3                        deb                          
-base-passwd                                                   3.6.7                               deb                          
-bash                                                          5.2.37-2+b7                         deb                          
-binutils                                                      2.44-3                              deb                          
-binutils-common                                               2.44-3                              deb                          
-binutils-x86-64-linux-gnu                                     2.44-3                              deb                          
-bison                                                         2:3.8.2+dfsg-1+b2                   deb                          
-bsdutils                                                      1:2.41-5                            deb                          
-ca-certificates                                               20250419                            deb                          
-cmd/asm                                                       UNKNOWN                             go-module                    
-cmd/cgo                                                       UNKNOWN                             go-module                    
-cmd/compile                                                   UNKNOWN                             go-module                    
-cmd/cover                                                     UNKNOWN                             go-module                    
-cmd/fix                                                       UNKNOWN                             go-module                    
-cmd/go                                                        UNKNOWN                             go-module                    
-cmd/gofmt                                                     UNKNOWN                             go-module                    
-cmd/link                                                      UNKNOWN                             go-module                    
-cmd/preprofile                                                UNKNOWN                             go-module                    
-cmd/vet                                                       UNKNOWN                             go-module                    
-coreutils                                                     9.7-3                               deb                          
-cpp                                                           4:14.2.0-1                          deb                          
-cpp-14                                                        14.2.0-19                           deb                          
-cpp-14-x86-64-linux-gnu                                       14.2.0-19                           deb                          
-cpp-x86-64-linux-gnu                                          4:14.2.0-1                          deb                          
-csh                                                           20240808-2                          deb                          
-curl                                                          8.14.1-2+deb13u2                    deb                          
-dario.cat/mergo                                               v1.0.2                              go-module                    
-dash                                                          0.5.12-12                           deb                          
-debconf                                                       1.5.91                              deb                          
-debian-archive-keyring                                        2025.1                              deb                          
-debianutils                                                   5.23.2                              deb                          
-diffutils                                                     1:3.10-4                            deb                          
-dirmngr                                                       2.4.7-21+deb13u1+b1                 deb                          
-dpkg                                                          1.22.21                             deb                          
-file                                                          1:5.46-5                            deb                          
-findutils                                                     4.10.0-3                            deb                          
-flex                                                          2.6.4-8.2+b4                        deb                          
-g++                                                           4:14.2.0-1                          deb                          
-g++-14                                                        14.2.0-19                           deb                          
-g++-14-x86-64-linux-gnu                                       14.2.0-19                           deb                          
-g++-x86-64-linux-gnu                                          4:14.2.0-1                          deb                          
-gawk                                                          1:5.2.1-2+b1                        deb                          
-gcc                                                           4:14.2.0-1                          deb                          
-gcc-14                                                        14.2.0-19                           deb                          
-gcc-14-base                                                   14.2.0-19                           deb                          
-gcc-14-x86-64-linux-gnu                                       14.2.0-19                           deb                          
-gcc-x86-64-linux-gnu                                          4:14.2.0-1                          deb                          
-git                                                           1:2.47.3-0+deb13u1                  deb                          
-git-man                                                       1:2.47.3-0+deb13u1                  deb                          
-github.com/AustralianCyberSecurityCentre/azul-bedrock/v10     v10.0.44                            go-module                    
-github.com/AustralianCyberSecurityCentre/azul-dispatcher.git  UNKNOWN                             go-module                    
-github.com/Azure/azure-sdk-for-go/sdk/azcore                  v1.21.0                             go-module                    
-github.com/Azure/azure-sdk-for-go/sdk/azidentity              v1.13.1                             go-module                    
-github.com/Azure/azure-sdk-for-go/sdk/internal                v1.11.2                             go-module                    
-github.com/Azure/azure-sdk-for-go/sdk/storage/azblob          v1.6.4                              go-module                    
-github.com/AzureAD/microsoft-authentication-library-for-go    v1.7.0                              go-module                    
-github.com/IBM/sarama                                         v1.47.0                             go-module                    
-github.com/allegro/bigcache/v3                                v3.1.0                              go-module                    
-github.com/beorn7/perks                                       v1.0.1                              go-module                    
-github.com/cespare/xxhash/v2                                  v2.3.0                              go-module                    
-github.com/davecgh/go-spew                                    v1.1.1                              go-module                    
-github.com/deathowl/go-metrics-prometheus                     v0.0.0-20221009205350-f2a1482ba35b  go-module                    
-github.com/dgryski/go-rendezvous                              v0.0.0-20200823014737-9f7001d12a5f  go-module                    
-github.com/dustin/go-humanize                                 v1.0.1                              go-module                    
-github.com/dutchcoders/gossdeep                               v0.0.0-20201120073358-963140ea83a4  go-module                    
-github.com/eapache/go-resiliency                              v1.7.0                              go-module                    
-github.com/eapache/queue                                      v1.1.0                              go-module                    
-github.com/eko/gocache/lib/v4                                 v4.2.3                              go-module                    
-github.com/eko/gocache/store/bigcache/v4                      v4.1.2                              go-module                    
-github.com/fatih/structs                                      v1.1.0                              go-module                    
-github.com/gabriel-vasile/mimetype                            v1.4.13                             go-module                    
-github.com/gin-contrib/pprof                                  v1.5.3                              go-module                    
-github.com/gin-contrib/sse                                    v1.1.0                              go-module                    
-github.com/gin-gonic/gin                                      v1.12.0                             go-module                    
-github.com/glaslos/tlsh                                       v0.4.0                              go-module                    
-github.com/go-ini/ini                                         v1.67.0                             go-module                    
-github.com/go-playground/locales                              v0.14.1                             go-module                    
-github.com/go-playground/universal-translator                 v0.18.1                             go-module                    
-github.com/go-playground/validator/v10                        v10.30.1                            go-module                    
-github.com/go-viper/mapstructure/v2                           v2.5.0                              go-module                    
-github.com/goccy/go-json                                      v0.10.5                             go-module                    
-github.com/goccy/go-yaml                                      v1.19.2                             go-module                    
-github.com/golang-jwt/jwt/v5                                  v5.3.1                              go-module                    
-github.com/golang/mock                                        v1.6.0                              go-module                    
-github.com/google/uuid                                        v1.6.0                              go-module                    
-github.com/hamba/avro/v2                                      v2.31.0                             go-module                    
-github.com/hashicorp/go-uuid                                  v1.0.3                              go-module                    
-github.com/hillu/go-yara/v4                                   v4.3.4                              go-module                    
-github.com/jcmturner/aescts/v2                                v2.0.0                              go-module                    
-github.com/jcmturner/dnsutils/v2                              v2.0.0                              go-module                    
-github.com/jcmturner/gofork                                   v1.7.6                              go-module                    
-github.com/jcmturner/gokrb5/v8                                v8.4.4                              go-module                    
-github.com/jcmturner/rpc/v2                                   v2.0.3                              go-module                    
-github.com/json-iterator/go                                   v1.1.12                             go-module                    
-github.com/klauspost/compress                                 v1.18.4                             go-module                    
-github.com/klauspost/cpuid/v2                                 v2.3.0                              go-module                    
-github.com/klauspost/crc32                                    v1.3.0                              go-module                    
-github.com/knadh/koanf/maps                                   v0.1.2                              go-module                    
-github.com/knadh/koanf/providers/env                          v1.1.0                              go-module                    
-github.com/knadh/koanf/providers/structs                      v1.0.0                              go-module                    
-github.com/knadh/koanf/v2                                     v2.3.3                              go-module                    
-github.com/kylelemons/godebug                                 v1.1.0                              go-module                    
-github.com/leodido/go-urn                                     v1.4.0                              go-module                    
-github.com/mattn/go-colorable                                 v0.1.14                             go-module                    
-github.com/mattn/go-isatty                                    v0.0.20                             go-module                    
-github.com/minio/crc64nvme                                    v1.1.1                              go-module                    
-github.com/minio/md5-simd                                     v1.1.2                              go-module                    
-github.com/minio/minio-go/v7                                  v7.0.98                             go-module                    
-github.com/mitchellh/copystructure                            v1.2.0                              go-module                    
-github.com/mitchellh/reflectwalk                              v1.0.2                              go-module                    
-github.com/modern-go/concurrent                               v0.0.0-20180306012644-bacd9c7ef1dd  go-module                    
-github.com/modern-go/reflect2                                 v1.0.2                              go-module                    
-github.com/munnerz/goautoneg                                  v0.0.0-20191010083416-a7dc8b61c822  go-module                    
-github.com/pelletier/go-toml/v2                               v2.2.4                              go-module                    
-github.com/philhofer/fwd                                      v1.2.0                              go-module                    
-github.com/pierrec/lz4/v4                                     v4.1.25                             go-module                    
-github.com/pkg/browser                                        v0.0.0-20240102092130-5ac0b6a4141c  go-module                    
-github.com/pkg/errors                                         v0.9.1                              go-module                    
-github.com/pmezard/go-difflib                                 v1.0.0                              go-module                    
-github.com/prometheus/client_golang                           v1.23.2                             go-module                    
-github.com/prometheus/client_model                            v0.6.2                              go-module                    
-github.com/prometheus/common                                  v0.67.5                             go-module                    
-github.com/prometheus/procfs                                  v0.20.1                             go-module                    
-github.com/quic-go/qpack                                      v0.6.0                              go-module                    
-github.com/quic-go/quic-go                                    v0.59.0                             go-module                    
-github.com/rakyll/magicmime                                   v0.1.0                              go-module                    
-github.com/rcrowley/go-metrics                                v0.0.0-20250401214520-65e299d6c5c9  go-module                    
-github.com/redis/go-redis/v9                                  v9.18.0                             go-module                    
-github.com/rs/xid                                             v1.6.0                              go-module                    
-github.com/rs/zerolog                                         v1.34.0                             go-module                    
-github.com/spf13/cobra                                        v1.10.2                             go-module                    
-github.com/spf13/pflag                                        v1.0.10                             go-module                    
-github.com/stretchr/objx                                      v0.5.3                              go-module                    
-github.com/stretchr/testify                                   v1.11.1                             go-module                    
-github.com/tidwall/gjson                                      v1.18.0                             go-module                    
-github.com/tidwall/match                                      v1.2.0                              go-module                    
-github.com/tidwall/pretty                                     v1.2.1                              go-module                    
-github.com/tinylib/msgp                                       v1.6.3                              go-module                    
-github.com/ugorji/go/codec                                    v1.3.1                              go-module                    
-gnupg                                                         2.4.7-21+deb13u1                    deb                          
-gnupg-l10n                                                    2.4.7-21+deb13u1                    deb                          
-go                                                            1.26.1                              binary                       
-go.mongodb.org/mongo-driver/v2                                v2.5.0                              go-module                    
-go.uber.org/atomic                                            v1.11.0                             go-module                    
-go.uber.org/automaxprocs                                      v1.6.0                              go-module                    
-go.yaml.in/yaml/v2                                            v2.4.3                              go-module                    
-go.yaml.in/yaml/v3                                            v3.0.4                              go-module                    
-golang.org/x/crypto                                           v0.48.0                             go-module                    
-golang.org/x/exp                                              v0.0.0-20260218203240-3dfff04db8fa  go-module                    
-golang.org/x/net                                              v0.51.0                             go-module                    
-golang.org/x/sync                                             v0.19.0                             go-module                    
-golang.org/x/sys                                              v0.41.0                             go-module                    
-golang.org/x/text                                             v0.34.0                             go-module                    
-google.golang.org/protobuf                                    v1.36.11                            go-module                    
-gopkg.in/natefinch/lumberjack.v2                              v2.2.1                              go-module                    
-gopkg.in/yaml.v3                                              v3.0.1                              go-module                    
-gpg                                                           2.4.7-21+deb13u1+b1                 deb                          
-gpg-agent                                                     2.4.7-21+deb13u1+b1                 deb                          
-gpgconf                                                       2.4.7-21+deb13u1+b1                 deb                          
-gpgsm                                                         2.4.7-21+deb13u1+b1                 deb                          
-grep                                                          3.11-4                              deb                          
-gzip                                                          1.13-1                              deb                          
-hostname                                                      3.25                                deb                          
-init-system-helpers                                           1.69~deb13u1                        deb                          
-libacl1                                                       2.3.2-2+b1                          deb                          
-libapr1t64                                                    1.7.5-1                             deb                          
-libaprutil1t64                                                1.6.3-3+b1                          deb                          
-libapt-pkg7.0                                                 3.0.3                               deb                          
-libasan8                                                      14.2.0-19                           deb                          
-libassuan9                                                    3.0.2-2                             deb                          
-libatomic1                                                    14.2.0-19                           deb                          
-libattr1                                                      1:2.5.2-3                           deb                          
-libaudit-common                                               1:4.0.2-2                           deb                          
-libaudit1                                                     1:4.0.2-2+b2                        deb                          
-libbinutils                                                   2.44-3                              deb                          
-libblkid1                                                     2.41-5                              deb                          
-libbrotli1                                                    1.1.0-2+b7                          deb                          
-libbsd0                                                       0.12.2-2                            deb                          
-libbz2-1.0                                                    1.0.8-6                             deb                          
-libc-bin                                                      2.41-12+deb13u1                     deb                          
-libc-dev-bin                                                  2.41-12+deb13u1                     deb                          
-libc6                                                         2.41-12+deb13u1                     deb                          
-libc6-dev                                                     2.41-12+deb13u1                     deb                          
-libcap-ng0                                                    0.8.5-4+b1                          deb                          
-libcap2                                                       1:2.75-10+b3                        deb                          
-libcbor0.10                                                   0.10.2-2                            deb                          
-libcc1-0                                                      14.2.0-19                           deb                          
-libcom-err2                                                   1.47.2-3+b7                         deb                          
-libcrypt-dev                                                  1:4.4.38-1                          deb                          
-libcrypt1                                                     1:4.4.38-1                          deb                          
-libctf-nobfd0                                                 2.44-3                              deb                          
-libctf0                                                       2.44-3                              deb                          
-libcurl3t64-gnutls                                            8.14.1-2+deb13u2                    deb                          
-libcurl4t64                                                   8.14.1-2+deb13u2                    deb                          
-libdb5.3t64                                                   5.3.28+dfsg2-9                      deb                          
-libdebconfclient0                                             0.280                               deb                          
-libedit2                                                      3.1-20250104-1                      deb                          
-liberror-perl                                                 0.17030-1                           deb                          
-libexpat1                                                     2.7.1-2                             deb                          
-libffi8                                                       3.4.8-2                             deb                          
-libfido2-1                                                    1.15.0-1+b1                         deb                          
-libfl-dev                                                     2.6.4-8.2+b4                        deb                          
-libfl2                                                        2.6.4-8.2+b4                        deb                          
-libfuzzy-dev                                                  2.14.1+git20180629.57fcfff-3+b2     deb                          
-libfuzzy2                                                     2.14.1+git20180629.57fcfff-3+b2     deb                          
-libgcc-14-dev                                                 14.2.0-19                           deb                          
-libgcc-s1                                                     14.2.0-19                           deb                          
-libgcrypt20                                                   1.11.0-7                            deb                          
-libgdbm-compat4t64                                            1.24-2                              deb                          
-libgdbm6t64                                                   1.24-2                              deb                          
-libgmp10                                                      2:6.3.0+dfsg-3                      deb                          
-libgnutls30t64                                                3.8.9-3+deb13u2                     deb                          
-libgomp1                                                      14.2.0-19                           deb                          
-libgpg-error0                                                 1.51-4                              deb                          
-libgprofng0                                                   2.44-3                              deb                          
-libgssapi-krb5-2                                              1.21.3-5                            deb                          
-libhogweed6t64                                                3.10.1-1                            deb                          
-libhwasan0                                                    14.2.0-19                           deb                          
-libidn2-0                                                     2.3.8-2                             deb                          
-libisl23                                                      0.27-1                              deb                          
-libitm1                                                       14.2.0-19                           deb                          
-libjansson4                                                   2.14-2+b3                           deb                          
-libk5crypto3                                                  1.21.3-5                            deb                          
-libkeyutils1                                                  1.6.3-6                             deb                          
-libkrb5-3                                                     1.21.3-5                            deb                          
-libkrb5support0                                               1.21.3-5                            deb                          
-libksba8                                                      1.6.7-2+b1                          deb                          
-liblastlog2-2                                                 2.41-5                              deb                          
-libldap2                                                      2.6.10+dfsg-1                       deb                          
-liblsan0                                                      14.2.0-19                           deb                          
-liblz4-1                                                      1.10.0-4                            deb                          
-liblzma5                                                      5.8.1-1                             deb                          
-libmagic-mgc                                                  1:5.46-5                            deb                          
-libmagic1t64                                                  1:5.46-5                            deb                          
-libmd0                                                        1.1.0-2+b1                          deb                          
-libmount1                                                     2.41-5                              deb                          
-libmpc3                                                       1.3.1-1+b3                          deb                          
-libmpfr6                                                      4.2.2-1                             deb                          
-libncursesw6                                                  6.5+20250216-2                      deb                          
-libnettle8t64                                                 3.10.1-1                            deb                          
-libnghttp2-14                                                 1.64.0-1.1                          deb                          
-libnghttp3-9                                                  1.8.0-1                             deb                          
-libngtcp2-16                                                  1.11.0-1                            deb                          
-libngtcp2-crypto-gnutls8                                      1.11.0-1                            deb                          
-libnpth0t64                                                   1.8-3                               deb                          
-libp11-kit0                                                   0.25.5-3                            deb                          
-libpam-modules                                                1.7.0-5                             deb                          
-libpam-modules-bin                                            1.7.0-5                             deb                          
-libpam-runtime                                                1.7.0-5                             deb                          
-libpam0g                                                      1.7.0-5                             deb                          
-libpcre2-8-0                                                  10.46-1~deb13u1                     deb                          
-libperl5.40                                                   5.40.1-6                            deb                          
-libpkgconf3                                                   1.8.1-4                             deb                          
-libproc2-0                                                    2:4.0.4-9                           deb                          
-libpsl5t64                                                    0.21.2-1.1+b1                       deb                          
-libpython3-stdlib                                             3.13.5-1                            deb                          
-libpython3.13-minimal                                         3.13.5-2                            deb                          
-libpython3.13-stdlib                                          3.13.5-2                            deb                          
-libquadmath0                                                  14.2.0-19                           deb                          
-libreadline8t64                                               8.2-6                               deb                          
-librtmp1                                                      2.4+20151223.gitfa8646d.1-2+b5      deb                          
-libsasl2-2                                                    2.1.28+dfsg1-9                      deb                          
-libsasl2-modules-db                                           2.1.28+dfsg1-9                      deb                          
-libseccomp2                                                   2.6.0-2                             deb                          
-libselinux1                                                   3.8.1-1                             deb                          
-libsemanage-common                                            3.8.1-1                             deb                          
-libsemanage2                                                  3.8.1-1                             deb                          
-libsepol2                                                     3.8.1-1                             deb                          
-libserf-1-1                                                   1.3.10-3+b1                         deb                          
-libsframe1                                                    2.44-3                              deb                          
-libsigsegv2                                                   2.14-1+b2                           deb                          
-libsmartcols1                                                 2.41-5                              deb                          
-libsqlite3-0                                                  3.46.1-7                            deb                          
-libssh2-1t64                                                  1.11.1-1                            deb                          
-libssl3t64                                                    3.5.4-1~deb13u2                     deb                          
-libstdc++-14-dev                                              14.2.0-19                           deb                          
-libstdc++6                                                    14.2.0-19                           deb                          
-libsvn1                                                       1.14.5-3                            deb                          
-libsystemd0                                                   257.9-1~deb13u1                     deb                          
-libtasn1-6                                                    4.20.0-2                            deb                          
-libtext-charwidth-perl                                        0.04-11+b4                          deb                          
-libtext-wrapi18n-perl                                         0.06-10                             deb                          
-libtinfo6                                                     6.5+20250216-2                      deb                          
-libtool                                                       2.5.4-4                             deb                          
-libtsan2                                                      14.2.0-19                           deb                          
-libubsan1                                                     14.2.0-19                           deb                          
-libudev1                                                      257.9-1~deb13u1                     deb                          
-libunistring5                                                 1.3-2                               deb                          
-libutf8proc3                                                  2.9.0-1+b2                          deb                          
-libuuid1                                                      2.41-5                              deb                          
-libxxhash0                                                    0.8.3-2                             deb                          
-libzstd1                                                      1.5.7+dfsg-1                        deb                          
-linux-libc-dev                                                6.12.73-1                           deb                          
-login                                                         1:4.16.0-2+really2.41-5             deb                          
-login.defs                                                    1:4.17.4-2                          deb                          
-m4                                                            1.4.19-8                            deb                          
-make                                                          4.4.1-2                             deb                          
-mawk                                                          1.3.4.20250131-1                    deb                          
-media-types                                                   13.0.0                              deb                          
-mercurial                                                     7.0.1                               python                       
-mercurial                                                     7.0.1-2                             deb                          
-mercurial-common                                              7.0.1-2                             deb                          
-mount                                                         2.41-5                              deb                          
-ncurses-base                                                  6.5+20250216-2                      deb                          
-ncurses-bin                                                   6.5+20250216-2                      deb                          
-netbase                                                       6.5                                 deb                          
-openssh-client                                                1:10.0p1-7                          deb                          
-openssl                                                       3.5.4-1~deb13u2                     deb                          
-openssl-provider-legacy                                       3.5.4-1~deb13u2                     deb                          
-passwd                                                        1:4.17.4-2                          deb                          
-perl                                                          5.40.1-6                            deb                          
-perl-base                                                     5.40.1-6                            deb                          
-perl-modules-5.40                                             5.40.1-6                            deb                          
-pinentry-curses                                               1.3.1-2                             deb                          
-pkg-config                                                    1.8.1-4                             deb                          
-pkgconf                                                       1.8.1-4                             deb                          
-pkgconf-bin                                                   1.8.1-4                             deb                          
-procps                                                        2:4.0.4-9                           deb                          
-python3                                                       3.13.5-1                            deb                          
-python3-minimal                                               3.13.5-1                            deb                          
-python3.13                                                    3.13.5-2                            deb                          
-python3.13-minimal                                            3.13.5-2                            deb                          
-readline-common                                               8.2-6                               deb                          
-rpcsvc-proto                                                  1.4.3-1                             deb                          
-sed                                                           4.9-2                               deb                          
-sensible-utils                                                0.0.25                              deb                          
-sq                                                            1.3.1-2+b2                          deb                          
-sqv                                                           1.3.0-3+b2                          deb                          
-stdlib                                                        go1.26.1                            go-module  (+10 duplicates)  
-subversion                                                    1.14.5-3                            deb                          
-sysvinit-utils                                                3.14-4                              deb                          
-tar                                                           1.35+dfsg-3.1                       deb                          
-tzdata                                                        2025b-4+deb13u1                     deb                          
-ucf                                                           3.0052                              deb                          
-util-linux                                                    2.41-5                              deb                          
-wget                                                          1.25.0-2                            deb                          
-zlib1g                                                        1:1.3.dfsg+really1.3.1-1+b1         deb                          
-zlib1g-dev                                                    1:1.3.dfsg+really1.3.1-1+b1         deb                          
+NAME                                                          VERSION                                                  TYPE                          
+adduser                                                       3.152                                                    deb                           
+adler2                                                        2.0.1                                                    rust-crate  (+1 duplicate)    
+aes                                                           0.8.4                                                    rust-crate  (+1 duplicate)    
+aho-corasick                                                  1.1.4                                                    rust-crate  (+1 duplicate)    
+allocator-api2                                                0.2.21                                                   rust-crate  (+1 duplicate)    
+ambient-id                                                    0.0.11                                                   rust-crate  (+1 duplicate)    
+annotated-doc                                                 0.0.4                                                    python                        
+annotated-types                                               0.7.0                                                    python                        
+anstream                                                      1.0.0                                                    rust-crate  (+1 duplicate)    
+anstyle                                                       1.0.14                                                   rust-crate  (+1 duplicate)    
+anstyle-parse                                                 1.0.0                                                    rust-crate  (+1 duplicate)    
+anstyle-query                                                 1.1.5                                                    rust-crate  (+1 duplicate)    
+anyhow                                                        1.0.102                                                  rust-crate  (+1 duplicate)    
+anyio                                                         4.13.0                                                   python                        
+apt                                                           3.0.3                                                    deb                           
+arcstr                                                        1.2.0                                                    rust-crate  (+1 duplicate)    
+asn1-rs                                                       0.7.1                                                    rust-crate  (+1 duplicate)    
+asn1-rs-impl                                                  0.2.0                                                    rust-crate  (+1 duplicate)    
+assert-json-diff                                              2.0.2                                                    rust-crate  (+1 duplicate)    
+assert_cmd                                                    2.2.2                                                    rust-crate  (+1 duplicate)    
+assert_fs                                                     1.1.3                                                    rust-crate  (+1 duplicate)    
+astral-pubgrub                                                0.3.3                                                    rust-crate  (+1 duplicate)    
+astral-reqwest-middleware                                     0.5.1                                                    rust-crate  (+1 duplicate)    
+astral-reqwest-retry                                          0.9.1                                                    rust-crate  (+1 duplicate)    
+astral-tl                                                     0.7.11                                                   rust-crate  (+1 duplicate)    
+astral-tokio-tar                                              0.6.2                                                    rust-crate  (+1 duplicate)    
+astral-version-ranges                                         0.1.4                                                    rust-crate  (+1 duplicate)    
+astral_async_http_range_reader                                0.11.0                                                   rust-crate  (+1 duplicate)    
+astral_async_zip                                              0.0.18                                                   rust-crate  (+1 duplicate)    
+async-broadcast                                               0.7.2                                                    rust-crate  (+1 duplicate)    
+async-channel                                                 2.5.0                                                    rust-crate  (+1 duplicate)    
+async-compression                                             0.4.19                                                   rust-crate  (+1 duplicate)    
+async-recursion                                               1.1.1                                                    rust-crate  (+1 duplicate)    
+async-trait                                                   0.1.89                                                   rust-crate  (+1 duplicate)    
+atomic-waker                                                  1.1.2                                                    rust-crate  (+1 duplicate)    
+autoconf                                                      2.72-3.1                                                 deb                           
+automake                                                      1:1.17-4                                                 deb                           
+autotools-dev                                                 20240727.1                                               deb                           
+aws-lc-rs                                                     1.16.2                                                   rust-crate  (+1 duplicate)    
+aws-lc-sys                                                    0.39.0                                                   rust-crate  (+1 duplicate)    
+axoasset                                                      2.0.1                                                    rust-crate  (+1 duplicate)    
+axoprocess                                                    0.2.1                                                    rust-crate  (+1 duplicate)    
+axotag                                                        0.3.0                                                    rust-crate  (+1 duplicate)    
+axoupdater                                                    0.10.0                                                   rust-crate  (+1 duplicate)    
+azul-bedrock                                                  11.0.126                                                 python                        
+azul-security                                                 11.0.93                                                  python                        
+babel                                                         2.18.0                                                   python                        
+base-files                                                    13.8+deb13u5                                             deb                           
+base-passwd                                                   3.6.7                                                    deb                           
+base64                                                        0.22.1                                                   rust-crate  (+1 duplicate)    
+base64ct                                                      1.8.3                                                    rust-crate  (+1 duplicate)    
+bash                                                          5.2.37-2+b9                                              deb                           
+binutils                                                      2.44-3                                                   deb                           
+binutils-common                                               2.44-3                                                   deb                           
+binutils-x86-64-linux-gnu                                     2.44-3                                                   deb                           
+bison                                                         2:3.8.2+dfsg-1+b2                                        deb                           
+bitflags                                                      2.11.1                                                   rust-crate  (+1 duplicate)    
+blake2                                                        0.10.6                                                   rust-crate  (+1 duplicate)    
+block-buffer                                                  0.10.4                                                   rust-crate  (+1 duplicate)    
+block-padding                                                 0.3.3                                                    rust-crate  (+1 duplicate)    
+borrow-or-share                                               0.2.4                                                    rust-crate  (+1 duplicate)    
+boxcar                                                        0.2.14                                                   rust-crate  (+1 duplicate)    
+bsdutils                                                      1:2.41-5                                                 deb                           
+bstr                                                          1.12.1                                                   rust-crate  (+1 duplicate)    
+bytecheck                                                     0.8.2                                                    rust-crate  (+1 duplicate)    
+bytemuck                                                      1.25.0                                                   rust-crate  (+1 duplicate)    
+byteorder-lite                                                0.1.0                                                    rust-crate  (+1 duplicate)    
+bytes                                                         1.11.1                                                   rust-crate  (+1 duplicate)    
+bzip2                                                         0.5.2                                                    rust-crate  (+1 duplicate)    
+bzip2-sys                                                     0.1.13+1.0.8                                             rust-crate  (+1 duplicate)    
+ca-certificates                                               20250419                                                 deb                           
+cachetools                                                    7.1.4                                                    python                        
+camino                                                        1.2.2                                                    rust-crate  (+1 duplicate)    
+cargo-util                                                    0.2.28                                                   rust-crate  (+1 duplicate)    
+cbc                                                           0.1.2                                                    rust-crate  (+1 duplicate)    
+certifi                                                       2026.5.20                                                python                        
+cfg-if                                                        1.0.4                                                    rust-crate  (+1 duplicate)    
+charset                                                       0.1.5                                                    rust-crate  (+1 duplicate)    
+charset-normalizer                                            3.4.7                                                    python                        
+cipher                                                        0.4.4                                                    rust-crate  (+1 duplicate)    
+clap                                                          4.6.1                                                    rust-crate  (+1 duplicate)    
+clap_builder                                                  4.6.0                                                    rust-crate  (+1 duplicate)    
+clap_complete                                                 4.6.0                                                    rust-crate  (+1 duplicate)    
+clap_complete_command                                         0.6.1                                                    rust-crate  (+1 duplicate)    
+clap_complete_nushell                                         4.6.0                                                    rust-crate  (+1 duplicate)    
+clap_lex                                                      1.1.0                                                    rust-crate  (+1 duplicate)    
+click                                                         8.4.1                                                    python                        
+cmd/asm                                                       UNKNOWN                                                  go-module                     
+cmd/cgo                                                       UNKNOWN                                                  go-module                     
+cmd/compile                                                   UNKNOWN                                                  go-module                     
+cmd/cover                                                     UNKNOWN                                                  go-module                     
+cmd/fix                                                       UNKNOWN                                                  go-module                     
+cmd/go                                                        UNKNOWN                                                  go-module                     
+cmd/gofmt                                                     UNKNOWN                                                  go-module                     
+cmd/link                                                      UNKNOWN                                                  go-module                     
+cmd/preprofile                                                UNKNOWN                                                  go-module                     
+cmd/vet                                                       UNKNOWN                                                  go-module                     
+colorchoice                                                   1.0.5                                                    rust-crate  (+1 duplicate)    
+concurrent-queue                                              2.5.0                                                    rust-crate  (+1 duplicate)    
+configparser                                                  3.1.0                                                    rust-crate  (+1 duplicate)    
+console                                                       0.16.3                                                   rust-crate  (+1 duplicate)    
+const-oid                                                     0.9.6                                                    rust-crate  (+1 duplicate)    
+const-random                                                  0.1.18                                                   rust-crate  (+1 duplicate)    
+coreutils                                                     9.7-3                                                    deb                           
+cpp                                                           4:14.2.0-1                                               deb                           
+cpp-14                                                        14.2.0-19                                                deb                           
+cpp-14-x86-64-linux-gnu                                       14.2.0-19                                                deb                           
+cpp-x86-64-linux-gnu                                          4:14.2.0-1                                               deb                           
+cpufeatures                                                   0.2.17                                                   rust-crate  (+1 duplicate)    
+crc32fast                                                     1.5.0                                                    rust-crate  (+1 duplicate)    
+crossbeam-channel                                             0.5.15                                                   rust-crate  (+1 duplicate)    
+crossbeam-deque                                               0.8.6                                                    rust-crate  (+1 duplicate)    
+crossbeam-epoch                                               0.9.18                                                   rust-crate  (+1 duplicate)    
+crossbeam-utils                                               0.8.21                                                   rust-crate  (+1 duplicate)    
+crypto-common                                                 0.1.7                                                    rust-crate  (+1 duplicate)    
+csh                                                           20240808-2                                               deb                           
+csv                                                           1.4.0                                                    rust-crate  (+1 duplicate)    
+csv-core                                                      0.1.13                                                   rust-crate  (+1 duplicate)    
+ctrlc                                                         3.5.2                                                    rust-crate  (+1 duplicate)    
+curl                                                          8.14.1-2+deb13u3                                         deb                           
+cyclonedx-bom                                                 0.8.1                                                    rust-crate  (+1 duplicate)    
+cyclonedx-bom-macros                                          0.1.0                                                    rust-crate  (+1 duplicate)    
+dario.cat/mergo                                               v1.0.2                                                   go-module                     
+dash                                                          0.5.12-12                                                deb                           
+dashmap                                                       6.2.1                                                    rust-crate  (+1 duplicate)    
+data-encoding                                                 2.11.0                                                   rust-crate  (+1 duplicate)    
+deadpool                                                      0.12.3                                                   rust-crate  (+1 duplicate)    
+deadpool-runtime                                              0.1.4                                                    rust-crate  (+1 duplicate)    
+debconf                                                       1.5.91                                                   deb                           
+debian-archive-keyring                                        2025.1                                                   deb                           
+debianutils                                                   5.23.2                                                   deb                           
+der                                                           0.7.10                                                   rust-crate  (+1 duplicate)    
+der-parser                                                    10.0.0                                                   rust-crate  (+1 duplicate)    
+deranged                                                      0.5.8                                                    rust-crate  (+1 duplicate)    
+difflib                                                       0.4.0                                                    rust-crate  (+1 duplicate)    
+diffutils                                                     1:3.10-4                                                 deb                           
+digest                                                        0.10.7                                                   rust-crate  (+1 duplicate)    
+dirmngr                                                       2.4.7-21+deb13u1+b3                                      deb                           
+dirs                                                          6.0.0                                                    rust-crate  (+1 duplicate)    
+dirs-sys                                                      0.5.0                                                    rust-crate  (+1 duplicate)    
+diskus                                                        0.9.0                                                    rust-crate  (+1 duplicate)    
+displaydoc                                                    0.2.5                                                    rust-crate  (+1 duplicate)    
+dlv-list                                                      0.5.2                                                    rust-crate  (+1 duplicate)    
+doc-comment                                                   0.3.4                                                    rust-crate  (+1 duplicate)    
+dotenvy                                                       0.15.7                                                   rust-crate  (+1 duplicate)    
+dpkg                                                          1.22.22                                                  deb                           
+dunce                                                         1.0.5                                                    rust-crate  (+1 duplicate)    
+dyn-clone                                                     1.0.20                                                   rust-crate  (+1 duplicate)    
+either                                                        1.15.0                                                   rust-crate  (+1 duplicate)    
+encoding_rs                                                   0.8.35                                                   rust-crate  (+1 duplicate)    
+encoding_rs_io                                                0.1.7                                                    rust-crate  (+1 duplicate)    
+endi                                                          1.1.1                                                    rust-crate  (+1 duplicate)    
+enumflags2                                                    0.7.12                                                   rust-crate  (+1 duplicate)    
+equivalent                                                    1.0.2                                                    rust-crate  (+1 duplicate)    
+erased-serde                                                  0.4.10                                                   rust-crate  (+1 duplicate)    
+errno                                                         0.3.14                                                   rust-crate  (+1 duplicate)    
+etcetera                                                      0.11.0                                                   rust-crate  (+1 duplicate)    
+event-listener                                                5.4.1                                                    rust-crate  (+1 duplicate)    
+event-listener-strategy                                       0.5.4                                                    rust-crate  (+1 duplicate)    
+events                                                        0.5                                                      python                        
+fastapi                                                       0.136.3                                                  python                        
+fastrand                                                      2.4.1                                                    rust-crate  (+1 duplicate)    
+file                                                          1:5.46-5                                                 deb                           
+filetime                                                      0.2.29                                                   rust-crate  (+1 duplicate)    
+findutils                                                     4.10.0-3                                                 deb                           
+fixedbitset                                                   0.5.7                                                    rust-crate  (+1 duplicate)    
+flate2                                                        1.1.9                                                    rust-crate  (+1 duplicate)    
+flex                                                          2.6.4-8.2+b4                                             deb                           
+float-cmp                                                     0.10.0                                                   rust-crate  (+1 duplicate)    
+fluent-uri                                                    0.4.1                                                    rust-crate  (+1 duplicate)    
+fnv                                                           1.0.7                                                    rust-crate  (+1 duplicate)    
+foldhash                                                      0.1.5                                                    rust-crate  (+1 duplicate)    
+foldhash                                                      0.2.0                                                    rust-crate  (+1 duplicate)    
+form_urlencoded                                               1.2.2                                                    rust-crate  (+1 duplicate)    
+fs-err                                                        3.3.0                                                    rust-crate  (+1 duplicate)    
+futures                                                       0.3.32                                                   rust-crate  (+1 duplicate)    
+futures-channel                                               0.3.32                                                   rust-crate  (+1 duplicate)    
+futures-core                                                  0.3.32                                                   rust-crate  (+1 duplicate)    
+futures-executor                                              0.3.32                                                   rust-crate  (+1 duplicate)    
+futures-io                                                    0.3.32                                                   rust-crate  (+1 duplicate)    
+futures-lite                                                  2.6.1                                                    rust-crate  (+1 duplicate)    
+futures-sink                                                  0.3.32                                                   rust-crate  (+1 duplicate)    
+futures-task                                                  0.3.32                                                   rust-crate  (+1 duplicate)    
+futures-util                                                  0.3.32                                                   rust-crate  (+1 duplicate)    
+g++                                                           4:14.2.0-1                                               deb                           
+g++-14                                                        14.2.0-19                                                deb                           
+g++-14-x86-64-linux-gnu                                       14.2.0-19                                                deb                           
+g++-x86-64-linux-gnu                                          4:14.2.0-1                                               deb                           
+gawk                                                          1:5.2.1-2+b1                                             deb                           
+gcc                                                           4:14.2.0-1                                               deb                           
+gcc-14                                                        14.2.0-19                                                deb                           
+gcc-14-base                                                   14.2.0-19                                                deb                           
+gcc-14-x86-64-linux-gnu                                       14.2.0-19                                                deb                           
+gcc-x86-64-linux-gnu                                          4:14.2.0-1                                               deb                           
+generic-array                                                 0.14.7                                                   rust-crate  (+1 duplicate)    
+getrandom                                                     0.2.16                                                   rust-crate  (+1 duplicate)    
+getrandom                                                     0.3.3                                                    rust-crate  (+1 duplicate)    
+getrandom                                                     0.4.1                                                    rust-crate  (+1 duplicate)    
+git                                                           1:2.47.3-0+deb13u1                                       deb                           
+git-man                                                       1:2.47.3-0+deb13u1                                       deb                           
+github.com/AustralianCyberSecurityCentre/azul-bedrock/v11     v11.0.119                                                go-module                     
+github.com/AustralianCyberSecurityCentre/azul-dispatcher.git  UNKNOWN                                                  go-module                     
+github.com/Azure/azure-sdk-for-go/sdk/azcore                  v1.21.1                                                  go-module                     
+github.com/Azure/azure-sdk-for-go/sdk/azidentity              v1.13.1                                                  go-module                     
+github.com/Azure/azure-sdk-for-go/sdk/internal                v1.12.0                                                  go-module                     
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob          v1.7.0                                                   go-module                     
+github.com/AzureAD/microsoft-authentication-library-for-go    v1.7.2                                                   go-module                     
+github.com/IBM/sarama                                         v1.50.1                                                  go-module                     
+github.com/VirusTotal/yara-x/go                               v1.16.0                                                  go-module                     
+github.com/allegro/bigcache/v3                                v3.1.0                                                   go-module                     
+github.com/beorn7/perks                                       v1.0.1                                                   go-module                     
+github.com/cespare/xxhash/v2                                  v2.3.0                                                   go-module                     
+github.com/davecgh/go-spew                                    v1.1.1                                                   go-module                     
+github.com/deathowl/go-metrics-prometheus                     v0.0.0-20221009205350-f2a1482ba35b                       go-module                     
+github.com/dustin/go-humanize                                 v1.0.1                                                   go-module                     
+github.com/dutchcoders/gossdeep                               v0.0.0-20201120073358-963140ea83a4                       go-module                     
+github.com/eapache/go-resiliency                              v1.7.0                                                   go-module                     
+github.com/eko/gocache/lib/v4                                 v4.2.3                                                   go-module                     
+github.com/eko/gocache/store/bigcache/v4                      v4.1.2                                                   go-module                     
+github.com/fatih/structs                                      v1.1.0                                                   go-module                     
+github.com/gabriel-vasile/mimetype                            v1.4.13                                                  go-module                     
+github.com/gin-contrib/pprof                                  v1.5.4                                                   go-module                     
+github.com/gin-contrib/sse                                    v1.1.0                                                   go-module                     
+github.com/gin-gonic/gin                                      v1.12.0                                                  go-module                     
+github.com/glaslos/tlsh                                       v0.4.0                                                   go-module                     
+github.com/go-ini/ini                                         v1.67.0                                                  go-module                     
+github.com/go-playground/locales                              v0.14.1                                                  go-module                     
+github.com/go-playground/universal-translator                 v0.18.1                                                  go-module                     
+github.com/go-playground/validator/v10                        v10.30.1                                                 go-module                     
+github.com/go-viper/mapstructure/v2                           v2.5.0                                                   go-module                     
+github.com/goccy/go-json                                      v0.10.6                                                  go-module                     
+github.com/goccy/go-yaml                                      v1.19.2                                                  go-module                     
+github.com/golang-jwt/jwt/v5                                  v5.3.1                                                   go-module                     
+github.com/golang/mock                                        v1.6.0                                                   go-module                     
+github.com/google/uuid                                        v1.6.0                                                   go-module                     
+github.com/hamba/avro/v2                                      v2.31.0                                                  go-module                     
+github.com/hashicorp/go-uuid                                  v1.0.3                                                   go-module                     
+github.com/jcmturner/aescts/v2                                v2.0.0                                                   go-module                     
+github.com/jcmturner/dnsutils/v2                              v2.0.0                                                   go-module                     
+github.com/jcmturner/gofork                                   v1.7.6                                                   go-module                     
+github.com/jcmturner/gokrb5/v8                                v8.4.4                                                   go-module                     
+github.com/jcmturner/rpc/v2                                   v2.0.3                                                   go-module                     
+github.com/json-iterator/go                                   v1.1.12                                                  go-module                     
+github.com/klauspost/compress                                 v1.18.6                                                  go-module                     
+github.com/klauspost/cpuid/v2                                 v2.3.0                                                   go-module                     
+github.com/klauspost/crc32                                    v1.3.0                                                   go-module                     
+github.com/knadh/koanf/maps                                   v0.1.2                                                   go-module                     
+github.com/knadh/koanf/providers/env/v2                       v2.0.0                                                   go-module                     
+github.com/knadh/koanf/providers/structs                      v1.0.0                                                   go-module                     
+github.com/knadh/koanf/v2                                     v2.3.4                                                   go-module                     
+github.com/kylelemons/godebug                                 v1.1.0                                                   go-module                     
+github.com/leodido/go-urn                                     v1.4.0                                                   go-module                     
+github.com/mattn/go-colorable                                 v0.1.14                                                  go-module                     
+github.com/mattn/go-isatty                                    v0.0.20                                                  go-module                     
+github.com/minio/crc64nvme                                    v1.1.1                                                   go-module                     
+github.com/minio/md5-simd                                     v1.1.2                                                   go-module                     
+github.com/minio/minio-go/v7                                  v7.1.0                                                   go-module                     
+github.com/mitchellh/copystructure                            v1.2.0                                                   go-module                     
+github.com/mitchellh/reflectwalk                              v1.0.2                                                   go-module                     
+github.com/modern-go/concurrent                               v0.0.0-20180306012644-bacd9c7ef1dd                       go-module                     
+github.com/modern-go/reflect2                                 v1.0.2                                                   go-module                     
+github.com/munnerz/goautoneg                                  v0.0.0-20191010083416-a7dc8b61c822                       go-module                     
+github.com/pelletier/go-toml/v2                               v2.2.4                                                   go-module                     
+github.com/philhofer/fwd                                      v1.2.0                                                   go-module                     
+github.com/pierrec/lz4/v4                                     v4.1.26                                                  go-module                     
+github.com/pkg/browser                                        v0.0.0-20240102092130-5ac0b6a4141c                       go-module                     
+github.com/pkg/errors                                         v0.9.1                                                   go-module                     
+github.com/pmezard/go-difflib                                 v1.0.0                                                   go-module                     
+github.com/prometheus/client_golang                           v1.23.2                                                  go-module                     
+github.com/prometheus/client_model                            v0.6.2                                                   go-module                     
+github.com/prometheus/common                                  v0.67.5                                                  go-module                     
+github.com/prometheus/procfs                                  v0.20.1                                                  go-module                     
+github.com/quic-go/qpack                                      v0.6.0                                                   go-module                     
+github.com/quic-go/quic-go                                    v0.59.0                                                  go-module                     
+github.com/rakyll/magicmime                                   v0.1.0                                                   go-module                     
+github.com/rcrowley/go-metrics                                v0.0.0-20250401214520-65e299d6c5c9                       go-module                     
+github.com/redis/go-redis/v9                                  v9.20.0                                                  go-module                     
+github.com/rs/xid                                             v1.6.0                                                   go-module                     
+github.com/rs/zerolog                                         v1.35.1                                                  go-module                     
+github.com/spf13/cobra                                        v1.10.2                                                  go-module                     
+github.com/spf13/pflag                                        v1.0.10                                                  go-module                     
+github.com/stretchr/objx                                      v0.5.3                                                   go-module                     
+github.com/stretchr/testify                                   v1.11.1                                                  go-module                     
+github.com/tidwall/gjson                                      v1.19.0                                                  go-module                     
+github.com/tidwall/match                                      v1.2.0                                                   go-module                     
+github.com/tidwall/pretty                                     v1.2.1                                                   go-module                     
+github.com/tinylib/msgp                                       v1.6.3                                                   go-module                     
+github.com/ugorji/go/codec                                    v1.3.1                                                   go-module                     
+github.com/zeebo/xxh3                                         v1.1.0                                                   go-module                     
+glob                                                          0.3.3                                                    rust-crate  (+1 duplicate)    
+globset                                                       0.4.18                                                   rust-crate  (+1 duplicate)    
+globwalk                                                      0.9.1                                                    rust-crate  (+1 duplicate)    
+gnupg                                                         2.4.7-21+deb13u1                                         deb                           
+gnupg-l10n                                                    2.4.7-21+deb13u1                                         deb                           
+go                                                            1.26.4                                                   binary                        
+go.mongodb.org/mongo-driver/v2                                v2.5.0                                                   go-module                     
+go.uber.org/atomic                                            v1.11.0                                                  go-module                     
+go.uber.org/automaxprocs                                      v1.6.0                                                   go-module                     
+go.yaml.in/yaml/v2                                            v2.4.4                                                   go-module                     
+go.yaml.in/yaml/v3                                            v3.0.4                                                   go-module                     
+goblin                                                        0.10.5                                                   rust-crate  (+1 duplicate)    
+golang.org/x/crypto                                           v0.52.0                                                  go-module                     
+golang.org/x/exp                                              v0.0.0-20260508232706-74f9aab9d74a                       go-module                     
+golang.org/x/net                                              v0.55.0                                                  go-module                     
+golang.org/x/sync                                             v0.20.0                                                  go-module                     
+golang.org/x/sys                                              v0.45.0                                                  go-module                     
+golang.org/x/text                                             v0.37.0                                                  go-module                     
+google.golang.org/protobuf                                    v1.36.11                                                 go-module                     
+gopkg.in/natefinch/lumberjack.v2                              v2.2.1                                                   go-module                     
+gopkg.in/yaml.v3                                              v3.0.1                                                   go-module                     
+gpg                                                           2.4.7-21+deb13u1+b3                                      deb                           
+gpg-agent                                                     2.4.7-21+deb13u1+b3                                      deb                           
+gpgconf                                                       2.4.7-21+deb13u1+b3                                      deb                           
+gpgsm                                                         2.4.7-21+deb13u1+b3                                      deb                           
+grep                                                          3.11-4                                                   deb                           
+grpcio                                                        1.81.0                                                   python                        
+gzip                                                          1.13-1                                                   deb                           
+h11                                                           0.16.0                                                   python                        
+h2                                                            0.4.14                                                   rust-crate  (+1 duplicate)    
+hashbrown                                                     0.14.5                                                   rust-crate  (+1 duplicate)    
+hashbrown                                                     0.15.5                                                   rust-crate  (+1 duplicate)    
+hashbrown                                                     0.17.1                                                   rust-crate  (+1 duplicate)    
+hex                                                           0.4.3                                                    rust-crate  (+1 duplicate)    
+hkdf                                                          0.12.4                                                   rust-crate  (+1 duplicate)    
+hmac                                                          0.12.1                                                   rust-crate  (+1 duplicate)    
+homedir                                                       0.3.6                                                    rust-crate  (+1 duplicate)    
+hostname                                                      3.25                                                     deb                           
+html-escape                                                   0.2.13                                                   rust-crate  (+1 duplicate)    
+http                                                          1.4.0                                                    rust-crate  (+1 duplicate)    
+http-body                                                     1.0.1                                                    rust-crate  (+1 duplicate)    
+http-body-util                                                0.1.3                                                    rust-crate  (+1 duplicate)    
+http-content-range                                            0.2.4                                                    rust-crate  (+1 duplicate)    
+httparse                                                      1.10.1                                                   rust-crate  (+1 duplicate)    
+httpcore                                                      1.0.9                                                    python                        
+httpdate                                                      1.0.3                                                    rust-crate  (+1 duplicate)    
+httpx                                                         0.28.1                                                   python                        
+hyper                                                         1.9.0                                                    rust-crate  (+1 duplicate)    
+hyper-rustls                                                  0.27.7                                                   rust-crate  (+1 duplicate)    
+hyper-util                                                    0.1.20                                                   rust-crate  (+1 duplicate)    
+icu_collections                                               2.1.1                                                    rust-crate  (+1 duplicate)    
+icu_locale_core                                               2.1.1                                                    rust-crate  (+1 duplicate)    
+icu_normalizer                                                2.1.1                                                    rust-crate  (+1 duplicate)    
+icu_normalizer_data                                           2.1.1                                                    rust-crate  (+1 duplicate)    
+icu_properties                                                2.1.2                                                    rust-crate  (+1 duplicate)    
+icu_properties_data                                           2.1.2                                                    rust-crate  (+1 duplicate)    
+icu_provider                                                  2.1.1                                                    rust-crate  (+1 duplicate)    
+idna                                                          1.1.0                                                    rust-crate  (+1 duplicate)    
+idna                                                          3.18                                                     python                        
+idna_adapter                                                  1.2.1                                                    rust-crate  (+1 duplicate)    
+ignore                                                        0.4.25                                                   rust-crate  (+1 duplicate)    
+image                                                         0.25.10                                                  rust-crate  (+1 duplicate)    
+indexmap                                                      2.14.0                                                   rust-crate  (+1 duplicate)    
+indicatif                                                     0.18.4                                                   rust-crate  (+1 duplicate)    
+indoc                                                         2.0.7                                                    rust-crate  (+1 duplicate)    
+init-system-helpers                                           1.69~deb13u1                                             deb                           
+inout                                                         0.1.4                                                    rust-crate  (+1 duplicate)    
+insta                                                         1.47.2                                                   rust-crate  (+1 duplicate)    
+ipnet                                                         2.12.0                                                   rust-crate  (+1 duplicate)    
+iri-string                                                    0.7.10                                                   rust-crate  (+1 duplicate)    
+is-docker                                                     0.2.0                                                    rust-crate  (+1 duplicate)    
+is-wsl                                                        0.4.0                                                    rust-crate  (+1 duplicate)    
+is_ci                                                         1.2.0                                                    rust-crate  (+1 duplicate)    
+is_terminal_polyfill                                          1.70.2                                                   rust-crate  (+1 duplicate)    
+itertools                                                     0.14.0                                                   rust-crate  (+1 duplicate)    
+itoa                                                          1.0.17                                                   rust-crate  (+1 duplicate)    
+jiff                                                          0.2.24                                                   rust-crate  (+1 duplicate)    
+jobserver                                                     0.1.34                                                   rust-crate  (+1 duplicate)    
+jsonwebtoken                                                  10.3.0                                                   rust-crate  (+1 duplicate)    
+lazy_static                                                   1.5.0                                                    rust-crate  (+1 duplicate)    
+libacl1                                                       2.3.2-2+b1                                               deb                           
+libapr1t64                                                    1.7.5-1                                                  deb                           
+libaprutil1t64                                                1.6.3-3+b1                                               deb                           
+libapt-pkg7.0                                                 3.0.3                                                    deb                           
+libasan8                                                      14.2.0-19                                                deb                           
+libassuan9                                                    3.0.2-2                                                  deb                           
+libatomic1                                                    14.2.0-19                                                deb                           
+libattr1                                                      1:2.5.2-3                                                deb                           
+libaudit-common                                               1:4.0.2-2                                                deb                           
+libaudit1                                                     1:4.0.2-2+b2                                             deb                           
+libbinutils                                                   2.44-3                                                   deb                           
+libblkid1                                                     2.41-5                                                   deb                           
+libbrotli1                                                    1.1.0-2+b7                                               deb                           
+libbsd0                                                       0.12.2-2                                                 deb                           
+libbz2-1.0                                                    1.0.8-6                                                  deb                           
+libc                                                          0.2.183                                                  rust-crate  (+1 duplicate)    
+libc-bin                                                      2.41-12+deb13u3                                          deb                           
+libc-dev-bin                                                  2.41-12+deb13u3                                          deb                           
+libc6                                                         2.41-12+deb13u3                                          deb                           
+libc6-dev                                                     2.41-12+deb13u3                                          deb                           
+libcap-ng0                                                    0.8.5-4+b1                                               deb                           
+libcap2                                                       1:2.75-10+deb13u1+b1                                     deb                           
+libcbor0.10                                                   0.10.2-2                                                 deb                           
+libcc1-0                                                      14.2.0-19                                                deb                           
+libcom-err2                                                   1.47.2-3+b11                                             deb                           
+libcrypt-dev                                                  1:4.4.38-1                                               deb                           
+libcrypt1                                                     1:4.4.38-1                                               deb                           
+libctf-nobfd0                                                 2.44-3                                                   deb                           
+libctf0                                                       2.44-3                                                   deb                           
+libcurl3t64-gnutls                                            8.14.1-2+deb13u3                                         deb                           
+libcurl4t64                                                   8.14.1-2+deb13u3                                         deb                           
+libdb5.3t64                                                   5.3.28+dfsg2-9                                           deb                           
+libdebconfclient0                                             0.280                                                    deb                           
+libedit2                                                      3.1-20250104-1                                           deb                           
+liberror-perl                                                 0.17030-1                                                deb                           
+libexpat1                                                     2.7.1-2                                                  deb                           
+libffi8                                                       3.4.8-2                                                  deb                           
+libfido2-1                                                    1.15.0-1+b1                                              deb                           
+libfuzzy-dev                                                  2.14.1+git20180629.57fcfff-3+b2                          deb                           
+libfuzzy2                                                     2.14.1+git20180629.57fcfff-3+b2                          deb                           
+libgcc-14-dev                                                 14.2.0-19                                                deb                           
+libgcc-s1                                                     14.2.0-19                                                deb                           
+libgcrypt20                                                   1.11.0-7+deb13u1                                         deb                           
+libgdbm-compat4t64                                            1.24-2                                                   deb                           
+libgdbm6t64                                                   1.24-2                                                   deb                           
+libgmp10                                                      2:6.3.0+dfsg-3                                           deb                           
+libgnutls30t64                                                3.8.9-3+deb13u4                                          deb                           
+libgomp1                                                      14.2.0-19                                                deb                           
+libgpg-error0                                                 1.51-4                                                   deb                           
+libgprofng0                                                   2.44-3                                                   deb                           
+libgssapi-krb5-2                                              1.21.3-5+deb13u1                                         deb                           
+libhogweed6t64                                                3.10.1-1                                                 deb                           
+libhwasan0                                                    14.2.0-19                                                deb                           
+libidn2-0                                                     2.3.8-2                                                  deb                           
+libisl23                                                      0.27-1                                                   deb                           
+libitm1                                                       14.2.0-19                                                deb                           
+libjansson4                                                   2.14-2+b3                                                deb                           
+libk5crypto3                                                  1.21.3-5+deb13u1                                         deb                           
+libkeyutils1                                                  1.6.3-6                                                  deb                           
+libkrb5-3                                                     1.21.3-5+deb13u1                                         deb                           
+libkrb5support0                                               1.21.3-5+deb13u1                                         deb                           
+libksba8                                                      1.6.7-2+b1                                               deb                           
+liblastlog2-2                                                 2.41-5                                                   deb                           
+libldap2                                                      2.6.10+dfsg-1                                            deb                           
+liblsan0                                                      14.2.0-19                                                deb                           
+liblz4-1                                                      1.10.0-4                                                 deb                           
+liblzma5                                                      5.8.1-1                                                  deb                           
+libm                                                          0.2.16                                                   rust-crate  (+1 duplicate)    
+libmagic-mgc                                                  1:5.46-5                                                 deb                           
+libmagic1t64                                                  1:5.46-5                                                 deb                           
+libmd0                                                        1.1.0-2+b1                                               deb                           
+libmount1                                                     2.41-5                                                   deb                           
+libmpc3                                                       1.3.1-1+b3                                               deb                           
+libmpfr6                                                      4.2.2-1                                                  deb                           
+libncursesw6                                                  6.5+20250216-2                                           deb                           
+libnettle8t64                                                 3.10.1-1                                                 deb                           
+libnghttp2-14                                                 1.64.0-1.1+deb13u1                                       deb                           
+libnghttp3-9                                                  1.8.0-1                                                  deb                           
+libngtcp2-16                                                  1.11.0-1+deb13u1                                         deb                           
+libngtcp2-crypto-gnutls8                                      1.11.0-1+deb13u1                                         deb                           
+libnpth0t64                                                   1.8-3                                                    deb                           
+libp11-kit0                                                   0.25.5-3                                                 deb                           
+libpam-modules                                                1.7.0-5                                                  deb                           
+libpam-modules-bin                                            1.7.0-5                                                  deb                           
+libpam-runtime                                                1.7.0-5                                                  deb                           
+libpam0g                                                      1.7.0-5                                                  deb                           
+libpcre2-8-0                                                  10.46-1~deb13u1                                          deb                           
+libperl5.40                                                   5.40.1-6                                                 deb                           
+libpkgconf3                                                   1.8.1-4                                                  deb                           
+libproc2-0                                                    2:4.0.4-9                                                deb                           
+libpsl5t64                                                    0.21.2-1.1+b1                                            deb                           
+libpython3-stdlib                                             3.13.5-1                                                 deb                           
+libpython3.13-minimal                                         3.13.5-2+deb13u2                                         deb                           
+libpython3.13-stdlib                                          3.13.5-2+deb13u2                                         deb                           
+libquadmath0                                                  14.2.0-19                                                deb                           
+libreadline8t64                                               8.2-6                                                    deb                           
+librtmp1                                                      2.4+20151223.gitfa8646d.1-2+b5                           deb                           
+libsasl2-2                                                    2.1.28+dfsg1-9                                           deb                           
+libsasl2-modules-db                                           2.1.28+dfsg1-9                                           deb                           
+libseccomp2                                                   2.6.0-2                                                  deb                           
+libselinux1                                                   3.8.1-1                                                  deb                           
+libsemanage-common                                            3.8.1-1                                                  deb                           
+libsemanage2                                                  3.8.1-1                                                  deb                           
+libsepol2                                                     3.8.1-1                                                  deb                           
+libserf-1-1                                                   1.3.10-3+b1                                              deb                           
+libsframe1                                                    2.44-3                                                   deb                           
+libsigsegv2                                                   2.14-1+b2                                                deb                           
+libsmartcols1                                                 2.41-5                                                   deb                           
+libsqlite3-0                                                  3.46.1-7+deb13u1                                         deb                           
+libssh2-1t64                                                  1.11.1-1                                                 deb                           
+libssl3t64                                                    3.5.6-1~deb13u2                                          deb                           
+libstdc++-14-dev                                              14.2.0-19                                                deb                           
+libstdc++6                                                    14.2.0-19                                                deb                           
+libsvn1                                                       1.14.5-3                                                 deb                           
+libsystemd0                                                   257.13-1~deb13u1                                         deb                           
+libtasn1-6                                                    4.20.0-2                                                 deb                           
+libtext-charwidth-perl                                        0.04-11+b4                                               deb                           
+libtext-wrapi18n-perl                                         0.06-10                                                  deb                           
+libtinfo6                                                     6.5+20250216-2                                           deb                           
+libtool                                                       2.5.4-4                                                  deb                           
+libtsan2                                                      14.2.0-19                                                deb                           
+libubsan1                                                     14.2.0-19                                                deb                           
+libudev1                                                      257.13-1~deb13u1                                         deb                           
+libunistring5                                                 1.3-2                                                    deb                           
+libutf8proc3                                                  2.9.0-1+b2                                               deb                           
+libuuid1                                                      2.41-5                                                   deb                           
+libxxhash0                                                    0.8.3-2                                                  deb                           
+libzstd1                                                      1.5.7+dfsg-1                                             deb                           
+linux-libc-dev                                                6.12.90-2                                                deb                           
+linux-raw-sys                                                 0.12.1                                                   rust-crate  (+1 duplicate)    
+litemap                                                       0.8.1                                                    rust-crate  (+1 duplicate)    
+lock_api                                                      0.4.14                                                   rust-crate  (+1 duplicate)    
+log                                                           0.4.29                                                   rust-crate  (+1 duplicate)    
+login                                                         1:4.16.0-2+really2.41-5                                  deb                           
+login.defs                                                    1:4.17.4-2                                               deb                           
+lru-slab                                                      0.1.2                                                    rust-crate  (+1 duplicate)    
+lzma-sys                                                      0.1.20                                                   rust-crate  (+1 duplicate)    
+m4                                                            1.4.19-8                                                 deb                           
+mailparse                                                     0.16.1                                                   rust-crate  (+1 duplicate)    
+make                                                          4.4.1-2                                                  deb                           
+matchers                                                      0.2.0                                                    rust-crate  (+1 duplicate)    
+mawk                                                          1.3.4.20250131-1                                         deb                           
+md-5                                                          0.10.6                                                   rust-crate  (+1 duplicate)    
+media-types                                                   13.0.0                                                   deb                           
+memchr                                                        2.8.0                                                    rust-crate  (+1 duplicate)    
+memmap2                                                       0.9.10                                                   rust-crate  (+1 duplicate)    
+mercurial                                                     7.0.1                                                    python                        
+mercurial                                                     7.0.1-2                                                  deb                           
+mercurial-common                                              7.0.1-2                                                  deb                           
+miette                                                        7.6.0                                                    rust-crate  (+1 duplicate)    
+mime                                                          0.3.17                                                   rust-crate  (+1 duplicate)    
+mime_guess                                                    2.0.5                                                    rust-crate  (+1 duplicate)    
+minimal-lexical                                               0.2.1                                                    rust-crate  (+1 duplicate)    
+miniz_oxide                                                   0.8.9                                                    rust-crate  (+1 duplicate)    
+mio                                                           1.2.0                                                    rust-crate  (+1 duplicate)    
+mount                                                         2.41-5                                                   deb                           
+moxcms                                                        0.8.1                                                    rust-crate  (+1 duplicate)    
+multipart                                                     1.3.1                                                    python                        
+munge                                                         0.4.7                                                    rust-crate  (+1 duplicate)    
+ncurses-base                                                  6.5+20250216-2                                           deb                           
+ncurses-bin                                                   6.5+20250216-2                                           deb                           
+netbase                                                       6.5                                                      deb                           
+nix                                                           0.30.1                                                   rust-crate  (+1 duplicate)    
+nix                                                           0.31.2                                                   rust-crate  (+1 duplicate)    
+nom                                                           7.1.3                                                    rust-crate  (+1 duplicate)    
+normalize-line-endings                                        0.3.0                                                    rust-crate  (+1 duplicate)    
+nu-ansi-term                                                  0.50.3                                                   rust-crate  (+1 duplicate)    
+num                                                           0.4.3                                                    rust-crate  (+1 duplicate)    
+num-bigint                                                    0.4.6                                                    rust-crate  (+1 duplicate)    
+num-bigint-dig                                                0.8.6                                                    rust-crate  (+1 duplicate)    
+num-complex                                                   0.4.6                                                    rust-crate  (+1 duplicate)    
+num-conv                                                      0.2.0                                                    rust-crate  (+1 duplicate)    
+num-integer                                                   0.1.46                                                   rust-crate  (+1 duplicate)    
+num-iter                                                      0.1.45                                                   rust-crate  (+1 duplicate)    
+num-rational                                                  0.4.2                                                    rust-crate  (+1 duplicate)    
+num-traits                                                    0.2.19                                                   rust-crate  (+1 duplicate)    
+num_cpus                                                      1.17.0                                                   rust-crate  (+1 duplicate)    
+oid-registry                                                  0.8.1                                                    rust-crate  (+1 duplicate)    
+once_cell                                                     1.21.4                                                   rust-crate  (+1 duplicate)    
+open                                                          5.3.5                                                    rust-crate  (+1 duplicate)    
+opensearch-protobufs                                          1.2.0                                                    python                        
+opensearch-py                                                 3.2.0                                                    python                        
+openssh-client                                                1:10.0p1-7+deb13u4                                       deb                           
+openssl                                                       3.5.6-1~deb13u2                                          deb                           
+openssl-probe                                                 0.2.1                                                    rust-crate  (+1 duplicate)    
+openssl-provider-legacy                                       3.5.6-1~deb13u2                                          deb                           
+option-ext                                                    0.2.0                                                    rust-crate  (+1 duplicate)    
+ordered-float                                                 5.3.0                                                    rust-crate  (+1 duplicate)    
+ordered-multimap                                              0.7.3                                                    rust-crate  (+1 duplicate)    
+ordered-stream                                                0.2.0                                                    rust-crate  (+1 duplicate)    
+os_str_bytes                                                  6.6.1                                                    rust-crate  (+1 duplicate)    
+owo-colors                                                    4.3.0                                                    rust-crate  (+1 duplicate)    
+packaging                                                     25.0                                                     python                        
+parking                                                       2.2.1                                                    rust-crate  (+1 duplicate)    
+parking_lot                                                   0.12.5                                                   rust-crate  (+1 duplicate)    
+parking_lot_core                                              0.9.12                                                   rust-crate  (+1 duplicate)    
+passwd                                                        1:4.17.4-2                                               deb                           
+path-slash                                                    0.2.1                                                    rust-crate  (+1 duplicate)    
+pathdiff                                                      0.2.3                                                    rust-crate  (+1 duplicate)    
+pbkdf2                                                        0.12.2                                                   rust-crate  (+1 duplicate)    
+pem                                                           3.0.6                                                    rust-crate  (+1 duplicate)    
+pem-rfc7468                                                   0.7.0                                                    rust-crate  (+1 duplicate)    
+pendulum                                                      3.2.0                                                    python                        
+percent-encoding                                              2.3.2                                                    rust-crate  (+1 duplicate)    
+perl                                                          5.40.1-6                                                 deb                           
+perl-base                                                     5.40.1-6                                                 deb                           
+perl-modules-5.40                                             5.40.1-6                                                 deb                           
+pest                                                          2.8.6                                                    rust-crate  (+1 duplicate)    
+pest_derive                                                   2.8.6                                                    rust-crate  (+1 duplicate)    
+pest_generator                                                2.8.6                                                    rust-crate  (+1 duplicate)    
+pest_meta                                                     2.8.6                                                    rust-crate  (+1 duplicate)    
+petgraph                                                      0.8.3                                                    rust-crate  (+1 duplicate)    
+pin-project                                                   1.1.11                                                   rust-crate  (+1 duplicate)    
+pin-project-lite                                              0.2.17                                                   rust-crate  (+1 duplicate)    
+pinentry-curses                                               1.3.1-2                                                  deb                           
+pip                                                           25.1.1                                                   python                        
+pkcs1                                                         0.7.5                                                    rust-crate  (+1 duplicate)    
+pkcs5                                                         0.7.1                                                    rust-crate  (+1 duplicate)    
+pkcs8                                                         0.10.2                                                   rust-crate  (+1 duplicate)    
+pkg-config                                                    1.8.1-4                                                  deb                           
+pkgconf                                                       1.8.1-4                                                  deb                           
+pkgconf-bin                                                   1.8.1-4                                                  deb                           
+plain                                                         0.2.3                                                    rust-crate  (+1 duplicate)    
+portable-atomic                                               1.13.1                                                   rust-crate  (+1 duplicate)    
+potential_utf                                                 0.1.4                                                    rust-crate  (+1 duplicate)    
+powerfmt                                                      0.2.0                                                    rust-crate  (+1 duplicate)    
+ppv-lite86                                                    0.2.21                                                   rust-crate  (+1 duplicate)    
+predicates                                                    3.1.4                                                    rust-crate  (+1 duplicate)    
+predicates-core                                               1.0.10                                                   rust-crate  (+1 duplicate)    
+predicates-tree                                               1.0.13                                                   rust-crate  (+1 duplicate)    
+priority-queue                                                2.7.0                                                    rust-crate  (+1 duplicate)    
+proc-macro-crate                                              3.5.0                                                    rust-crate  (+1 duplicate)    
+proc-macro2                                                   1.0.106                                                  rust-crate  (+1 duplicate)    
+procfs                                                        0.18.0                                                   rust-crate  (+1 duplicate)    
+procfs-core                                                   0.18.0                                                   rust-crate  (+1 duplicate)    
+procps                                                        2:4.0.4-9                                                deb                           
+protobuf                                                      7.35.0                                                   python                        
+ptr_meta                                                      0.3.1                                                    rust-crate  (+1 duplicate)    
+purl                                                          0.1.6                                                    rust-crate  (+1 duplicate)    
+pxfm                                                          0.1.28                                                   rust-crate  (+1 duplicate)    
+pydantic                                                      2.13.4                                                   python                        
+pydantic-core                                                 2.46.4                                                   python                        
+pydantic-settings                                             2.14.1                                                   python                        
+python-dateutil                                               2.9.0.post0                                              python                        
+python-dotenv                                                 1.2.2                                                    python                        
+python-magic                                                  0.4.27                                                   python                        
+python3                                                       3.13.5-1                                                 deb                           
+python3-minimal                                               3.13.5-1                                                 deb                           
+python3-packaging                                             25.0-1                                                   deb                           
+python3-pip                                                   25.1.1+dfsg-1                                            deb                           
+python3-wheel                                                 0.46.1-2                                                 deb                           
+python3.13                                                    3.13.5-2+deb13u2                                         deb                           
+python3.13-minimal                                            3.13.5-2+deb13u2                                         deb                           
+pyyaml                                                        6.0.3                                                    python                        
+quick-xml                                                     0.39.2                                                   rust-crate  (+1 duplicate)    
+quinn                                                         0.11.9                                                   rust-crate  (+1 duplicate)    
+quinn-proto                                                   0.11.14                                                  rust-crate  (+1 duplicate)    
+quinn-udp                                                     0.5.14                                                   rust-crate  (+1 duplicate)    
+quote                                                         1.0.45                                                   rust-crate  (+1 duplicate)    
+quoted_printable                                              0.5.1                                                    rust-crate  (+1 duplicate)    
+rancor                                                        0.1.1                                                    rust-crate  (+1 duplicate)    
+rand                                                          0.8.6                                                    rust-crate  (+1 duplicate)    
+rand                                                          0.9.4                                                    rust-crate  (+1 duplicate)    
+rand_chacha                                                   0.3.1                                                    rust-crate  (+1 duplicate)    
+rand_chacha                                                   0.9.0                                                    rust-crate  (+1 duplicate)    
+rand_core                                                     0.6.4                                                    rust-crate  (+1 duplicate)    
+rand_core                                                     0.9.5                                                    rust-crate  (+1 duplicate)    
+rayon                                                         1.12.0                                                   rust-crate  (+1 duplicate)    
+rayon-core                                                    1.13.0                                                   rust-crate  (+1 duplicate)    
+readline-common                                               8.2-6                                                    deb                           
+ref-cast                                                      1.0.25                                                   rust-crate  (+1 duplicate)    
+reflink-copy                                                  0.1.29                                                   rust-crate  (+1 duplicate)    
+regex                                                         1.12.3                                                   rust-crate  (+1 duplicate)    
+regex-automata                                                0.4.14                                                   rust-crate  (+1 duplicate)    
+regex-syntax                                                  0.8.10                                                   rust-crate  (+1 duplicate)    
+rend                                                          0.5.3                                                    rust-crate  (+1 duplicate)    
+reqsign                                                       0.20.0                                                   rust-crate  (+1 duplicate)    
+reqsign-aws-v4                                                3.0.0                                                    rust-crate  (+1 duplicate)    
+reqsign-azure-storage                                         3.0.0                                                    rust-crate  (+1 duplicate)    
+reqsign-command-execute-tokio                                 3.0.0                                                    rust-crate  (+1 duplicate)    
+reqsign-core                                                  3.0.0                                                    rust-crate  (+1 duplicate)    
+reqsign-file-read-tokio                                       3.0.0                                                    rust-crate  (+1 duplicate)    
+reqsign-google                                                3.0.0                                                    rust-crate  (+1 duplicate)    
+reqsign-http-send-reqwest                                     4.0.0                                                    rust-crate  (+1 duplicate)    
+requests                                                      2.34.2                                                   python                        
+reqwest                                                       0.13.3                                                   rust-crate  (+1 duplicate)    
+retry-policies                                                0.5.1                                                    rust-crate  (+1 duplicate)    
+ring                                                          0.17.14                                                  rust-crate  (+1 duplicate)    
+rkyv                                                          0.8.16                                                   rust-crate  (+1 duplicate)    
+rmp                                                           0.8.15                                                   rust-crate  (+1 duplicate)    
+rmp-serde                                                     1.3.1                                                    rust-crate  (+1 duplicate)    
+rpcsvc-proto                                                  1.4.3-1                                                  deb                           
+rsa                                                           0.9.10                                                   rust-crate  (+1 duplicate)    
+rust-ini                                                      0.21.3                                                   rust-crate  (+1 duplicate)    
+rustc-hash                                                    2.1.2                                                    rust-crate  (+1 duplicate)    
+rusticata-macros                                              4.1.0                                                    rust-crate  (+1 duplicate)    
+rustix                                                        1.1.4                                                    rust-crate  (+1 duplicate)    
+rustls                                                        0.23.40                                                  rust-crate  (+1 duplicate)    
+rustls-native-certs                                           0.8.3                                                    rust-crate  (+1 duplicate)    
+rustls-pki-types                                              1.14.1                                                   rust-crate  (+1 duplicate)    
+rustls-platform-verifier                                      0.7.0                                                    rust-crate  (+1 duplicate)    
+rustls-webpki                                                 0.103.13                                                 rust-crate  (+1 duplicate)    
+ryu                                                           1.0.23                                                   rust-crate  (+1 duplicate)    
+salsa20                                                       0.10.2                                                   rust-crate  (+1 duplicate)    
+same-file                                                     1.0.6                                                    rust-crate  (+1 duplicate)    
+schemars                                                      1.2.1                                                    rust-crate  (+1 duplicate)    
+scopeguard                                                    1.2.0                                                    rust-crate  (+1 duplicate)    
+scroll                                                        0.13.0                                                   rust-crate  (+1 duplicate)    
+scrypt                                                        0.11.0                                                   rust-crate  (+1 duplicate)    
+seahash                                                       4.1.0                                                    rust-crate  (+1 duplicate)    
+secrecy                                                       0.10.3                                                   rust-crate  (+1 duplicate)    
+secret-service                                                5.1.0                                                    rust-crate  (+1 duplicate)    
+sed                                                           4.9-2+deb13u1                                            deb                           
+semver                                                        1.0.27                                                   rust-crate  (+1 duplicate)    
+sensible-utils                                                0.0.25                                                   deb                           
+serde                                                         1.0.228                                                  rust-crate  (+1 duplicate)    
+serde-untagged                                                0.1.9                                                    rust-crate  (+1 duplicate)    
+serde_core                                                    1.0.228                                                  rust-crate  (+1 duplicate)    
+serde_json                                                    1.0.149                                                  rust-crate  (+1 duplicate)    
+serde_repr                                                    0.1.20                                                   rust-crate  (+1 duplicate)    
+serde_spanned                                                 1.1.1                                                    rust-crate  (+1 duplicate)    
+serde_urlencoded                                              0.7.1                                                    rust-crate  (+1 duplicate)    
+sha1                                                          0.10.6                                                   rust-crate  (+1 duplicate)    
+sha2                                                          0.10.9                                                   rust-crate  (+1 duplicate)    
+sharded-slab                                                  0.1.7                                                    rust-crate  (+1 duplicate)    
+shell-escape                                                  0.1.5                                                    rust-crate  (+1 duplicate)    
+shellexpand                                                   3.1.2                                                    rust-crate  (+1 duplicate)    
+signal-hook-registry                                          1.4.8                                                    rust-crate  (+1 duplicate)    
+signature                                                     2.2.0                                                    rust-crate  (+1 duplicate)    
+simd-adler32                                                  0.3.8                                                    rust-crate  (+1 duplicate)    
+simdutf8                                                      0.1.5                                                    rust-crate  (+1 duplicate)    
+similar                                                       2.7.0                                                    rust-crate  (+1 duplicate)    
+similar                                                       3.1.0                                                    rust-crate  (+1 duplicate)    
+simple_asn1                                                   0.6.4                                                    rust-crate  (+1 duplicate)    
+six                                                           1.17.0                                                   python                        
+slab                                                          0.4.12                                                   rust-crate  (+1 duplicate)    
+smallvec                                                      1.15.1                                                   rust-crate  (+1 duplicate)    
+smawk                                                         0.3.2                                                    rust-crate  (+1 duplicate)    
+socket2                                                       0.6.3                                                    rust-crate  (+1 duplicate)    
+spdx                                                          0.13.4                                                   rust-crate  (+1 duplicate)    
+spin                                                          0.9.8                                                    rust-crate  (+1 duplicate)    
+spki                                                          0.7.3                                                    rust-crate  (+1 duplicate)    
+sq                                                            1.3.1-2+b2                                               deb                           
+sqv                                                           1.3.0-3+b2                                               deb                           
+stable_deref_trait                                            1.2.1                                                    rust-crate  (+1 duplicate)    
+starlette                                                     1.2.1                                                    python                        
+stdlib                                                        go1.26.4                                                 go-module   (+10 duplicates)  
+strsim                                                        0.11.1                                                   rust-crate  (+1 duplicate)    
+strum                                                         0.28.0                                                   rust-crate  (+1 duplicate)    
+subtle                                                        2.6.1                                                    rust-crate  (+1 duplicate)    
+subversion                                                    1.14.5-3                                                 deb                           
+supports-color                                                3.0.2                                                    rust-crate  (+1 duplicate)    
+supports-hyperlinks                                           3.2.0                                                    rust-crate  (+1 duplicate)    
+supports-unicode                                              3.0.0                                                    rust-crate  (+1 duplicate)    
+syn                                                           2.0.117                                                  rust-crate  (+1 duplicate)    
+sync_wrapper                                                  1.0.2                                                    rust-crate  (+1 duplicate)    
+synstructure                                                  0.13.2                                                   rust-crate  (+1 duplicate)    
+sysvinit-utils                                                3.14-4                                                   deb                           
+tar                                                           1.35+dfsg-3.1                                            deb                           
+target-lexicon                                                0.13.5                                                   rust-crate  (+1 duplicate)    
+temp-env                                                      0.3.6                                                    rust-crate  (+1 duplicate)    
+tempfile                                                      3.27.0                                                   rust-crate  (+1 duplicate)    
+terminal_size                                                 0.4.3                                                    rust-crate  (+1 duplicate)    
+termtree                                                      0.5.1                                                    rust-crate  (+1 duplicate)    
+textwrap                                                      0.16.2                                                   rust-crate  (+1 duplicate)    
+thiserror                                                     2.0.18                                                   rust-crate  (+1 duplicate)    
+thread_local                                                  1.1.9                                                    rust-crate  (+1 duplicate)    
+tikv-jemalloc-sys                                             0.6.1+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7  rust-crate  (+1 duplicate)    
+tikv-jemallocator                                             0.6.1                                                    rust-crate  (+1 duplicate)    
+time                                                          0.3.47                                                   rust-crate  (+1 duplicate)    
+time-core                                                     0.1.8                                                    rust-crate  (+1 duplicate)    
+tinystr                                                       0.8.2                                                    rust-crate  (+1 duplicate)    
+tinyvec                                                       1.11.0                                                   rust-crate  (+1 duplicate)    
+tinyvec_macros                                                0.1.1                                                    rust-crate  (+1 duplicate)    
+tokio                                                         1.52.3                                                   rust-crate  (+1 duplicate)    
+tokio-rustls                                                  0.26.4                                                   rust-crate  (+1 duplicate)    
+tokio-stream                                                  0.1.18                                                   rust-crate  (+1 duplicate)    
+tokio-util                                                    0.7.18                                                   rust-crate  (+1 duplicate)    
+toml                                                          1.1.2+spec-1.1.0                                         rust-crate  (+1 duplicate)    
+toml_datetime                                                 1.1.1+spec-1.1.0                                         rust-crate  (+1 duplicate)    
+toml_edit                                                     0.25.11+spec-1.1.0                                       rust-crate  (+1 duplicate)    
+toml_parser                                                   1.1.2+spec-1.1.0                                         rust-crate  (+1 duplicate)    
+toml_writer                                                   1.1.1+spec-1.1.0                                         rust-crate  (+1 duplicate)    
+tower                                                         0.5.3                                                    rust-crate  (+1 duplicate)    
+tower-http                                                    0.6.8                                                    rust-crate  (+1 duplicate)    
+tower-layer                                                   0.3.3                                                    rust-crate  (+1 duplicate)    
+tower-service                                                 0.3.3                                                    rust-crate  (+1 duplicate)    
+tracing                                                       0.1.44                                                   rust-crate  (+1 duplicate)    
+tracing-attributes                                            0.1.31                                                   rust-crate  (+1 duplicate)    
+tracing-core                                                  0.1.36                                                   rust-crate  (+1 duplicate)    
+tracing-log                                                   0.2.0                                                    rust-crate  (+1 duplicate)    
+tracing-subscriber                                            0.3.23                                                   rust-crate  (+1 duplicate)    
+tracing-tree                                                  0.4.1                                                    rust-crate  (+1 duplicate)    
+try-lock                                                      0.2.5                                                    rust-crate  (+1 duplicate)    
+typeid                                                        1.0.3                                                    rust-crate  (+1 duplicate)    
+typenum                                                       1.19.0                                                   rust-crate  (+1 duplicate)    
+typing-extensions                                             4.15.0                                                   python                        
+typing-inspection                                             0.4.2                                                    python                        
+tzdata                                                        2026.2                                                   python                        
+tzdata                                                        2026b-0+deb13u1                                          deb                           
+ucd-trie                                                      0.1.7                                                    rust-crate  (+1 duplicate)    
+ucf                                                           3.0052                                                   deb                           
+unicase                                                       2.9.0                                                    rust-crate  (+1 duplicate)    
+unicode-ident                                                 1.0.24                                                   rust-crate  (+1 duplicate)    
+unicode-linebreak                                             0.1.5                                                    rust-crate  (+1 duplicate)    
+unicode-width                                                 0.1.14                                                   rust-crate  (+1 duplicate)    
+unicode-width                                                 0.2.2                                                    rust-crate  (+1 duplicate)    
+unit-prefix                                                   0.5.2                                                    rust-crate  (+1 duplicate)    
+unscanny                                                      0.1.0                                                    rust-crate  (+1 duplicate)    
+untrusted                                                     0.7.1                                                    rust-crate  (+1 duplicate)    
+untrusted                                                     0.9.0                                                    rust-crate  (+1 duplicate)    
+url                                                           2.5.8                                                    rust-crate  (+1 duplicate)    
+urllib3                                                       2.7.0                                                    python                        
+utf8-width                                                    0.1.8                                                    rust-crate  (+1 duplicate)    
+utf8_iter                                                     1.0.4                                                    rust-crate  (+1 duplicate)    
+utf8parse                                                     0.2.2                                                    rust-crate  (+1 duplicate)    
+util-linux                                                    2.41-5                                                   deb                           
+uuid                                                          1.23.1                                                   rust-crate  (+1 duplicate)    
+uv                                                            0.11.19                                                  python                        
+uv                                                            0.11.19                                                  rust-crate  (+1 duplicate)    
+uv-audit                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-auth                                                       0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-bin-install                                                0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-build-backend                                              0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-build-frontend                                             0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-cache                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-cache-info                                                 0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-cache-key                                                  0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-cli                                                        0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-client                                                     0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-configuration                                              0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-console                                                    0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-dirs                                                       0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-dispatch                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-distribution                                               0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-distribution-filename                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-distribution-types                                         0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-errors                                                     0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-extract                                                    0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-fastid                                                     0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-flags                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-fs                                                         0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-git                                                        0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-git-types                                                  0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-globfilter                                                 0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-install-wheel                                              0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-installer                                                  0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-keyring                                                    0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-logging                                                    0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-metadata                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-netrc                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-normalize                                                  0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-once-map                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-options-metadata                                           0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-pep440                                                     0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-pep508                                                     0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-performance-memory-allocator                               0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-platform                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-platform-tags                                              0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-preview                                                    0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-publish                                                    0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-pypi-types                                                 0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-python                                                     0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-redacted                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-requirements                                               0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-requirements-txt                                           0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-resolver                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-scripts                                                    0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-settings                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-shell                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-small-str                                                  0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-state                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-static                                                     0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-test                                                       0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-toml                                                       0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-tool                                                       0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-torch                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-trampoline-builder                                         0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-types                                                      0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-unix                                                       0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-version                                                    0.11.19                                                  rust-crate  (+1 duplicate)    
+uv-virtualenv                                                 0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-warnings                                                   0.0.52                                                   rust-crate  (+1 duplicate)    
+uv-workspace                                                  0.0.52                                                   rust-crate  (+1 duplicate)    
+wait-timeout                                                  0.2.1                                                    rust-crate  (+1 duplicate)    
+walkdir                                                       2.5.0                                                    rust-crate  (+1 duplicate)    
+want                                                          0.3.1                                                    rust-crate  (+1 duplicate)    
+webpki-root-certs                                             1.0.7                                                    rust-crate  (+1 duplicate)    
+wget                                                          1.25.0-2                                                 deb                           
+wheel                                                         0.46.1                                                   python                        
+which                                                         8.0.2                                                    rust-crate  (+1 duplicate)    
+winnow                                                        1.0.3                                                    rust-crate  (+1 duplicate)    
+wiremock                                                      0.6.5                                                    rust-crate  (+1 duplicate)    
+writeable                                                     0.6.2                                                    rust-crate  (+1 duplicate)    
+x509-parser                                                   0.18.1                                                   rust-crate  (+1 duplicate)    
+xattr                                                         1.6.1                                                    rust-crate  (+1 duplicate)    
+xml-rs                                                        0.8.28                                                   rust-crate  (+1 duplicate)    
+xz2                                                           0.1.7                                                    rust-crate  (+1 duplicate)    
+yara-x                                                        1.17.0                                                   python                        
+yoke                                                          0.8.1                                                    rust-crate  (+1 duplicate)    
+yoke-derive                                                   0.8.1                                                    rust-crate  (+1 duplicate)    
+zbus                                                          5.15.0                                                   rust-crate  (+1 duplicate)    
+zbus_macros                                                   5.15.0                                                   rust-crate  (+1 duplicate)    
+zbus_names                                                    4.3.2                                                    rust-crate  (+1 duplicate)    
+zerocopy                                                      0.8.42                                                   rust-crate  (+1 duplicate)    
+zerocopy-derive                                               0.8.42                                                   rust-crate  (+1 duplicate)    
+zerofrom                                                      0.1.6                                                    rust-crate  (+1 duplicate)    
+zerofrom-derive                                               0.1.6                                                    rust-crate  (+1 duplicate)    
+zeroize                                                       1.8.2                                                    rust-crate  (+1 duplicate)    
+zerotrie                                                      0.2.3                                                    rust-crate  (+1 duplicate)    
+zerovec                                                       0.11.5                                                   rust-crate  (+1 duplicate)    
+zerovec-derive                                                0.11.2                                                   rust-crate  (+1 duplicate)    
+zlib-rs                                                       0.6.3                                                    rust-crate  (+1 duplicate)    
+zlib1g                                                        1:1.3.dfsg+really1.3.1-1+b1                              deb                           
+zlib1g-dev                                                    1:1.3.dfsg+really1.3.1-1+b1                              deb                           
+zmij                                                          1.0.21                                                   rust-crate  (+1 duplicate)    
+zstd                                                          0.13.3                                                   rust-crate  (+1 duplicate)    
+zstd-safe                                                     7.2.4                                                    rust-crate  (+1 duplicate)    
+zstd-sys                                                      2.0.16+zstd.1.5.7                                        rust-crate  (+1 duplicate)    
+zvariant                                                      5.11.0                                                   rust-crate  (+1 duplicate)    
+zvariant_derive                                               5.11.0                                                   rust-crate  (+1 duplicate)    
+zvariant_utils                                                3.3.1                                                    rust-crate  (+1 duplicate)    

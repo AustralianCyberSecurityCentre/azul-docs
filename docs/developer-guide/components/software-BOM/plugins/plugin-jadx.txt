@@ -1,4 +1,5 @@
 NAME                             VERSION                                                  TYPE                            
+ST4                              4.0.8                                                    java-archive                    
 Simple Launcher                  1.1.0.14                                                 binary        (+11 duplicates)  
 adduser                          3.152                                                    deb                             
 adler2                           2.0.1                                                    rust-crate    (+1 duplicate)    
@@ -9,17 +10,20 @@ allocator-api2                   0.2.21                                         
 ambient-id                       0.0.11                                                   rust-crate    (+1 duplicate)    
 annotated-doc                    0.0.4                                                    python                          
 annotated-types                  0.7.0                                                    python                          
+annotations                      13.0                                                     java-archive                    
 anstream                         1.0.0                                                    rust-crate    (+1 duplicate)    
 anstyle                          1.0.14                                                   rust-crate    (+1 duplicate)    
 anstyle-parse                    1.0.0                                                    rust-crate    (+1 duplicate)    
 anstyle-query                    1.1.5                                                    rust-crate    (+1 duplicate)    
+antlr                            3.5.2                                                    java-archive                    
+antlr-runtime                    3.5.2                                                    java-archive                    
 anyhow                           1.0.102                                                  rust-crate    (+1 duplicate)    
 anyio                            4.13.0                                                   python                          
 apt                              3.0.3                                                    deb                             
 arcstr                           1.2.0                                                    rust-crate    (+1 duplicate)    
 asn1-rs                          0.7.1                                                    rust-crate    (+1 duplicate)    
 asn1-rs-impl                     0.2.0                                                    rust-crate    (+1 duplicate)    
-assert_cmd                       2.2.2                                                    rust-crate    (+1 duplicate)    
+assert_cmd                       2.2.1                                                    rust-crate    (+1 duplicate)    
 assert_fs                        1.1.3                                                    rust-crate    (+1 duplicate)    
 astral-pubgrub                   0.3.3                                                    rust-crate    (+1 duplicate)    
 astral-reqwest-middleware        0.5.1                                                    rust-crate    (+1 duplicate)    
@@ -28,7 +32,7 @@ astral-tl                        0.7.11                                         
 astral-tokio-tar                 0.6.2                                                    rust-crate    (+1 duplicate)    
 astral-version-ranges            0.1.4                                                    rust-crate    (+1 duplicate)    
 astral_async_http_range_reader   0.11.0                                                   rust-crate    (+1 duplicate)    
-astral_async_zip                 0.0.18                                                   rust-crate    (+1 duplicate)    
+astral_async_zip                 0.0.18-rc4                                               rust-crate    (+1 duplicate)    
 async-broadcast                  0.7.2                                                    rust-crate    (+1 duplicate)    
 async-channel                    2.5.0                                                    rust-crate    (+1 duplicate)    
 async-compression                0.4.19                                                   rust-crate    (+1 duplicate)    
@@ -44,7 +48,7 @@ axoprocess                       0.2.1                                          
 axotag                           0.3.0                                                    rust-crate    (+1 duplicate)    
 axoupdater                       0.10.0                                                   rust-crate    (+1 duplicate)    
 azul-bedrock                     11.0.121                                                 python                          
-azul-plugin-portex               11.0.144+gcfb2bdf5a.d20260603                            python                          
+azul-plugin-jadx                 11.0.22+g396079e8b.d20260604                             python                          
 azul-runner                      11.0.147                                                 python                          
 azure-core                       1.41.0                                                   python                          
 azure-storage-blob               12.29.0                                                  python                          
@@ -98,6 +102,12 @@ cli-arm64                        UNKNOWN                                        
 click                            8.4.1                                                    python                          
 colorama                         0.4.6                                                    python                          
 colorchoice                      1.0.5                                                    rust-crate    (+1 duplicate)    
+common-image                     3.12.0                                                   java-archive                    
+common-io                        3.12.0                                                   java-archive                    
+common-lang                      3.12.0                                                   java-archive                    
+commons-io                       2.21.0                                                   java-archive                    
+commons-lang3                    3.20.0                                                   java-archive                    
+commons-text                     1.15.0                                                   java-archive                    
 concurrent-queue                 2.5.0                                                    rust-crate    (+1 duplicate)    
 configparser                     3.1.0                                                    rust-crate    (+1 duplicate)    
 console                          0.16.3                                                   rust-crate    (+1 duplicate)    
@@ -115,10 +125,11 @@ cryptography                     48.0.0                                         
 csv                              1.4.0                                                    rust-crate    (+1 duplicate)    
 csv-core                         0.1.13                                                   rust-crate    (+1 duplicate)    
 ctrlc                            3.5.2                                                    rust-crate    (+1 duplicate)    
+curl                             8.14.1-2+deb13u3                                         deb                             
 cyclonedx-bom                    0.8.1                                                    rust-crate    (+1 duplicate)    
 cyclonedx-bom-macros             0.1.0                                                    rust-crate    (+1 duplicate)    
 dash                             0.5.12-12                                                deb                             
-dashmap                          6.2.1                                                    rust-crate    (+1 duplicate)    
+dashmap                          6.1.0                                                    rust-crate    (+1 duplicate)    
 data-encoding                    2.11.0                                                   rust-crate    (+1 duplicate)    
 dbus                             1.16.2-2                                                 deb                             
 dbus-bin                         1.16.2-2                                                 deb                             
@@ -131,6 +142,9 @@ dconf-service                    0.40.0-5                                       
 debconf                          1.5.91                                                   deb                             
 debian-archive-keyring           2025.1                                                   deb                             
 debianutils                      5.23.2                                                   deb                             
+default-jre                      2:1.21-76                                                deb                             
+default-jre-headless             2:1.21-76                                                deb                             
+defusedxml                       0.7.1                                                    python                          
 der                              0.7.10                                                   rust-crate    (+1 duplicate)    
 der-parser                       10.0.0                                                   rust-crate    (+1 duplicate)    
 deranged                         0.5.8                                                    rust-crate    (+1 duplicate)    
@@ -159,17 +173,19 @@ enumflags2                       0.7.12                                         
 equivalent                       1.0.2                                                    rust-crate    (+1 duplicate)    
 erased-serde                     0.4.10                                                   rust-crate    (+1 duplicate)    
 errno                            0.3.14                                                   rust-crate    (+1 duplicate)    
+error_prone_annotations          2.41.0                                                   java-archive                    
 etcetera                         0.11.0                                                   rust-crate    (+1 duplicate)    
 event-listener                   5.4.1                                                    rust-crate    (+1 duplicate)    
 event-listener-strategy          0.5.4                                                    rust-crate    (+1 duplicate)    
 events                           0.5                                                      python                          
+failureaccess                    1.0.3                                                    java-archive                    
 fastapi                          0.136.3                                                  python                          
 fastapi-cli                      0.0.24                                                   python                          
 fastapi-cloud-cli                0.18.0                                                   python                          
 fastar                           0.11.0                                                   python                          
 fastrand                         2.4.1                                                    rust-crate    (+1 duplicate)    
 filelock                         3.29.0                                                   python                          
-filetime                         0.2.29                                                   rust-crate    (+1 duplicate)    
+filetime                         0.2.28                                                   rust-crate    (+1 duplicate)    
 findutils                        4.10.0-3                                                 deb                             
 fixedbitset                      0.5.7                                                    rust-crate    (+1 duplicate)    
 flate2                           1.1.9                                                    rust-crate    (+1 duplicate)    
@@ -178,6 +194,7 @@ fluent-uri                       0.4.1                                          
 fnv                              1.0.7                                                    rust-crate    (+1 duplicate)    
 foldhash                         0.1.5                                                    rust-crate    (+1 duplicate)    
 foldhash                         0.2.0                                                    rust-crate    (+1 duplicate)    
+fontchooser                      3.1.0                                                    java-archive                    
 fontconfig                       2.15.0-2.3                                               deb                             
 fontconfig-config                2.15.0-2.3                                               deb                             
 fonts-dejavu-core                2.37-8                                                   deb                             
@@ -204,7 +221,9 @@ globwalk                         0.9.1                                          
 goblin                           0.10.5                                                   rust-crate    (+1 duplicate)    
 grep                             3.11-4                                                   deb                             
 grpcio                           1.80.0                                                   python                          
+gson                             2.13.2                                                   java-archive                    
 gtk-update-icon-cache            4.18.6+ds-2                                              deb                             
+guava                            33.5.0-jre                                               java-archive                    
 gui                              UNKNOWN                                                  binary                          
 gui-32                           UNKNOWN                                                  binary                          
 gui-64                           UNKNOWN                                                  binary                          
@@ -248,6 +267,10 @@ idna                             3.16                                           
 idna_adapter                     1.2.1                                                    rust-crate    (+1 duplicate)    
 ignore                           0.4.25                                                   rust-crate    (+1 duplicate)    
 image                            0.25.10                                                  rust-crate    (+1 duplicate)    
+image-viewer                     1.2.3                                                    java-archive                    
+imageio-core                     3.12.0                                                   java-archive                    
+imageio-metadata                 3.12.0                                                   java-archive                    
+imageio-webp                     3.12.0                                                   java-archive                    
 importlib-metadata               8.7.1                                                    python                          
 indexmap                         2.14.0                                                   rust-crate    (+1 duplicate)    
 indicatif                        0.18.4                                                   rust-crate    (+1 duplicate)    
@@ -266,6 +289,8 @@ isodate                          0.7.2                                          
 itertools                        0.14.0                                                   rust-crate    (+1 duplicate)    
 itoa                             1.0.17                                                   rust-crate    (+1 duplicate)    
 itsdangerous                     2.2.0                                                    python                          
+j2objc-annotations               3.1                                                      java-archive                    
+jadx                             1.5.5-all                                                java-archive                    
 jaraco-context                   6.1.0                                                    python                          
 jaraco-functools                 4.4.0                                                    python                          
 jaraco-text                      4.0.0                                                    python                          
@@ -275,6 +300,7 @@ jinja2                           3.1.6                                          
 jobserver                        0.1.34                                                   rust-crate    (+1 duplicate)    
 jrt-fs                           21.0.11                                                  java-archive                    
 jsonwebtoken                     10.3.0                                                   rust-crate    (+1 duplicate)    
+jsr305                           3.0.2                                                    java-archive                    
 lazy_static                      1.5.0                                                    rust-crate    (+1 duplicate)    
 libacl1                          2.3.2-2+b1                                               deb                             
 libapparmor1                     4.1.0-1                                                  deb                             
@@ -307,6 +333,7 @@ libcolord2                       1.4.7-3                                        
 libcom-err2                      1.47.2-3+b11                                             deb                             
 libcrypt1                        1:4.4.38-1                                               deb                             
 libcups2t64                      2.4.10-3+deb13u2                                         deb                             
+libcurl4t64                      8.14.1-2+deb13u3                                         deb                             
 libdatrie1                       0.2.13-3+b1                                              deb                             
 libdb5.3t64                      5.3.28+dfsg2-9                                           deb                             
 libdbus-1-3                      1.16.2-2                                                 deb                             
@@ -354,6 +381,7 @@ libkrb5-3                        1.21.3-5+deb13u1                               
 libkrb5support0                  1.21.3-5+deb13u1                                         deb                             
 liblastlog2-2                    2.41-5                                                   deb                             
 liblcms2-2                       2.16-2+deb13u2                                           deb                             
+libldap2                         2.6.10+dfsg-1                                            deb                             
 liblerc4                         4.0.0+ds-5                                               deb                             
 libllvm19                        1:19.1.7-3+b1                                            deb                             
 liblz4-1                         1.10.0-4                                                 deb                             
@@ -366,6 +394,8 @@ libmd0                           1.1.0-2+b1                                     
 libmount1                        2.41-5                                                   deb                             
 libncursesw6                     6.5+20250216-2                                           deb                             
 libnettle8t64                    3.10.1-1                                                 deb                             
+libnghttp2-14                    1.64.0-1.1+deb13u1                                       deb                             
+libnghttp3-9                     1.8.0-1                                                  deb                             
 libnspr4                         2:4.36-1                                                 deb                             
 libnss3                          2:3.110-1+deb13u2                                        deb                             
 libp11-kit0                      0.25.5-3                                                 deb                             
@@ -385,6 +415,9 @@ libpng16-16t64                   1.6.48-1+deb13u5                               
 libproc2-0                       2:4.0.4-9                                                deb                             
 libpsl5t64                       0.21.2-1.1+b1                                            deb                             
 libreadline8t64                  8.2-6                                                    deb                             
+librtmp1                         2.4+20151223.gitfa8646d.1-2+b5                           deb                             
+libsasl2-2                       2.1.28+dfsg1-9                                           deb                             
+libsasl2-modules-db              2.1.28+dfsg1-9                                           deb                             
 libseccomp2                      2.6.0-2                                                  deb                             
 libselinux1                      3.8.1-1                                                  deb                             
 libsemanage-common               3.8.1-1                                                  deb                             
@@ -395,6 +428,7 @@ libsepol2                        3.8.1-1                                        
 libsharpyuv0                     1.5.0-0.1                                                deb                             
 libsmartcols1                    2.41-5                                                   deb                             
 libsqlite3-0                     3.46.1-7+deb13u1                                         deb                             
+libssh2-1t64                     1.11.1-1                                                 deb                             
 libssl3t64                       3.5.6-1~deb13u1                                          deb                             
 libstdc++6                       14.2.0-19                                                deb                             
 libsystemd-shared                257.13-1~deb13u1                                         deb                             
@@ -445,9 +479,12 @@ libxxhash0                       0.8.3-2                                        
 libz3-4                          4.13.3-1                                                 deb                             
 libzstd1                         1.5.7+dfsg-1                                             deb                             
 linux-raw-sys                    0.12.1                                                   rust-crate    (+1 duplicate)    
+listenablefuture                 9999.0-empty-to-avoid-conflict-with-guava                java-archive                    
 litemap                          0.8.1                                                    rust-crate    (+1 duplicate)    
 lock_api                         0.4.14                                                   rust-crate    (+1 duplicate)    
 log                              0.4.29                                                   rust-crate    (+1 duplicate)    
+logback-classic                  1.5.22                                                   java-archive                    
+logback-core                     1.5.22                                                   java-archive                    
 login                            1:4.16.0-2+really2.41-5                                  deb                             
 login.defs                       1:4.17.4-2                                               deb                             
 lru-slab                         0.1.2                                                    rust-crate    (+1 duplicate)    
@@ -493,9 +530,7 @@ num-rational                     0.4.2                                          
 num-traits                       0.2.19                                                   rust-crate    (+1 duplicate)    
 oid-registry                     0.8.1                                                    rust-crate    (+1 duplicate)    
 once_cell                        1.21.4                                                   rust-crate    (+1 duplicate)    
-open                             5.3.5                                                    rust-crate    (+1 duplicate)    
-openjdk-21-jdk                   21.0.11+10-1~deb13u2                                     deb                             
-openjdk-21-jdk-headless          21.0.11+10-1~deb13u2                                     deb                             
+open                             5.3.4                                                    rust-crate    (+1 duplicate)    
 openjdk-21-jre                   21.0.11+10-1~deb13u2                                     deb                             
 openjdk-21-jre-headless          21.0.11+10-1~deb13u2                                     deb                             
 opensearch-protobufs             1.2.0                                                    python                          
@@ -529,7 +564,6 @@ pest_derive                      2.8.6                                          
 pest_generator                   2.8.6                                                    rust-crate    (+1 duplicate)    
 pest_meta                        2.8.6                                                    rust-crate    (+1 duplicate)    
 petgraph                         0.8.3                                                    rust-crate    (+1 duplicate)    
-pillow                           12.2.0                                                   python                          
 pin-project                      1.1.11                                                   rust-crate    (+1 duplicate)    
 pin-project-lite                 0.2.17                                                   rust-crate    (+1 duplicate)    
 pip                              25.0.1                                                   python                          
@@ -564,13 +598,14 @@ pydantic                         2.13.4                                         
 pydantic-core                    2.46.4                                                   python                          
 pydantic-extra-types             2.11.1                                                   python                          
 pydantic-settings                2.14.1                                                   python                          
+pygentree                        1.0.4                                                    python                          
 pygments                         2.20.0                                                   python                          
 pyproject-api                    1.10.0                                                   python                          
 pytest                           9.0.3                                                    python                          
 pytest-timeout                   2.4.0                                                    python                          
 python                           3.12.13                                                  binary                          
 python-dateutil                  2.9.0.post0                                              python                          
-python-discovery                 1.3.1                                                    python                          
+python-discovery                 1.3.2                                                    python                          
 python-dotenv                    1.2.2                                                    python                          
 python-magic                     0.4.27                                                   python                          
 python-multipart                 0.0.29                                                   python                          
@@ -665,6 +700,7 @@ similar                          3.1.0                                          
 simple_asn1                      0.6.4                                                    rust-crate    (+1 duplicate)    
 six                              1.17.0                                                   python                          
 slab                             0.4.12                                                   rust-crate    (+1 duplicate)    
+slf4j-api                        2.0.17                                                   java-archive                    
 smallvec                         1.15.1                                                   rust-crate    (+1 duplicate)    
 smawk                            0.3.2                                                    rust-crate    (+1 duplicate)    
 socket2                          0.6.3                                                    rust-crate    (+1 duplicate)    
@@ -674,6 +710,7 @@ spki                             0.7.3                                          
 sqv                              1.3.0-3+b2                                               deb                             
 stable_deref_trait               1.2.1                                                    rust-crate    (+1 duplicate)    
 starlette                        1.1.0                                                    python                          
+stringtemplate                   3.2.1                                                    java-archive                    
 strsim                           0.11.1                                                   rust-crate    (+1 duplicate)    
 strum                            0.28.0                                                   rust-crate    (+1 duplicate)    
 subtle                           2.6.1                                                    rust-crate    (+1 duplicate)    
@@ -718,6 +755,8 @@ tower-http                       0.6.8                                          
 tower-layer                      0.3.3                                                    rust-crate    (+1 duplicate)    
 tower-service                    0.3.3                                                    rust-crate    (+1 duplicate)    
 tox                              4.54.0                                                   python                          
+tox-uv                           1.35.2                                                   python                          
+tox-uv-bare                      1.35.2                                                   python                          
 tracing                          0.1.44                                                   rust-crate    (+1 duplicate)    
 tracing-attributes               0.1.31                                                   rust-crate    (+1 duplicate)    
 tracing-core                     0.1.36                                                   rust-crate    (+1 duplicate)    
@@ -726,10 +765,10 @@ tracing-subscriber               0.3.23                                         
 tracing-tree                     0.4.1                                                    rust-crate    (+1 duplicate)    
 trove-classifiers                2026.5.22.10                                             python                          
 try-lock                         0.2.5                                                    rust-crate    (+1 duplicate)    
-ty                               0.0.39                                                   python                          
+ty                               0.0.40                                                   python                          
 typeid                           1.0.3                                                    rust-crate    (+1 duplicate)    
 typenum                          1.19.0                                                   rust-crate    (+1 duplicate)    
-typer                            0.26.1                                                   python                          
+typer                            0.26.2                                                   python                          
 typing-extensions                4.15.0                                                   python                          
 typing-inspection                0.4.2                                                    python                          
 tzdata                           2026.2                                                   python                          
@@ -744,6 +783,7 @@ unit-prefix                      0.5.2                                          
 unscanny                         0.1.0                                                    rust-crate    (+1 duplicate)    
 untrusted                        0.7.1                                                    rust-crate    (+1 duplicate)    
 untrusted                        0.9.0                                                    rust-crate    (+1 duplicate)    
+unzip                            6.0-29                                                   deb                             
 url                              2.5.8                                                    rust-crate    (+1 duplicate)    
 urllib3                          2.7.0                                                    python                          
 utf8-width                       0.1.8                                                    rust-crate    (+1 duplicate)    
@@ -751,72 +791,72 @@ utf8_iter                        1.0.4                                          
 utf8parse                        0.2.2                                                    rust-crate    (+1 duplicate)    
 util-linux                       2.41-5                                                   deb                             
 uuid                             1.23.1                                                   rust-crate    (+1 duplicate)    
-uv                               0.11.18                                                  python                          
-uv                               0.11.18                                                  rust-crate    (+1 duplicate)    
-uv-audit                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-auth                          0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-bin-install                   0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-build-backend                 0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-build-frontend                0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-cache                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-cache-info                    0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-cache-key                     0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-cli                           0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-client                        0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-configuration                 0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-console                       0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-dirs                          0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-dispatch                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-distribution                  0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-distribution-filename         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-distribution-types            0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-errors                        0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-extract                       0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-fastid                        0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-flags                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-fs                            0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-git                           0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-git-types                     0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-globfilter                    0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-install-wheel                 0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-installer                     0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-keyring                       0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-logging                       0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-metadata                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-netrc                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-normalize                     0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-once-map                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-options-metadata              0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-pep440                        0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-pep508                        0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-performance-memory-allocator  0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-platform                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-platform-tags                 0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-preview                       0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-publish                       0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-pypi-types                    0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-python                        0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-redacted                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-requirements                  0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-requirements-txt              0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-resolver                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-scripts                       0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-settings                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-shell                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-small-str                     0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-state                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-static                        0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-test                          0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-toml                          0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-tool                          0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-torch                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-trampoline-builder            0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-types                         0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-unix                          0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-version                       0.11.18                                                  rust-crate    (+1 duplicate)    
-uv-virtualenv                    0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-warnings                      0.0.51                                                   rust-crate    (+1 duplicate)    
-uv-workspace                     0.0.51                                                   rust-crate    (+1 duplicate)    
+uv                               0.11.16                                                  python                          
+uv                               0.11.16                                                  rust-crate    (+1 duplicate)    
+uv-audit                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-auth                          0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-bin-install                   0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-build-backend                 0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-build-frontend                0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-cache                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-cache-info                    0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-cache-key                     0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-cli                           0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-client                        0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-configuration                 0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-console                       0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-dirs                          0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-dispatch                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-distribution                  0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-distribution-filename         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-distribution-types            0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-errors                        0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-extract                       0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-fastid                        0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-flags                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-fs                            0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-git                           0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-git-types                     0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-globfilter                    0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-install-wheel                 0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-installer                     0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-keyring                       0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-logging                       0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-metadata                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-netrc                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-normalize                     0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-once-map                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-options-metadata              0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-pep440                        0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-pep508                        0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-performance-memory-allocator  0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-platform                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-platform-tags                 0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-preview                       0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-publish                       0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-pypi-types                    0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-python                        0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-redacted                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-requirements                  0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-requirements-txt              0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-resolver                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-scripts                       0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-settings                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-shell                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-small-str                     0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-state                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-static                        0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-test                          0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-toml                          0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-tool                          0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-torch                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-trampoline-builder            0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-types                         0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-unix                          0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-version                       0.11.16                                                  rust-crate    (+1 duplicate)    
+uv-virtualenv                    0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-warnings                      0.0.49                                                   rust-crate    (+1 duplicate)    
+uv-workspace                     0.0.49                                                   rust-crate    (+1 duplicate)    
 uvicorn                          0.48.0                                                   python                          
 uvloop                           0.22.1                                                   python                          
 vcs-versioning                   1.1.1                                                    python                          
@@ -828,7 +868,6 @@ watchdog                         6.0.0                                          
 watchfiles                       1.2.0                                                    python                          
 webpki-root-certs                1.0.7                                                    rust-crate    (+1 duplicate)    
 websockets                       16.0                                                     python                          
-wget                             1.25.0-2                                                 deb                             
 wheel                            0.46.3                                                   python                          
 which                            8.0.2                                                    rust-crate    (+1 duplicate)    
 winnow                           1.0.3                                                    rust-crate    (+1 duplicate)    
@@ -839,7 +878,7 @@ xattr                            1.6.1                                          
 xkb-data                         2.42-1                                                   deb                             
 xml-rs                           0.8.28                                                   rust-crate    (+1 duplicate)    
 xz2                              0.1.7                                                    rust-crate    (+1 duplicate)    
-yara-x                           1.16.0                                                   python                          
+yara-x                           1.17.0                                                   python                          
 yoke                             0.8.1                                                    rust-crate    (+1 duplicate)    
 yoke-derive                      0.8.1                                                    rust-crate    (+1 duplicate)    
 zbus                             5.15.0                                                   rust-crate    (+1 duplicate)    
