@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-10 | dispatcher           | fix: patch issue with aging off children. ..61.    |
 | 2026-06-09 | webui                | feat: add retrohunt page link to tobarexternal ..176. |
 | 2026-06-05 | app                  | release azul.11.0.0.rc1                            |
 | 2026-06-05 | webui                | feat: make logs copyable ..170.                    |
