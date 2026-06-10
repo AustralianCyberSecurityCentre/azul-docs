@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-10 | app                  | feat: add log level setting for audit ..73.        |
 | 2026-06-10 | app                  | release azul.11.0.0                                |
 | 2026-06-10 | dispatcher           | fix: patch issue with aging off children. ..61.    |
 | 2026-06-09 | webui                | feat: add retrohunt page link to tobarexternal ..176. |
