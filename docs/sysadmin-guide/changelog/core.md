@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-15 | dispatcher           | feat: faster builds using backports. ..62.         |
 | 2026-06-11 | app                  | feat: upgrade kafka api versions. ..74.            |
 | 2026-06-10 | demo                 | feat: upgrade demo to version 11. ..34.            |
 | 2026-06-10 | app                  | feat: add log level setting for audit ..73.        |
