@@ -10,7 +10,7 @@ Azul includes a [Helm](https://helm.sh) chart which contains deployments of most
 common Azul requirements. Each component is individually configurable and you can
 deploy **none, some or all** of the example components.
 
-This is included in the `infra/` folder in [azul-app](https://github.com/AustralianCyberSecurityCentre/azul-app).
+This is included in the `infra/` folder in [azul-app](https://github.com/AustralianCyberSecurityCentre/azul-app/blob/main/infra/values.yaml).
 
 First, look at the default `values.yaml` file in this folder - for example, it contains:
 
@@ -24,6 +24,8 @@ minio:
 
 Refer to the `README.md` in `infra/` for more specific guidance on how to configure this
 for the specific Azul version you are deploying.
+
+[infra-deployment-guide](../../../developer-guide/components/core/app/infra/README.md)
 
 You should develop your own overrides to configure this for your own environment (i.e store
 a .yaml file in a Git repository). There are a large suite of values documented in this 
