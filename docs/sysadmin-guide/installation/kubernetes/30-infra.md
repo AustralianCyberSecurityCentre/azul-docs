@@ -25,7 +25,7 @@ minio:
 Refer to the `README.md` in `infra/` for more specific guidance on how to configure this
 for the specific Azul version you are deploying.
 
-[infra-deployment-guide](../../../developer-guide/components/core/app/infra/README.md)
+[infra-deployment-guide](../../../developer-guide/components/core/app/docs/infra-readme.md)
 
 You should develop your own overrides to configure this for your own environment (i.e store
 a .yaml file in a Git repository). There are a large suite of values documented in this 
