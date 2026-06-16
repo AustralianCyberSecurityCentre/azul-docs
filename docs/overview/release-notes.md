@@ -4,6 +4,27 @@ sidebar_position: 3
 
 # Release Notes
 
+## 11.1.0
+
+Version 11.1.0 adds some fixes for the infrastructure deployment of azul as well as fixes for git-sync when using ssh.
+
+## azul-app
+
+### infra
+
+- infra for opensearch and kafka have been upgraded to work with the latest version of strimzi and the opensearch operator.
+- installation docs have been improved to make the readme for infra available through the azul-docs.
+
+#### fixes
+
+- git-sync was failing when using ssh as the auth method. This has been fixed in the chart.
+
+## Plugins
+
+### Maco
+
+azul-plugin-maco was updated to use the newest version of maco (1.3.1)
+
 ## 11.0.0
 
 Version 11.0 introduces new core features, focusing on enhanced capabilities and improved ease of use through the Azul UI.
