@@ -1,6 +1,6 @@
 ARG REGISTRY="docker.io"
 ARG BUILD_IMAGE='node'
-ARG BUILD_TAG='lts-bookworm'
+ARG BUILD_TAG='lts-trixie'
 ARG BASE_IMAGE='nginxinc/nginx-unprivileged'
 ARG BASE_TAG='stable-alpine'
 
