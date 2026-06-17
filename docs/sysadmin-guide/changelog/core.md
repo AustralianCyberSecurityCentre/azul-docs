@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-17 | app                  | release azul.11.1.0.rc1                            |
 | 2026-06-17 | app                  | fix: whitelist is now allowlist in opensearch. ..77. |
 | 2026-06-16 | app                  | fix: docs formatting ..76.                         |
 | 2026-06-16 | app                  | fix: simplify the inital opensearch deployment. ..75. |
