@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:e1b8b535-c2f3-4461-a6cb-8ec49df90d36",
+  "serialNumber": "urn:uuid:bddc1d4b-1a4c-4233-a52e-1b714063cdeb",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-10T05:09:25Z",
+    "timestamp": "2026-06-17T04:06:07Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "b54db6b753286886",
       "type": "container",
       "name": "plugin-netinfo",
-      "version": "11.0.0"
+      "version": "11.1.0"
     },
     "properties": [
       {

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:e70d06af-3363-42ab-ab46-820a48487d64",
+  "serialNumber": "urn:uuid:ce64d253-126b-4668-b5a5-81386f53706f",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-10T05:11:01Z",
+    "timestamp": "2026-06-17T04:07:22Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "c61d37cf79bbd2fa",
       "type": "container",
       "name": "plugin-retrohunt",
-      "version": "11.0.0"
+      "version": "11.1.0"
     },
     "properties": [
       {

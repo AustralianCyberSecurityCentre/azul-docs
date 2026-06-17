@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:bfd8ff78-7994-4659-a21e-5ea862e19695",
+  "serialNumber": "urn:uuid:2883e84f-be0b-4a4e-a4bb-bf8914d5b7cd",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-10T05:05:27Z",
+    "timestamp": "2026-06-17T04:01:54Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "39e9ad267a5242d3",
       "type": "container",
       "name": "plugin-mandiant-capa",
-      "version": "11.0.0"
+      "version": "11.1.0"
     },
     "properties": [
       {
@@ -138723,7 +138723,7 @@
         "pkg:pypi/httpx@0.28.1?package-id=201d3e1f600eda65",
         "pkg:pypi/idapro@0.0.9?package-id=ceb1a679aba23ca0",
         "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
-        "pkg:pypi/pip@26.1.1?package-id=456acd91eb03c2c5",
+        "pkg:pypi/pip@25.0.1?package-id=b07d834d26c4749b",
         "pkg:pypi/platformdirs@4.4.0?package-id=52aee8c64f12e994",
         "pkg:pypi/pydantic@2.13.4?package-id=c72d16b1b980ecc5",
         "pkg:pypi/pytest@9.0.3?package-id=32cb23d696d37215",
@@ -139136,7 +139136,7 @@
         "pkg:pypi/jaraco-text@4.0.0?package-id=9791bc1f9b13791a",
         "pkg:pypi/more-itertools@10.8.0?package-id=11e8bcfc4f4b1fbe",
         "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
-        "pkg:pypi/pip@26.1.1?package-id=456acd91eb03c2c5",
+        "pkg:pypi/pip@25.0.1?package-id=b07d834d26c4749b",
         "pkg:pypi/pytest-cov@7.1.0?package-id=f36ec05785a229ea",
         "pkg:pypi/pytest-timeout@2.4.0?package-id=d831f7fe0d4b93e8",
         "pkg:pypi/pytest@9.0.3?package-id=32cb23d696d37215",

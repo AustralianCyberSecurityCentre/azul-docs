@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:d2f9993b-7967-4ecc-bcbb-622df7fa3122",
+  "serialNumber": "urn:uuid:38dba172-9e17-43f1-9c13-767544f26f18",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-10T05:06:12Z",
+    "timestamp": "2026-06-17T04:02:46Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "6dadb30671c4908b",
       "type": "container",
       "name": "plugin-dotnet-decompiler",
-      "version": "11.0.0"
+      "version": "11.1.0"
     },
     "properties": [
       {

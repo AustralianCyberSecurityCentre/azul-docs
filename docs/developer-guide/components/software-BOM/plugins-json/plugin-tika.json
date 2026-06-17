@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:8eb9f664-046d-44b3-9d4a-6f4becb30065",
+  "serialNumber": "urn:uuid:98057047-4b21-4d6e-b808-fd88a7fc5118",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-10T05:11:51Z",
+    "timestamp": "2026-06-17T04:08:02Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "06b3dd11d4f8d97a",
       "type": "container",
       "name": "plugin-tika",
-      "version": "11.0.0"
+      "version": "11.1.0"
     },
     "properties": [
       {

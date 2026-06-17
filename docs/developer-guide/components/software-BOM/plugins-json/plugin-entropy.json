@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:03b39f60-3665-49c8-a532-3d8a0563a273",
+  "serialNumber": "urn:uuid:3c5f1561-e4ed-4f60-81dd-feac447e4c75",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-10T05:06:55Z",
+    "timestamp": "2026-06-17T04:03:32Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "ceda87b658cbfd28",
       "type": "container",
       "name": "plugin-entropy",
-      "version": "11.0.0"
+      "version": "11.1.0"
     },
     "properties": [
       {
