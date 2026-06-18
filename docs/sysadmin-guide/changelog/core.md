@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-18 | demo                 | feat: upgrade to 11.1.0 ..39.                      |
 | 2026-06-17 | app                  | release azul.11.1.0                                |
 | 2026-06-17 | app                  | release azul.11.1.0.rc1                            |
 | 2026-06-17 | app                  | fix: whitelist is now allowlist in opensearch. ..77. |
