@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-18 | metastore            | feat: add readonly mode to restapi. ..51.          |
 | 2026-06-18 | bedrock              | feat: add readonly mode. ..98.                     |
 | 2026-06-18 | demo                 | feat: upgrade to 11.1.0 ..39.                      |
 | 2026-06-17 | app                  | release azul.11.1.0                                |
