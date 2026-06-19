@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-19 | webui                | feat: add banner for system in readonly state. ..189. |
 | 2026-06-19 | app                  | feat: add readonly mode option. ..78.              |
 | 2026-06-19 | bedrock              | fix: bad error message on failed auth. ..96.       |
 | 2026-06-18 | metastore            | feat: add readonly mode to restapi. ..51.          |
