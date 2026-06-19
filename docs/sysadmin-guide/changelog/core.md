@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-19 | bedrock              | fix: bad error message on failed auth. ..96.       |
 | 2026-06-18 | metastore            | feat: add readonly mode to restapi. ..51.          |
 | 2026-06-18 | bedrock              | feat: add readonly mode. ..98.                     |
 | 2026-06-18 | demo                 | feat: upgrade to 11.1.0 ..39.                      |
