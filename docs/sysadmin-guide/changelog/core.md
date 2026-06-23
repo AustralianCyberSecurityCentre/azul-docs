@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-23 | webui                | fix: enable button. ..199.                         |
 | 2026-06-23 | bedrock              | fix: update install instructions ..97.             |
 | 2026-06-22 | runner               | fix: git submodule update ..no.progress .. ..quiet ..56. |
 | 2026-06-19 | metastore            | fix: hash download included in readonly. ..52.     |
