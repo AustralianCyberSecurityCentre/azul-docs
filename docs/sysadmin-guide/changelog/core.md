@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-23 | restapi-server       | feat: match jwt and cache expiry. ..53.            |
 | 2026-06-23 | app                  | feat: bump to version 11. ..79.                    |
 | 2026-06-23 | webui                | feat: change strings tab to use monospace font ..198. |
 | 2026-06-23 | webui                | fix: enable button. ..199.                         |
