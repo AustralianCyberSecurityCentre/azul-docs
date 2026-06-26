@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-06-26 | yara                 | fix: yara ingest fails on too many streams. ..36.  |
 | 2026-06-12 | retrohunt            | fix: add new intervals to bucket ..61.             |
 | 2026-06-11 | maco                 | feat: add partial completion support. ..43.        |
 | 2026-06-10 | retrohunt            | feat: add more metrics ..60.                       |
