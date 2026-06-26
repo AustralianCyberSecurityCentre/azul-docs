@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-26 | app                  | release azul.11.2.0.rc1                            |
 | 2026-06-26 | webui                | fix: loading icons misbehaving. ..202.             |
 | 2026-06-26 | metastore            | fix: ensure files that exist are found. ..54.      |
 | 2026-06-26 | audit-forwarder      | feat: chunking by bytes for cloudwatch ..47.       |
