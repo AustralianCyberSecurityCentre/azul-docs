@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-06-26 | audit-forwarder      | feat: chunking by bytes for cloudwatch ..47.       |
 | 2026-06-26 | webui                | feat: hex and string side by side ..200.           |
 | 2026-06-26 | webui                | fix: retrohunt ..201.                              |
 | 2026-06-23 | restapi-server       | feat: match jwt and cache expiry. ..53.            |
