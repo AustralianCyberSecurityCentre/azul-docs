@@ -4,6 +4,32 @@ sidebar_position: 3
 
 # Release Notes
 
+## 11.2.0
+
+Version 11.2.0 is a small group of fixes to resolve bugs found in the latest azul deployment.
+
+## fixes
+
+### webui
+
+- loading icons in similar ssdeep and similar TLSH would never go away if no matches were found
+- remove animation when a binaries data tab is loading as it may never load
+- fixed issue with retrohunt display not showing multiple rule results and failing to pickup yara rule names.
+- hex and string view are now always the default views on data page.
+
+### restapi
+
+- fixed issue where binaries with lots of augmented streams lose access to their content via azul restapi
+
+### audit forwarder
+
+- Add byte limit for cloud watch logs.
+
+### plugin-yara
+
+- fixed a bug where if too many yara rules hit on one file ingestion would fail, the yara hit streams are now dropped above 50 streams.
+
+
 ## 11.1.0
 
 Version 11.1.0 adds some fixes for the infrastructure deployment of azul as well as fixes for git-sync when using ssh.
