@@ -6,6 +6,8 @@ sidebar_position: 3
 
 ## 11.2.0
 
+Version 11.2.0 is a small group of fixes to resolve bugs found in the latest azul deployment.
+
 ## fixes
 
 ### webui
