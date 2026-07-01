@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-01 | bedrock              | feat: upgrade azul bedrock to version 12. ..103.   |
 | 2026-07-01 | audit-forwarder      | feat: flush logs regularly ..49.                   |
 | 2026-06-30 | bedrock              | feat: adding in aes for store. ..101.              |
 | 2026-06-30 | webui                | feat: update to angular 22. ..190.                 |
