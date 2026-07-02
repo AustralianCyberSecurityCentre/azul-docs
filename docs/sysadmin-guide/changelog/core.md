@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-02 | app                  | feat: add aes encryption options to the helm chart. ..83. |
 | 2026-07-01 | webui                | feat: migrate to signals part 1 ..203.             |
 | 2026-07-01 | bedrock              | feat: upgrade azul bedrock to version 12. ..103.   |
 | 2026-07-01 | audit-forwarder      | feat: flush logs regularly ..49.                   |
