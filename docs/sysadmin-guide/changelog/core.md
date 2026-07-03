@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-03 | bedrock              | feat: finalise aes256 counter encryption. ..104.   |
 | 2026-07-03 | dispatcher           | feat: add aes encryption to dispatcher. ..67.      |
 | 2026-07-02 | app                  | feat: add aes encryption options to the helm chart. ..83. |
 | 2026-07-01 | webui                | feat: migrate to signals part 1 ..203.             |
