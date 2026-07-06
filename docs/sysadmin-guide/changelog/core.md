@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-06 | bedrock              | feat: add debug endpoint ..92.                     |
 | 2026-07-06 | webui                | feat: multiple small UI tweaks for feature and summary page ..215. |
 | 2026-07-06 | app                  | fix: add restore service.account auth method. ..82. |
 | 2026-07-03 | dispatcher           | feat: upgrade bedrock ..68.                        |
