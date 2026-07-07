@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-07 | app                  | feat: remove option to disable similar entropy. ..86. |
 | 2026-07-07 | webui                | feat: add plugin group select button on binary features view. ..216. |
 | 2026-07-06 | webui                | feat: better table delims and shrink buttons ..214. |
 | 2026-07-06 | bedrock              | feat: add debug endpoint ..92.                     |
