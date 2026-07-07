@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-07 | restapi-server       | feat: upgrade metastore version. ..56.             |
 | 2026-07-07 | app                  | fix: file not updated. ..87.                       |
 | 2026-07-07 | metastore            | feat: remove option to disable similar entropy. ..55. |
 | 2026-07-07 | app                  | feat: remove option to disable similar entropy. ..86. |
