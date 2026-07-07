@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-07 | restapi-server       | fix: hardened build isn.t getting expected deps.   |
 | 2026-07-07 | webui                | feat: add table view and additional settings. ..204. |
 | 2026-07-07 | restapi-server       | feat: upgrade metastore version. ..56.             |
 | 2026-07-07 | app                  | fix: file not updated. ..87.                       |
