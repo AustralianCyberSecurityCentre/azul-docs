@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-10 | app                  | feat: add new reference set view. ..88.            |
 | 2026-07-10 | webui                | feat: add a custom page and error for 500 errors. ..218. |
 | 2026-07-10 | app                  | feat: add a custom page and error for 500 errors. ..89. |
 | 2026-07-09 | bedrock              | feat: add new reference set view. ..108.           |
