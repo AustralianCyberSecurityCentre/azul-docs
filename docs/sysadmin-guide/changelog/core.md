@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-13 | webui                | feat: allow viewing of alternative reference set. ..228. |
 | 2026-07-13 | audit-forwarder      | feat: filter kube.probe ..50.                      |
 | 2026-07-13 | restapi-server       | feat: copy libfuzzy library for build. ..59.       |
 | 2026-07-10 | runner               | feat: add ty ..58.                                 |
