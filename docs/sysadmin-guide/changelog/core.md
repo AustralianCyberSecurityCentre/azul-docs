@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-14 | dispatcher           | feat: add debug endpoint ..52.                     |
 | 2026-07-14 | app                  | fix: make watch.path independent of rules path ..90. |
 | 2026-07-13 | webui                | feat: allow viewing of alternative reference set. ..228. |
 | 2026-07-13 | audit-forwarder      | feat: filter kube.probe ..50.                      |
