@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-14 | metastore            | fix: similar entropy generating 500 error. ..57.   |
 | 2026-07-14 | app                  | feat: add VT setting notes ..91.                   |
 | 2026-07-14 | dispatcher           | feat: add debug endpoint ..52.                     |
 | 2026-07-14 | app                  | fix: make watch.path independent of rules path ..90. |
