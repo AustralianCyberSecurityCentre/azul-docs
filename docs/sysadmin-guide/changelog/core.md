@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-14 | webui                | fix: source table modification account for no references ..230. |
 | 2026-07-14 | webui                | feat: ssdeep link to relations page. ..229.        |
 | 2026-07-14 | metastore            | fix: similar entropy generating 500 error. ..57.   |
 | 2026-07-14 | app                  | feat: add VT setting notes ..91.                   |
