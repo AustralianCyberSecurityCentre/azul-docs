@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-15 | de4dot               | feat: enable ty. upgrade uv.lock ..30.             |
 | 2026-07-15 | debloat              | feat: enable ty. upgrade uv.lock ..35.             |
 | 2026-07-15 | build-time-strings   | feat: enable ty ..31.                              |
 | 2026-07-14 | virustotal           | feat: allow filtering of non malicous files. ..64. |
