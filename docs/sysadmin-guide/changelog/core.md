@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-15 | smart-string-filter  | feat: upgrade onnx ..23.                           |
 | 2026-07-14 | runner               | feat: fix get.data return type ..61.               |
 | 2026-07-14 | client               | fix: Catch exceptions from BadResponses ..23.      |
 | 2026-07-14 | webui                | fix: source table modification account for no references ..230. |
