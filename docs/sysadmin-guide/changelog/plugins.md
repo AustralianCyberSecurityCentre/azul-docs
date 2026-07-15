@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-15 | build-time-strings   | feat: enable ty ..31.                              |
 | 2026-07-14 | virustotal           | feat: allow filtering of non malicous files. ..64. |
 | 2026-07-13 | assemblyline         | feat: guarantee full tree inspection for AL client. ..40. |
 | 2026-07-08 | js-deobf             | feat: change js deobf plugin to webcrack ..20.     |
