@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-16 | app                  | feat: add externalS3Bucket variable ..94.          |
 | 2026-07-16 | app                  | feat: ignore substrings in audit ..85.             |
 | 2026-07-15 | smart-string-filter  | feat: upgrade onnx ..23.                           |
 | 2026-07-14 | runner               | feat: fix get.data return type ..61.               |
