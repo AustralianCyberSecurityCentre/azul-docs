@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-17 | webui                | feat: allow users to set strings length ..232.     |
 | 2026-07-17 | webui                | feat: group multiplugins on plugin explore page and sticky header. ..231. |
 | 2026-07-17 | app                  | feat: let backup have more env.s ..93.             |
 | 2026-07-16 | app                  | feat: add externalS3Bucket variable ..94.          |
