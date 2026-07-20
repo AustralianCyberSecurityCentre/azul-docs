@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-20 | android-parser       | feat: enable ty ..40.                              |
 | 2026-07-20 | dotnet-decompiler    | feat: enable ty. upgrade uv.lock ..32.             |
 | 2026-07-20 | assemblyline         | feat: enable ty ..42.                              |
 | 2026-07-20 | alphabets            | feat: remove ..exit.zero from ty check. update test accordingly ..36. |
