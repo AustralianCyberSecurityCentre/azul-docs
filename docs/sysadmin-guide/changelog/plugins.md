@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-20 | cape                 | feat: upgrade uv.lock. enable ty ..27.             |
 | 2026-07-20 | dotnet-deob          | feat: enable ty. upgrade uv.lock ..35.             |
 | 2026-07-20 | android-parser       | feat: enable ty ..40.                              |
 | 2026-07-20 | dotnet-decompiler    | feat: enable ty. upgrade uv.lock ..32.             |
