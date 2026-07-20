@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-20 | exiftool             | feat: enable ty. upgrade uv.lock ..44.             |
 | 2026-07-20 | entrypointcheck      | feat: enable ty. upgrade uv.lock ..43.             |
 | 2026-07-20 | cape                 | feat: upgrade uv.lock. enable ty ..27.             |
 | 2026-07-20 | dotnet-deob          | feat: enable ty. upgrade uv.lock ..35.             |
