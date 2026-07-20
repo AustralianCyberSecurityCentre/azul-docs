@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-20 | image-convert        | feat: enable ty. upgrade uv.lock ..40.             |
 | 2026-07-20 | export-hashes        | feat: enable ty. upgrade uv.lock ..44.             |
 | 2026-07-20 | exiftool             | feat: enable ty. upgrade uv.lock ..44.             |
 | 2026-07-20 | entrypointcheck      | feat: enable ty. upgrade uv.lock ..43.             |
