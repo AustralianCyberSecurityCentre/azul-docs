@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-21 | netinfo              | feat: enable ty. upgrade uv.lock ..44.             |
 | 2026-07-21 | lief                 | feat: enable ty. upgrade uv.lock ..45.             |
 | 2026-07-21 | mandiant-capa        | feat: enable ty. upgrade uv.lock ..21.             |
 | 2026-07-21 | malcarve             | feat: enable ty. upgrade uv.lock ..16.             |
