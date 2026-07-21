@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-21 | lookback             | feat: enable ty. upgrade uv.lock ..12.             |
 | 2026-07-20 | js-deobf             | feat: enable ty. upgrade uv.lock ..26.             |
 | 2026-07-20 | floss                | feat: enable ty. upgrade uv.lock ..41.             |
 | 2026-07-20 | ghidra               | feat: enable ty. upgrade uv.lock ..36.             |
