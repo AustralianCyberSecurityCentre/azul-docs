@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-21 | runner               | fix: allow None to be passed for version in register.multiplugin ..64. |
 | 2026-07-20 | webui                | feat: add custom byte chunker ..233.               |
 | 2026-07-20 | backup               | feat: prefix store for s3 ..69.                    |
 | 2026-07-17 | webui                | feat: allow users to set strings length ..232.     |
