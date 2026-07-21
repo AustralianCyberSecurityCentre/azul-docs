@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-21 | mandiant-capa        | feat: enable ty. upgrade uv.lock ..21.             |
 | 2026-07-21 | malcarve             | feat: enable ty. upgrade uv.lock ..16.             |
 | 2026-07-21 | maco                 | fix: don.t show protocol only. ..49.               |
 | 2026-07-21 | lookback             | feat: enable ty. upgrade uv.lock ..12.             |
