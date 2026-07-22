@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-22 | metastore            | feat: submission purge requires timestamp. ..60.   |
 | 2026-07-22 | runner               | feat: add download pugin base class. ..63.         |
 | 2026-07-22 | webui                | feat: add completion percent on plugin explore ..245. |
 | 2026-07-21 | runner               | fix: allow None to be passed for version in register.multiplugin ..64. |
