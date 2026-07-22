@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-22 | webui                | feat: show ssdeep.tlsh when doing similarity. ..246. |
 | 2026-07-22 | metastore            | feat: submission purge requires timestamp. ..60.   |
 | 2026-07-22 | runner               | feat: add download pugin base class. ..63.         |
 | 2026-07-22 | webui                | feat: add completion percent on plugin explore ..245. |
