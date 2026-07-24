@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-24 | unbox                | feat: enable ty. upgrade uv.lock ..44.             |
 | 2026-07-24 | retrohunt            | feat: broad search optimisation ..59.              |
 | 2026-07-24 | report-feeds         | feat: enable ty. upgrade uv.lock ..20.             |
 | 2026-07-24 | maco                 | feat: enable ty. update uv.lock ..50.              |
