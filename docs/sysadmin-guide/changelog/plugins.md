@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-24 | portex               | feat: enable ty. upgrade uv.lock ..42.             |
 | 2026-07-23 | email                | feat: enable ty. upgrade uv.lock ..43.             |
 | 2026-07-23 | pdftools             | feat: enable ty. upgrade uv.lock ..45.             |
 | 2026-07-22 | python               | feat: enable ty. upgrade uv.lock ..31.             |
