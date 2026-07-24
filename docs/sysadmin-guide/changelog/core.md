@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-24 | app                  | feat: add narrow search process config ..92.       |
 | 2026-07-22 | webui                | feat: show ssdeep.tlsh when doing similarity. ..246. |
 | 2026-07-22 | metastore            | feat: submission purge requires timestamp. ..60.   |
 | 2026-07-22 | runner               | feat: add download pugin base class. ..63.         |
