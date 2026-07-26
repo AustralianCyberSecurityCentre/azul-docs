@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-26 | metastore            | fix: prevent submitting files on a future date ..61. |
 | 2026-07-24 | app                  | feat: add narrow search process config ..92.       |
 | 2026-07-22 | webui                | feat: show ssdeep.tlsh when doing similarity. ..246. |
 | 2026-07-22 | metastore            | feat: submission purge requires timestamp. ..60.   |
