@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-27 | audit-forwarder      | feat: enable ty. upgrade uv.lock ..58.             |
 | 2026-07-27 | app                  | feat: ssh.known.hosts ..95.                        |
 | 2026-07-27 | metastore            | feat: add basic opensearch benchmarks ..62.        |
 | 2026-07-26 | metastore            | fix: prevent submitting files on a future date ..61. |
