@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-28 | smart-string-filter  | feat: enable ty. upgrade uv.lock ..36.             |
 | 2026-07-28 | restapi-server       | feat: enable ty. upgrade uv.lock ..72.             |
 | 2026-07-28 | security             | feat: enable ty. upgrade uv.lock ..61.             |
 | 2026-07-27 | scaler               | feat: enable ty. upgrade uv.lock ..36.             |
