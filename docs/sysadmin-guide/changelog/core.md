@@ -2,6 +2,17 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-28 | metastore            | fix: binary counts in certain circumstances. ..64. |
+| 2026-07-28 | metastore            | feat: improve performance of implicit queries. ..63. |
+| 2026-07-28 | smart-string-filter  | feat: enable ty. upgrade uv.lock ..36.             |
+| 2026-07-28 | restapi-server       | feat: enable ty. upgrade uv.lock ..72.             |
+| 2026-07-28 | security             | feat: enable ty. upgrade uv.lock ..61.             |
+| 2026-07-27 | scaler               | feat: enable ty. upgrade uv.lock ..36.             |
+| 2026-07-27 | runner               | feat: add known.hosts option to config and GitSync ..71. |
+| 2026-07-27 | audit-forwarder      | feat: enable ty. upgrade uv.lock ..58.             |
+| 2026-07-27 | app                  | feat: ssh.known.hosts ..95.                        |
+| 2026-07-27 | metastore            | feat: add basic opensearch benchmarks ..62.        |
+| 2026-07-26 | metastore            | fix: prevent submitting files on a future date ..61. |
 | 2026-07-24 | app                  | feat: add narrow search process config ..92.       |
 | 2026-07-22 | webui                | feat: show ssdeep.tlsh when doing similarity. ..246. |
 | 2026-07-22 | metastore            | feat: submission purge requires timestamp. ..60.   |
