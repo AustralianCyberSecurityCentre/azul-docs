@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-28 | retrohunt            | feat: bumb ingester version ..73.                  |
 | 2026-07-28 | yara                 | feat: add option to exclude raw rules upload ..52. |
 | 2026-07-27 | index-coincidence    | feat: enable ty. upgrade uv.lock ..42.             |
 | 2026-07-24 | unbox                | feat: enable ty. upgrade uv.lock ..44.             |
