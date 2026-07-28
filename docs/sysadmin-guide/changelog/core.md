@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-28 | metastore            | feat: improve performance of implicit queries. ..63. |
 | 2026-07-28 | smart-string-filter  | feat: enable ty. upgrade uv.lock ..36.             |
 | 2026-07-28 | restapi-server       | feat: enable ty. upgrade uv.lock ..72.             |
 | 2026-07-28 | security             | feat: enable ty. upgrade uv.lock ..61.             |
