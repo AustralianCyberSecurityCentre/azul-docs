@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-28 | runner               | fix: download plugin fetching. ..72.               |
 | 2026-07-28 | metastore            | fix: items not item ..65.                          |
 | 2026-07-28 | metastore            | fix: binary counts in certain circumstances. ..64. |
 | 2026-07-28 | metastore            | feat: improve performance of implicit queries. ..63. |
