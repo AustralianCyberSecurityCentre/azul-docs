@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-07-28 | cape                 | fix: change to a more suitable CAPE contactable URL ..39. |
 | 2026-07-28 | retrohunt            | feat: bumb ingester version ..73.                  |
 | 2026-07-28 | yara                 | feat: add option to exclude raw rules upload ..52. |
 | 2026-07-27 | index-coincidence    | feat: enable ty. upgrade uv.lock ..42.             |
