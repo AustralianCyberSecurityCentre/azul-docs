@@ -896,8 +896,7 @@ Check:
 2. The identity provider is returning the expected claims.
 3. The role or group claim is being mapped correctly.
 4. Label spelling and capitalisation match `values.yaml`.
-5. The user's account has not been removed by an identity-provider denylist.
-6. The application has loaded the current configuration.
+5. The application has loaded the current configuration.
 
 A missing minimum-required label results in an access exception before optional denylist processing occurs.
 
@@ -932,15 +931,6 @@ Common causes include:
 - A classification priority is missing or invalid.
 - YAML indentation is incorrect.
 - A value expected as a string was supplied using an incompatible YAML type.
-
-Render the Helm chart with debugging enabled:
-
-```bash
-helm template <release-name> <chart-directory> \
-  -f values.yaml \
-  -n <namespace> \
-  --debug
-```
 
 ## PAT creation fails
 
