@@ -128,7 +128,7 @@ schedule: "0 3 * * 0"
 
 # Persistent storage
 
-Retrohunt uses a persistent volume for indexes and working data:
+Retrohunt uses a persistent volume for indexes:
 
 ```yaml
 pvc:
@@ -320,16 +320,6 @@ PLUGIN_ENABLE_MEM_LIMITS: "false"
 ```
 
 This avoids incorrect memory-limit behaviour caused by cgroup detection.
-
-Kubernetes resource limits still apply:
-
-```yaml
-resources:
-  limits:
-    memory: "8Gi"
-```
-
-A worker can still be OOM-killed when it exceeds its Kubernetes memory limit.
 
 ---
 
@@ -1235,7 +1225,6 @@ Check:
 
 - Worker restart count.
 - OOM events.
-- Probe failures.
 - Worker exceptions.
 - Redis hunt-state updates.
 - Dispatcher timeouts.
