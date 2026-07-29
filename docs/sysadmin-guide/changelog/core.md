@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-29 | app                  | feat: enable aes encryption for backup. ..97.      |
 | 2026-07-29 | webui                | feat: fix no longer in azul message ..258.         |
 | 2026-07-28 | runner               | fix: download plugin fetching. ..72.               |
 | 2026-07-28 | metastore            | fix: items not item ..65.                          |
