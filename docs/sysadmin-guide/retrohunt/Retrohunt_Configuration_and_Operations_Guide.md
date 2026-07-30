@@ -265,17 +265,17 @@ We have found that this can have a heavy impact on Dispatcher CPU.
 
 ## Memory guidance
 
-Use at least 4 GiB per worker as a minimum baseline.
+Use at least 2 to 4 GiB per worker as a minimum baseline.
 
-For 10 threads, 8 GiB per worker is a safer starting point, especially for large files or large narrow-phase candidate sets.
+For 10 threads, 4 GiB per worker is a safer starting point, especially for large files or large narrow-phase candidate sets.
 
 ```yaml
 resources:
   requests:
-    memory: "8Gi"
+    memory: "2Gi"
     cpu: "100m"
   limits:
-    memory: "8Gi"
+    memory: "4Gi"
     cpu: "1000m"
 ```
 
@@ -558,7 +558,7 @@ extraContainers:
 
     resources:
       requests:
-        memory: "4Gi"
+        memory: "2Gi"
         cpu: "100m"
       limits:
         memory: "4Gi"
@@ -718,10 +718,10 @@ retrohunt:
 
           resources:
             requests:
-              memory: "8Gi"
+              memory: "2Gi"
               cpu: "100m"
             limits:
-              memory: "8Gi"
+              memory: "4Gi"
               cpu: "1000m"
 
           command:
@@ -768,10 +768,10 @@ retrohunt:
 
           resources:
             requests:
-              memory: "8Gi"
+              memory: "2Gi"
               cpu: "100m"
             limits:
-              memory: "8Gi"
+              memory: "4Gi"
               cpu: "1000m"
 
           command:
@@ -896,7 +896,7 @@ limits:
 
 When Retrohunt is slow and workers show low CPU:
 
-1. Check events and streams CPU.
+1. Check the streams CPU is not too low.
 2. Check dispatcher request latency.
 3. Check storage latency.
 4. Check network throughput.
@@ -921,10 +921,10 @@ Worker:
 ```yaml
 resources:
   requests:
-    memory: "4Gi"
+    memory: "1Gi"
     cpu: "100m"
   limits:
-    memory: "4Gi"
+    memory: "2Gi"
     cpu: "1000m"
 ```
 
@@ -941,10 +941,10 @@ Worker:
 ```yaml
 resources:
   requests:
-    memory: "8Gi"
+    memory: "2Gi"
     cpu: "500m"
   limits:
-    memory: "8Gi"
+    memory: "4Gi"
     cpu: "2000m"
 ```
 
@@ -961,14 +961,14 @@ Worker:
 ```yaml
 resources:
   requests:
-    memory: "8Gi"
+    memory: "4Gi"
     cpu: "500m"
   limits:
     memory: "8Gi"
     cpu: "2000m"
 ```
 
-Use three or more workers only after reviewing dispatcher CPU, streams CPU, Redis, storage throughput, and total pod size.
+Use five or more workers only after reviewing dispatcher CPU, streams CPU, Redis, storage throughput, and total pod size.
 
 ---
 
