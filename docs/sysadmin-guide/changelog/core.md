@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-07-31 | bedrock              | fix: aes when it recieves files that don.t fill buffer. ..118. |
 | 2026-07-31 | stats                | feat: enable ty. upgrade uv.lock ..37.             |
 | 2026-07-29 | bedrock              | fix: hide keys ..117.                              |
 | 2026-07-29 | app                  | feat: enable aes encryption for backup. ..97.      |
