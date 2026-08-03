@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-08-03 | retrohunt            | fix: simplify threadpoolexec operation ..75.       |
 | 2026-07-30 | retrohunt            | fix: add mem logging ..74.                         |
 | 2026-07-28 | cape                 | fix: change to a more suitable CAPE contactable URL ..39. |
 | 2026-07-28 | retrohunt            | feat: bumb ingester version ..73.                  |
