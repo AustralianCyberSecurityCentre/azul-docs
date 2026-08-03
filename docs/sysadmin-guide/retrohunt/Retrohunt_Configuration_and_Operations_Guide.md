@@ -265,9 +265,9 @@ We have found that this can have a heavy impact on Dispatcher CPU.
 
 ## Memory guidance
 
-Use at least 2 to 4 GiB per worker as a minimum baseline.
+Use at least 4 GiB per worker as a minimum baseline.
 
-For 10 threads, 4 GiB per worker is a safer starting point, especially for large files or large narrow-phase candidate sets.
+For 10 threads, 4 to 8 GiB per worker is a safe starting point, especially for large files or large narrow-phase candidate sets.
 
 ```yaml
 resources:
