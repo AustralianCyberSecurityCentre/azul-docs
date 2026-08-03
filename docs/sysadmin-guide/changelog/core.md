@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-03 | bedrock              | fix: guarantee aes extension on checks. ..123.     |
 | 2026-08-03 | app                  | feat: allow increase in backup.restore tmp size. ..99. |
 | 2026-07-31 | bedrock              | fix: aes when it recieves files that don.t fill buffer. ..118. |
 | 2026-07-31 | stats                | feat: enable ty. upgrade uv.lock ..37.             |
