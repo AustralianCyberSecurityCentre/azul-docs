@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-03 | backup               | feat: allow for enabling of aes encryption. ..76.  |
 | 2026-08-03 | webui                | fix: resolve OIDC service loading when OIDC disabled ..267. |
 | 2026-08-03 | bedrock              | fix: guarantee aes extension on checks. ..123.     |
 | 2026-08-03 | app                  | feat: allow increase in backup.restore tmp size. ..99. |
