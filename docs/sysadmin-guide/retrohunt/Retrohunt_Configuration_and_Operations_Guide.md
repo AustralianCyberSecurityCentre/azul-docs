@@ -59,7 +59,6 @@ retrohunt:
   # Shared configuration applied to Retrohunt containers.
   config:
     max_thread_count: "10" # number active narrow search threads for each container
-    chunk_size: "50" # max number of files being processed in narrow phase at any one time
     PLUGIN_ENABLE_MEM_LIMITS: "false"
     PLUGIN_ROOT_PATH: "/indices"
 
@@ -223,32 +222,28 @@ data:
   MAX_THREAD_COUNT: "{{ .Values.plugins.retrohunt.config.max_thread_count }}"
 ```
 
-Set this value to the number of days before a stored hunt is cleaned up by the cronjob.
 ```yaml
 REDIS_CLEANUP_DELAY: "{{ .Values.external.redis.cleanup_delay }}"
 ```
-Set this value to the number of days before a running hunt is cleaned up by the cronjob. 
+Set this value to the number of days before a stored hunt is cleaned up by the cronjob.
+
 ```yaml
 REDIS_CLEANUP_RUNNING_DELAY: "{{ .Values.external.redis.cleanup_running_delay }}"
+```
+Set this value to the number of days before a running hunt is cleaned up by the cronjob. 
+
+```yaml
+REDIS_TTL: "{{ .Values.external.redis.ttl }}"
 ```
 This is the time in seconds for a worker to hold a redis jobstream (hunt job).
 The worker will periodically refresh this time as it works. 
 If a worker fails at some point when processing a hunt, and stops refreshing the ttl, another worker will pick up the job when this time expires. 
-```yaml
-REDIS_TTL: "{{ .Values.external.redis.ttl }}"
-```
-This is the maximum number of files being processed in the threadpool during narrow phase.
-Increasing this number will increase memory usage with no discernable increaes in performance. 
-Decreasing this number below or equal to ```yaml MAX_THREAD_COUNT ``` will almost certainly degrade performance. 
-```yaml
-CHUNK_SIZE: "{{ .Values.plugins.retrohunt.config.chunk_size }}"
-```
 
 A pod restart is normally required after changing these values.
 
 ---
 
-# Narrow-phase thread count and chunk size
+# Narrow-phase thread count
 
 The number of narrow-phase threads used by each worker is:
 
@@ -267,16 +262,6 @@ This value applies independently to every worker container.
 
 Adding workers multiplies total concurrency; it does not divide the thread count between workers.
 We have found that this can have a heavy impact on Dispatcher CPU.
-
-
-The max number of files being processed in the threadpool during narrow phase. 
-```yaml
-chunk_size: "50"
-```
-
-This value applies independently to every worker container.
-Narrow phase holds file data during processing until ```yaml chunk_size ``` is reached and then it is released. 
-Due to this querk increasing this number WILL increase memory usage. 
 
 ## Memory guidance
 
@@ -297,7 +282,6 @@ resources:
 Memory use increases with:
 
 - Thread count.
-- Chunk size
 - Concurrent downloads.
 - Candidate file size.
 - YARA working memory.
@@ -312,7 +296,6 @@ If a worker is OOM-killed:
 3. Reduce the number of simultaneous workers.
 4. Review candidate counts and file sizes.
 5. Check whether several hunts run concurrently.
-6. Reduce chunk size. (Warning: making the chunk size equal to, or below, `max_thread_count` will degrade performance)
 
 ## CPU guidance
 
@@ -1122,7 +1105,6 @@ Actions:
 4. Reduce simultaneous workers.
 5. Review file size and candidate counts.
 6. Check for concurrent hunts.
-7. Reduce `chunk_size`.
 
 ## Memory remains elevated after a hunt
 
