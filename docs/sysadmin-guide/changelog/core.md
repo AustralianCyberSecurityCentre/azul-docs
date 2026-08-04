@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-04 | app                  | release azul.12.0.0                                |
 | 2026-08-04 | app                  | release azul.12.0.0.rc1                            |
 | 2026-08-03 | backup               | feat: allow for enabling of aes encryption. ..76.  |
 | 2026-08-03 | webui                | fix: resolve OIDC service loading when OIDC disabled ..267. |
