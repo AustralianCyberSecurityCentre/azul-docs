@@ -4,6 +4,121 @@ sidebar_position: 3
 
 # Release Notes
 
+## 12.0.0
+
+12.0.0 is a new feature release containing a large suite of bug fixes and various feature improvements
+to improve analytic workflows.
+
+Improvements include:
+
+## all
+
+- Ty enabled and various quirks resolved across the codebase.
+- Hardened images used in various core components.
+
+## azul-app
+
+- Support for configuring known_hosts for Git sync has been added.
+- Support for configuring AES encryption (for stream content in S3 and backups).
+- Fix to re-enable utilising subpaths in repositories for rules.
+- Support for configuring error messages if a user cannot access the system due to a 500 error.
+- Removed ability to disable entropy similarity.
+- Added a read-only mode to enable pausing submissions.
+
+## audit forwarder
+
+- Filters kube-probe log items by default.
+- Improves flushing and chunking of logs.
+
+## backup
+
+- Support for AES encrypting backed up content
+- Better support for scenarios where DNS-style bucket selection is used for S3.
+
+## client
+
+- Various fixes for invalid inputs.
+
+## dispatcher
+
+- Added debugging endpoints to enable seeking events without needing to manually decode.
+- Added AES encryption for storing streams.
+
+## docs
+
+- Improved documentation for azul-client usecases.
+
+## metastore
+
+- Substantial performance improvements for various query types.
+- Fix enabling users to submit content with future dates.
+- Ensure that submission purges always include timestamps.
+- Fix issues with similar entropy.
+- Add support for the new reference set view.
+- Added read-only mode support.
+
+## runner
+
+- Support for downloader plugins, which download files from external sources on-demand.
+- Support for known_hosts.
+- Various typing fixes.
+
+## webui
+
+- Fix issue with UI not loading when OIDC is disabled.
+- Fix phrasing of various messages.
+- Show actual ssdeep and tlsh when doing similarity searches.
+- Add a column in the plugin explore view to count completion percentages.
+- Enable customising of hex view column chunk sizes.
+- Enable configuring strings view min/max sizes.
+- Group multiplugins in the plugins view to make this more obvious.
+- Improved source table on binary overview page.
+- Hyperlink ssdeep on binary overview page.
+- Give more options for viewing reference sets.
+- Add a proper error page for 500 errors.
+- Improved rendering of feature values.
+- Small tweaks to binary pages.
+- Internal overhaul for Angular 22 & Angular Signals.
+- Monospaced font in strings view.
+- Support for read-only mode.
+
+## plugins
+
+### assemblyline
+
+- Improve AL integration by inspecting full tree.
+
+### cape
+
+- Fix issue where if authentication enabled for UI, the wrong endpoint was used for probing if platform is available.
+
+### degarble
+
+- Fix various issues and error handling states.
+
+### js-deobf
+
+- Use improved `webcrack` dependency.
+
+### maco
+
+- Add support for flagging partial completions.
+- Fix issue where only protocols were specified in URLs.
+
+### retrohunt
+
+- Continued work for retrohunt overhaul.
+- Improved threading; optimisation for broad phase searches.
+
+### virustotal
+
+- Enable not ingesting non-malicious files for space reasons.
+
+### yara
+
+- Add option to conditionally not upload rules as augmented streams.
+- Fix issue where too many hits were found in various cases.
+
 ## 11.2.0
 
 Version 11.2.0 is a small group of fixes to resolve bugs found in the latest azul deployment.
