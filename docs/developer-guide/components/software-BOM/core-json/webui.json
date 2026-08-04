@@ -1,26 +1,26 @@
 {
-  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
-  "serialNumber": "urn:uuid:3c7114e1-c4df-4c85-9c89-c4bc1ccf6325",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:7b27cf72-a73f-4cad-87aa-eb7ac645926a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-17T04:00:54Z",
+    "timestamp": "2026-08-04T02:08:58Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.45.1"
+          "version": "1.50.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "daf9a0279f81c897",
+      "bom-ref": "e431ffcb8ae9cc43",
       "type": "container",
       "name": "webui",
-      "version": "11.1.0"
+      "version": "12.0.0-rc1"
     },
     "properties": [
       {
@@ -4704,59 +4704,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:npm/marked@14.0.0?package-id=a2f393646a843e9e",
-      "type": "library",
-      "author": "Christopher Jeffrey",
-      "name": "marked",
-      "version": "14.0.0",
-      "description": "A markdown parser built for speed",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "cpe": "cpe:2.3:a:marked_project:marked:14.0.0:*:*:*:*:node.js:*:*",
-      "purl": "pkg:npm/marked@14.0.0",
-      "externalReferences": [
-        {
-          "url": "git://github.com/markedjs/marked.git",
-          "type": "distribution"
-        },
-        {
-          "url": "https://marked.js.org",
-          "type": "website"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "javascript-package-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "javascript"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "npm"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "javascript-npm-package"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:60a2fa2c3d8668e3d32cdfc98bb97285676d8ac72d83d05b7c27035ffde6b63a"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/nginx/html/dist/browser/assets/monaco/node_modules/marked/package.json"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:npm/monaco-editor@0.55.1?package-id=4dca2f339462ce53",
       "type": "library",
       "author": "Microsoft Corporation",
@@ -4829,7 +4776,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:60a2fa2c3d8668e3d32cdfc98bb97285676d8ac72d83d05b7c27035ffde6b63a"
+          "value": "sha256:19ee7da2cc81e47e4ed85e223b87fb7c57f0b5a9d5e65b9c928b50fadf057ef7"
         },
         {
           "name": "syft:location:0:path",
@@ -21350,7 +21297,7 @@
       ]
     },
     {
-      "bom-ref": "fe046642d0ccd1a3",
+      "bom-ref": "8d3181b073c7e8f8",
       "type": "file",
       "name": "/etc/nginx/nginx.conf",
       "hashes": [
@@ -21365,22 +21312,7 @@
       ]
     },
     {
-      "bom-ref": "b63ff411cf14351f",
-      "type": "file",
-      "name": "/usr/share/nginx/html/dist/browser/assets/monaco/node_modules/marked/package.json",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "f3500d0c806ff7fef52230dbc99437ec6bb582d8"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "1f4ba1bebc378284c42e16ad0c1895ddf3f3f8ad13c3dc7dd6797a191bbc5a32"
-        }
-      ]
-    },
-    {
-      "bom-ref": "b28e923c547a6855",
+      "bom-ref": "45772c4de5175a46",
       "type": "file",
       "name": "/usr/share/nginx/html/dist/browser/assets/monaco/package.json",
       "hashes": [
