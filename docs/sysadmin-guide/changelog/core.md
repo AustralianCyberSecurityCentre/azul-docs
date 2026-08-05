@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-05 | backup               | fix: try and make restore more resillient and work faster. ..81. |
 | 2026-08-04 | runner               | fix: remove un.used imports. ..74.                 |
 | 2026-08-04 | app                  | release azul.12.0.0                                |
 | 2026-08-04 | app                  | release azul.12.0.0.rc1                            |
