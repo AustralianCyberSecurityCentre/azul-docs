@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-06 | bedrock              | feat: allow S3 transport settings to be configurable. ..124. |
 | 2026-08-05 | metastore            | fix: ensure tag count is consistenet on the binary. ..66. |
 | 2026-08-05 | backup               | feat: discard directories on restore. ..82.        |
 | 2026-08-05 | backup               | fix: try and make restore more resillient and work faster. ..81. |
