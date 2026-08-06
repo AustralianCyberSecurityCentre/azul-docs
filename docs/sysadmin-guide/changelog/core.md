@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-06 | bedrock              | feat: allow for listing errors. ..125.             |
 | 2026-08-06 | backup               | feat: only restore a file if it isn.t already in dispatcher. ..84. |
 | 2026-08-06 | backup               | feat: better stats and logging. ..83.              |
 | 2026-08-06 | bedrock              | feat: allow S3 transport settings to be configurable. ..124. |
