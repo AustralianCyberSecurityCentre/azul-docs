@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-07 | webui                | fix: searching when tag is selected. ..268.        |
 | 2026-08-07 | bedrock              | feat: add s3 list settings. ..126.                 |
 | 2026-08-06 | bedrock              | feat: allow for listing errors. ..125.             |
 | 2026-08-06 | backup               | feat: only restore a file if it isn.t already in dispatcher. ..84. |
