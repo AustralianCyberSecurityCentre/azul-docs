@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-07 | backup               | feat: add more resillience and retries to listing and event restore. ..85. |
 | 2026-08-07 | webui                | fix: searching when tag is selected. ..268.        |
 | 2026-08-07 | bedrock              | feat: add s3 list settings. ..126.                 |
 | 2026-08-06 | bedrock              | feat: allow for listing errors. ..125.             |
