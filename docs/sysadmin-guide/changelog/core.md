@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-12 | client               | feat: add api key based auth. ..45.                |
 | 2026-08-12 | backup               | fix: skip existing stream bug. ..89.               |
 | 2026-08-10 | backup               | fix: bad listing recovery. ..87.                   |
 | 2026-08-07 | backup               | feat: add more resillience and retries to listing and event restore. ..85. |
