@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-08-13 | retrohunt            | fix: simplify broadphase ..80.                     |
 | 2026-08-13 | python               | feat: update python decompiler to pycdc ..40.      |
 | 2026-08-04 | retrohunt            | fix: revert redis version ..79.                    |
 | 2026-08-03 | retrohunt            | fix: simplify threadpoolexec operation ..75.       |
