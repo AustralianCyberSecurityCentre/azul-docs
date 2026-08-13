@@ -220,27 +220,135 @@ data:
   REDIS_TTL: "{{ .Values.external.redis.ttl }}"
   REDIS_EXCEPTION_WAIT: "{{ .Values.external.redis.exception_wait }}"  
   MAX_THREAD_COUNT: "{{ .Values.plugins.retrohunt.config.max_thread_count }}"
+  DEFAULT_NARROW_PHASE_CLEANUP_MULTIPLIER: "{{ .Values.plugins.retrohunt.config.default_narrow_phase_cleanup_multiplier }}"
+  MAX_REQUIRED_STRINGS_PER_AND_SEARCH: "{{ .Values.plugins.retrohunt.config.max_required_strings_per_and_search }}"
+  MAX_REQUIRED_STRING_SEARCHES_PER_INDEX: "{{ .Values.plugins.retrohunt.config.max_required_string_searches_per_index }}"
+  MAX_BROAD_PHASE_WORKERS: "{{.Values.plugins.retrohunt.config.max_broad_phase_workers }}"
+  MAX_BROAD_PHASE_TASKS: " {{ .Values.plugins.retrohunt.config.max_broad_phase_tasks }}"
 ```
 
+Set this value to the number of days before a stored hunt is cleaned up by the cronjob.
 ```yaml
 REDIS_CLEANUP_DELAY: "{{ .Values.external.redis.cleanup_delay }}"
 ```
-Set this value to the number of days before a stored hunt is cleaned up by the cronjob.
-
+Set this value to the number of days before a running hunt is cleaned up by the cronjob. 
 ```yaml
 REDIS_CLEANUP_RUNNING_DELAY: "{{ .Values.external.redis.cleanup_running_delay }}"
-```
-Set this value to the number of days before a running hunt is cleaned up by the cronjob. 
-
-```yaml
-REDIS_TTL: "{{ .Values.external.redis.ttl }}"
 ```
 This is the time in seconds for a worker to hold a redis jobstream (hunt job).
 The worker will periodically refresh this time as it works. 
 If a worker fails at some point when processing a hunt, and stops refreshing the ttl, another worker will pick up the job when this time expires. 
 
 A pod restart is normally required after changing these values.
+```yaml
+REDIS_TTL: "{{ .Values.external.redis.ttl }}"
+```
+Controls how frequently Retrohunt performs its explicit memory cleanup during narrow phase.
+The cleanup batch size is calculated from the number of active narrow workers:
 
+cleanup batch size =
+    active workers × default_narrow_phase_cleanup_multiplier
+
+For:
+max_thread_count = 8
+default_narrow_phase_cleanup_multiplier = 4
+
+with enough candidate files:
+
+active workers = 8
+
+cleanup batch =
+    8 × 4
+    = 32 files
+
+Which produces:
+cleanup every 32 files
+After each batch Retrohunt releases references, runs Python garbage collection and attempts to return unused native heap memory to the operating system.
+Increasing this number will decrease the cleanup overhead which can increase performance, but it can also increase memory pressure if dealing with larger files.
+```yaml
+DEFAULT_NARROW_PHASE_CLEANUP_MULTIPLIER: "{{ .Values.plugins.retrohunt.config.default_narrow_phase_cleanup_multiplier }}"
+```
+Controls how many strings can be added to one BigGrep AND search. 
+Increasing this number will increase the broadphase accuracy resulting in fewer candidate files being sent to Narrowphase.
+This can increase memory pressure.
+```yaml
+MAX_REQUIRED_STRINGS_PER_AND_SEARCH: "{{ .Values.plugins.retrohunt.config.max_required_strings_per_and_search }}"
+```
+```
+Sets the preferred maximum number of atom-group searches performed against each index for a rule.
+This is different from the number of YARA strings. One YARA string can generate many atom searches, particularly when modifiers such as nocase are used.
+For example:
+
+$a = 1 atom search
+$b = 1 atom search
+$c nocase = 64 atom searches
+Total = 66 searches per index
+
+If:
+max_required_string_searches_per_index = 64
+then the complete 66-search broad plan exceeds the preferred budget. The planner will attempt to retain the most useful parts of the condition while staying around the configured limit.
+
+For N indexes:
+
+approximate tasks =
+    selected searches per index × number of indexes
+    
+For example:
+
+64 searches/index × 22 indexes = 1,408 broad-phase tasks
+
+This is a preferred limit, not the ultimate hard safety limit. If a minimum safe search requires more searches, the planner may exceed it, provided it remains underneath max_broad_phase_tasks.
+
+Higher values lead to more complete broadphase filtering with potentially fewer narrow candidates. This will increaes broad-phase work.
+
+Lower values will decreaes broadphase work, but potentially increase candidates sent to narrowphaes
+```
+```yaml
+MAX_REQUIRED_STRING_SEARCHES_PER_INDEX: "{{ .Values.plugins.retrohunt.config.max_required_string_searches_per_index }}"
+```
+The number of concurrent broadphase workers. Recommended to keep this number the same as the number of CPUs in the container.
+Increasing this number can decrease broadphase processing time significantly granted the CPUs are available. 
+```yaml
+MAX_BROAD_PHASE_WORKERS: "{{.Values.plugins.retrohunt.config.max_broad_phase_workers }}"
+```
+```
+Sets the hard upper limit on the total amount of BigGrep work a hunt may generate.
+Unlike max_required_string_searches_per_index, this is a hard safety limit.
+
+The calculation is:
+
+total broad tasks = searches per index × number of indexes
+
+For example:
+
+341 searches/index
+22 indexes
+
+341 × 22 = 7,502 tasks
+
+With:
+
+max_broad_phase_tasks = 100000
+
+that is allowed because:
+
+7,502 < 100,000
+
+The planner also calculates a hard per-index allowance:
+
+hard searches/index = max_broad_phase_tasks // number of indexes
+
+For 22 indexes:
+
+100,000 // 22 = 4,545 searches/index
+
+A plan requiring more total work than the configured maximum is rejected rather than allowing an unbounded broad search.
+Increasing this number may increase memory pressure duing the broadphase. 
+Recommended to keep it around 100_000
+```
+```yaml
+MAX_BROAD_PHASE_TASKS: " {{ .Values.plugins.retrohunt.config.max_broad_phase_tasks }}"
+```
 ---
 
 # Narrow-phase thread count
@@ -282,6 +390,7 @@ resources:
 Memory use increases with:
 
 - Thread count.
+- High value for `DEFAULT_NARROW_PHASE_CLEANUP_MULTIPLIER` (number of files stored in memory before cleanup)
 - Concurrent downloads.
 - Candidate file size.
 - YARA working memory.
@@ -296,6 +405,7 @@ If a worker is OOM-killed:
 3. Reduce the number of simultaneous workers.
 4. Review candidate counts and file sizes.
 5. Check whether several hunts run concurrently.
+6. Reduce `DEFAULT_NARROW_PHASE_CLEANUP_MULTIPLIER`
 
 ## CPU guidance
 
