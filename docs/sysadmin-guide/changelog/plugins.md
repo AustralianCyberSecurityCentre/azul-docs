@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-08-17 | maco                 | fix: make a warning not a feature. ..70.           |
 | 2026-08-13 | retrohunt            | fix: simplify broadphase ..80.                     |
 | 2026-08-13 | python               | feat: update python decompiler to pycdc ..40.      |
 | 2026-08-04 | retrohunt            | fix: revert redis version ..79.                    |
