@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-18 | webui                | feat: add groupings to feature buttons. ..283.     |
 | 2026-08-18 | metastore            | feat: disable unused features during indexing. ..69. |
 | 2026-08-17 | webui                | fix: hex view page count ..276.                    |
 | 2026-08-13 | app                  | feat: retrohunt env changes ..98.                  |
