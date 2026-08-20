@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-20 | metastore            | feat: create all in one ingestor. ..70.            |
 | 2026-08-19 | app                  | feat: add seaweed support to the infra chart ..100. |
 | 2026-08-18 | webui                | feat: add groupings to feature buttons. ..283.     |
 | 2026-08-18 | metastore            | feat: disable unused features during indexing. ..69. |
