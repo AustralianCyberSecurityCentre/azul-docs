@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-08-20 | python               | fix: pycdc decompilation issues ..59.              |
 | 2026-08-18 | unbox                | fix: unbox handelling labels with surrogates in their names. ..71. |
 | 2026-08-17 | maco                 | fix: make a warning not a feature. ..70.           |
 | 2026-08-13 | retrohunt            | fix: simplify broadphase ..80.                     |
