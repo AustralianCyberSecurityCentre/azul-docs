@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-21 | dispatcher           | feat: replace minio with seaweedfs for tests. ..89. |
 | 2026-08-21 | runner               | fix: early git sync failure case. ..87.            |
 | 2026-08-21 | app                  | feat: make pods shutdown gracefully by default. ..101. |
 | 2026-08-21 | demo                 | feat: add seaweed and fix restapi no .bin.bash. ..57. |
