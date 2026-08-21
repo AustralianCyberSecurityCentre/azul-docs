@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-08-21 | python               | fix: remove uncompyle6. cleanup test cases ..60.   |
 | 2026-08-20 | unbox                | feat: make a bad file name be a feature. ..72.     |
 | 2026-08-20 | python               | fix: pycdc decompilation issues ..59.              |
 | 2026-08-18 | unbox                | fix: unbox handelling labels with surrogates in their names. ..71. |
