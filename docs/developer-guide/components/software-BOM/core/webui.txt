@@ -50,7 +50,6 @@ libxml2                    2.13.9-r0         apk
 libxpm                     3.5.17-r0         apk   
 libxslt                    1.1.42-r2         apk   
 libxt                      1.3.1-r0          apk   
-marked                     14.0.0            npm   
 monaco-editor              0.55.1            npm   
 musl                       1.2.5-r9          apk   
 musl-utils                 1.2.5-r9          apk   

@@ -2,6 +2,44 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-21 | dispatcher           | feat: replace minio with seaweedfs for tests. ..89. |
+| 2026-08-21 | runner               | fix: early git sync failure case. ..87.            |
+| 2026-08-21 | app                  | feat: make pods shutdown gracefully by default. ..101. |
+| 2026-08-21 | demo                 | feat: add seaweed and fix restapi no .bin.bash. ..57. |
+| 2026-08-20 | metastore            | feat: create all in one ingestor. ..70.            |
+| 2026-08-19 | app                  | feat: add seaweed support to the infra chart ..100. |
+| 2026-08-18 | webui                | feat: add groupings to feature buttons. ..283.     |
+| 2026-08-18 | metastore            | feat: disable unused features during indexing. ..69. |
+| 2026-08-17 | webui                | fix: hex view page count ..276.                    |
+| 2026-08-13 | app                  | feat: retrohunt env changes ..98.                  |
+| 2026-08-12 | metastore            | feat: removing un.used fields. ..67.               |
+| 2026-08-12 | client               | feat: add api key based auth. ..45.                |
+| 2026-08-12 | backup               | fix: skip existing stream bug. ..89.               |
+| 2026-08-10 | backup               | fix: bad listing recovery. ..87.                   |
+| 2026-08-07 | backup               | feat: add more resillience and retries to listing and event restore. ..85. |
+| 2026-08-07 | webui                | fix: searching when tag is selected. ..268.        |
+| 2026-08-07 | bedrock              | feat: add s3 list settings. ..126.                 |
+| 2026-08-06 | bedrock              | feat: allow for listing errors. ..125.             |
+| 2026-08-06 | backup               | feat: only restore a file if it isn.t already in dispatcher. ..84. |
+| 2026-08-06 | backup               | feat: better stats and logging. ..83.              |
+| 2026-08-06 | bedrock              | feat: allow S3 transport settings to be configurable. ..124. |
+| 2026-08-05 | metastore            | fix: ensure tag count is consistenet on the binary. ..66. |
+| 2026-08-05 | backup               | feat: discard directories on restore. ..82.        |
+| 2026-08-05 | backup               | fix: try and make restore more resillient and work faster. ..81. |
+| 2026-08-04 | runner               | fix: remove un.used imports. ..74.                 |
+| 2026-08-04 | app                  | release azul.12.0.0                                |
+| 2026-08-04 | app                  | release azul.12.0.0.rc1                            |
+| 2026-08-03 | backup               | feat: allow for enabling of aes encryption. ..76.  |
+| 2026-08-03 | webui                | fix: resolve OIDC service loading when OIDC disabled ..267. |
+| 2026-08-03 | bedrock              | fix: guarantee aes extension on checks. ..123.     |
+| 2026-08-03 | app                  | feat: allow increase in backup.restore tmp size. ..99. |
+| 2026-07-31 | bedrock              | fix: aes when it recieves files that don.t fill buffer. ..118. |
+| 2026-07-31 | stats                | feat: enable ty. upgrade uv.lock ..37.             |
+| 2026-07-29 | bedrock              | fix: hide keys ..117.                              |
+| 2026-07-29 | app                  | feat: enable aes encryption for backup. ..97.      |
+| 2026-07-29 | webui                | feat: fix no longer in azul message ..258.         |
+| 2026-07-28 | runner               | fix: download plugin fetching. ..72.               |
+| 2026-07-28 | metastore            | fix: items not item ..65.                          |
 | 2026-07-28 | metastore            | fix: binary counts in certain circumstances. ..64. |
 | 2026-07-28 | metastore            | feat: improve performance of implicit queries. ..63. |
 | 2026-07-28 | smart-string-filter  | feat: enable ty. upgrade uv.lock ..36.             |

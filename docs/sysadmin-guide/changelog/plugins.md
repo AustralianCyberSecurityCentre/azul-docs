@@ -2,6 +2,17 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-08-21 | python               | fix: remove uncompyle6. cleanup test cases ..60.   |
+| 2026-08-20 | unbox                | feat: make a bad file name be a feature. ..72.     |
+| 2026-08-20 | python               | fix: pycdc decompilation issues ..59.              |
+| 2026-08-18 | unbox                | fix: unbox handelling labels with surrogates in their names. ..71. |
+| 2026-08-17 | maco                 | fix: make a warning not a feature. ..70.           |
+| 2026-08-13 | retrohunt            | fix: simplify broadphase ..80.                     |
+| 2026-08-13 | python               | feat: update python decompiler to pycdc ..40.      |
+| 2026-08-04 | retrohunt            | fix: revert redis version ..79.                    |
+| 2026-08-03 | retrohunt            | fix: simplify threadpoolexec operation ..75.       |
+| 2026-07-30 | retrohunt            | fix: add mem logging ..74.                         |
+| 2026-07-28 | cape                 | fix: change to a more suitable CAPE contactable URL ..39. |
 | 2026-07-28 | retrohunt            | feat: bumb ingester version ..73.                  |
 | 2026-07-28 | yara                 | feat: add option to exclude raw rules upload ..52. |
 | 2026-07-27 | index-coincidence    | feat: enable ty. upgrade uv.lock ..42.             |
