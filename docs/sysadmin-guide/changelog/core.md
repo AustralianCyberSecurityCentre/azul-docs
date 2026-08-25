@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-25 | dispatcher           | feat: add retries to some stream endpoints and fix aes cache. ..92. |
 | 2026-08-25 | backup               | feat: add retry on backup and restore. ..102.      |
 | 2026-08-25 | app                  | feat: bump to unsable 13 ..102.                    |
 | 2026-08-24 | bedrock              | feat: minimise head requests by only checking for steams on failures. ..142. |
