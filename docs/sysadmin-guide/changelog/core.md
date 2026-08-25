@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-25 | app                  | feat: bump to unsable 13 ..102.                    |
 | 2026-08-24 | bedrock              | feat: minimise head requests by only checking for steams on failures. ..142. |
 | 2026-08-24 | metastore            | fix: xxhash breaking change. ..71.                 |
 | 2026-08-21 | dispatcher           | feat: replace minio with seaweedfs for tests. ..89. |
