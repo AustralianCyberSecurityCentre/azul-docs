@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-25 | bedrock              | feat: more explicit copy errors. ..144.            |
 | 2026-08-25 | stats                | feat: switch minio to seaweed ..53.                |
 | 2026-08-25 | runner               | feat: add renovate schedule. ..93.                 |
 | 2026-08-25 | bedrock              | feat: create splitter filestore. ..143.            |
