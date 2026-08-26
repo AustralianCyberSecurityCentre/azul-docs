@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-26 | bedrock              | feat: add pat security for PATs. ..146.            |
 | 2026-08-26 | dispatcher           | feat: start using directory splitter and fix flakey test. ..93. |
 | 2026-08-26 | backup               | feat: upgrade bedrock to 12.0.105 ..104.           |
 | 2026-08-26 | bedrock              | feat: make splitter length 2 instead of 3. ..145.  |
