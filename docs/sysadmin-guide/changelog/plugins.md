@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-08-26 | maco                 | feat: remove git hash from version. ..86.          |
 | 2026-08-25 | maco                 | feat: use last.modified for child maco version. ..85. |
 | 2026-08-21 | python               | fix: remove uncompyle6. cleanup test cases ..60.   |
 | 2026-08-20 | unbox                | feat: make a bad file name be a feature. ..72.     |
