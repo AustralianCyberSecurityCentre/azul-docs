@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-26 | backup               | feat: upgrade bedrock to 12.0.105 ..104.           |
 | 2026-08-26 | bedrock              | feat: make splitter length 2 instead of 3. ..145.  |
 | 2026-08-25 | backup               | feat: make use of the splitter store. ..103.       |
 | 2026-08-25 | runner               | feat: make git hash optional and don.t show git.sync password. ..94. |
