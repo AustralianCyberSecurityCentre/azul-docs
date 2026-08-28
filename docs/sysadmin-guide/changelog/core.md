@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-08-28 | bedrock              | feat: upgrade golang to version 13. ..147.         |
 | 2026-08-27 | dispatcher           | feat: azul.security now exe and fix upload retries. ..94. |
 | 2026-08-27 | metastore            | feat: add token limiting api ..72.                 |
 | 2026-08-27 | restapi-server       | feat: add token limiting api ..92.                 |
