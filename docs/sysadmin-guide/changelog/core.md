@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-01 | dispatcher           | feat: build with hardened docker images. ..95.     |
 | 2026-09-01 | backup               | feat: change retry on fail behaviour for backup. ..106. |
 | 2026-08-28 | bedrock              | feat: upgrade golang to version 13. ..147.         |
 | 2026-08-27 | dispatcher           | feat: azul.security now exe and fix upload retries. ..94. |
