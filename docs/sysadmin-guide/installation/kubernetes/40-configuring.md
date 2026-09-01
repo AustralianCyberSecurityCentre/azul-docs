@@ -38,3 +38,22 @@ For Minio, consider setting up age-off in [the Minio age-off documentation](../c
 
 Usage of KEDA (via the `azul-scaler`), network policies and the like are documented
 in values files in this repo.
+
+### Opensearch Optimal Index sizes
+
+When setting up Azul you can configure the number of replicas and shards for each index.
+
+Initially leaving it as the default is fine, unless you know how much data you are going to be consuming.
+
+If you know roughly how large the indices will be you can increase the replica and shard count under each individual source in the helm values.yaml.
+
+An optimal shard size is roughly 30GB for opensearch as per these blogs:
+
+- https://opensearch.org/blog/optimize-opensearch-index-shard-size/
+- https://docs.aws.amazon.com/opensearch-service/latest/developerguide/bp-sharding.html
+
+Replicas are used to reduce the risk of cluster faults resulting in lost data.
+As all the data is effectively stored in kafka this is 2 by default and is sufficient in most cases.
+
+The shard count may need to go up if you are ingesting a large amount of data and defaults to 3.
+
