@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-01 | backup               | feat: change retry on fail behaviour for backup. ..106. |
 | 2026-08-28 | bedrock              | feat: upgrade golang to version 13. ..147.         |
 | 2026-08-27 | dispatcher           | feat: azul.security now exe and fix upload retries. ..94. |
 | 2026-08-27 | metastore            | feat: add token limiting api ..72.                 |
