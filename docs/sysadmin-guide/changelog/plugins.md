@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-02 | yara                 | feat: upgrade yara.x and add regression for private rule values. ..85. |
 | 2026-09-02 | unbox                | fix: ensure child filename doesn.t have surrogates. ..88. |
 | 2026-09-02 | cape                 | feat: make cape api key secret. ..72.              |
 | 2026-09-01 | maco                 | feat: Add mapping for salt and password in Encryption objects ..93. |
