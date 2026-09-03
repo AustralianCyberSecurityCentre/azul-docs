@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-03 | app                  | feat: add multi.pod instance support with env overrides. ..103. |
 | 2026-09-03 | metastore            | feat: add size to all queries ..73.                |
 | 2026-09-03 | bedrock              | feat: add error for no credential found. ..151.    |
 | 2026-09-01 | dispatcher           | feat: build with hardened docker images. ..95.     |
