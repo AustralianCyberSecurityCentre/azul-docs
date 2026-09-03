@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-03 | bedrock              | feat: add error for no credential found. ..151.    |
 | 2026-09-01 | dispatcher           | feat: build with hardened docker images. ..95.     |
 | 2026-09-01 | backup               | feat: change retry on fail behaviour for backup. ..106. |
 | 2026-08-28 | bedrock              | feat: upgrade golang to version 13. ..147.         |
