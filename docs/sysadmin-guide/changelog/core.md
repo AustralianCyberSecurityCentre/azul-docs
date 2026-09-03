@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-03 | app                  | feat: add webui highlight setting to match webui change. ..104. |
 | 2026-09-03 | webui                | fix: discard frames and speed up gif viewer. ..298. |
 | 2026-09-03 | metastore            | fix: feature pivot count inaccuracies. ..75.       |
 | 2026-09-03 | metastore            | feat: add additional route by query where useful. ..74. |
