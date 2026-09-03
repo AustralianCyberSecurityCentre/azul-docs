@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-03 | webui                | feat: add overview highlighting for specific features. ..296. |
 | 2026-09-03 | app                  | feat: add multi.pod instance support with env overrides. ..103. |
 | 2026-09-03 | metastore            | feat: add size to all queries ..73.                |
 | 2026-09-03 | bedrock              | feat: add error for no credential found. ..151.    |
