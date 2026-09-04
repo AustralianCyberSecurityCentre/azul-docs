@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-04 | security             | fix: allow conversion to alt security string format. ..89. |
 | 2026-09-03 | webui                | fix: hex viewer not copying selected bytes. ..297. |
 | 2026-09-03 | app                  | feat: add webui highlight setting to match webui change. ..104. |
 | 2026-09-03 | webui                | fix: discard frames and speed up gif viewer. ..298. |
