@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-08 | app                  | fix: allow postgres image overwrite ..107.         |
 | 2026-09-08 | metastore            | fix: convert alt security to the alternative origin format. ..76. |
 | 2026-09-08 | webui                | feat: add source page when viewing reference info. ..309. |
 | 2026-09-04 | security             | fix: allow conversion to alt security string format. ..89. |
