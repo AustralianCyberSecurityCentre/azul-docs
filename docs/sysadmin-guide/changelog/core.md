@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-10 | bedrock              | feat: expedite only one plugin. ..156.             |
 | 2026-09-10 | webui                | feat: support expediting only one plugin. ..310.   |
 | 2026-09-08 | app                  | fix: allow postgres image overwrite ..107.         |
 | 2026-09-08 | metastore            | fix: convert alt security to the alternative origin format. ..76. |
