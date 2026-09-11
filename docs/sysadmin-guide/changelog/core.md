@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-11 | dispatcher           | feat: allow to expedite for just one plugin. ..101. |
 | 2026-09-11 | metastore            | feat: allow plugin expedite to expedite a single plugin. ..77. |
 | 2026-09-10 | bedrock              | feat: expedite only one plugin. ..156.             |
 | 2026-09-10 | webui                | feat: support expediting only one plugin. ..310.   |
