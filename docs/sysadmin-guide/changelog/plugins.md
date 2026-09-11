@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-11 | yara                 | feat: make yarax more resilient ..90.              |
 | 2026-09-02 | yara                 | feat: upgrade yara.x and add regression for private rule values. ..85. |
 | 2026-09-02 | unbox                | fix: ensure child filename doesn.t have surrogates. ..88. |
 | 2026-09-02 | cape                 | feat: make cape api key secret. ..72.              |
