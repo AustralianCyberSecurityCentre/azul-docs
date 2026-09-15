@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-15 | webui                | fix: replace ngx.toastr with a supported alternative. ..323. |
 | 2026-09-13 | app                  | feat: reconfigure vtfilefeedserver ..106.          |
 | 2026-09-11 | dispatcher           | feat: allow to expedite for just one plugin. ..101. |
 | 2026-09-11 | metastore            | feat: allow plugin expedite to expedite a single plugin. ..77. |
