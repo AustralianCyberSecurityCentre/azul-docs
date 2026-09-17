@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-17 | runner               | fix: remove legacy Uri and Filepath and deprecation warning. ..104. |
 | 2026-09-16 | webui                | fix: loading binaries with few strings near the start. ..324. |
 | 2026-09-15 | webui                | fix: replace ngx.toastr with a supported alternative. ..323. |
 | 2026-09-13 | app                  | feat: reconfigure vtfilefeedserver ..106.          |
