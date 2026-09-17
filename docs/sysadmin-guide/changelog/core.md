@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-17 | app                  | fix: endport typo ..108.                           |
 | 2026-09-17 | app                  | feat: Update email parser ..105.                   |
 | 2026-09-17 | metastore            | fix: feature enrichment add clarity. ..79.         |
 | 2026-09-17 | webui                | feat: create family sub.page. ..322.               |
