@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-17 | qrcode               | feat: remove unused Uri and Path ..91.             |
 | 2026-09-17 | script-decoder       | feat: remove unused Uri and Path ..94.             |
 | 2026-09-17 | shortcut             | feat: remove unused Uri and Path ..83.             |
 | 2026-09-17 | build-time-strings   | feat: remove unused Uri and Path ..81.             |
