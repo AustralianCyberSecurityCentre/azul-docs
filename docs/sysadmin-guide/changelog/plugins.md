@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-17 | lookback             | feat: remove unused Uri and Path ..26.             |
 | 2026-09-17 | entrypointcheck      | feat: remove unused Uri and Path ..89.             |
 | 2026-09-17 | tika                 | feat: remove unused Uri and Path ..84.             |
 | 2026-09-17 | richid               | feat: remove unused Uri and Path ..87.             |
