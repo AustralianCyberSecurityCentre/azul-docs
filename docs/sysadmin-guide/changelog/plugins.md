@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-17 | build-time-strings   | feat: remove unused Uri and Path ..81.             |
 | 2026-09-17 | email                | feat: ole.email.parser.upgrade ..76.               |
 | 2026-09-13 | virustotal           | feat: download from VT or Blob storage ..89.       |
 | 2026-09-11 | yara                 | feat: make yarax more resilient ..90.              |
