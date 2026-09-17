@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-17 | metastore            | fix: feature enrichment add clarity. ..79.         |
 | 2026-09-17 | webui                | feat: create family sub.page. ..322.               |
 | 2026-09-17 | runner               | fix: remove legacy Uri and Filepath and deprecation warning. ..104. |
 | 2026-09-16 | webui                | fix: loading binaries with few strings near the start. ..324. |
