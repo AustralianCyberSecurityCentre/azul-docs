@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-17 | email                | feat: ole.email.parser.upgrade ..76.               |
 | 2026-09-13 | virustotal           | feat: download from VT or Blob storage ..89.       |
 | 2026-09-11 | yara                 | feat: make yarax more resilient ..90.              |
 | 2026-09-02 | yara                 | feat: upgrade yara.x and add regression for private rule values. ..85. |
