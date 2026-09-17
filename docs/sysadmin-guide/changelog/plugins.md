@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-17 | richid               | feat: remove unused Uri and Path ..87.             |
 | 2026-09-17 | lief                 | feat: remove unused Uri and Path ..94.             |
 | 2026-09-17 | certificates         | feat: remove unused Uri and Path ..93.             |
 | 2026-09-17 | maco                 | feat: remove unused Uri and Path ..98.             |
