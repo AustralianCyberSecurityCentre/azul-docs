@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-18 | webui                | fix: monaco editor don.t give option to open links ..328. |
 | 2026-09-18 | webui                | fix: prevent going beyond the feature values. ..327. |
 | 2026-09-18 | dispatcher           | fix: dispatcher injection events. ..104.           |
 | 2026-09-18 | dispatcher           | fix: filter consumer rule. ..105.                  |
