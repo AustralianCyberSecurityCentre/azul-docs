@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-18 | lief                 | feat: update feature types ..95.                   |
 | 2026-09-18 | cape                 | feat: update feature types ..80.                   |
 | 2026-09-18 | virustotal           | feat: update path and url mappings. ..95.          |
 | 2026-09-18 | maco                 | feat: update feature types ..99.                   |
