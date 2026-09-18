@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-18 | virustotal           | feat: update path and url mappings. ..95.          |
 | 2026-09-18 | maco                 | feat: update feature types ..99.                   |
 | 2026-09-18 | android-parser       | feat: update feature types ..93.                   |
 | 2026-09-17 | python               | feat: remove unused Uri and Path ..73.             |
