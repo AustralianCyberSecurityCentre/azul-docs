@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-18 | dispatcher           | fix: filter consumer rule. ..105.                  |
 | 2026-09-18 | webui                | feat: feature table show parts in table. ..325.    |
 | 2026-09-18 | webui                | feat: add types to feature explore page. ..326.    |
 | 2026-09-17 | app                  | fix: endport typo ..108.                           |
