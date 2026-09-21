@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-21 | email                | fix: Issues found in QA of new mail extractor ..90. |
 | 2026-09-20 | malcarve             | feat: update feature types ..66.                   |
 | 2026-09-18 | lief                 | feat: update feature types ..95.                   |
 | 2026-09-18 | cape                 | feat: update feature types ..80.                   |
