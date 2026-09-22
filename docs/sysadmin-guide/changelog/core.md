@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-22 | smart-string-filter  | feat: make various improvements ..74.              |
 | 2026-09-22 | backup               | fix: prevent dataloss on backup shutdown. ..115.   |
 | 2026-09-21 | webui                | feat: update ai file types ..339.                  |
 | 2026-09-21 | app                  | fix: stop loki from rolling. ..109.                |
