@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-27 | smart-string-filter  | fix: readme so docs can build. ..77.               |
 | 2026-09-27 | alerter              | feat: inital alerter capability. ..1.              |
 | 2026-09-27 | bedrock              | feat: upgrade file magic ..166.                    |
 | 2026-09-27 | runner               | feat: upgrade file magic ..108.                    |
