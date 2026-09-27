@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-27 | runner               | feat: upgrade file magic ..108.                    |
 | 2026-09-27 | app                  | feat: add alerter configuration. ..111.            |
 | 2026-09-25 | bedrock              | feat: tweak alert hit ..162.                       |
 | 2026-09-25 | bedrock              | feat: add alerter to raise alerts for certain events in dispatcher. ..161. |
