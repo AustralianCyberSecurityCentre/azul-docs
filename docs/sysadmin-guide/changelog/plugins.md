@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-09-28 | email                | fix: magic 48 fails badly. ..96.                   |
 | 2026-09-27 | email                | feat: upgrade file magic ..95.                     |
 | 2026-09-22 | lief                 | fix: Many and too large exports ..98.              |
 | 2026-09-21 | email                | fix: Issues found in QA of new mail extractor ..90. |
