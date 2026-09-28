@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-09-28 | dispatcher           | feat: add alerter to raise alerts for certain events are produced. ..108. |
 | 2026-09-28 | bedrock              | fix: magic 48 fails badly. ..167.                  |
 | 2026-09-27 | smart-string-filter  | fix: readme so docs can build. ..77.               |
 | 2026-09-27 | alerter              | feat: inital alerter capability. ..1.              |
