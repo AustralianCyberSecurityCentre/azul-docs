@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-01 | webui                | feat: add alerter settings into the webui. ..348.  |
 | 2026-10-01 | app                  | feat: have alerter configure the webui based on values.yaml ..112. |
 | 2026-10-01 | bedrock              | feat: Add PluginSummary class ..168.               |
 | 2026-09-29 | runner               | fix: labels with surrogates ..110.                 |
