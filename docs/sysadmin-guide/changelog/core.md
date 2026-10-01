@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-01 | bedrock              | feat: Add PluginSummary class ..168.               |
 | 2026-09-29 | runner               | fix: labels with surrogates ..110.                 |
 | 2026-09-28 | dispatcher           | feat: add alerter to raise alerts for certain events are produced. ..108. |
 | 2026-09-28 | bedrock              | fix: magic 48 fails badly. ..167.                  |
