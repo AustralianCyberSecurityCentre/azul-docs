@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-07 | webui                | fix: add missing status description. ..358.        |
 | 2026-10-07 | metastore            | fix: avoid exclude unset because it has bad behaviour. ..81. |
 | 2026-10-07 | bedrock              | fix: avoid exclude unset because it has bad behaviour. ..172. |
 | 2026-10-07 | webui                | feat: switch from untyped form builder to signal forms for tags ..357. |
