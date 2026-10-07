@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-07 | bedrock              | feat: add retrohunt retries ..173.                 |
 | 2026-10-06 | client               | fix: close owned upload files and validate dataless hashes ..72. |
 | 2026-10-06 | runner               | fix: download plugin not having security. ..111.   |
 | 2026-10-06 | webui                | feat: allow for changes to number of relational results. ..354. |
