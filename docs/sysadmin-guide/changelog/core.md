@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-07 | webui                | feat: switch from untyped form builder to signal forms for tags ..357. |
 | 2026-10-07 | app                  | fix: add better default actions for seaweed admin ..113. |
 | 2026-10-07 | bedrock              | feat: add retrohunt retries ..173.                 |
 | 2026-10-06 | client               | fix: close owned upload files and validate dataless hashes ..72. |
