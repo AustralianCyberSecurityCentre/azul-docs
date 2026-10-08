@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-10-08 | lief                 | fix: feature types ..103.                          |
 | 2026-10-06 | virustotal           | fix: ensure sourced events always have a security ..102. |
 | 2026-09-28 | email                | fix: magic 48 fails badly. ..96.                   |
 | 2026-09-27 | email                | feat: upgrade file magic ..95.                     |
