@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-12 | webui                | feat: remove host control directive ..367.         |
 | 2026-10-11 | webui                | feat: migrate upload form to signal forms. ..359.  |
 | 2026-10-08 | app                  | feat: add max retries retrohunt ..114.             |
 | 2026-10-07 | webui                | fix: add missing status description. ..358.        |
