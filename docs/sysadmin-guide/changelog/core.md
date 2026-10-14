@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-14 | webui                | feat: add links with search queries in overview ..370. |
 | 2026-10-14 | webui                | feat: differentiate between contentless binary entropy message ..369. |
 | 2026-10-13 | webui                | feat: plugin summary optimisation ..368.           |
 | 2026-10-12 | webui                | feat: remove host control directive ..367.         |
