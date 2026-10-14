@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-14 | app                  | fix: azul.app deployment issues ..115.             |
 | 2026-10-14 | app                  | feat: compat with Openshift ..110.                 |
 | 2026-10-14 | webui                | feat: add links with search queries in overview ..370. |
 | 2026-10-14 | webui                | feat: differentiate between contentless binary entropy message ..369. |
