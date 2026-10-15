@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-10-15 | report-feeds         | feat: Adds two new feed sources ..67.              |
 | 2026-10-08 | lief                 | fix: feature types ..103.                          |
 | 2026-10-06 | virustotal           | fix: ensure sourced events always have a security ..102. |
 | 2026-09-28 | email                | fix: magic 48 fails badly. ..96.                   |
