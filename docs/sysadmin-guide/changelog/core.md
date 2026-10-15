@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-15 | webui                | feat: left align feature search ..371.             |
 | 2026-10-15 | webui                | fix: prevent downloading image multiple times due to no replay ..372. |
 | 2026-10-15 | metastore            | feat: make opensearch security roles easier. ..84. |
 | 2026-10-14 | app                  | fix: azul.app deployment issues ..115.             |
