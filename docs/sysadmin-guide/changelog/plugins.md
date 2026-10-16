@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-10-16 | goinfo               | feat: upgrade crypto ..103.                        |
 | 2026-10-16 | entropy              | feat: upgrade crypto ..103.                        |
 | 2026-10-16 | virustotal           | feat: upgrade crypto ..114.                        |
 | 2026-10-15 | report-feeds         | feat: Adds two new feed sources ..67.              |
