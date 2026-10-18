@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-18 | restapi-server       | feat: upgrade static swagger code. ..122.          |
 | 2026-10-16 | dispatcher           | feat: upgrade crypto ..120.                        |
 | 2026-10-16 | backup               | feat: upgrade crypto ..127.                        |
 | 2026-10-16 | bedrock              | feat: upgrade crypto ..177.                        |
