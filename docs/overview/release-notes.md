@@ -4,6 +4,103 @@ sidebar_position: 3
 
 # Release Notes
 
+## 13.0.0
+
+## azul-app
+
+- Deprecated minio in the infra chart. (note the public minio docker image has been removed by the minio team and this will be completely removed in 14.0.0)
+- Add seaweed as a replacement to minio.
+
+## smart string filter
+
+- additional training data provided to model to improve output filtering.
+
+## alerter
+
+- New component that allows users to submit an alert request and alerts are raised when conditions are met.
+- New alert rules can be configured through the webui.
+
+## bedrock
+
+- S3 file upload/download retries added to handle transient datastore failures.
+- S3 now splits the S3 files into different directory based on the first 2 characters of a sha256. This improves S3 storage performance by splitting up where files are stored.
+
+## dispatcher
+
+- significantly hardened docker image to reduce attack surface.
+- Added a debugging utility to allow for pulling of kafka events.
+
+## backup
+
+- Logging enhancements, metrics simpler to read and failed backed up files easier to track.
+- Prevent crashes and file losses on failures. Instead lost files are added to an internal list.
+- Added commandline utility to manually check and retry files that have failed during backup.
+
+## restapi-server
+
+- API keys can now be scoped to specific Azul endpoints.
+
+## webui
+
+- Fixes (multiple):
+  - Tag count not updating on tag deletion.
+  - Automatic search when clicking on a tag
+  - Overflow on plugin explore page
+  - bad counts on pivots page
+  - hex view copying incorrect bytes
+  - hex view un-responsive on certain files
+  - don't display links when viewing potentially malicious content.
+- Added API Key management interface.
+- Binary feature page re-organisation
+- Binary feature page allowing for showing all feature enrichment parts.
+- Allow for highlighting features on binary pages.
+- Viewing a specific source now has a dedicated page with the source reference data at the top.
+- Allow for individual plugins to be expedited.
+- Relations tab now has parents and children merged and the graph included.
+- Relationship graph now allows you to preview individual binaries for more info.
+- Setting to allow more or less than 20 results for any similarity search.
+- Plugin explore page, splits loading of plugin names to improve initial load speed.
+- Allow for searching for binaries with the same file type, mime and magic as the currently viewed binary.
+
+
+## metastore
+- Multiple improvements to searching and indexing to improve query speed.
+
+
+## client
+
+- Added support for API key authentication
+
+## runner
+
+- Fix race condition that resulted in an error `unknown error -10` in sync pods.
+- Handle and log plugins that are creating labels that contain surrogates (unassigned unicode characters).
+
+## plugin-lief
+
+- handling of multiple bad labels.
+- handles bad unicode encoding.
+
+## plugin-retrohunt
+
+- Greatly improve retrohunt performance by using parallel searching.
+- Job's stop retrying after a fixed number of attempts.
+- Switched over to yara-x
+
+
+## plugin-maco
+
+- Version tracking modified to be both the plugin version and the extractors version rather than a git hash.
+
+## plugin-unbox
+
+- Handle surrogate (unassigned unicode characters) in child objects file names.
+
+## plugin-python
+
+- Switch uncompyle6 to pycdc.
+
+
 ## 12.0.0
 
 12.0.0 is a new feature release containing a large suite of bug fixes and various feature improvements
