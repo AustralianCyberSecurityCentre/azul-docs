@@ -10,6 +10,7 @@ sidebar_position: 3
 
 - Deprecated minio in the infra chart. (note the public minio docker image has been removed by the minio team and this will be completely removed in 14.0.0)
 - Add seaweed as a replacement to minio.
+- Fix to enable redis to be deployed with a username other than `default`.
 
 ## smart string filter
 
@@ -115,6 +116,7 @@ Improvements include:
 
 ## azul-app
 
+- Fix to enable redis to be deployed with a username other than `default`.
 - Support for configuring known_hosts for Git sync has been added.
 - Support for configuring AES encryption (for stream content in S3 and backups).
 - Fix to re-enable utilising subpaths in repositories for rules.
