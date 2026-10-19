@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-19 | app                  | fix: custom redis user ..116.                      |
 | 2026-10-19 | app                  | feat: add access to fill roles ..117.              |
 | 2026-10-18 | restapi-server       | feat: upgrade static swagger code. ..122.          |
 | 2026-10-16 | dispatcher           | feat: upgrade crypto ..120.                        |
