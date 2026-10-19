@@ -1,4 +1,4 @@
-# Deploying Operators
+# Deploying/Updating Operators
 
 *These instructions broadly mirror what is available in azul-app/infra - refer to there
 if you get stuck!*
@@ -17,10 +17,138 @@ In this case, OpenSearch provide the [OpenSearch Kubernetes Operator](https://gi
 
 This is simple to deploy using [Helm](https://helm.sh/) (copied from their install directions):
 
+### Install
 ```bash
 helm repo add opensearch-operator https://opensearch-project.github.io/opensearch-k8s-operator/
 helm install opensearch-operator opensearch-operator/opensearch-operator
 ```
+
+### Update
+#### 1. Check the current version
+```bash
+helm list -n <your-namespace>
+```
+
+Expected output should show something similar to:
+```text
+opensearch-operator    default    7    deployed    opensearch-operator-3.0.2    3.0.0-alpha
+```
+
+#### 2. Update Helm Repository
+
+```bash
+helm repo add opensearch-operator https://opensearch-project.github.io/opensearch-k8s-operator/
+helm repo update
+```
+
+Check available versions:
+
+```bash
+helm search repo opensearch-operator/opensearch-operator --versions
+```
+
+#### 3. Verify Existing Values
+
+Check for custom values:
+
+```bash
+helm get values opensearch-operator -n <your-namespace>
+```
+
+If this returns:
+
+```yaml
+null
+```
+
+there are no user-supplied values and the upgrade can proceed using chart defaults.
+
+#### 4. Perform a Dry Run
+
+```bash
+helm upgrade opensearch-operator \
+  opensearch-operator/opensearch-operator \
+  --version <new-version> \
+  -n default \
+  --dry-run
+```
+
+Optional: save rendered manifests for comparison:
+
+```bash
+helm get manifest opensearch-operator -n default > current.yaml
+
+helm template opensearch-operator \
+  opensearch-operator/opensearch-operator \
+  --version 3.0.14 \
+  -n <your-namespace> > new.yaml
+```
+
+Compare:
+
+```bash
+diff -u current.yaml new.yaml
+```
+
+Focus on:
+
+- Operator image version
+- Deployment arguments
+- CRDs
+- Webhook configuration
+
+---
+
+#### 5. Verify Existing CRDs
+
+Ensure both API groups exist:
+
+```bash
+kubectl get crd | grep opensearch
+```
+
+Expected to include both:
+
+```text
+*.opensearch.opster.io
+*.op*nsearch.org
+```
+
+---
+
+#### 6. Verify Webhook Certificates
+
+```bash
+kubectl get certificate -n <your-namespace>
+kubectl get issuer -n default
+```
+
+Ensure these are present and Ready:
+
+```text
+opensearch-operator-serving-cert
+opensearch-operator-selfsigned-issuer
+```
+
+---
+
+#### 7. Upgrade the Operator
+
+```bash
+helm upgrade opensearch-operator \
+  opensearch-operator/opensearch-operator \
+* --version <new-version> \
+  -n <your-namespace>
+```
+
+Expected:
+
+```text
+STATUS: deployed
+REVISION: 8
+```
+
+---
 
 To optionally harden this operator, you can specify Helm values to the operator. For example:
 
