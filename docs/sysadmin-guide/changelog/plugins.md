@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-10-19 | malcarve             | fix: ingestion error due to bad ports on embedded.urls ..82. |
 | 2026-10-16 | lookback             | feat: upgrade all lock files. ..31.                |
 | 2026-10-16 | goinfo               | feat: upgrade crypto ..103.                        |
 | 2026-10-16 | entropy              | feat: upgrade crypto ..103.                        |
