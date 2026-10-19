@@ -6,10 +6,6 @@ sidebar_position: 3
 
 ## 13.0.0
 
-# Release Notes
-
-## 13.0.0
-
 13.0.0 is a new feature release containing a large suite of bug fixes and various feature improvements
 with highlights being a new alerter module and substantial updates to the UI.
 
