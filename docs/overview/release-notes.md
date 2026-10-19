@@ -22,6 +22,7 @@ with highlights being a new alerter module and substantial updates to the UI.
 ## smart string filter
 
 - Added additional training data to improve filtering accuracy and output quality.
+- Added support for ELF files.
 
 ## alerter
 
