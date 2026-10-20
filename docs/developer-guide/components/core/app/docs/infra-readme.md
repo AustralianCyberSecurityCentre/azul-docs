@@ -239,7 +239,8 @@ Apply with:
 kubectl apply -f creds.yaml
 ```
 
-- IMPORTANT: For OpenSearch Operator versions 2.8.2 through 2.x, internal users may not
+- IMPORTANT:
+  For OpenSearch Operator versions 2.8.2 through 2.x, internal users may not
   be created from the security configuration due to a known operator issue:
   https://github.com/opensearch-project/opensearch-k8s-operator/issues/1371
   If using an affected version, you must manually create any required internal
@@ -253,7 +254,7 @@ kubectl apply -f creds.yaml
   This issue was fixed in OpenSearch Operator 3.0.0. These manual steps
   are only required when running older operator versions.
 
-- Preferred option: if you don't want to manually create the azul-writer user you can instead use the `internalUsersAlt`
+- Preferred option: if you don't want to manually create the azul_writer user you can instead use the `internalUsersAlt`
   value and set it to
   ```yaml
   internalUsersAlt:
@@ -278,9 +279,8 @@ kubectl apply -f creds.yaml
   This method uses a CRD instead of a the `internal_users.yml` but is limited in that usernames must have dashes and
   not underscores as the name is used for the username and the kubernetes resource.
   And kubernetes resources can't have `_` in their name.
- 
- DEPRECATED:
-- If the OpenSearch Operator is < 3.0.0 then to prevent roles and role mappings being deleted you can set the values `opensearch.disableSecurityConfigUpdates` to  true.
+
+- If using Opensearch Operator < 3.0.0 (including 3.0.0 beta): to prevent roles and role mappings being deleted you can set the values `opensearch.disableSecurityConfigUpdates` to  true.
   This flag means only config.yml updates apply which are updates to your OIDC configuration
   Roles and role mappings will no longer be removed, however internal users will still be cleared everytime the securityconfig job runs (note this will occur when you disable this option)
 

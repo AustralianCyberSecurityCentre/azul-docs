@@ -2,6 +2,16 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-20 | app                  | feat: deprecate disableSecurityConfigUpdates ..118. |
+| 2026-10-20 | backup               | fix: backup not logging when it.s failed to backup events ..129. |
+| 2026-10-20 | app                  | fix: custom redis user ..116.                      |
+| 2026-10-19 | app                  | fix: custom redis user ..116.                      |
+| 2026-10-19 | app                  | fix: custom redis user ..116.                      |
+| 2026-10-19 | app                  | fix: custom redis user ..116.                      |
+| 2026-10-19 | app                  | feat: add access to fill roles ..117.              |
+| 2026-10-18 | restapi-server       | feat: upgrade static swagger code. ..122.          |
+| 2026-10-16 | dispatcher           | feat: upgrade crypto ..120.                        |
+| 2026-10-16 | backup               | feat: upgrade crypto ..127.                        |
 | 2026-10-16 | bedrock              | feat: upgrade crypto ..177.                        |
 | 2026-10-16 | bedrock              | feat: upgrade crypto ..177.                        |
 | 2026-10-15 | webui                | feat: left align feature search ..371.             |

@@ -2,6 +2,11 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-10-19 | malcarve             | fix: ingestion error due to bad ports on embedded.urls ..82. |
+| 2026-10-16 | lookback             | feat: upgrade all lock files. ..31.                |
+| 2026-10-16 | goinfo               | feat: upgrade crypto ..103.                        |
+| 2026-10-16 | entropy              | feat: upgrade crypto ..103.                        |
+| 2026-10-16 | virustotal           | feat: upgrade crypto ..114.                        |
 | 2026-10-15 | report-feeds         | feat: Adds two new feed sources ..67.              |
 | 2026-10-08 | lief                 | fix: feature types ..103.                          |
 | 2026-10-06 | virustotal           | fix: ensure sourced events always have a security ..102. |
