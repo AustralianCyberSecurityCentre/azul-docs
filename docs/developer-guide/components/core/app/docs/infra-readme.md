@@ -253,7 +253,7 @@ kubectl apply -f creds.yaml
   This issue was fixed in OpenSearch Operator 3.0.0. These manual steps
   are only required when running older operator versions.
 
-- Preferred option: if you don't want to manually create the azul_writer user you can instead use the `internalUsersAlt`
+- Preferred option: if you don't want to manually create the azul-writer user you can instead use the `internalUsersAlt`
   value and set it to
   ```yaml
   internalUsersAlt:
