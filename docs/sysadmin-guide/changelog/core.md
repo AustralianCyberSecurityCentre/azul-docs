@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-20 | app                  | feat: deprecate disableSecurityConfigUpdates ..118. |
 | 2026-10-20 | backup               | fix: backup not logging when it.s failed to backup events ..129. |
 | 2026-10-20 | app                  | fix: custom redis user ..116.                      |
 | 2026-10-19 | app                  | fix: custom redis user ..116.                      |
