@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-20 | app                  | fix: custom redis user ..116.                      |
 | 2026-10-19 | app                  | fix: custom redis user ..116.                      |
 | 2026-10-19 | app                  | fix: custom redis user ..116.                      |
 | 2026-10-19 | app                  | fix: custom redis user ..116.                      |
