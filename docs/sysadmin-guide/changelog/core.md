@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-21 | app                  | feat: check for changes to alert config more frequently by default ..120. |
 | 2026-10-21 | bedrock              | feat: upgrade golang to 1.27.3 ..179.              |
 | 2026-10-21 | bedrock              | feat: upgrade golang to 1.27.3 ..179.              |
 | 2026-10-21 | app                  | fix: set vm max count in opensearch ..119.         |
