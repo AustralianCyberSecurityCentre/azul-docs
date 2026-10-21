@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-10-21 | entropy              | feat: upgrade golang to 1.27.3 ..105.              |
 | 2026-10-21 | goinfo               | feat: upgrade golang to 1.27.3 ..105.              |
 | 2026-10-19 | malcarve             | fix: ingestion error due to bad ports on embedded.urls ..82. |
 | 2026-10-16 | lookback             | feat: upgrade all lock files. ..31.                |
