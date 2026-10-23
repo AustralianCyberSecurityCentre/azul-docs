@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-23 | app                  | feat: upgrade external images ..121.               |
 | 2026-10-22 | dispatcher           | feat: upgrade golang to 1.27.3 ..122.              |
 | 2026-10-21 | webui                | feat: move add tag button ..383.                   |
 | 2026-10-21 | app                  | feat: check for changes to alert config more frequently by default ..120. |
