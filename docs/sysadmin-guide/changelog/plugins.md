@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-10-23 | tika                 | feat: upgrade tika to 3.3.3.0 ..95.                |
 | 2026-10-21 | entropy              | feat: upgrade golang to 1.27.3 ..105.              |
 | 2026-10-21 | goinfo               | feat: upgrade golang to 1.27.3 ..105.              |
 | 2026-10-19 | malcarve             | fix: ingestion error due to bad ports on embedded.urls ..82. |
