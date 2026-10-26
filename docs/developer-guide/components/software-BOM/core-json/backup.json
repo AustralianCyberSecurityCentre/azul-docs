@@ -2,25 +2,25 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:bf9a903b-d42c-4f39-a459-f0f775a20b13",
+  "serialNumber": "urn:uuid:823f7b03-d154-48e2-8ce1-b7b5ec62d18b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-04T02:08:13Z",
+    "timestamp": "2026-10-26T05:24:44Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.50.0"
+          "version": "1.55.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "5929876e66723ec4",
+      "bom-ref": "fe02eab53ac712a8",
       "type": "container",
       "name": "backup",
-      "version": "12.0.0-rc1"
+      "version": "13.0.0-rc1"
     },
     "properties": [
       {
@@ -35,7 +35,7 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-backup.git?package-id=6252b9aca70f64ac",
+      "bom-ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-backup.git?package-id=54d8cbb0aa58334b",
       "type": "library",
       "name": "github.com/AustralianCyberSecurityCentre/azul-backup.git",
       "version": "UNKNOWN",
@@ -64,11 +64,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -76,7 +76,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -89,12 +89,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock/v12@v12.0.61?package-id=a472916448a255e0",
+      "bom-ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock/v13@v13.0.72?package-id=65954d139850d536",
       "type": "library",
-      "name": "github.com/AustralianCyberSecurityCentre/azul-bedrock/v12",
-      "version": "v12.0.61",
-      "cpe": "cpe:2.3:a:AustralianCyberSecurityCentre:azul-bedrock\\/v12:v12.0.61:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/AustralianCyberSecurityCentre/azul-bedrock/v12@v12.0.61",
+      "name": "github.com/AustralianCyberSecurityCentre/azul-bedrock/v13",
+      "version": "v13.0.72",
+      "cpe": "cpe:2.3:a:AustralianCyberSecurityCentre:azul-bedrock\\/v13:v13.0.72:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/AustralianCyberSecurityCentre/azul-bedrock/v13@v13.0.72",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -114,15 +114,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:AustralianCyberSecurityCentre:azul_bedrock\\/v12:v12.0.61:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:AustralianCyberSecurityCentre:azul_bedrock\\/v13:v13.0.72:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -130,7 +130,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -138,7 +138,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:RrjfAZo+ZhKCqiR1mrA4vk9jeueoJjvwbfOab2wrJ2I="
+          "value": "h1:L8d3xGpYPnDLfHJ4rprNWyHev622WsAssclNVWtFgJQ="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -147,12 +147,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azcore@v1.22.0?package-id=378fb99e9bb798c9",
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azcore@v1.23.3?package-id=a85d5bde255693ef",
       "type": "library",
       "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
-      "version": "v1.22.0",
-      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/azcore:v1.22.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azcore@v1.22.0",
+      "version": "v1.23.3",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/azcore:v1.23.3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azcore@v1.23.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -172,15 +172,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/azcore:v1.22.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/azcore:v1.23.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -188,7 +188,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -196,7 +196,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:aokoqcHvaGjiM3VpjKDfMMnF/8epJ+Q1HLJ7CudztqE="
+          "value": "h1:qgnWTiWs1G7AqcKZegFvkJD1bmXJcaDU3uC0ELSgZ5U="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -205,12 +205,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azidentity@v1.14.0?package-id=a5bcc385ea93af1d",
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azidentity@v1.15.0?package-id=0f5d21cb8f72ef68",
       "type": "library",
       "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
-      "version": "v1.14.0",
-      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/azidentity:v1.14.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.14.0",
+      "version": "v1.15.0",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/azidentity:v1.15.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.15.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -230,15 +230,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/azidentity:v1.14.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/azidentity:v1.15.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -246,7 +246,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -254,7 +254,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:CU4+EJeJi3TKYWEcYuSdWsjzw0nVsK/H0MSQOiPcymU="
+          "value": "h1:w3gDUJlJ0BfBsHH02DCBDwbkmMSXJqBj6nBOCo9iocY="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -263,12 +263,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/internal@v1.12.0?package-id=4daa3ea6b44985c1",
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/internal@v1.13.0?package-id=6e5adbffa3abf2c4",
       "type": "library",
       "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
-      "version": "v1.12.0",
-      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/internal:v1.12.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/internal@v1.12.0",
+      "version": "v1.13.0",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/internal:v1.13.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/internal@v1.13.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -288,15 +288,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/internal:v1.12.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/internal:v1.13.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -304,7 +304,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -312,7 +312,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:fhqpLE3UEXi9lPaBRpQ6XuRW0nU7hgg4zlmZZa+a9q4="
+          "value": "h1:Terj1CMW4+NY5CpWjSRkqLoxh2DkYDdv/FH2z0897Uc="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -321,12 +321,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/storage/azblob@v1.8.0?package-id=927936d59c279e07",
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/storage/azblob@v1.8.2?package-id=31deaa5a02f0e407",
       "type": "library",
       "name": "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
-      "version": "v1.8.0",
-      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/storage\\/azblob:v1.8.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/storage/azblob@v1.8.0",
+      "version": "v1.8.2",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/storage\\/azblob:v1.8.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/storage/azblob@v1.8.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -346,15 +346,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/storage\\/azblob:v1.8.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/storage\\/azblob:v1.8.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -362,7 +362,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -370,7 +370,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:irsmOWwkp0KCTTNS5e2hdFeIvSQClQo2No3IaNmL3Vw="
+          "value": "h1:tQJdgQjbKKffEiMOKJmcQPkY01eFHRqWIZVefqP44nI="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -379,12 +379,70 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.7.2?package-id=58ca8e77118f6ebb",
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/storage/internal@v0.1.0?package-id=9b337e216e53d069",
+      "type": "library",
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/storage/internal",
+      "version": "v0.1.0",
+      "cpe": "cpe:2.3:a:Azure:azure-sdk-for-go\\/sdk\\/storage\\/internal:v0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/storage/internal@v0.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Azure:azure_sdk_for_go\\/sdk\\/storage\\/internal:v0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-recovery"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.27.3"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:X/bTwe0qpvmvPPutc+LWo7T4cKMqDP9JHP4k+Co9ZB4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.10.1?package-id=bccbe83c8e320dd3",
       "type": "library",
       "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
-      "version": "v1.7.2",
-      "cpe": "cpe:2.3:a:AzureAD:microsoft-authentication-library-for-go:v1.7.2:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/AzureAD/microsoft-authentication-library-for-go@v1.7.2",
+      "version": "v1.10.1",
+      "cpe": "cpe:2.3:a:AzureAD:microsoft-authentication-library-for-go:v1.10.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/AzureAD/microsoft-authentication-library-for-go@v1.10.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -404,15 +462,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:AzureAD:microsoft_authentication_library_for_go:v1.7.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:AzureAD:microsoft_authentication_library_for_go:v1.10.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -420,7 +478,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -428,7 +486,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:RHK7bS+HQMslb1sZpAokUt+zTVmue0hKSs2C791hhzU="
+          "value": "h1:0O6j18nQDoIff6/mtosT5LNU2WehEwp+LqfX6699oqY="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -437,12 +495,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/allegro/bigcache/v3@v3.1.0?package-id=b247fcbc1447fd77",
+      "bom-ref": "pkg:golang/github.com/allegro/bigcache/v3@v3.2.0?package-id=72b4bd97c2089cb8",
       "type": "library",
       "name": "github.com/allegro/bigcache/v3",
-      "version": "v3.1.0",
-      "cpe": "cpe:2.3:a:allegro:bigcache\\/v3:v3.1.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/allegro/bigcache/v3@v3.1.0",
+      "version": "v3.2.0",
+      "cpe": "cpe:2.3:a:allegro:bigcache\\/v3:v3.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/allegro/bigcache/v3@v3.2.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -462,11 +520,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -474,7 +532,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -482,7 +540,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:H2Vp8VOvxcrB91o86fUSVJFqeuz8kpyyB02eH3bSzwk="
+          "value": "h1:B45F9x3iaoBlhzIA+0jqxlThTUoyg+mOk7HUKSbJOL8="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -491,7 +549,65 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=bcdb776a9f9fde80",
+      "bom-ref": "pkg:golang/github.com/apache/arrow-go/v18@v18.8.0?package-id=d4b874c14bbcc24b",
+      "type": "library",
+      "name": "github.com/apache/arrow-go/v18",
+      "version": "v18.8.0",
+      "cpe": "cpe:2.3:a:apache:arrow-go\\/v18:v18.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/apache/arrow-go/v18@v18.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:arrow_go\\/v18:v18.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-recovery"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.27.3"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:BLOzbPv7bxMPgXPacAg6HQjnxupYsZzC4tf+FkqPU/M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=bdba39aa3276f4c7",
       "type": "library",
       "name": "github.com/beorn7/perks",
       "version": "v1.0.1",
@@ -516,11 +632,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -528,7 +644,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -545,7 +661,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0?package-id=a21aa5aa0d1fe5e4",
+      "bom-ref": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0?package-id=e7db0b6cdbf43d5f",
       "type": "library",
       "name": "github.com/cespare/xxhash/v2",
       "version": "v2.3.0",
@@ -570,11 +686,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -582,7 +698,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -599,70 +715,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=c8debc9b4232f114",
-      "type": "library",
-      "name": "github.com/davecgh/go-spew",
-      "version": "v1.1.1",
-      "cpe": "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "go-module-binary-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "go"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "go-module"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "go-module-buildinfo-entry"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/bin/backup"
-        },
-        {
-          "name": "syft:metadata:architecture",
-          "value": "amd64"
-        },
-        {
-          "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
-        },
-        {
-          "name": "syft:metadata:goCryptoSettings:0",
-          "value": "standard-crypto"
-        },
-        {
-          "name": "syft:metadata:h1Digest",
-          "value": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c="
-        },
-        {
-          "name": "syft:metadata:mainModule",
-          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.1?package-id=3a8124aaf6419a41",
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.1.0?package-id=77fc06fe97d90b26",
       "type": "library",
       "name": "github.com/dustin/go-humanize",
-      "version": "v1.0.1",
-      "cpe": "cpe:2.3:a:dustin:go-humanize:v1.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/dustin/go-humanize@v1.0.1",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:dustin:go-humanize:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/dustin/go-humanize@v1.1.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -682,15 +740,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dustin:go_humanize:v1.0.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dustin:go_humanize:v1.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -698,7 +756,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -706,7 +764,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY="
+          "value": "h1:dbKTrvD0klcbBV/h4AWJdMuZogJACoMlvWIWZ5b2xWg="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -715,7 +773,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=796e3e5714962cab",
+      "bom-ref": "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=75e006ad47a7cb69",
       "type": "library",
       "name": "github.com/fatih/structs",
       "version": "v1.1.0",
@@ -740,11 +798,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -752,7 +810,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -769,7 +827,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-viper/mapstructure/v2@v2.5.0?package-id=c49f36bd6fa1cf03",
+      "bom-ref": "pkg:golang/github.com/go-viper/mapstructure/v2@v2.5.0?package-id=60a155fda1795983",
       "type": "library",
       "name": "github.com/go-viper/mapstructure/v2",
       "version": "v2.5.0",
@@ -802,11 +860,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -814,7 +872,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -831,12 +889,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/goccy/go-json@v0.10.6?package-id=e5a705926c70144f",
+      "bom-ref": "pkg:golang/github.com/goccy/go-json@v0.11.2?package-id=3d6af3d6a66deee3",
       "type": "library",
       "name": "github.com/goccy/go-json",
-      "version": "v0.10.6",
-      "cpe": "cpe:2.3:a:goccy:go-json:v0.10.6:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/goccy/go-json@v0.10.6",
+      "version": "v0.11.2",
+      "cpe": "cpe:2.3:a:goccy:go-json:v0.11.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/goccy/go-json@v0.11.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -856,15 +914,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:goccy:go_json:v0.10.6:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:goccy:go_json:v0.11.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -872,7 +930,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -880,7 +938,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:p8HrPJzOakx/mn/bQtjgNjdTcN+/S6FcG2CTtQOrHVU="
+          "value": "h1:jdZv93Tt4ioR8yW1CoNsvSxrcZlCXAUU1aZXN7gpXUA="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -889,7 +947,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt/v5@v5.3.1?package-id=63e840048d436709",
+      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt/v5@v5.3.1?package-id=f030173a54b50c5a",
       "type": "library",
       "name": "github.com/golang-jwt/jwt/v5",
       "version": "v5.3.1",
@@ -922,11 +980,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -934,7 +992,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -951,7 +1009,61 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/uuid@v1.6.0?package-id=3a5099d7bc108ea8",
+      "bom-ref": "pkg:golang/github.com/google/flatbuffers@v25.12.19%2Bincompatible?package-id=45dfaa773b6e5027",
+      "type": "library",
+      "name": "github.com/google/flatbuffers",
+      "version": "v25.12.19+incompatible",
+      "cpe": "cpe:2.3:a:google:flatbuffers:v25.12.19\\+incompatible:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/google/flatbuffers@v25.12.19%2Bincompatible",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-recovery"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.27.3"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:haMV2JRRJCe1998HeW/p0X9UaMTK6SDo0ffLn2+DbLs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/google/uuid@v1.6.0?package-id=39442be01091565c",
       "type": "library",
       "name": "github.com/google/uuid",
       "version": "v1.6.0",
@@ -976,11 +1088,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -988,7 +1100,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1005,7 +1117,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hamba/avro/v2@v2.31.0?package-id=72e86398c6a1e0f3",
+      "bom-ref": "pkg:golang/github.com/hamba/avro/v2@v2.31.0?package-id=794b636670630f7b",
       "type": "library",
       "name": "github.com/hamba/avro/v2",
       "version": "v2.31.0",
@@ -1030,11 +1142,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1042,7 +1154,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1059,7 +1171,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/golang-lru/v2@v2.0.7?package-id=81f61db4fc406f11",
+      "bom-ref": "pkg:golang/github.com/hashicorp/golang-lru/v2@v2.0.7?package-id=e3444ac131a440ce",
       "type": "library",
       "name": "github.com/hashicorp/golang-lru/v2",
       "version": "v2.0.7",
@@ -1088,11 +1200,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1100,7 +1212,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1117,7 +1229,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=4e38340c9f210c25",
+      "bom-ref": "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=327a1680939ba19d",
       "type": "library",
       "name": "github.com/json-iterator/go",
       "version": "v1.1.12",
@@ -1150,11 +1262,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1162,7 +1274,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1179,12 +1291,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.19.1?package-id=51ba25c1817d540c",
+      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.20.3?package-id=14834ce3d3468012",
       "type": "library",
       "name": "github.com/klauspost/compress",
-      "version": "v1.19.1",
-      "cpe": "cpe:2.3:a:klauspost:compress:v1.19.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/klauspost/compress@v1.19.1",
+      "version": "v1.20.3",
+      "cpe": "cpe:2.3:a:klauspost:compress:v1.20.3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/klauspost/compress@v1.20.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1204,11 +1316,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1216,7 +1328,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1224,7 +1336,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:VsB4HPswih7mmZ8WleSFQ75c/Ui1M4trX5oAsJnhSlk="
+          "value": "h1:zWNoFqq/lSuYQRim3dUXlXeA0IqwuZGicdG5ZTfY5j4="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1233,12 +1345,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/klauspost/cpuid/v2@v2.3.0?package-id=18617a77a0dadf9e",
+      "bom-ref": "pkg:golang/github.com/klauspost/cpuid/v2@v2.4.1?package-id=73db291882f52822",
       "type": "library",
       "name": "github.com/klauspost/cpuid/v2",
-      "version": "v2.3.0",
-      "cpe": "cpe:2.3:a:klauspost:cpuid\\/v2:v2.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/klauspost/cpuid/v2@v2.3.0",
+      "version": "v2.4.1",
+      "cpe": "cpe:2.3:a:klauspost:cpuid\\/v2:v2.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/klauspost/cpuid/v2@v2.4.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1258,11 +1370,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1270,7 +1382,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1278,7 +1390,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:S4CRMLnYUhGeDFDqkGriYKdfoFlDnMtqTiI/sFzhA9Y="
+          "value": "h1:I9KxadAkvo+QjtcEE2f2tyfEvmIla/T0m+14PrZNl0U="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1287,7 +1399,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/klauspost/crc32@v1.3.0?package-id=98375677eed0bd5e",
+      "bom-ref": "pkg:golang/github.com/klauspost/crc32@v1.3.0?package-id=8ae17875fdcb4f06",
       "type": "library",
       "name": "github.com/klauspost/crc32",
       "version": "v1.3.0",
@@ -1312,11 +1424,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1324,7 +1436,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1341,12 +1453,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/knadh/koanf/maps@v0.1.2?package-id=30d51a95c1a2da7f",
+      "bom-ref": "pkg:golang/github.com/knadh/koanf/maps@v0.1.3?package-id=bc86d40505c337b3",
       "type": "library",
       "name": "github.com/knadh/koanf/maps",
-      "version": "v0.1.2",
-      "cpe": "cpe:2.3:a:knadh:koanf\\/maps:v0.1.2:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/knadh/koanf/maps@v0.1.2",
+      "version": "v0.1.3",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/maps:v0.1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf/maps@v0.1.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1366,11 +1478,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1378,7 +1490,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1386,7 +1498,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:RBfmAW5CnZT+PJ1CVc1QSJKf4Xu9kxfQgYVQSu8hpbo="
+          "value": "h1:P1z7EvTqdFBrPYbzSvorvrpib+sjkUMxf0FVvA5NKK4="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1395,12 +1507,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/knadh/koanf/providers/env/v2@v2.0.0?package-id=1116f12ff1d74cbc",
+      "bom-ref": "pkg:golang/github.com/knadh/koanf/providers/env/v2@v2.0.2?package-id=24936d020bd1e179",
       "type": "library",
       "name": "github.com/knadh/koanf/providers/env/v2",
-      "version": "v2.0.0",
-      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/env\\/v2:v2.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/knadh/koanf/providers/env/v2@v2.0.0",
+      "version": "v2.0.2",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/env\\/v2:v2.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf/providers/env/v2@v2.0.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1420,11 +1532,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1432,7 +1544,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1440,7 +1552,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:Ad5H3eun722u+FvchiIcEIJZsZ2M6oxCkgZfWN5B5KY="
+          "value": "h1:nLZ4Ct/i7kXX2Ne8tkwEVThI0HxO6Psu51tCCfwLfho="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1449,12 +1561,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/knadh/koanf/providers/structs@v1.0.0?package-id=f4f16cae9252404e",
+      "bom-ref": "pkg:golang/github.com/knadh/koanf/providers/structs@v1.0.1?package-id=5594f6c4a4ca1bef",
       "type": "library",
       "name": "github.com/knadh/koanf/providers/structs",
-      "version": "v1.0.0",
-      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/structs:v1.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/knadh/koanf/providers/structs@v1.0.0",
+      "version": "v1.0.1",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/providers\\/structs:v1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf/providers/structs@v1.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1474,11 +1586,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1486,7 +1598,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1494,7 +1606,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:DznjB7NQykhqCar2LvNug3MuxEQsZ5KvfgMbio+23u4="
+          "value": "h1:2HIjxQ6n6x9cuMYSKXusWoIwmwvGXWqLGR1URXNnczs="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1503,12 +1615,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/knadh/koanf/v2@v2.3.5?package-id=f83491ae89f04b2a",
+      "bom-ref": "pkg:golang/github.com/knadh/koanf/v2@v2.4.1?package-id=89a21ea9ebe12657",
       "type": "library",
       "name": "github.com/knadh/koanf/v2",
-      "version": "v2.3.5",
-      "cpe": "cpe:2.3:a:knadh:koanf\\/v2:v2.3.5:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/knadh/koanf/v2@v2.3.5",
+      "version": "v2.4.1",
+      "cpe": "cpe:2.3:a:knadh:koanf\\/v2:v2.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/knadh/koanf/v2@v2.4.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1528,11 +1640,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1540,7 +1652,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1548,7 +1660,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:2dXJUYaKGm4SGYeoAtBviq9+02JZo/pxQ2ssOd60rJg="
+          "value": "h1:MK2JDkLy4UGzEUkW1CCCKQftd9+M+NX8hAZ2axbf/jo="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1557,7 +1669,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/kylelemons/godebug@v1.1.0?package-id=d22add963795e96a",
+      "bom-ref": "pkg:golang/github.com/kylelemons/godebug@v1.1.0?package-id=59ba3a4a9463bf00",
       "type": "library",
       "name": "github.com/kylelemons/godebug",
       "version": "v1.1.0",
@@ -1582,11 +1694,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1594,7 +1706,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1611,12 +1723,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.14?package-id=bd7b7cda1ced6f4c",
+      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.16?package-id=655252648b4237f8",
       "type": "library",
       "name": "github.com/mattn/go-colorable",
-      "version": "v0.1.14",
-      "cpe": "cpe:2.3:a:mattn:go-colorable:v0.1.14:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.14",
+      "version": "v0.1.16",
+      "cpe": "cpe:2.3:a:mattn:go-colorable:v0.1.16:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.16",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1636,15 +1748,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:mattn:go_colorable:v0.1.14:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:mattn:go_colorable:v0.1.16:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1652,7 +1764,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1660,7 +1772,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:9A9LHSqF/7dyVVX6g0U9cwm9pG3kP9gSzcuIPHPsaIE="
+          "value": "h1:+2YjeAe7xP1OQbZW1jERPWWCDLlNqFNCvjiqGiAt84A="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1669,12 +1781,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.20?package-id=294d0c73cad23bb8",
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.24?package-id=7f9c3be2bd914d3c",
       "type": "library",
       "name": "github.com/mattn/go-isatty",
-      "version": "v0.0.20",
-      "cpe": "cpe:2.3:a:mattn:go-isatty:v0.0.20:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+      "version": "v0.0.24",
+      "cpe": "cpe:2.3:a:mattn:go-isatty:v0.0.24:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.24",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1694,15 +1806,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:mattn:go_isatty:v0.0.20:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:mattn:go_isatty:v0.0.24:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1710,7 +1822,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1718,7 +1830,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY="
+          "value": "h1:tGZZoVgT/KiqK1c8ocVLeDS8BSWMRd47J3Lbz7vsReI="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1727,7 +1839,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/minio/crc64nvme@v1.1.1?package-id=b5980aae0bde2f67",
+      "bom-ref": "pkg:golang/github.com/minio/crc64nvme@v1.1.1?package-id=ccefa4d7d80fb202",
       "type": "library",
       "name": "github.com/minio/crc64nvme",
       "version": "v1.1.1",
@@ -1752,11 +1864,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1764,7 +1876,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1781,7 +1893,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/minio/md5-simd@v1.1.2?package-id=8981f4a0c35b5411",
+      "bom-ref": "pkg:golang/github.com/minio/md5-simd@v1.1.2?package-id=bb46b8869c2d457c",
       "type": "library",
       "name": "github.com/minio/md5-simd",
       "version": "v1.1.2",
@@ -1810,11 +1922,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1822,7 +1934,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1839,12 +1951,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/minio/minio-go/v7@v7.2.1?package-id=a0e6639d62fa288a",
+      "bom-ref": "pkg:golang/github.com/minio/minio-go/v7@v7.4.1?package-id=b2ef732772e53dbc",
       "type": "library",
       "name": "github.com/minio/minio-go/v7",
-      "version": "v7.2.1",
-      "cpe": "cpe:2.3:a:minio:minio-go\\/v7:v7.2.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/minio/minio-go/v7@v7.2.1",
+      "version": "v7.4.1",
+      "cpe": "cpe:2.3:a:minio:minio-go\\/v7:v7.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/minio/minio-go/v7@v7.4.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1864,15 +1976,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:minio:minio_go\\/v7:v7.2.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:minio:minio_go\\/v7:v7.4.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1880,7 +1992,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1888,7 +2000,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:PfBfwvKB/MmqyN8Vb1G9voWisaM9OrLv+WwOvMwS9Dw="
+          "value": "h1:PtU/zIOfQRWZ+QydXAZysc+xZYHdG+BBR4Z6TUvy73w="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -1897,7 +2009,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=9ac005ebe5671b01",
+      "bom-ref": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=bf70f773a3d5f45b",
       "type": "library",
       "name": "github.com/mitchellh/copystructure",
       "version": "v1.2.0",
@@ -1922,11 +2034,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1934,7 +2046,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -1951,7 +2063,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=c829200cc715ca0a",
+      "bom-ref": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=6051f6fded28cada",
       "type": "library",
       "name": "github.com/mitchellh/reflectwalk",
       "version": "v1.0.2",
@@ -1976,11 +2088,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -1988,7 +2100,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2005,7 +2117,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=42ed790e8c4ccfa6",
+      "bom-ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=06360fe4d6501915",
       "type": "library",
       "name": "github.com/modern-go/concurrent",
       "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
@@ -2038,11 +2150,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2050,7 +2162,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2067,7 +2179,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=bb76a5ced2a7aac8",
+      "bom-ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=40cdf77534e2de5f",
       "type": "library",
       "name": "github.com/modern-go/reflect2",
       "version": "v1.0.2",
@@ -2100,11 +2212,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2112,7 +2224,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2129,7 +2241,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=b94fb83e368da527",
+      "bom-ref": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=408fa2aa27443b1e",
       "type": "library",
       "name": "github.com/munnerz/goautoneg",
       "version": "v0.0.0-20191010083416-a7dc8b61c822",
@@ -2154,11 +2266,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2166,7 +2278,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2183,12 +2295,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/philhofer/fwd@v1.2.0?package-id=e9c561c6b2cca476",
+      "bom-ref": "pkg:golang/github.com/philhofer/fwd@v1.2.1?package-id=0702c671af8032c2",
       "type": "library",
       "name": "github.com/philhofer/fwd",
-      "version": "v1.2.0",
-      "cpe": "cpe:2.3:a:philhofer:fwd:v1.2.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/philhofer/fwd@v1.2.0",
+      "version": "v1.2.1",
+      "cpe": "cpe:2.3:a:philhofer:fwd:v1.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/philhofer/fwd@v1.2.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2208,11 +2320,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2220,7 +2332,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2228,7 +2340,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:e6DnBTl7vGY+Gz322/ASL4Gyp1FspeMvx1RNDoToZuM="
+          "value": "h1:UtpS73q8bFgy/yH3gCq8LSNvj5gv/FowNOiWZa7uKwQ="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -2237,7 +2349,61 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c?package-id=237e902b86e1b324",
+      "bom-ref": "pkg:golang/github.com/pierrec/lz4/v4@v4.1.33?package-id=3107334d68b3e955",
+      "type": "library",
+      "name": "github.com/pierrec/lz4/v4",
+      "version": "v4.1.33",
+      "cpe": "cpe:2.3:a:pierrec:lz4\\/v4:v4.1.33:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pierrec/lz4/v4@v4.1.33",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-recovery"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.27.3"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:GjG1TJ1V4IzKP8L96muuuDNpTwd7D+l2ccXrjAbe014="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c?package-id=4981dba11aca3cba",
       "type": "library",
       "name": "github.com/pkg/browser",
       "version": "v0.0.0-20240102092130-5ac0b6a4141c",
@@ -2262,11 +2428,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2274,7 +2440,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2291,7 +2457,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=2c4b25c3d7395c9a",
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=c70806d65a73da21",
       "type": "library",
       "name": "github.com/pkg/errors",
       "version": "v0.9.1",
@@ -2316,11 +2482,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2328,7 +2494,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2345,70 +2511,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=2eb5404b9ce3609e",
-      "type": "library",
-      "name": "github.com/pmezard/go-difflib",
-      "version": "v1.0.0",
-      "cpe": "cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "go-module-binary-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "go"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "go-module"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "go-module-buildinfo-entry"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/bin/backup"
-        },
-        {
-          "name": "syft:metadata:architecture",
-          "value": "amd64"
-        },
-        {
-          "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
-        },
-        {
-          "name": "syft:metadata:goCryptoSettings:0",
-          "value": "standard-crypto"
-        },
-        {
-          "name": "syft:metadata:h1Digest",
-          "value": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM="
-        },
-        {
-          "name": "syft:metadata:mainModule",
-          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:golang/github.com/prometheus/client_golang@v1.24.1?package-id=e2380d86fdcc6bf8",
+      "bom-ref": "pkg:golang/github.com/prometheus/client_golang@v1.25.0?package-id=0bfd4834f82cf900",
       "type": "library",
       "name": "github.com/prometheus/client_golang",
-      "version": "v1.24.1",
-      "cpe": "cpe:2.3:a:prometheus:client-golang:v1.24.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/prometheus/client_golang@v1.24.1",
+      "version": "v1.25.0",
+      "cpe": "cpe:2.3:a:prometheus:client-golang:v1.25.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/client_golang@v1.25.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2428,15 +2536,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:prometheus:client_golang:v1.24.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:prometheus:client_golang:v1.25.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2444,7 +2552,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2452,7 +2560,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:JnJkREXzWxUdCuPFpIWZiPispT9xVV59uiuyR2bPlnU="
+          "value": "h1:cDtW1TcFsMi1RJc8khwCKB4VhzwV04aKqbYtNOXuiK0="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -2461,12 +2569,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.6.2?package-id=8f21f1caef4ed45b",
+      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.6.3?package-id=3e6e581d5baff22b",
       "type": "library",
       "name": "github.com/prometheus/client_model",
-      "version": "v0.6.2",
-      "cpe": "cpe:2.3:a:prometheus:client-model:v0.6.2:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/prometheus/client_model@v0.6.2",
+      "version": "v0.6.3",
+      "cpe": "cpe:2.3:a:prometheus:client-model:v0.6.3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/client_model@v0.6.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2486,15 +2594,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:prometheus:client_model:v0.6.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:prometheus:client_model:v0.6.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2502,7 +2610,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2510,7 +2618,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:oBsgwpGs7iVziMvrGhE53c/GrLUsZdHnqNwqPLxwZyk="
+          "value": "h1:O0jaTVAYNxTHYInEPFJt5I3+sN8zqBtVMPTB1qyxiEo="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -2519,12 +2627,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.70.1?package-id=7424457277e99ec4",
+      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.72.1?package-id=6c9ccdee9fa93b54",
       "type": "library",
       "name": "github.com/prometheus/common",
-      "version": "v0.70.1",
-      "cpe": "cpe:2.3:a:prometheus:common:v0.70.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/prometheus/common@v0.70.1",
+      "version": "v0.72.1",
+      "cpe": "cpe:2.3:a:prometheus:common:v0.72.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/common@v0.72.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2544,11 +2652,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2556,7 +2664,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2564,7 +2672,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:1HvjP4D5oL3t8RsPlwxA9onvvStjtIHYE5XuuwOi/PY="
+          "value": "h1:ZAiQed/nk8IIcsdzb2TlJu23NEUDyDLQ9TXTN2WRK6Y="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -2573,12 +2681,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.21.1?package-id=33a0dce5d89e6df5",
+      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.22.0?package-id=214837369141994e",
       "type": "library",
       "name": "github.com/prometheus/procfs",
-      "version": "v0.21.1",
-      "cpe": "cpe:2.3:a:prometheus:procfs:v0.21.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/prometheus/procfs@v0.21.1",
+      "version": "v0.22.0",
+      "cpe": "cpe:2.3:a:prometheus:procfs:v0.22.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/procfs@v0.22.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2598,11 +2706,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2610,7 +2718,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2618,7 +2726,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:GljZCt+zSTS+NZq88cyQ1LjZ+RCHp3uVuabBWA5+OJI="
+          "value": "h1:6q9+/JL9IKAPbCmBrv9n5O5Ty3NKnciV5X7YGw0oics="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -2627,7 +2735,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/rs/xid@v1.6.0?package-id=05bd2df277937de4",
+      "bom-ref": "pkg:golang/github.com/rs/xid@v1.6.0?package-id=a4b25e5869461a64",
       "type": "library",
       "name": "github.com/rs/xid",
       "version": "v1.6.0",
@@ -2652,11 +2760,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2664,7 +2772,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2681,7 +2789,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/rs/zerolog@v1.35.1?package-id=fd0337b756bcd693",
+      "bom-ref": "pkg:golang/github.com/rs/zerolog@v1.35.1?package-id=c520b8c2c0b7b6a1",
       "type": "library",
       "name": "github.com/rs/zerolog",
       "version": "v1.35.1",
@@ -2706,11 +2814,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2718,7 +2826,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2735,7 +2843,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/spf13/cobra@v1.10.2?package-id=9f2d22fa9fa5940e",
+      "bom-ref": "pkg:golang/github.com/spf13/cobra@v1.10.2?package-id=d2d86a76a6e67324",
       "type": "library",
       "name": "github.com/spf13/cobra",
       "version": "v1.10.2",
@@ -2760,11 +2868,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2772,7 +2880,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2789,7 +2897,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.10?package-id=8ec11e0b0b9bf177",
+      "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.10?package-id=e607bb1c140e3396",
       "type": "library",
       "name": "github.com/spf13/pflag",
       "version": "v1.0.10",
@@ -2814,11 +2922,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2826,7 +2934,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2843,12 +2951,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/stretchr/objx@v0.5.3?package-id=d33802a1f9e62a57",
+      "bom-ref": "pkg:golang/github.com/stretchr/objx@v0.8.0?package-id=6f727e1f71b91509",
       "type": "library",
       "name": "github.com/stretchr/objx",
-      "version": "v0.5.3",
-      "cpe": "cpe:2.3:a:stretchr:objx:v0.5.3:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/stretchr/objx@v0.5.3",
+      "version": "v0.8.0",
+      "cpe": "cpe:2.3:a:stretchr:objx:v0.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/stretchr/objx@v0.8.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2868,11 +2976,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2880,7 +2988,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2888,7 +2996,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:jmXUvGomnU1o3W/V5h2VEradbpJDwGrzugQQvL0POH4="
+          "value": "h1:rm9oMkeprG/wHifkZP4EuDww9S0mvEaQ/p9cXTNT4cw="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -2897,12 +3005,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/stretchr/testify@v1.11.1?package-id=c2c4ceb01e27f9eb",
+      "bom-ref": "pkg:golang/github.com/stretchr/testify@v1.12.1?package-id=347251e3262cf93f",
       "type": "library",
       "name": "github.com/stretchr/testify",
-      "version": "v1.11.1",
-      "cpe": "cpe:2.3:a:stretchr:testify:v1.11.1:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/stretchr/testify@v1.11.1",
+      "version": "v1.12.1",
+      "cpe": "cpe:2.3:a:stretchr:testify:v1.12.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.12.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2922,11 +3030,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2934,7 +3042,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2942,7 +3050,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U="
+          "value": "h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWDWE="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -2951,12 +3059,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/tinylib/msgp@v1.6.3?package-id=ffd7f13b5c7eac0e",
+      "bom-ref": "pkg:golang/github.com/tinylib/msgp@v1.6.5?package-id=fac53bbd82a375be",
       "type": "library",
       "name": "github.com/tinylib/msgp",
-      "version": "v1.6.3",
-      "cpe": "cpe:2.3:a:tinylib:msgp:v1.6.3:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/tinylib/msgp@v1.6.3",
+      "version": "v1.6.5",
+      "cpe": "cpe:2.3:a:tinylib:msgp:v1.6.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/tinylib/msgp@v1.6.5",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2976,11 +3084,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -2988,7 +3096,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -2996,7 +3104,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:bCSxiTz386UTgyT1i0MSCvdbWjVW+8sG3PjkGsZQt4s="
+          "value": "h1:iAH6XTP7BpzErjBZlujJQXxA+GmRi2YWs6M4KdLtNbE="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3005,7 +3113,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/zeebo/xxh3@v1.1.0?package-id=ab53c6d3df533cdd",
+      "bom-ref": "pkg:golang/github.com/zeebo/xxh3@v1.1.0?package-id=b07132cc0815e3cf",
       "type": "library",
       "name": "github.com/zeebo/xxh3",
       "version": "v1.1.0",
@@ -3030,11 +3138,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3042,7 +3150,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3059,7 +3167,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/automaxprocs@v1.6.0?package-id=ee71e416ceca14d3",
+      "bom-ref": "pkg:golang/go.uber.org/automaxprocs@v1.6.0?package-id=00670bce7a189568",
       "type": "library",
       "name": "go.uber.org/automaxprocs",
       "version": "v1.6.0",
@@ -3083,11 +3191,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3095,7 +3203,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3112,12 +3220,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.yaml.in/yaml/v3@v3.0.4?package-id=48d406525aaf362b",
+      "bom-ref": "pkg:golang/go.yaml.in/yaml/v3@v3.0.5?package-id=909786044882442f",
       "type": "library",
       "name": "go.yaml.in/yaml/v3",
-      "version": "v3.0.4",
-      "cpe": "cpe:2.3:a:yaml:v3:v3.0.4:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/go.yaml.in/yaml/v3@v3.0.4",
+      "version": "v3.0.5",
+      "cpe": "cpe:2.3:a:yaml:v3:v3.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/go.yaml.in/yaml/v3@v3.0.5",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3137,11 +3245,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3149,7 +3257,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3157,7 +3265,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:tfq32ie2Jv2UxXFdLJdh3jXuOzWiL1fo0bu/FbuKpbc="
+          "value": "h1:N6y/pJk8buWs9NY5ERU2HSMfm+IuD/OtfdAnq6kESPw="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3166,12 +3274,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.54.0?package-id=2e1164949b2e6749",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.58.0?package-id=586fe48bdbaddbfc",
       "type": "library",
       "name": "golang.org/x/crypto",
-      "version": "v0.54.0",
-      "cpe": "cpe:2.3:a:golang:crypto:v0.54.0:*:*:*:*:go:*:*",
-      "purl": "pkg:golang/golang.org/x/crypto@v0.54.0",
+      "version": "v0.58.0",
+      "cpe": "cpe:2.3:a:golang:crypto:v0.58.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.58.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3191,15 +3299,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:go:ssh:v0.54.0:*:*:*:*:go:*:*"
+          "value": "cpe:2.3:a:go:ssh:v0.58.0:*:*:*:*:go:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3207,7 +3315,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3215,7 +3323,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:YLIA59K4fiNzHzjnZt2tUJQjQtUWfWbeHBqKtk3eScw="
+          "value": "h1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3224,12 +3332,66 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/net@v0.57.0?package-id=ebd897f6109bb696",
+      "bom-ref": "pkg:golang/golang.org/x/exp@v0.0.0-20261014143641-f0251eb4aa3e?package-id=08acd9f5cb04450e",
+      "type": "library",
+      "name": "golang.org/x/exp",
+      "version": "v0.0.0-20261014143641-f0251eb4aa3e",
+      "cpe": "cpe:2.3:a:golang:x\\/exp:v0.0.0-20261014143641-f0251eb4aa3e:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20261014143641-f0251eb4aa3e",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-recovery"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.27.3"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:HgI6W1OolKK6tcV74is+rl9SMT0njsHlp0TbQiGXI/A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.61.0?package-id=a65b938c4f12f954",
       "type": "library",
       "name": "golang.org/x/net",
-      "version": "v0.57.0",
-      "cpe": "cpe:2.3:a:golang:networking:v0.57.0:*:*:*:*:go:*:*",
-      "purl": "pkg:golang/golang.org/x/net@v0.57.0",
+      "version": "v0.61.0",
+      "cpe": "cpe:2.3:a:golang:networking:v0.61.0:*:*:*:*:go:*:*",
+      "purl": "pkg:golang/golang.org/x/net@v0.61.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3249,15 +3411,15 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:golang:net:v0.57.0:*:*:*:*:go:*:*"
+          "value": "cpe:2.3:a:golang:net:v0.61.0:*:*:*:*:go:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3265,7 +3427,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3273,7 +3435,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:K5+3DljvIuDG9/Jv9rvyMywYNFCQ9RSUY6OOTTkT+tE="
+          "value": "h1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3282,12 +3444,66 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.47.0?package-id=6cc11495c3848071",
+      "bom-ref": "pkg:golang/golang.org/x/sync@v0.24.0?package-id=458ce57dcf8960b6",
+      "type": "library",
+      "name": "golang.org/x/sync",
+      "version": "v0.24.0",
+      "cpe": "cpe:2.3:a:golang:x\\/sync:v0.24.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sync@v0.24.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/bin/azul-recovery"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.27.3"
+        },
+        {
+          "name": "syft:metadata:goCryptoSettings:0",
+          "value": "standard-crypto"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:iqiDrGoDgyuvAKrhLQthUEzU/R378N78gXbBjxed7oA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/AustralianCyberSecurityCentre/azul-backup.git"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.49.0?package-id=fb85dee540a16c3b",
       "type": "library",
       "name": "golang.org/x/sys",
-      "version": "v0.47.0",
-      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.47.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/golang.org/x/sys@v0.47.0",
+      "version": "v0.49.0",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.49.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.49.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3307,11 +3523,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3319,7 +3535,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3327,7 +3543,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs="
+          "value": "h1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3336,12 +3552,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/text@v0.40.0?package-id=43ca24022d7240c1",
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.43.0?package-id=857bf8107140f74a",
       "type": "library",
       "name": "golang.org/x/text",
-      "version": "v0.40.0",
-      "cpe": "cpe:2.3:a:golang:text:v0.40.0:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/golang.org/x/text@v0.40.0",
+      "version": "v0.43.0",
+      "cpe": "cpe:2.3:a:golang:text:v0.43.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/text@v0.43.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3361,11 +3577,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3373,7 +3589,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3381,7 +3597,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:Ub2Z6/xjgF1WrYQz2nuITOEegKFtiIy+rieRJ5lHZKs="
+          "value": "h1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3390,12 +3606,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.36.11?package-id=cc4c3411527ead89",
+      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.36.12?package-id=d7c9819ebcc6d06e",
       "type": "library",
       "name": "google.golang.org/protobuf",
-      "version": "v1.36.11",
-      "cpe": "cpe:2.3:a:google:protobuf:v1.36.11:*:*:*:*:*:*:*",
-      "purl": "pkg:golang/google.golang.org/protobuf@v1.36.11",
+      "version": "v1.36.12",
+      "cpe": "cpe:2.3:a:google:protobuf:v1.36.12:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.36.12",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3415,11 +3631,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3427,7 +3643,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3435,7 +3651,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE="
+          "value": "h1:pJOKDDOyeXErUroCihFAd5LQuwXBSpVnKGrj5o/fwxc="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3444,11 +3660,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/ini.v1@v1.67.2?package-id=c74d9e017c054d63",
+      "bom-ref": "pkg:golang/gopkg.in/ini.v1@v1.67.3?package-id=78247a70f3ee0fcb",
       "type": "library",
       "name": "gopkg.in/ini.v1",
-      "version": "v1.67.2",
-      "purl": "pkg:golang/gopkg.in/ini.v1@v1.67.2",
+      "version": "v1.67.3",
+      "purl": "pkg:golang/gopkg.in/ini.v1@v1.67.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3468,11 +3684,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3480,7 +3696,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3488,7 +3704,7 @@
         },
         {
           "name": "syft:metadata:h1Digest",
-          "value": "h1:JtOSMb9OuaCZKr7h5D/h6iii14sK0hLbplTc6frx4Ss="
+          "value": "h1:iM9Lhz5MRSGhHVGGwCuzG9KO8PoirCXj/m/qTmOJJQw="
         },
         {
           "name": "syft:metadata:mainModule",
@@ -3497,7 +3713,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=f5b4575c0e370324",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=13169a9c2e8be000",
       "type": "library",
       "name": "gopkg.in/yaml.v3",
       "version": "v3.0.1",
@@ -3522,11 +3738,11 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:architecture",
@@ -3534,7 +3750,7 @@
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         },
         {
           "name": "syft:metadata:goCryptoSettings:0",
@@ -3551,10 +3767,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/stdlib@1.26.5?package-id=dec5c00e4c40c82b",
+      "bom-ref": "pkg:golang/stdlib@1.27.3?package-id=b7a7874aa4111f03",
       "type": "library",
       "name": "stdlib",
-      "version": "go1.26.5",
+      "version": "go1.27.3",
       "licenses": [
         {
           "license": {
@@ -3562,8 +3778,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:golang:go:1.26.5:-:*:*:*:*:*:*",
-      "purl": "pkg:golang/stdlib@1.26.5",
+      "cpe": "cpe:2.3:a:golang:go:1.27.3:-:*:*:*:*:*:*",
+      "purl": "pkg:golang/stdlib@1.27.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3583,101 +3799,105 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:ec8eebccb3eea133b17a4f77f2bf0e67b1ea848e281412e279ea0afc71e59f9e"
+          "value": "sha256:b599afb4458d5fa4d720ec43b3098315d06cb15fb046b6e4841b49bd1312625b"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/bin/backup"
+          "value": "/bin/azul-recovery"
         },
         {
           "name": "syft:metadata:goCompiledVersion",
-          "value": "go1.26.5"
+          "value": "go1.27.3"
         }
       ]
     },
     {
-      "bom-ref": "eac4956d8f31f6a4",
+      "bom-ref": "88bf2fee3ba14865",
       "type": "file",
-      "name": "/bin/backup",
+      "name": "/bin/azul-recovery",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "380942012c46109d3e69ea5345052208ca804a84"
+          "content": "991688e3f6f53a85db7d8f3cb3a26329ebdab00f"
         },
         {
           "alg": "SHA-256",
-          "content": "4a6872a4debf4f5745cd633f2a74441726fae2da7fc6d8230e18b6a0d12d5093"
+          "content": "d4046c984ef337a6740725328828212cf2673c8845b01eed6e2183386515a5ec"
         }
       ]
     }
   ],
   "dependencies": [
     {
-      "ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-backup.git?package-id=6252b9aca70f64ac",
+      "ref": "pkg:golang/github.com/australiancybersecuritycentre/azul-backup.git?package-id=54d8cbb0aa58334b",
       "dependsOn": [
-        "pkg:golang/github.com/allegro/bigcache/v3@v3.1.0?package-id=b247fcbc1447fd77",
-        "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock/v12@v12.0.61?package-id=a472916448a255e0",
-        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azcore@v1.22.0?package-id=378fb99e9bb798c9",
-        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azidentity@v1.14.0?package-id=a5bcc385ea93af1d",
-        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/internal@v1.12.0?package-id=4daa3ea6b44985c1",
-        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/storage/azblob@v1.8.0?package-id=927936d59c279e07",
-        "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.7.2?package-id=58ca8e77118f6ebb",
-        "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=bcdb776a9f9fde80",
-        "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0?package-id=a21aa5aa0d1fe5e4",
-        "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=c8debc9b4232f114",
-        "pkg:golang/github.com/dustin/go-humanize@v1.0.1?package-id=3a8124aaf6419a41",
-        "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=796e3e5714962cab",
-        "pkg:golang/github.com/go-viper/mapstructure/v2@v2.5.0?package-id=c49f36bd6fa1cf03",
-        "pkg:golang/github.com/goccy/go-json@v0.10.6?package-id=e5a705926c70144f",
-        "pkg:golang/github.com/golang-jwt/jwt/v5@v5.3.1?package-id=63e840048d436709",
-        "pkg:golang/github.com/google/uuid@v1.6.0?package-id=3a5099d7bc108ea8",
-        "pkg:golang/github.com/hamba/avro/v2@v2.31.0?package-id=72e86398c6a1e0f3",
-        "pkg:golang/github.com/hashicorp/golang-lru/v2@v2.0.7?package-id=81f61db4fc406f11",
-        "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=4e38340c9f210c25",
-        "pkg:golang/github.com/klauspost/compress@v1.19.1?package-id=51ba25c1817d540c",
-        "pkg:golang/github.com/klauspost/cpuid/v2@v2.3.0?package-id=18617a77a0dadf9e",
-        "pkg:golang/github.com/klauspost/crc32@v1.3.0?package-id=98375677eed0bd5e",
-        "pkg:golang/github.com/knadh/koanf/maps@v0.1.2?package-id=30d51a95c1a2da7f",
-        "pkg:golang/github.com/knadh/koanf/providers/env/v2@v2.0.0?package-id=1116f12ff1d74cbc",
-        "pkg:golang/github.com/knadh/koanf/providers/structs@v1.0.0?package-id=f4f16cae9252404e",
-        "pkg:golang/github.com/knadh/koanf/v2@v2.3.5?package-id=f83491ae89f04b2a",
-        "pkg:golang/github.com/kylelemons/godebug@v1.1.0?package-id=d22add963795e96a",
-        "pkg:golang/github.com/mattn/go-colorable@v0.1.14?package-id=bd7b7cda1ced6f4c",
-        "pkg:golang/github.com/mattn/go-isatty@v0.0.20?package-id=294d0c73cad23bb8",
-        "pkg:golang/github.com/minio/crc64nvme@v1.1.1?package-id=b5980aae0bde2f67",
-        "pkg:golang/github.com/minio/md5-simd@v1.1.2?package-id=8981f4a0c35b5411",
-        "pkg:golang/github.com/minio/minio-go/v7@v7.2.1?package-id=a0e6639d62fa288a",
-        "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=9ac005ebe5671b01",
-        "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=c829200cc715ca0a",
-        "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=42ed790e8c4ccfa6",
-        "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=bb76a5ced2a7aac8",
-        "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=b94fb83e368da527",
-        "pkg:golang/github.com/philhofer/fwd@v1.2.0?package-id=e9c561c6b2cca476",
-        "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c?package-id=237e902b86e1b324",
-        "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=2c4b25c3d7395c9a",
-        "pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=2eb5404b9ce3609e",
-        "pkg:golang/github.com/prometheus/client_golang@v1.24.1?package-id=e2380d86fdcc6bf8",
-        "pkg:golang/github.com/prometheus/client_model@v0.6.2?package-id=8f21f1caef4ed45b",
-        "pkg:golang/github.com/prometheus/common@v0.70.1?package-id=7424457277e99ec4",
-        "pkg:golang/github.com/prometheus/procfs@v0.21.1?package-id=33a0dce5d89e6df5",
-        "pkg:golang/github.com/rs/xid@v1.6.0?package-id=05bd2df277937de4",
-        "pkg:golang/github.com/rs/zerolog@v1.35.1?package-id=fd0337b756bcd693",
-        "pkg:golang/github.com/spf13/cobra@v1.10.2?package-id=9f2d22fa9fa5940e",
-        "pkg:golang/github.com/spf13/pflag@v1.0.10?package-id=8ec11e0b0b9bf177",
-        "pkg:golang/github.com/stretchr/objx@v0.5.3?package-id=d33802a1f9e62a57",
-        "pkg:golang/github.com/stretchr/testify@v1.11.1?package-id=c2c4ceb01e27f9eb",
-        "pkg:golang/github.com/tinylib/msgp@v1.6.3?package-id=ffd7f13b5c7eac0e",
-        "pkg:golang/github.com/zeebo/xxh3@v1.1.0?package-id=ab53c6d3df533cdd",
-        "pkg:golang/go.uber.org/automaxprocs@v1.6.0?package-id=ee71e416ceca14d3",
-        "pkg:golang/go.yaml.in/yaml/v3@v3.0.4?package-id=48d406525aaf362b",
-        "pkg:golang/golang.org/x/crypto@v0.54.0?package-id=2e1164949b2e6749",
-        "pkg:golang/golang.org/x/net@v0.57.0?package-id=ebd897f6109bb696",
-        "pkg:golang/golang.org/x/sys@v0.47.0?package-id=6cc11495c3848071",
-        "pkg:golang/golang.org/x/text@v0.40.0?package-id=43ca24022d7240c1",
-        "pkg:golang/google.golang.org/protobuf@v1.36.11?package-id=cc4c3411527ead89",
-        "pkg:golang/gopkg.in/ini.v1@v1.67.2?package-id=c74d9e017c054d63",
-        "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=f5b4575c0e370324",
-        "pkg:golang/stdlib@1.26.5?package-id=dec5c00e4c40c82b"
+        "pkg:golang/github.com/allegro/bigcache/v3@v3.2.0?package-id=72b4bd97c2089cb8",
+        "pkg:golang/github.com/apache/arrow-go/v18@v18.8.0?package-id=d4b874c14bbcc24b",
+        "pkg:golang/github.com/australiancybersecuritycentre/azul-bedrock/v13@v13.0.72?package-id=65954d139850d536",
+        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azcore@v1.23.3?package-id=a85d5bde255693ef",
+        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azidentity@v1.15.0?package-id=0f5d21cb8f72ef68",
+        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/internal@v1.13.0?package-id=6e5adbffa3abf2c4",
+        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/storage/azblob@v1.8.2?package-id=31deaa5a02f0e407",
+        "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/storage/internal@v0.1.0?package-id=9b337e216e53d069",
+        "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.10.1?package-id=bccbe83c8e320dd3",
+        "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=bdba39aa3276f4c7",
+        "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0?package-id=e7db0b6cdbf43d5f",
+        "pkg:golang/github.com/dustin/go-humanize@v1.1.0?package-id=77fc06fe97d90b26",
+        "pkg:golang/github.com/fatih/structs@v1.1.0?package-id=75e006ad47a7cb69",
+        "pkg:golang/github.com/go-viper/mapstructure/v2@v2.5.0?package-id=60a155fda1795983",
+        "pkg:golang/github.com/goccy/go-json@v0.11.2?package-id=3d6af3d6a66deee3",
+        "pkg:golang/github.com/golang-jwt/jwt/v5@v5.3.1?package-id=f030173a54b50c5a",
+        "pkg:golang/github.com/google/flatbuffers@v25.12.19%2Bincompatible?package-id=45dfaa773b6e5027",
+        "pkg:golang/github.com/google/uuid@v1.6.0?package-id=39442be01091565c",
+        "pkg:golang/github.com/hamba/avro/v2@v2.31.0?package-id=794b636670630f7b",
+        "pkg:golang/github.com/hashicorp/golang-lru/v2@v2.0.7?package-id=e3444ac131a440ce",
+        "pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=327a1680939ba19d",
+        "pkg:golang/github.com/klauspost/compress@v1.20.3?package-id=14834ce3d3468012",
+        "pkg:golang/github.com/klauspost/cpuid/v2@v2.4.1?package-id=73db291882f52822",
+        "pkg:golang/github.com/klauspost/crc32@v1.3.0?package-id=8ae17875fdcb4f06",
+        "pkg:golang/github.com/knadh/koanf/maps@v0.1.3?package-id=bc86d40505c337b3",
+        "pkg:golang/github.com/knadh/koanf/providers/env/v2@v2.0.2?package-id=24936d020bd1e179",
+        "pkg:golang/github.com/knadh/koanf/providers/structs@v1.0.1?package-id=5594f6c4a4ca1bef",
+        "pkg:golang/github.com/knadh/koanf/v2@v2.4.1?package-id=89a21ea9ebe12657",
+        "pkg:golang/github.com/kylelemons/godebug@v1.1.0?package-id=59ba3a4a9463bf00",
+        "pkg:golang/github.com/mattn/go-colorable@v0.1.16?package-id=655252648b4237f8",
+        "pkg:golang/github.com/mattn/go-isatty@v0.0.24?package-id=7f9c3be2bd914d3c",
+        "pkg:golang/github.com/minio/crc64nvme@v1.1.1?package-id=ccefa4d7d80fb202",
+        "pkg:golang/github.com/minio/md5-simd@v1.1.2?package-id=bb46b8869c2d457c",
+        "pkg:golang/github.com/minio/minio-go/v7@v7.4.1?package-id=b2ef732772e53dbc",
+        "pkg:golang/github.com/mitchellh/copystructure@v1.2.0?package-id=bf70f773a3d5f45b",
+        "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2?package-id=6051f6fded28cada",
+        "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=06360fe4d6501915",
+        "pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=40cdf77534e2de5f",
+        "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=408fa2aa27443b1e",
+        "pkg:golang/github.com/philhofer/fwd@v1.2.1?package-id=0702c671af8032c2",
+        "pkg:golang/github.com/pierrec/lz4/v4@v4.1.33?package-id=3107334d68b3e955",
+        "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c?package-id=4981dba11aca3cba",
+        "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=c70806d65a73da21",
+        "pkg:golang/github.com/prometheus/client_golang@v1.25.0?package-id=0bfd4834f82cf900",
+        "pkg:golang/github.com/prometheus/client_model@v0.6.3?package-id=3e6e581d5baff22b",
+        "pkg:golang/github.com/prometheus/common@v0.72.1?package-id=6c9ccdee9fa93b54",
+        "pkg:golang/github.com/prometheus/procfs@v0.22.0?package-id=214837369141994e",
+        "pkg:golang/github.com/rs/xid@v1.6.0?package-id=a4b25e5869461a64",
+        "pkg:golang/github.com/rs/zerolog@v1.35.1?package-id=c520b8c2c0b7b6a1",
+        "pkg:golang/github.com/spf13/cobra@v1.10.2?package-id=d2d86a76a6e67324",
+        "pkg:golang/github.com/spf13/pflag@v1.0.10?package-id=e607bb1c140e3396",
+        "pkg:golang/github.com/stretchr/objx@v0.8.0?package-id=6f727e1f71b91509",
+        "pkg:golang/github.com/stretchr/testify@v1.12.1?package-id=347251e3262cf93f",
+        "pkg:golang/github.com/tinylib/msgp@v1.6.5?package-id=fac53bbd82a375be",
+        "pkg:golang/github.com/zeebo/xxh3@v1.1.0?package-id=b07132cc0815e3cf",
+        "pkg:golang/go.uber.org/automaxprocs@v1.6.0?package-id=00670bce7a189568",
+        "pkg:golang/go.yaml.in/yaml/v3@v3.0.5?package-id=909786044882442f",
+        "pkg:golang/golang.org/x/crypto@v0.58.0?package-id=586fe48bdbaddbfc",
+        "pkg:golang/golang.org/x/exp@v0.0.0-20261014143641-f0251eb4aa3e?package-id=08acd9f5cb04450e",
+        "pkg:golang/golang.org/x/net@v0.61.0?package-id=a65b938c4f12f954",
+        "pkg:golang/golang.org/x/sync@v0.24.0?package-id=458ce57dcf8960b6",
+        "pkg:golang/golang.org/x/sys@v0.49.0?package-id=fb85dee540a16c3b",
+        "pkg:golang/golang.org/x/text@v0.43.0?package-id=857bf8107140f74a",
+        "pkg:golang/google.golang.org/protobuf@v1.36.12?package-id=d7c9819ebcc6d06e",
+        "pkg:golang/gopkg.in/ini.v1@v1.67.3?package-id=78247a70f3ee0fcb",
+        "pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=13169a9c2e8be000",
+        "pkg:golang/stdlib@1.27.3?package-id=b7a7874aa4111f03"
       ]
     }
   ]

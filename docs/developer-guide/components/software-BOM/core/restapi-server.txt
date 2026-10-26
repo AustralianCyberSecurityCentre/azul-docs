@@ -1,164 +1,156 @@
 NAME                     VERSION                        TYPE                     
 Simple Launcher          1.1.0.14                       binary  (+5 duplicates)  
 aiofiles                 25.1.0                         python                   
-annotated-doc            0.0.4                          python                   
+annotated-doc            0.0.5                          python                   
 annotated-types          0.8.0                          python                   
-anyio                    4.14.2                         python                   
+anyio                    4.15.1                         python                   
 argon2-cffi              25.1.0                         python                   
-argon2-cffi-bindings     25.1.0                         python                   
+argon2-cffi-bindings     26.1.0                         python                   
 autocommand              2.2.2                          python                   
-azul-bedrock             12.0.61                        python                   
-azul-metastore           12.0.112                       python                   
-azul-plugin-retrohunt    12.0.150                       python                   
-azul-restapi-server      12.0.269+gbc250c87d.d20260804  python                   
-azul-runner              12.0.88                        python                   
-azul-security            12.0.42                        python                   
+azul-alerter             13.0.13                        python                   
+azul-bedrock             13.0.77                        python                   
+azul-metastore           13.0.114                       python                   
+azul-plugin-retrohunt    13.0.155                       python                   
+azul-restapi-server      13.0.184+gd4de204d3.d20261025  python                   
+azul-runner              13.0.105                       python                   
+azul-security            13.0.47                        python                   
 babel                    2.18.0                         python                   
 backports-tarfile        1.2.0                          python                   
-base-files               13.8+deb13u6+dhi0              deb     (+1 duplicate)   
-bitarray                 3.9.1                          python                   
-black                    26.5.1                         python                   
-ca-certificates          20250419+dhi2                  deb     (+1 duplicate)   
-cachetools               7.1.6                          python                   
+base-files               13.8+deb13u7+dhi0              deb     (+1 duplicate)   
+bitarray                 3.12.2                         python                   
+black                    26.10.1                        python                   
+ca-certificates          20250419+deb13u1+dhi0          deb     (+1 duplicate)   
+cachetools               7.2.3                          python                   
 cart                     1.2.3                          python                   
 certifi                  2026.7.22                      python                   
-cffi                     2.1.0                          python                   
-charset-normalizer       3.4.9                          python                   
-click                    8.4.2                          python                   
+cffi                     2.1.1                          python                   
+charset-normalizer       3.5.2                          python                   
+click                    8.5.0                          python                   
 colorama                 0.4.6                          python                   
-cryptography             49.0.0                         python                   
+cryptography             50.0.2                         python                   
 debconf                  1.5.91+dhi1                    deb     (+1 duplicate)   
-distlib                  0.4.3                          python                   
+distlib                  0.4.4                          python                   
 ecdsa                    0.19.2                         python                   
 events                   0.5                            python                   
-fastapi                  0.139.2                        python                   
-filelock                 3.32.0                         python                   
-gcc-14-base              14.2.0-19+dhi3                 deb     (+1 duplicate)   
-grpcio                   1.83.0                         python                   
+fastapi                  0.145.0                        python                   
+filelock                 4.2.2                          python                   
+gcc-14-base              14.2.0-19+dhi5                 deb     (+1 duplicate)   
+grpcio                   1.84.0                         python                   
 h11                      0.16.0                         python                   
 httpcore                 1.0.9                          python                   
 httpretty                1.1.4                          python                   
-httptools                0.8.0                          python                   
+httptools                0.9.0                          python                   
 httpx                    0.28.1                         python                   
-idna                     3.18                           python                   
+idna                     3.20                           python                   
 importlib-metadata       8.7.1                          python                   
-iniconfig                2.3.0                          python                   
+iniconfig                2.3.1                          python                   
 jaraco-context           6.1.0                          python                   
 jaraco-functools         4.4.0                          python                   
 jaraco-text              4.0.0                          python                   
 lark                     1.3.1                          python                   
 libbz2-1.0               1.0.8-6+dhi2                   deb     (+1 duplicate)   
-libc-dev-bin             2.41-12+deb13u3+dhi1           deb     (+1 duplicate)   
-libc6                    2.41-12+deb13u3+dhi1           deb     (+1 duplicate)   
-libc6-dev                2.41-12+deb13u3+dhi1           deb     (+1 duplicate)   
-libcrypt-dev             1:4.4.38-1+dhi2                deb     (+1 duplicate)   
+libc6                    2.41-12+deb13u4+dhi1           deb     (+1 duplicate)   
 libcrypt1                1:4.4.38-1+dhi2                deb     (+1 duplicate)   
 libdb5.3t64              5.3.28+dfsg2-9+dhi1            deb     (+1 duplicate)   
-libexpat1                2.8.2-1~deb13u1+dhi0           deb     (+1 duplicate)   
-libexpat1-dev            2.8.2-1~deb13u1+dhi0           deb     (+1 duplicate)   
+libexpat1                2.9.0-1~deb13u1+dhi0           deb     (+1 duplicate)   
 libffi8                  3.4.8-2+dhi2                   deb     (+1 duplicate)   
-libgcc-s1                14.2.0-19+dhi3                 deb     (+1 duplicate)   
+libgcc-s1                14.2.0-19+dhi5                 deb     (+1 duplicate)   
 libgdbm-compat4t64       1.24-2+dhi2                    deb     (+1 duplicate)   
 libgdbm6t64              1.24-2+dhi2                    deb     (+1 duplicate)   
-liblzma5                 5.8.1-1+dhi1                   deb     (+1 duplicate)   
+liblzma5                 5.8.1-1+deb13u2+dhi0           deb     (+1 duplicate)   
 libncursesw6             6.5+20250216-2+dhi4            deb     (+1 duplicate)   
-libpython-3.12           3.12.13-11                     deb     (+1 duplicate)   
-libpython-3.12-dev       3.12.13-11                     deb     (+1 duplicate)   
-libpython-3.12-minimal   3.12.13-11                     deb     (+1 duplicate)   
-libpython-3.12-stdlib    3.12.13-11                     deb     (+1 duplicate)   
+libpython-3.12           3.12.15-0                      deb     (+1 duplicate)   
+libpython-3.12-minimal   3.12.15-0                      deb     (+1 duplicate)   
+libpython-3.12-stdlib    3.12.15-0                      deb     (+1 duplicate)   
 libreadline8t64          8.2-6+dhi2                     deb     (+1 duplicate)   
-libsqlite3-0             3.46.1-7+deb13u1+dhi2          deb     (+1 duplicate)   
-libssl3t64               3.5.6-1~deb13u2+dhi1           deb     (+1 duplicate)   
-libstdc++6               14.2.0-19+dhi3                 deb     (+1 duplicate)   
+libsqlite3-0             3.46.1-7+deb13u2+dhi1          deb     (+1 duplicate)   
+libssl3t64               3.5.7-1~deb13u3+dhi0           deb     (+1 duplicate)   
+libstdc++6               14.2.0-19+dhi5                 deb     (+1 duplicate)   
 libtinfo6                6.5+20250216-2+dhi4            deb     (+1 duplicate)   
-libuuid1                 2.41-5+dhi3                    deb     (+1 duplicate)   
+libuuid1                 2.41.5-0+deb13u1+dhi3          deb     (+1 duplicate)   
 libzstd1                 1.5.7+dfsg-1+dhi2              deb     (+1 duplicate)   
-linux-libc-dev           6.12.96-1+dhi0                 deb     (+1 duplicate)   
 loguru                   0.7.3                          python                   
-malpz                    12.0.16                        python                   
+malpz                    13.0.24                        python                   
 more-itertools           10.8.0                         python                   
-multipart                2.0.0                          python                   
+multipart                2.0.1                          python                   
 mypy-extensions          1.1.0                          python                   
 ncurses-base             6.5+20250216-2+dhi4            deb     (+1 duplicate)   
 ncurses-bin              6.5+20250216-2+dhi4            deb     (+1 duplicate)   
 netbase                  6.5+dhi1                       deb     (+1 duplicate)   
-numpy                    2.5.1                          python                   
+numpy                    2.5.4                          python                   
 opensearch-protobufs     1.2.0                          python                   
 opensearch-py            3.2.0                          python                   
-openssl                  3.5.6-1~deb13u2+dhi1           deb     (+1 duplicate)   
-openssl-provider-legacy  3.5.6-1~deb13u2+dhi1           deb     (+1 duplicate)   
-packaging                26.0                           python                   
-packaging                26.2                           python                   
+openssl                  3.5.7-1~deb13u3+dhi0           deb     (+1 duplicate)   
+openssl-provider-legacy  3.5.7-1~deb13u3+dhi0           deb     (+1 duplicate)   
+opentelemetry-api        1.45.1                         python                   
+packaging                26.3                           python  (+1 duplicate)   
 pathspec                 1.1.1                          python                   
-pendulum                 3.2.0                          python                   
-pip                      26.1.2                         python                   
-platformdirs             4.11.0                         python                   
+pendulum                 3.3.0                          python                   
+pip                      26.2.2                         python                   
+platformdirs             4.13.4                         python                   
 platformdirs             4.4.0                          python                   
-pluggy                   1.6.0                          python                   
-prometheus-client        0.25.0                         python                   
-protobuf                 7.35.1                         python                   
+pluggy                   1.7.0                          python                   
+prometheus-client        0.26.0                         python                   
+protobuf                 7.36.2                         python                   
 psutil                   7.2.2                          python                   
-pwdlib                   0.3.0                          python                   
+pwdlib                   0.3.1                          python                   
 pyasn1                   0.6.4                          python                   
-pycparser                3.0                            python                   
-pycryptodome             3.23.0                         python                   
-pycryptodomex            3.23.0                         python                   
-pydantic                 2.13.4                         python                   
-pydantic-core            2.46.4                         python                   
-pydantic-settings        2.14.2                         python                   
-pygments                 2.20.0                         python                   
-pyjwt                    2.13.0                         python                   
+pycparser                3.11                           python                   
+pycryptodome             4.0.1                          python                   
+pycryptodomex            3.24.1                         python                   
+pydantic                 2.14.1                         python                   
+pydantic-core            2.50.1                         python                   
+pydantic-settings        2.16.0                         python                   
+pygments                 2.21.0                         python                   
+pyjwt                    2.15.1                         python                   
 pynacl                   1.6.2                          python                   
-pyproject-api            1.11.0                         python                   
+pyproject-api            1.12.0                         python                   
 pytest                   9.1.1                          python                   
-python-3.12              3.12.13-11                     deb     (+1 duplicate)   
-python-3.12-dev          3.12.13-11                     deb     (+1 duplicate)   
-python-3.12-minimal      3.12.13-11                     deb     (+1 duplicate)   
+python-3.12              3.12.15-0                      deb     (+1 duplicate)   
+python-3.12-minimal      3.12.15-0                      deb     (+1 duplicate)   
 python-dateutil          2.9.0.post0                    python                   
-python-discovery         1.5.0                          python                   
-python-dotenv            1.2.2                          python                   
+python-discovery         1.6.3                          python                   
+python-dotenv            1.2.4                          python                   
 python-jose              3.5.0                          python                   
-python-json-logger       4.1.0                          python                   
+python-json-logger       4.2.0                          python                   
 python-magic             0.4.27                         python                   
 python-multipart         0.0.32                         python                   
-python3-pip              26.1.2-4                       deb     (+1 duplicate)   
-python3-pip-whl          26.1.2-4                       deb     (+1 duplicate)   
-python3-setuptools       83.0.0-0                       deb     (+1 duplicate)   
-python3-setuptools-whl   83.0.0-0                       deb     (+1 duplicate)   
-python3-wheel            0.47.0-3                       deb     (+1 duplicate)   
-python3-wheel-whl        0.47.0-3                       deb     (+1 duplicate)   
+python3-pip              26.2.2-0                       deb     (+1 duplicate)   
+python3-pip-whl          26.2.2-0                       deb     (+1 duplicate)   
+python3-setuptools       84.2.1-0                       deb     (+1 duplicate)   
+python3-setuptools-whl   84.2.1-0                       deb     (+1 duplicate)   
+python3-wheel            0.48.0-0                       deb     (+1 duplicate)   
+python3-wheel-whl        0.48.0-0                       deb     (+1 duplicate)   
 pytokens                 0.4.1                          python                   
 pyyaml                   6.0.3                          python                   
 pyzipper                 0.4.0                          python                   
 readline-common          8.2-6+dhi2                     deb     (+1 duplicate)   
-redis                    8.0.1                          python                   
+redis                    8.1.0                          python                   
 requests                 2.34.2                         python                   
-rpcsvc-proto             1.4.3-1+dhi1                   deb     (+1 duplicate)   
 rsa                      4.9.1                          python                   
-ruff                     0.16.0                         python                   
-setuptools               83.0.0                         python                   
+ruff                     0.17.1                         python                   
+setuptools               84.2.1                         python                   
 six                      1.17.0                         python                   
-starlette                1.3.1                          python                   
-starlette-exporter       0.23.0                         python                   
+starlette                1.8.0                          python                   
+starlette-exporter       0.24.0                         python                   
 tomli                    2.4.0                          python                   
 tomli-w                  1.2.0                          python                   
-tox                      4.58.0                         python                   
-ty                       0.0.63                         python                   
+tox                      4.67.1                         python                   
+ty                       0.0.89                         python                   
 typing-extensions        4.16.0                         python                   
-typing-inspection        0.4.2                          python                   
-tzdata                   2026.3                         python                   
-tzdata                   2026b-0+deb13u1+dhi2           deb     (+1 duplicate)   
-urllib3                  2.7.0                          python                   
-uvicorn                  0.51.0                         python                   
-uvloop                   0.22.1                         python                   
-virtualenv               21.7.0                         python                   
+typing-inspection        0.4.4                          python                   
+tzdata                   2026.5                         python                   
+tzdata                   2026e-0+deb13u1+dhi0           deb     (+1 duplicate)   
+urllib3                  2.8.0                          python                   
+uvicorn                  0.54.0                         python                   
+uvloop                   0.23.0                         python                   
+virtualenv               21.14.11                       python                   
 watchdog                 6.0.0                          python                   
-watchfiles               1.2.0                          python                   
-websockets               16.1.1                         python                   
+watchfiles               1.3.0                          python                   
+websockets               17.2                           python                   
 wheel                    0.46.3                         python                   
-wheel                    0.47.0                         python                   
-xxhash                   3.8.1                          python                   
-yara-x                   1.19.0                         python                   
+wheel                    0.48.0                         python                   
+xxhash                   4.0.1                          python                   
+yara-x                   1.21.0                         python                   
 zipp                     3.23.0                         python                   
-zlib1g                   1:1.3.dfsg+really1.3.1-1+dhi2  deb     (+1 duplicate)   
-zlib1g-dev               1:1.3.dfsg+really1.3.1-1+dhi2  deb     (+1 duplicate)   
+zlib1g                   1:1.3.dfsg+really1.3.1-1+dhi4  deb     (+1 duplicate)   
