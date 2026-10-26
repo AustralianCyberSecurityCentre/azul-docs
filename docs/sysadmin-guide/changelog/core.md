@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-26 | app                  | feat: allow volumes to be mounted from secrets. ..123. |
 | 2026-10-26 | app                  | fix: cronjob typo ..124.                           |
 | 2026-10-26 | app                  | feat: change vt cronjob to hourly ..122.           |
 | 2026-10-23 | app                  | feat: upgrade external images ..121.               |
