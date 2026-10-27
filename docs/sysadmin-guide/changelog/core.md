@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-27 | backup               | feat: upgrade bedrock for s3. ..132.               |
 | 2026-10-27 | bedrock              | fix: aws also needs send content md5 ..184.        |
 | 2026-10-27 | backup               | feat: upgrade bedrock ..131.                       |
 | 2026-10-27 | bedrock              | fix: add auto checksum to minio put ..183.         |
