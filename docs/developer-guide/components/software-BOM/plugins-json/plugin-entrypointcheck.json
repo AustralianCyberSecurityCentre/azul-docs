@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:d210abe0-ff70-4ca1-bb9e-4e93f668bb81",
+  "serialNumber": "urn:uuid:c526af69-294d-4ec4-96e3-4954046c2996",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-26T05:27:26Z",
+    "timestamp": "2026-10-27T07:01:32Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "33ae159cdbd93425",
       "type": "container",
       "name": "plugin-entrypointcheck",
-      "version": "13.0.0-rc1"
+      "version": "13.0.0"
     },
     "properties": [
       {

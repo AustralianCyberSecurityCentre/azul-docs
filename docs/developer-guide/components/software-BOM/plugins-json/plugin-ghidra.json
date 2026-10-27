@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:35f17381-704d-4dd0-a3df-9d2e73ad0409",
+  "serialNumber": "urn:uuid:467b575e-456d-4691-842e-dde20a6025a0",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-26T05:34:18Z",
+    "timestamp": "2026-10-27T07:11:08Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "b12908648a532dc7",
       "type": "container",
       "name": "plugin-ghidra",
-      "version": "13.0.0-rc1"
+      "version": "13.0.0"
     },
     "properties": [
       {

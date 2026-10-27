@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:02fb5d40-5003-4f8e-90dd-cc3663b9ceff",
+  "serialNumber": "urn:uuid:f97374ad-db7a-463e-90fa-9b108a7682b9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-26T05:32:32Z",
+    "timestamp": "2026-10-27T07:09:13Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "6e4e0cf15aaf744c",
       "type": "container",
       "name": "plugin-debloat",
-      "version": "13.0.0-rc1"
+      "version": "13.0.0"
     },
     "properties": [
       {

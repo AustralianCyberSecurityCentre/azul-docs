@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:4e5f12d8-2a2d-471e-a84b-a98f0b157976",
+  "serialNumber": "urn:uuid:d52823b1-07fb-487d-a952-9e854782551b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-26T05:31:15Z",
+    "timestamp": "2026-10-27T07:07:25Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "190132de0f13f1b0",
       "type": "container",
       "name": "plugin-shortcut",
-      "version": "13.0.0-rc1"
+      "version": "13.0.0"
     },
     "properties": [
       {
@@ -146374,7 +146374,7 @@
         "pkg:pypi/click@8.5.0?package-id=d34d4eda760fdd44",
         "pkg:pypi/colorama@0.4.6?package-id=053ed5665034a586",
         "pkg:pypi/mypy-extensions@1.1.0?package-id=e99a3ca7ce7ee781",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/pathspec@1.1.1?package-id=c7951bb6f07e1044",
         "pkg:pypi/platformdirs@4.4.0?package-id=52aee8c64f12e994",
         "pkg:pypi/pytokens@0.4.1?package-id=9e4f1f16cf93bc3a",
@@ -146495,7 +146495,7 @@
     {
       "ref": "pkg:pypi/hatchling@1.32.4?package-id=1dec426a356fe243",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/pathspec@1.1.1?package-id=c7951bb6f07e1044",
         "pkg:pypi/pluggy@1.7.0?package-id=fab40117cf7ac7ea",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
@@ -146555,7 +146555,7 @@
     {
       "ref": "pkg:pypi/importlib-metadata@8.7.1?package-id=050afc305419d637",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/pytest@9.1.1?package-id=eb05304e80af85be",
         "pkg:pypi/zipp@3.23.0?package-id=7236703906570984"
       ]
@@ -146716,7 +146716,7 @@
       "dependsOn": [
         "pkg:pypi/black@26.10.1?package-id=cfc1b1198fb79c35",
         "pkg:pypi/colorama@0.4.6?package-id=053ed5665034a586",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/pytest@9.1.1?package-id=eb05304e80af85be",
         "pkg:pypi/requests@2.34.2?package-id=90f955f662656e78",
         "pkg:pypi/ruff@0.17.1?package-id=e7d8930cca824f5a",
@@ -146776,7 +146776,7 @@
     {
       "ref": "pkg:pypi/pyproject-api@1.12.0?package-id=3714ad7df7dfde19",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292"
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66"
       ]
     },
     {
@@ -146790,7 +146790,7 @@
       "dependsOn": [
         "pkg:pypi/colorama@0.4.6?package-id=053ed5665034a586",
         "pkg:pypi/iniconfig@2.3.1?package-id=6784c7e71e2d8f0d",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/pluggy@1.7.0?package-id=fab40117cf7ac7ea",
         "pkg:pypi/pygments@2.21.0?package-id=a2facdd24183b8e2",
         "pkg:pypi/requests@2.34.2?package-id=90f955f662656e78",
@@ -146867,7 +146867,7 @@
     {
       "ref": "pkg:pypi/setuptools-scm@10.3.4?package-id=aeeda33d2aebfdad",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/rich@15.0.0?package-id=1a13a81e7b0bb9bb",
         "pkg:pypi/setuptools@84.0.0?package-id=2cba0387d6727d9c",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
@@ -146883,7 +146883,7 @@
         "pkg:pypi/jaraco-functools@4.4.0?package-id=a6212e104cc4b0bb",
         "pkg:pypi/jaraco-text@4.0.0?package-id=9791bc1f9b13791a",
         "pkg:pypi/more-itertools@10.8.0?package-id=11e8bcfc4f4b1fbe",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/pip@25.0.1?package-id=b07d834d26c4749b",
         "pkg:pypi/pytest-timeout@2.4.0?package-id=d831f7fe0d4b93e8",
         "pkg:pypi/pytest@9.1.1?package-id=eb05304e80af85be",
@@ -146914,7 +146914,7 @@
         "pkg:pypi/cachetools@7.2.3?package-id=5d275d6ab90b6cf8",
         "pkg:pypi/colorama@0.4.6?package-id=053ed5665034a586",
         "pkg:pypi/filelock@4.2.2?package-id=1a8fd3ea0a3296f8",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/platformdirs@4.4.0?package-id=52aee8c64f12e994",
         "pkg:pypi/pluggy@1.7.0?package-id=fab40117cf7ac7ea",
         "pkg:pypi/pyproject-api@1.12.0?package-id=3714ad7df7dfde19",
@@ -146957,7 +146957,7 @@
     {
       "ref": "pkg:pypi/uvloop@0.23.0?package-id=332fce142d38fbb1",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/psutil@7.2.2?package-id=051e01aa04594ec1",
         "pkg:pypi/setuptools@84.0.0?package-id=2cba0387d6727d9c"
       ]
@@ -146965,7 +146965,7 @@
     {
       "ref": "pkg:pypi/vcs-versioning@2.6.0?package-id=c989d00b65356f25",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/tomli@2.4.0?package-id=97db9d2e3b2e1ddd",
         "pkg:pypi/typing-extensions@4.16.0?package-id=dd015718060d497c"
       ]
@@ -146975,7 +146975,7 @@
       "dependsOn": [
         "pkg:pypi/distlib@0.4.4?package-id=73930621c052bb28",
         "pkg:pypi/filelock@4.2.2?package-id=1a8fd3ea0a3296f8",
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/platformdirs@4.4.0?package-id=52aee8c64f12e994",
         "pkg:pypi/python-discovery@1.6.3?package-id=8ffbd8fa9a3291e1",
         "pkg:pypi/typing-extensions@4.16.0?package-id=dd015718060d497c"
@@ -146996,7 +146996,7 @@
     {
       "ref": "pkg:pypi/wheel@0.46.3?package-id=3fcc9a0fa6b76fec",
       "dependsOn": [
-        "pkg:pypi/packaging@26.0?package-id=75602efa4b419292",
+        "pkg:pypi/packaging@26.3?package-id=f803f5425fc0bd66",
         "pkg:pypi/pytest@9.1.1?package-id=eb05304e80af85be",
         "pkg:pypi/setuptools@84.0.0?package-id=2cba0387d6727d9c"
       ]

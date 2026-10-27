@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:20153130-5a32-4682-9449-ed22a3893b0d",
+  "serialNumber": "urn:uuid:9d7c3686-140c-43d8-9ed3-91f2140cdc86",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-26T05:29:01Z",
+    "timestamp": "2026-10-27T07:03:33Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "52a4f9a554a75163",
       "type": "container",
       "name": "plugin-lief",
-      "version": "13.0.0-rc1"
+      "version": "13.0.0"
     },
     "properties": [
       {

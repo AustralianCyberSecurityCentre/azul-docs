@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:9791f725-1e6c-4a90-939b-834dab7d1160",
+  "serialNumber": "urn:uuid:44f174ef-a521-40a9-9f8f-e06b664be3c4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-26T05:25:09Z",
+    "timestamp": "2026-10-27T06:59:06Z",
     "tools": {
       "components": [
         {
@@ -20,7 +20,7 @@
       "bom-ref": "dc3790ac3dfcb0b0",
       "type": "container",
       "name": "restapi-server",
-      "version": "13.0.0-rc1"
+      "version": "13.0.0"
     },
     "properties": [
       {
