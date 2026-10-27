@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-27 | bedrock              | fix: add auto checksum to minio put ..183.         |
 | 2026-10-26 | app                  | release azul.13.0.0.rc1                            |
 | 2026-10-26 | app                  | fix: vt dont require azure and vt secrets always. ..125. |
 | 2026-10-26 | app                  | feat: allow volumes to be mounted from secrets. ..123. |
