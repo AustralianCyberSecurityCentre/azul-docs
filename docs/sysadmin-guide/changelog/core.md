@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-28 | demo                 | feat: upgrade to 13.0.0 ..68.                      |
 | 2026-10-27 | app                  | release azul.13.0.0                                |
 | 2026-10-27 | backup               | feat: upgrade bedrock for s3. ..132.               |
 | 2026-10-27 | bedrock              | fix: aws also needs send content md5 ..184.        |
