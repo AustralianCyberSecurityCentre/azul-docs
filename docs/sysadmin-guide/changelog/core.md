@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-10-29 | webui                | feat: compare function allow feature filtering. ..395. |
 | 2026-10-28 | demo                 | feat: upgrade to 13.0.0 ..68.                      |
 | 2026-10-27 | app                  | release azul.13.0.0                                |
 | 2026-10-27 | backup               | feat: upgrade bedrock for s3. ..132.               |
