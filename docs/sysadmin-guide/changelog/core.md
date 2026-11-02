@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-02 | app                  | feat: add opensearch node pool availility zone awareness. ..130. |
 | 2026-11-01 | runner               | fix: inverted check for existing binary in downloader ..121. |
 | 2026-11-01 | bedrock              | fix: add default 404 check for has.binary mock ..188. |
 | 2026-10-29 | webui                | feat: compare function allow feature filtering. ..395. |
