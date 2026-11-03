@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-03 | dispatcher           | feat: bump yara x to 1.22 ..126.                   |
 | 2026-11-03 | app                  | feat: add opensearch node pool availility zone awareness. ..130. |
 | 2026-11-02 | app                  | feat: add opensearch node pool availility zone awareness. ..130. |
 | 2026-11-01 | runner               | fix: inverted check for existing binary in downloader ..121. |
