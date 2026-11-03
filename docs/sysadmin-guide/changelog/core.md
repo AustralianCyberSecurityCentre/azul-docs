@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-03 | bedrock              | fix: add configurable opensearch connection count. ..189. |
 | 2026-11-03 | app                  | feat: loki log.level default to warn ..131.        |
 | 2026-11-03 | dispatcher           | feat: bump yara x to 1.22 ..126.                   |
 | 2026-11-03 | app                  | feat: add opensearch node pool availility zone awareness. ..130. |
