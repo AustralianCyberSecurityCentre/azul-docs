@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-04 | demo                 | feat: additional sample plugins ..71.              |
 | 2026-11-04 | metastore            | feat: increase cart block size. ..88.              |
 | 2026-11-03 | bedrock              | fix: add configurable opensearch connection count. ..189. |
 | 2026-11-03 | app                  | feat: loki log.level default to warn ..131.        |
