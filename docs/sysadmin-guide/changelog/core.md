@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-05 | webui                | fix: jump to hexview offset. ..400.                |
 | 2026-11-05 | dispatcher           | fix: try and make uploads faster ..127.            |
 | 2026-11-05 | metastore            | feat: add bulk add.delete endpoints for tags ..87. |
 | 2026-11-04 | app                  | feat: add to readme about seaweed db secret ..132. |
