@@ -12,6 +12,8 @@ flowchart LR
     azul-restapi-server --> azul-bedrock
     azul-restapi-server -. addon .-> azul-metastore
     azul-restapi-server -. addon .-> azul-security
+    azul-restapi-server -. addon .-> plugin-retrohunt
+    azul-restapi-server -. addon .-> azul-alerter
   end
   subgraph Ingestor
     direction TB
@@ -30,6 +32,7 @@ flowchart LR
   subgraph Dispatcher
     direction TB
     azul-dispatcher --> ind[azul-bedrock]
+    azul-dispatcher --> inds[azul-security]
   end
   subgraph Webui
     azul-webui
