@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-06 | app                  | feat: allow dispatcher to configure it.s cache sizes ..133. |
 | 2026-11-05 | webui                | fix: jump to hexview offset. ..400.                |
 | 2026-11-05 | dispatcher           | fix: try and make uploads faster ..127.            |
 | 2026-11-05 | metastore            | feat: add bulk add.delete endpoints for tags ..87. |
