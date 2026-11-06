@@ -73,3 +73,12 @@ The alerts built into Azul include (not all the alerts):
 - Dispatcher RestAPI errors - Dispatcher shouldn't error so if it is something is misconfigured or there is a bug.
 - Ingestor lag - the ingestors are lagging far behind live (this means users won't be getting up to date data.)
 - Infrastructure health - check one of the core components of Azul or services it uses is down (e.g S3 storage is down.)
+
+### Alerter
+
+Alerter can optionally be enabled in Azul through the helm chart.
+If alerter is enabled it can be configured through the Azul Webui to trigger on certain types of events.
+
+This can include plugins that have a failure output (completed-with-error or error-exception) on a specific plugin etc.
+
+When triggered the alert is sent to a preconfigured webhook, and it will appear in that feed.
