@@ -41,8 +41,6 @@ Table created on 28/05/2025
 | GET    | download                                   | /api/v0/binaries/\{sha256\}/content                  | Download Binary Encoded                |
 | GET    | download_augmented_stream                  | /api/v0/binaries/\{sha256\}/content/\{stream\}       | Download Binary Raw                    |
 | GET    | download_hex                               | /api/v0/binaries/\{sha256\}/hexview                  | Get Hex View                           |
-| POST   | submit_download_request                    | /api/v0/binaries/source/download                     | Submit binary download request         |
-| GET    | get_download_request_status                | /api/v0/binaries/source/download/\{sha256\}          | Get binary download request status     |
 | GET    | get_strings                                | /api/v0/binaries/\{sha256\}/strings                  | Get Strings                            |
 | GET    | search_hex                                 | /api/v0/binaries/\{sha256\}/search/hex               | Search Hex                             |
 |        | features(module)                           | **features**                                         |                                        |
