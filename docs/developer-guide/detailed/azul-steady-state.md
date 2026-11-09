@@ -12,22 +12,29 @@ flowchart LR
     Plugin-vt[Plugin Virus Total] -. Events Metadata From Virus Total .-> Dispatcher
     Plugin-rf -. Request Metadata From External source.-> Dispatcher
     Plugin-rf[Plugin Report Feed] -. Events Metadata From External source.-> Dispatcher
-    Lost-Task-Processor -. Events .-> Dispatcher
     Ingestor-Binary -. Events .-> Dispatcher
     Ingestor-Plugin -. Events .-> Dispatcher
     Ingestor-Status -. Events .-> Dispatcher
-    
+    Ingestor-Download -. Events .-> Dispatcher
     AgeOff
+    Lost-Task
   end
   
   Ingestor-Binary -- Save Features --> OpenSearch
   Ingestor-Plugin -- Save Registered<br> Plugin Data --> OpenSearch
   Ingestor-Status -- Save Status Updates --> OpenSearch
-  Lost-Task-Processor -. RETRY Events .-> Dispatcher
+  Ingestor-Download -- Save Download as Status --> OpenSearch
   AgeOff -- Check for old Indices and data --> OpenSearch
   AgeOff -- Request Delete old data --> OpenSearch
-  Dispatcher -. Events .-> Kafka[(Kafka)]
   Dispatcher -. Files .-> s3[(s3)]
+  Dispatcher -. Events .-> Kafka[(Kafka)]
+  Dispatcher -. Store Started Job .-> Redis[(Redis)]
+
+  Lost-Task -. Report Failure .-> Kafka[(Kafka)]
+  Lost-Task -. Check Old Jobs .-> Redis[(Redis)]
+  
+  
+  
 ```
 
 Note: All Ingestors and AgeOff are part of the `azul-metastore` project and are simply launched with different command line variables.
