@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-11 | client               | feat: add cli support for download request ..90.   |
 | 2026-11-09 | app                  | fix: unbox max file size actually 4Gi ..134.       |
 | 2026-11-06 | webui                | feat: jump to offset from feature offsets ..402.   |
 | 2026-11-06 | bedrock              | fix: allow placing of AES.XOR files in cache ..190. |
