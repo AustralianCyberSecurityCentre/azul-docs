@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-18 | webui                | feat: add arrowkey support for tag autofill text ..420. |
 | 2026-11-16 | app                  | feat: enable configuring binary2.s shard counts ..136. |
 | 2026-11-16 | restapi-server       | Default security mode .RESTAPI.SECURITY.none. gives full access silently ..137. |
 | 2026-11-16 | app                  | Require security.allowInsecure to deploy the restapi with no auth ..137. |
