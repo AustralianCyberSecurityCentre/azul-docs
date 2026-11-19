@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-19 | dispatcher           | Stop caching failed security checks in FilterSecurity ..129. |
 | 2026-11-18 | webui                | feat: add arrowkey support for tag autofill text ..420. |
 | 2026-11-16 | app                  | feat: enable configuring binary2.s shard counts ..136. |
 | 2026-11-16 | restapi-server       | Default security mode .RESTAPI.SECURITY.none. gives full access silently ..137. |
