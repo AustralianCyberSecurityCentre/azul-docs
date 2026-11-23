@@ -2,6 +2,7 @@
 
 | Date       | Repository         | Title                                                                                |
 | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
+| 2026-11-23 | lief                 | fix: PE subsystem parse ..121.                     |
 | 2026-11-16 | yara                 | fix: catch errors during scan phase ..110.         |
 | 2026-10-26 | virustotal           | fix: fix panic in vt filefeed when using azure ..117. |
 | 2026-10-23 | tika                 | feat: upgrade tika to 3.3.3.0 ..95.                |
