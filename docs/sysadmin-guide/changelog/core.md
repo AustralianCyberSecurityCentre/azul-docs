@@ -2,6 +2,7 @@
 
 | Date       | Repository     | Title                                                                                                |
 | ---------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| 2026-11-24 | app                  | feat: upgrade opensearch to 3.10.0 ..142.          |
 | 2026-11-23 | app                  | fix: allow insecure by default ..141.              |
 | 2026-11-19 | dispatcher           | Stop caching failed security checks in FilterSecurity ..129. |
 | 2026-11-18 | webui                | feat: add arrowkey support for tag autofill text ..420. |
